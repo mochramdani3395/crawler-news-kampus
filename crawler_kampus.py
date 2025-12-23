@@ -110,8 +110,8 @@ def jalankan_crawler(daftar_web):
 
 if __name__ == "__main__":
     list_universitas = [
-        "https://www.itb.ac.id/news",
-        "https://ugm.ac.id/id/berita",
-        "https://www.ui.ac.id/berita"
+        "https://upb.ac.id/berita",
+        "https://unnur.ac.id/berita",
+        "https://utsmakassar.ac.id/berita"
     ]
     jalankan_crawler(list_universitas)
