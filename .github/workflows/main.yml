@@ -1,28 +1,42 @@
-name: Crawl Otomatis Harian
+name: Crawl Otomatis Berkala
+
 on:
   schedule:
-    - cron: '0 17 * * *' # Jam 00:00 WIB
-  workflow_dispatch: # Tombol manual
+    # Berjalan otomatis setiap 6 jam (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # Memungkinkan Anda menjalankan manual kapan saja dari tab Actions
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Menambah timeout agar jika stuck tidak menghabiskan kuota menit GitHub
+    timeout-minutes: 15 
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - name: Install Libs
-        run: pip install trafilatura requests
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install trafilatura requests
+
       - name: Run Crawler
         run: python crawler_kampus.py
-      - name: Simpan Hasil
+
+      - name: Simpan Hasil ke Repository
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Perintah di bawah ini akan menambahkan folder dan file jika ada
           git add database_artikel.json
-          if [ -d "arsip_artikel" ]; then git add arsip_artikel/; fi
-          # Menghindari error jika tidak ada perubahan file
-          git commit -m "Update arsip berita harian" || echo "No changes to commit"
+          # Menambahkan folder arsip jika ada folder baru yang dibuat
+          git add arsip_artikel/
+          # Commit hanya jika ada perubahan untuk menghindari error "nothing to commit"
+          git commit -m "Update arsip berita harian [skip ci]" || echo "Tidak ada perubahan data"
           git push
