@@ -1,9 +1,8 @@
 import trafilatura
 from trafilatura.spider import focused_crawler
-import json, os, requests, re, hashlib, time
+import json, os, requests, re, hashlib, time, random
 from datetime import datetime
 
-# --- LOAD CONFIG ---
 def load_config():
     with open("config.json", "r") as f:
         return json.load(f)
@@ -12,9 +11,13 @@ CONFIG = load_config()
 TELEGRAM_TOKEN = CONFIG["telegram_token"]
 TELEGRAM_CHAT_ID = CONFIG["telegram_chat_id"]
 TARGET_KAMPUS = CONFIG["target_kampus"]
-MAX_LINKS = CONFIG.get("max_links_per_run", 10)
-DELAY = CONFIG.get("delay_seconds", 2)
+MAX_LINKS = CONFIG.get("max_links_per_run", 5)
+DELAY_MIN = CONFIG.get("delay_min", 5)
+DELAY_MAX = CONFIG.get("delay_max", 12)
 
+# Mengambil username repo secara otomatis untuk link
+REPO_PATH = os.getenv('GITHUB_REPOSITORY', 'USERNAME/REPO')
+REPO_URL = f"https://github.com/{REPO_PATH}/blob/main"
 DB_FILE = "database_artikel.json"
 BASE_ARCHIVE_FOLDER = "arsip_artikel"
 
@@ -36,51 +39,52 @@ def save_as_markdown(judul, isi, tanggal, penulis, link, image_url, nama_kampus)
     
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"# {judul}\n\n")
-        if image_url: f.write(f"![Gambar Utama]({image_url})\n\n")
-        f.write(f"- **Kampus:** {nama_kampus}\n- **Sumber:** {link}\n- **Waktu Crawl:** {datetime.now()}\n\n---\n\n{isi}")
+        if image_url and image_url.startswith("http"):
+            f.write(f"![Gambar Utama]({image_url})\n\n")
+        f.write(f"- **Kampus:** {nama_kampus}\n")
+        f.write(f"- **Sumber:** {link}\n")
+        f.write(f"- **Waktu Crawl:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        f.write(f"---\n\n")
+        f.write(isi if isi else "Konten teks tidak berhasil diekstrak.")
     return f"{slugify(nama_kampus)}/{filename}"
 
-# Tambahkan ini di bagian atas untuk memudahkan pembuatan link
-REPO_URL = "https://github.com/USERNAME_ANDA/crawler-news-kampus/blob/main"
-
-# Modifikasi bagian notifikasi di dalam loop jalankan_crawler
-notif_list.append(f"🔹 [{nama_kampus}] <a href='{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}'>{judul}</a>")
-
-# Pastikan fungsi send_telegram memiliki parse_mode HTML
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": TELEGRAM_CHAT_ID, 
-        "text": message, 
-        "parse_mode": "HTML", 
-        "disable_web_page_preview": False # Ubah jadi False agar preview link muncul
-    }
-    requests.post(url, data=payload, timeout=10)
+    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "HTML", "disable_web_page_preview": False}
+    try: requests.post(url, data=payload, timeout=20)
+    except: pass
 
 def jalankan_crawler():
     if os.path.exists(DB_FILE):
         with open(DB_FILE, "r", encoding="utf-8") as f: database = json.load(f)
     else: database = []
 
-    existing_urls = [item['link'] for item in database]
+    existing_urls = {item['link'] for item in database}
     notif_list = []
 
-    for nama_kampus, domain in TARGET_KAMPUS.items():
-        print(f"Mengecek {nama_kampus}...")
+    # SHUFFLING: Mengacak daftar kampus agar pola akses tidak kaku
+    item_kampus = list(TARGET_KAMPUS.items())
+    random.shuffle(item_kampus)
+
+    for nama_kampus, domain in item_kampus:
+        print(f"Siklus: Mengecek {nama_kampus}...")
         try:
-            # Batasi pencarian link agar tidak overload
+            # DISCOVERY ONLY: Ambil sedikit link saja (misal 5) per kampus
             links, _ = focused_crawler(domain, max_seen_urls=MAX_LINKS)
+            
             if links:
                 for link in links:
                     if link not in existing_urls:
-                        time.sleep(DELAY) # JEDA ANTAR REQUEST
+                        # BATCHING: Jeda acak antar request (5-12 detik)
+                        time.sleep(random.randint(DELAY_MIN, DELAY_MAX))
+                        
                         downloaded = trafilatura.fetch_url(link)
                         if not downloaded: continue
                         
                         result = trafilatura.extract(downloaded, output_format='json')
                         if result:
                             data = json.loads(result)
-                            judul = data.get('title') or link.split('/')[-1]
+                            judul = data.get('title') or "Berita Baru"
                             img = data.get('image')
                             
                             rel_path = save_as_markdown(judul, data.get('text', ''), 'N/A', 'Humas', link, img, nama_kampus)
@@ -92,18 +96,26 @@ def jalankan_crawler():
                                 "waktu_crawl": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                                 "file_arsip": f"{BASE_ARCHIVE_FOLDER}/{rel_path}"
                             })
-                            notif_list.append(f"🔹 [{nama_kampus}] {judul}")
-                            existing_urls.append(link)
-        except Exception as e: print(f"Skip {nama_kampus} karena error: {e}")
+                            
+                            github_link = f"{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}"
+                            notif_list.append(f"🔹 [{nama_kampus}] <a href='{github_link}'>{judul}</a>")
+                            existing_urls.add(link)
+        except Exception as e:
+            print(f"Gagal memproses {nama_kampus}: {e}")
 
-    # SORTING: Berita terbaru (berdasarkan waktu crawl) di atas
+    # Sorting: Urutkan data berdasarkan waktu crawl terbaru
     database.sort(key=lambda x: x['waktu_crawl'], reverse=True)
 
     with open(DB_FILE, "w", encoding="utf-8") as f:
         json.dump(database, f, indent=4, ensure_ascii=False)
 
+    # Mengirim notifikasi dalam potongan (chunks) agar tidak kepanjangan
     if notif_list:
-        send_telegram(f"📰 <b>{len(notif_list)} Berita Baru!</b>\n\n" + "\n".join(notif_list[:15]))
+        chunk_size = 10
+        for i in range(0, len(notif_list), chunk_size):
+            msg = f"📰 <b>Update Berita Kampus (Bagian {i//chunk_size + 1})</b>\n\n" + "\n".join(notif_list[i:i+chunk_size])
+            send_telegram(msg)
+            time.sleep(3)
 
 if __name__ == "__main__":
     jalankan_crawler()
