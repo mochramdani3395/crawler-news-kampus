@@ -1,0 +1,25 @@
+name: Crawl Otomatis Harian
+on:
+  schedule:
+    - cron: '0 17 * * *' # Jam 00:00 WIB
+  workflow_dispatch: # Tombol manual
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install Libs
+        run: pip install trafilatura requests
+      - name: Run Crawler
+        run: python crawler_kampus.py
+      - name: Simpan Hasil
+        run: |
+          git config --global user.name "Bot-Crawler"
+          git config --global user.email "bot@github.com"
+          git add database_artikel.json arsip_artikel/*.md
+          git commit -m "Update arsip berita" || echo "Tidak ada berita baru"
+          git push
