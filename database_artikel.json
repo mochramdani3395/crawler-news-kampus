@@ -1,5 +1,33 @@
 [
     {
+        "kampus": "upb",
+        "judul": "Berita Baru",
+        "link": "https://upb.ac.id/berita/",
+        "waktu_crawl": "2025-12-23 16:17:06",
+        "file_arsip": "arsip_artikel/upb/20251223-berita-baru-4f549a.md"
+    },
+    {
+        "kampus": "Universitas Muara Bungo",
+        "judul": "Berita Baru",
+        "link": "https://umb.ac.id/berita-umb/",
+        "waktu_crawl": "2025-12-23 16:16:32",
+        "file_arsip": "arsip_artikel/universitas-muara-bungo/20251223-berita-baru-800592.md"
+    },
+    {
+        "kampus": "uts-makassar",
+        "judul": "Berita Baru",
+        "link": "https://utsmakassar.ac.id/berita/",
+        "waktu_crawl": "2025-12-23 16:15:56",
+        "file_arsip": "arsip_artikel/uts-makassar/20251223-berita-baru-3cb1e2.md"
+    },
+    {
+        "kampus": "Universitas Muhammadiyah Papua",
+        "judul": "Berita Baru",
+        "link": "https://umpapua.ac.id/berita/",
+        "waktu_crawl": "2025-12-23 16:15:23",
+        "file_arsip": "arsip_artikel/universitas-muhammadiyah-papua/20251223-berita-baru-7d884b.md"
+    },
+    {
         "kampus": "UTS Makassar",
         "judul": "#Respond",
         "link": "https://utsmakassar.ac.id/selamat-atas-promosi-doktor/#respond",
