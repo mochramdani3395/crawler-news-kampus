@@ -8,6 +8,7 @@
         "Kementerian DIKTI":"https://kemdiktisaintek.go.id/news",
         "UMB":"https://umb.ac.id/berita-umb"
     },
-    "max_links_per_run": 15,
-    "delay_seconds": 3
+    "max_links_per_run": 5,
+    "delay_min": 3,
+    "delay_max": 8
 }
