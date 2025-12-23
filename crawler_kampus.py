@@ -40,11 +40,22 @@ def save_as_markdown(judul, isi, tanggal, penulis, link, image_url, nama_kampus)
         f.write(f"- **Kampus:** {nama_kampus}\n- **Sumber:** {link}\n- **Waktu Crawl:** {datetime.now()}\n\n---\n\n{isi}")
     return f"{slugify(nama_kampus)}/{filename}"
 
+# Tambahkan ini di bagian atas untuk memudahkan pembuatan link
+REPO_URL = "https://github.com/USERNAME_ANDA/crawler-news-kampus/blob/main"
+
+# Modifikasi bagian notifikasi di dalam loop jalankan_crawler
+notif_list.append(f"🔹 [{nama_kampus}] <a href='{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}'>{judul}</a>")
+
+# Pastikan fungsi send_telegram memiliki parse_mode HTML
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "HTML", "disable_web_page_preview": True}
-    try: requests.post(url, data=payload, timeout=10)
-    except: pass
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID, 
+        "text": message, 
+        "parse_mode": "HTML", 
+        "disable_web_page_preview": False # Ubah jadi False agar preview link muncul
+    }
+    requests.post(url, data=payload, timeout=10)
 
 def jalankan_crawler():
     if os.path.exists(DB_FILE):
