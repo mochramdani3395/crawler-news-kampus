@@ -1,9 +1,10 @@
 {
-    "telegram_token": "GANTI_DENGAN_TOKEN_BOT_ANDA",
-    "telegram_chat_id": "GANTI_DENGAN_CHAT_ID_ANDA",
+    "telegram_token": "8031042382:AAEvewZRUM1M-PNPHVru0DNkHaSSw9SwbkE",
+    "telegram_chat_id": "803153427",
     "target_kampus": {
         "UPB": "https://upb.ac.id/berita",
         "UNNUR": "https://unnur.ac.id/berita",
-        "UTS Makassar": "https://utsmakassar.ac.id/berita"
+        "UTS Makassar": "https://utsmakassar.ac.id/berita",
+        "Kementerian DIKTI":"https://kemdiktisaintek.go.id/news/updates"
     }
 }
