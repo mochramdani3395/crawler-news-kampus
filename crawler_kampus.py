@@ -1,8 +1,9 @@
 import trafilatura
-from trafilatura.spider import focused_crawler
+from trafilatura.sitemaps import sitemap_search
 import json, os, requests, re, hashlib, time, random
 from datetime import datetime
 
+# --- LOAD CONFIG ---
 def load_config():
     with open("config.json", "r") as f:
         return json.load(f)
@@ -15,8 +16,8 @@ MAX_LINKS = CONFIG.get("max_links_per_run", 5)
 DELAY_MIN = CONFIG.get("delay_min", 5)
 DELAY_MAX = CONFIG.get("delay_max", 12)
 
-# Mengambil username repo secara otomatis untuk link
-REPO_PATH = os.getenv('GITHUB_REPOSITORY', 'USERNAME/REPO')
+# Deteksi otomatis path repository untuk link Telegram
+REPO_PATH = os.getenv('GITHUB_REPOSITORY', 'mochramdani3395/crawler-news-kampus')
 REPO_URL = f"https://github.com/{REPO_PATH}/blob/main"
 DB_FILE = "database_artikel.json"
 BASE_ARCHIVE_FOLDER = "arsip_artikel"
@@ -54,6 +55,17 @@ def send_telegram(message):
     try: requests.post(url, data=payload, timeout=20)
     except: pass
 
+def get_links(url):
+    """Mencoba mencari link lewat sitemap dahulu, lalu fallback ke crawl biasa"""
+    # 1. Coba lewat sitemap (lebih akurat untuk berita terbaru)
+    links = sitemap_search(url)
+    if not links:
+        # 2. Jika sitemap gagal, gunakan crawler standar
+        downloaded = trafilatura.fetch_url(url)
+        if downloaded:
+            links = trafilatura.spider.utils.extract_links(downloaded, url=url, external=False)
+    return list(set(links)) if links else []
+
 def jalankan_crawler():
     if os.path.exists(DB_FILE):
         with open(DB_FILE, "r", encoding="utf-8") as f: database = json.load(f)
@@ -62,44 +74,44 @@ def jalankan_crawler():
     existing_urls = {item['link'] for item in database}
     notif_list = []
 
-    # SHUFFLING: Mengacak daftar kampus agar pola akses tidak kaku
+    # SHUFFLING: Acak urutan kampus
     item_kampus = list(TARGET_KAMPUS.items())
     random.shuffle(item_kampus)
 
     for nama_kampus, domain in item_kampus:
         print(f"Siklus: Mengecek {nama_kampus}...")
         try:
-            # DISCOVERY ONLY: Ambil sedikit link saja (misal 5) per kampus
-            links, _ = focused_crawler(domain, max_seen_urls=MAX_LINKS)
+            links = get_links(domain)
             
-            if links:
-                for link in links:
-                    if link not in existing_urls:
-                        # BATCHING: Jeda acak antar request (5-12 detik)
-                        time.sleep(random.randint(DELAY_MIN, DELAY_MAX))
-                        
-                        downloaded = trafilatura.fetch_url(link)
-                        if not downloaded: continue
-                        
-                        result = trafilatura.extract(downloaded, output_format='json')
-                        if result:
-                            data = json.loads(result)
-                            judul = data.get('title') or "Berita Baru"
-                            img = data.get('image')
-                            
-                            rel_path = save_as_markdown(judul, data.get('text', ''), 'N/A', 'Humas', link, img, nama_kampus)
-                            
-                            database.append({
-                                "kampus": nama_kampus,
-                                "judul": judul,
-                                "link": link,
-                                "waktu_crawl": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                                "file_arsip": f"{BASE_ARCHIVE_FOLDER}/{rel_path}"
-                            })
-                            
-                            github_link = f"{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}"
-                            notif_list.append(f"🔹 [{nama_kampus}] <a href='{github_link}'>{judul}</a>")
-                            existing_urls.add(link)
+            # Filter hanya link yang belum pernah di-crawl
+            new_links = [l for l in links if l not in existing_urls]
+            
+            # Ambil hanya sebanyak MAX_LINKS terbaru
+            for link in new_links[:MAX_LINKS]:
+                time.sleep(random.randint(DELAY_MIN, DELAY_MAX))
+                
+                downloaded = trafilatura.fetch_url(link)
+                if not downloaded: continue
+                
+                result = trafilatura.extract(downloaded, output_format='json', include_comments=False)
+                if result:
+                    data = json.loads(result)
+                    judul = data.get('title') or "Berita Baru"
+                    img = data.get('image')
+                    
+                    rel_path = save_as_markdown(judul, data.get('text', ''), 'N/A', 'Humas', link, img, nama_kampus)
+                    
+                    database.append({
+                        "kampus": nama_kampus,
+                        "judul": judul,
+                        "link": link,
+                        "waktu_crawl": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                        "file_arsip": f"{BASE_ARCHIVE_FOLDER}/{rel_path}"
+                    })
+                    
+                    github_link = f"{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}"
+                    notif_list.append(f"🔹 [{nama_kampus}] <a href='{github_link}'>{judul}</a>")
+                    existing_urls.add(link)
         except Exception as e:
             print(f"Gagal memproses {nama_kampus}: {e}")
 
@@ -109,11 +121,10 @@ def jalankan_crawler():
     with open(DB_FILE, "w", encoding="utf-8") as f:
         json.dump(database, f, indent=4, ensure_ascii=False)
 
-    # Mengirim notifikasi dalam potongan (chunks) agar tidak kepanjangan
     if notif_list:
         chunk_size = 10
         for i in range(0, len(notif_list), chunk_size):
-            msg = f"📰 <b>Update Berita Kampus (Bagian {i//chunk_size + 1})</b>\n\n" + "\n".join(notif_list[i:i+chunk_size])
+            msg = f"📰 <b>Update Berita Kampus ({i//chunk_size + 1})</b>\n\n" + "\n".join(notif_list[i:i+chunk_size])
             send_telegram(msg)
             time.sleep(3)
 
