@@ -16,7 +16,7 @@ jobs:
         run: pip install trafilatura requests
       - name: Run Crawler
         run: python crawler_kampus.py
-- name: Simpan Hasil
+      - name: Simpan Hasil
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
