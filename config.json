@@ -2,11 +2,13 @@
     "telegram_token": "8031042382:AAEvewZRUM1M-PNPHVru0DNkHaSSw9SwbkE",
     "telegram_chat_id": "803153427",
     "target_kampus": {
-        "UPB": "https://upb.ac.id/berita",
-        "UNNUR": "https://unnur.ac.id/berita",
-        "UTS Makassar": "https://utsmakassar.ac.id/berita",
-        "Kementerian DIKTI":"https://kemdiktisaintek.go.id/news",
-        "UMB":"https://umb.ac.id/berita-umb"
+        "Universitas Panca Bhakti Pontianak": "https://upb.ac.id/berita/",
+        "Universitas Teknologi Sulawesi": "https://utsmakassar.ac.id/berita/",
+        "Universitas Muara Bungo": "https://umb.ac.id/berita-umb/",
+        "Universitas Muhammadiyah Papua": "https://umpapua.ac.id/berita/",
+        "Universitas YPIB Majalengka": "https://univypib.ac.id/blog/",
+        "Universitas Abulyatama": "https://unaya.ac.id/news",
+        "Kementerian DIKTI": "https://kemdiktisaintek.go.id/news"
     },
     "max_links_per_run": 5,
     "delay_min": 3,
