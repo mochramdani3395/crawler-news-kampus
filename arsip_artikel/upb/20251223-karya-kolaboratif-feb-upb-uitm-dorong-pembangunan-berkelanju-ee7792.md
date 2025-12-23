@@ -1,0 +1,17 @@
+# Karya Kolaboratif Feb Upb Uitm Dorong Pembangunan Berkelanjutan Borneo
+
+- **Kampus:** UPB
+- **Sumber:** https://upb.ac.id/karya-kolaboratif-feb-upb-uitm-dorong-pembangunan-berkelanjutan-borneo/
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2025-12-23 15:04:31
+
+---
+
+KBRN, Pontianak: Hari terakhir rangkaian kegiatan kolaboratif antara Fakultas Ekonomi dan Bisnis (FEB) Universitas Panca Bhakti (UPB) Pontianak dan Universiti Teknologi MARA (UiTM) Malaysia berlangsung penuh semangat. Di Gedung Graha UPB Pontianak, para mahasiswa dari kedua universitas ini mempresentasikan hasil karya inovatif mereka yang penuh makna. Kegiatan yang bertajuk “Empower Borneo: Ethical Finance, Shared Culture, Strong Communities” ini telah berlangsung sejak 13 November 2025 dan menjadi momen puncak dari kolaborasi lintas negara yang sarat inspirasi.
+Selama dua hari penuh, 10 kelompok mahasiswa dari UPB dan UiTM bekerja sama secara intensif di bawah bimbingan mentor dari FEB UPB Pontianak, mengembangkan berbagai proyek yang berorientasi pada pemberdayaan masyarakat lokal melalui keuangan etis dan pelestarian budaya.
+Mulai dari rencana pemberdayaan ekonomi berbasis kearifan lokal hingga strategi pelestarian budaya adat, hasil karya mereka menunjukkan kreativitas tinggi dan komitmen nyata dalam menawarkan solusi sosial dan ekonomi yang relevan di Borneo. Penampilan masing-masing kelompok tidak hanya menampilkan kemampuan analisis dan inovasi, tetapi juga semangat kolaborasi yang kuat demi masa depan berkelanjutan. Melalui presentasi ini, mahasiswa membuktikan bahwa kolaborasi internasional dapat mempererat hubungan akademik sekaligus membuka peluang pengembangan komunitas yang inklusif dan kompetitif.
+Dekan FEB UPB Pontianak, Sartono menyatakan kebanggaannya terhadap antusiasme dan dedikasi para mahasiswa. Ia menegaskan bahwa kegiatan ini menjadi jembatan budaya dan pengetahuan antara Indonesia dan Malaysia, sekaligus inspirasi bagi institusi pendidikan lain untuk terus berinovasi dan mendukung pembangunan berkelanjutan di Kalimantan dan sekitarnya.”Kegiatan ini tidak hanya memperkuat hubungan akademik dan budaya antar kedua negara, tetapi juga menjadi momentum strategis dalam membentuk generasi muda yang peduli dan mampu memberikan solusi nyata untuk masyarakat. Mahasiswa tidak hanya belajar teori, tetapi juga praktik langsung yang berdampak positif bagi lingkungan sekitar,” ujarnya.
+Ali Afif, selaku ketua panitia, menyampaikan bahwa pengalaman ini sangat berharga. Ia menambahkan, kolaborasi lintas negara ini membuka wawasan mereka tentang keberagaman budaya dan tantangan sosial ekonomi di lapangan.”Kami berharap, kegiatan ini menjadi langkah awal untuk terus menjalin kemitraan yang bermanfaat, serta menciptakan generasi muda yang tidak hanya cerdas secara akademik, tetapi juga peduli dan mampu membawa perubahan positif,” katanya.
+Dengan berakhirnya kegiatan ini, diharapkan semangat kolaborasi dan inovasi yang terbangun dapat terus berkembang dan memberikan manfaat besar bagi pembangunan berkelanjutan di Borneo dan kawasan sekitarnya.
+Sumber Lain : https://rri.co.id/pontianak/internasional/1976066/karya-kolaboratif-feb-upb-uitm-dorong-pembangunan-berkelanjutan-borneo
