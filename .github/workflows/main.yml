@@ -16,10 +16,13 @@ jobs:
         run: pip install trafilatura requests
       - name: Run Crawler
         run: python crawler_kampus.py
-      - name: Simpan Hasil
+- name: Simpan Hasil
         run: |
-          git config --global user.name "Bot-Crawler"
-          git config --global user.email "bot@github.com"
-          git add database_artikel.json arsip_artikel/*.md
-          git commit -m "Update arsip berita" || echo "Tidak ada berita baru"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # Perintah di bawah ini akan menambahkan folder dan file jika ada
+          git add database_artikel.json
+          if [ -d "arsip_artikel" ]; then git add arsip_artikel/; fi
+          # Menghindari error jika tidak ada perubahan file
+          git commit -m "Update arsip berita harian" || echo "No changes to commit"
           git push
