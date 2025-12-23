@@ -12,7 +12,7 @@ CONFIG = load_config()
 TELEGRAM_TOKEN = CONFIG["telegram_token"]
 TELEGRAM_CHAT_ID = CONFIG["telegram_chat_id"]
 TARGET_KAMPUS = CONFIG["target_kampus"]
-MAX_LINKS = 3 # Ambil 3 artikel terbaru saja per run
+MAX_LINKS = 15 # Ambil 3 artikel terbaru saja per run
 DELAY = 5     # Jeda 5 detik antar klik agar aman
 
 DB_FILE = "database_artikel.json"
