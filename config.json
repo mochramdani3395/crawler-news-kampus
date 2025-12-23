@@ -2,8 +2,8 @@
     "telegram_token": "8031042382:AAEvewZRUM1M-PNPHVru0DNkHaSSw9SwbkE",
     "telegram_chat_id": "803153427",
     "target_kampus": {
-        "Universitas Panca Bhakti Pontianak": "https://upb.ac.id/berita/",
-        "Universitas Teknologi Sulawesi": "https://utsmakassar.ac.id/berita/",
+        "upb": "https://upb.ac.id/berita/",
+        "uts-makassar": "https://utsmakassar.ac.id/berita/",
         "Universitas Muara Bungo": "https://umb.ac.id/berita-umb/",
         "Universitas Muhammadiyah Papua": "https://umpapua.ac.id/berita/",
         "Universitas YPIB Majalengka": "https://univypib.ac.id/blog/",
