@@ -1,0 +1,13 @@
+# Pelatihan Scopus Berbasis Ai Bersama Cfds Dan Upb Pontianak Untuk Penelitian Berkualitas
+
+- **Kampus:** UPB
+- **Sumber:** https://upb.ac.id/pelatihan-scopus-berbasis-ai-bersama-cfds-dan-upb-pontianak-untuk-penelitian-berkualitas/
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2025-12-23 15:20:34
+
+---
+
+Kemajuan teknologi AI di dunia akademis menyebabkan semakin banyak peneliti yang ingin mempublikasikan makalah ilmiahnya di jurnal internasional. Pada sesi kedua, Tauchid Komala Yuda menjelaskan bahwa banyak peneliti yang kehilangan kepercayaan ketika mengetahui biaya publikasi bisa mencapai puluhan kali lipat dari gaji pokoknya. Selain biaya, tantangan besar lainnya adalah proses penerbitan yang panjang dan seringkali sulit. Dalam publikasi ilmiah, peneliti harus fokus pada struktur teks, seperti pendahuluan , yang harus memberikan gambaran umum tentang literatur yang relevan dan menyatakan dengan jelas masalah dan tujuan penelitian.
+Peneliti kemudian harus mendeskripsikan tantangan yang mereka hadapi, termasuk metode yang digunakan, akses terhadap data, serta dampaknya terhadap kualitas dan kuantitas data yang diperoleh. Penting juga untuk menjelaskan secara lengkap bagaimana mengatasi hambatan penelitian. Analisis data juga memegang peranan penting dan metode analisis yang digunakan harus dijelaskan secara rinci. “Pemahaman tersebut dapat dicapai melalui proses panjang yang dilakukan oleh para peneliti yang berani memaparkan temuannya, sehingga pada akhirnya menciptakan lingkungan akademik yang lebih inklusif,” pungkas Yuda seraya menegaskan bahwa sesi diskusi telah usai.
+Kerja sama antara CfDS dan Universitas Panca Bhakti ini menegaskan komitmen kedua institusi tersebut dalam mendorong kemajuan akademik di Indonesia. Bertajuk “Sukses SCOPUS dengan AI yang Bertanggungjawab” pelatihan ini akan memberikan peserta pemahaman yang lebih mendalam tentang peluang dan tantangan teknologi AI dalam penelitian dan diharapkan akan siap untuk dipublikasikan di jurnal internasional terkemuka. Inisiatif ini diharapkan dapat membuka peluang baru bagi akademisi Indonesia untuk meningkatkan kualitas penelitiannya yang berdaya saing global, beretika dan terkait dengan perkembangan teknologi terkini.

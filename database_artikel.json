@@ -1,1 +1,520 @@
-[]
+[
+    {
+        "kampus": "UTS Makassar",
+        "judul": "#Respond",
+        "link": "https://utsmakassar.ac.id/selamat-atas-promosi-doktor/#respond",
+        "waktu_crawl": "2025-12-23 15:22:44",
+        "file_arsip": "arsip_artikel/uts-makassar/20251223-respond-45b735.md"
+    },
+    {
+        "kampus": "UTS Makassar",
+        "judul": "#Comments",
+        "link": "https://utsmakassar.ac.id/hello-world/#comments",
+        "waktu_crawl": "2025-12-23 15:22:43",
+        "file_arsip": "arsip_artikel/uts-makassar/20251223-comments-13c27a.md"
+    },
+    {
+        "kampus": "UTS Makassar",
+        "judul": "19",
+        "link": "https://utsmakassar.ac.id/2025/01/19/",
+        "waktu_crawl": "2025-12-23 15:22:41",
+        "file_arsip": "arsip_artikel/uts-makassar/20251223-19-530f35.md"
+    },
+    {
+        "kampus": "UTS Makassar",
+        "judul": "#Respond",
+        "link": "https://utsmakassar.ac.id/selamat-atas-capaian-gelar-doctor/#respond",
+        "waktu_crawl": "2025-12-23 15:22:39",
+        "file_arsip": "arsip_artikel/uts-makassar/20251223-respond-3b13ac.md"
+    },
+    {
+        "kampus": "UTS Makassar",
+        "judul": "30",
+        "link": "https://utsmakassar.ac.id/2025/01/30/",
+        "waktu_crawl": "2025-12-23 15:22:38",
+        "file_arsip": "arsip_artikel/uts-makassar/20251223-30-595677.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Rektor Universitas Panca Bhakti Sambut Peserta Icir",
+        "link": "https://upb.ac.id/rektor-universitas-panca-bhakti-sambut-peserta-icir/",
+        "waktu_crawl": "2025-12-23 15:21:29",
+        "file_arsip": "arsip_artikel/upb/20251223-rektor-universitas-panca-bhakti-sambut-peserta-icir-8b2236.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Kkn Tahun 2023",
+        "link": "https://upb.ac.id/pengumuman-kkn-tahun-2023/",
+        "waktu_crawl": "2025-12-23 15:21:28",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-kkn-tahun-2023-b8a552.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Segenap Civitas Akademika Upb Mengucapkan Dirgahayu Pemprov Kalbar Ke 66",
+        "link": "https://upb.ac.id/segenap-civitas-akademika-upb-mengucapkan-dirgahayu-pemprov-kalbar-ke-66/",
+        "waktu_crawl": "2025-12-23 15:21:26",
+        "file_arsip": "arsip_artikel/upb/20251223-segenap-civitas-akademika-upb-mengucapkan-dirgahayu-pemprov--9a5363.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Skema Program Kemitraan Masyarakat Fakultas Pertanian Universitas Panca Bhakti",
+        "link": "https://upb.ac.id/skema-program-kemitraan-masyarakat-fakultas-pertanian-universitas-panca-bhakti/",
+        "waktu_crawl": "2025-12-23 15:21:25",
+        "file_arsip": "arsip_artikel/upb/20251223-skema-program-kemitraan-masyarakat-fakultas-pertanian-univer-cd1227.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pemilihan Mahasiswa Berprestasi Pilmapres Upb 2023",
+        "link": "https://upb.ac.id/pemilihan-mahasiswa-berprestasi-pilmapres-upb-2023/",
+        "waktu_crawl": "2025-12-23 15:21:24",
+        "file_arsip": "arsip_artikel/upb/20251223-pemilihan-mahasiswa-berprestasi-pilmapres-upb-2023-0aea18.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Onsite Hiring Spartan Spil Acceleration Trainee 2023",
+        "link": "https://upb.ac.id/onsite-hiring-spartan-spil-acceleration-trainee-2023/",
+        "waktu_crawl": "2025-12-23 15:21:22",
+        "file_arsip": "arsip_artikel/upb/20251223-onsite-hiring-spartan-spil-acceleration-trainee-2023-26d8a9.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Mengenai Kkn Upb 2023",
+        "link": "https://upb.ac.id/pengumuman-mengenai-kkn-upb-2023/",
+        "waktu_crawl": "2025-12-23 15:21:21",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-mengenai-kkn-upb-2023-d7fa3e.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Peserta Kelompok Kkn Tahun 2023",
+        "link": "https://upb.ac.id/pengumuman-peserta-kelompok-kkn-tahun-2023/",
+        "waktu_crawl": "2025-12-23 15:21:20",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-peserta-kelompok-kkn-tahun-2023-aa5849.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Pembagian Ketua Kelompok Dan Lokasi Penempatan Kkn 2023",
+        "link": "https://upb.ac.id/pengumuman-pembagian-ketua-kelompok-dan-lokasi-penempatan-kkn-2023/",
+        "waktu_crawl": "2025-12-23 15:21:19",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-pembagian-ketua-kelompok-dan-lokasi-penempatan-kk-7833ff.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Seminar Tax Goes To Campus Universitas Panca Bhakti Generasi Milenial Sadar Pajak",
+        "link": "https://upb.ac.id/seminar-tax-goes-to-campus-universitas-panca-bhakti-generasi-milenial-sadar-pajak/",
+        "waktu_crawl": "2025-12-23 15:21:17",
+        "file_arsip": "arsip_artikel/upb/20251223-seminar-tax-goes-to-campus-universitas-panca-bhakti-generasi-20fd34.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Tim Pelaksana Sdgs Upb Menginisiasi Untuk Penerbitan Buku Dengan Tema Sdgs",
+        "link": "https://upb.ac.id/tim-pelaksana-sdgs-upb-menginisiasi-untuk-penerbitan-buku-dengan-tema-sdgs/",
+        "waktu_crawl": "2025-12-23 15:21:16",
+        "file_arsip": "arsip_artikel/upb/20251223-tim-pelaksana-sdgs-upb-menginisiasi-untuk-penerbitan-buku-de-d1db32.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Batas Akhir Pembayaran Kkn",
+        "link": "https://upb.ac.id/pengumuman-batas-akhir-pembayaran-kkn/",
+        "waktu_crawl": "2025-12-23 15:21:15",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-batas-akhir-pembayaran-kkn-070d7e.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pemberitahuan Batas Akhir Pembayaran Biaya Kuliah Semester Genap T A 2022 2023",
+        "link": "https://upb.ac.id/pemberitahuan-batas-akhir-pembayaran-biaya-kuliah-semester-genap-t-a-2022-2023/",
+        "waktu_crawl": "2025-12-23 15:21:14",
+        "file_arsip": "arsip_artikel/upb/20251223-pemberitahuan-batas-akhir-pembayaran-biaya-kuliah-semester-g-f144a8.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Upb Raih Tribun Pontianak Award 2023 Kategori Inovasi Kewirausahaan Masyarakat",
+        "link": "https://upb.ac.id/upb-raih-tribun-pontianak-award-2023-kategori-inovasi-kewirausahaan-masyarakat/",
+        "waktu_crawl": "2025-12-23 15:21:12",
+        "file_arsip": "arsip_artikel/upb/20251223-upb-raih-tribun-pontianak-award-2023-kategori-inovasi-kewira-b0738d.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Nota Kesepahaman Antara Universitas Panca Bhakti Upb Dan Universitas Teknologi Mara Uitm",
+        "link": "https://upb.ac.id/nota-kesepahaman-antara-universitas-panca-bhakti-upb-dan-universitas-teknologi-mara-uitm/",
+        "waktu_crawl": "2025-12-23 15:21:11",
+        "file_arsip": "arsip_artikel/upb/20251223-nota-kesepahaman-antara-universitas-panca-bhakti-upb-dan-uni-679426.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Berkarya Dan Menebar Manfaat Agenda Tahuan Kkn Upb 2023 Kembali Digelar",
+        "link": "https://upb.ac.id/berkarya-dan-menebar-manfaat-agenda-tahuan-kkn-upb-2023-kembali-digelar/",
+        "waktu_crawl": "2025-12-23 15:21:10",
+        "file_arsip": "arsip_artikel/upb/20251223-berkarya-dan-menebar-manfaat-agenda-tahuan-kkn-upb-2023-kemb-ac5ec7.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Universitas Panca Bhakti Melakukan Kerjasama Dengan Puskopcuina Terkait Program Merdeka Belajar Kampus Merdeka",
+        "link": "https://upb.ac.id/universitas-panca-bhakti-melakukan-kerjasama-dengan-puskopcuina-terkait-program-merdeka-belajar-kampus-merdeka/",
+        "waktu_crawl": "2025-12-23 15:21:09",
+        "file_arsip": "arsip_artikel/upb/20251223-universitas-panca-bhakti-melakukan-kerjasama-dengan-puskopcu-6b31e3.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pemotongan Pita Pembukaan Expo Kewirausahaan Fakultas Ekonomi Dan Bisnis 2023 Di Halaman Convention Center Universitas Panca Bhakti",
+        "link": "https://upb.ac.id/pemotongan-pita-pembukaan-expo-kewirausahaan-fakultas-ekonomi-dan-bisnis-2023-di-halaman-convention-center-universitas-panca-bhakti/",
+        "waktu_crawl": "2025-12-23 15:21:07",
+        "file_arsip": "arsip_artikel/upb/20251223-pemotongan-pita-pembukaan-expo-kewirausahaan-fakultas-ekonom-7b8f00.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Upacara Hut Ri Ke 78 Di Universitas Panca Bhakti",
+        "link": "https://upb.ac.id/upacara-hut-ri-ke-78-di-universitas-panca-bhakti/",
+        "waktu_crawl": "2025-12-23 15:21:06",
+        "file_arsip": "arsip_artikel/upb/20251223-upacara-hut-ri-ke-78-di-universitas-panca-bhakti-4908c3.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Zulkifli Hasan Kuliah Umum Tingkatkan Umkm Pada Kegiatan Pkkmb Upb 2023",
+        "link": "https://upb.ac.id/zulkifli-hasan-kuliah-umum-tingkatkan-umkm-pada-kegiatan-pkkmb-upb-2023/",
+        "waktu_crawl": "2025-12-23 15:21:05",
+        "file_arsip": "arsip_artikel/upb/20251223-zulkifli-hasan-kuliah-umum-tingkatkan-umkm-pada-kegiatan-pkk-a27681.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Surat Edaran Rektor Kewajiban Entri Formulir Rencana Studi Frs Dan Penggunaan Jaket Almamater",
+        "link": "https://upb.ac.id/surat-edaran-rektor-kewajiban-entri-formulir-rencana-studi-frs-dan-penggunaan-jaket-almamater/",
+        "waktu_crawl": "2025-12-23 15:21:04",
+        "file_arsip": "arsip_artikel/upb/20251223-surat-edaran-rektor-kewajiban-entri-formulir-rencana-studi-f-a877d8.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Dosen Dan Mahasiswa Upb Melakukan Kegiatan Mbkm Di Desa Parit Keladi",
+        "link": "https://upb.ac.id/dosen-dan-mahasiswa-upb-melakukan-kegiatan-mbkm-di-desa-parit-keladi/",
+        "waktu_crawl": "2025-12-23 15:21:03",
+        "file_arsip": "arsip_artikel/upb/20251223-dosen-dan-mahasiswa-upb-melakukan-kegiatan-mbkm-di-desa-pari-b0c2ba.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Edaran Peniadaan Pemungutan Biaya Dan Pkkmb Lanjutan Tahun 2023",
+        "link": "https://upb.ac.id/edaran-peniadaan-pemungutan-biaya-dan-pkkmb-lanjutan-tahun-2023/",
+        "waktu_crawl": "2025-12-23 15:21:01",
+        "file_arsip": "arsip_artikel/upb/20251223-edaran-peniadaan-pemungutan-biaya-dan-pkkmb-lanjutan-tahun-2-b74688.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Soft Opening Gedung Rektorat Universitas Panca Bhakti",
+        "link": "https://upb.ac.id/soft-opening-gedung-rektorat-universitas-panca-bhakti/",
+        "waktu_crawl": "2025-12-23 15:21:00",
+        "file_arsip": "arsip_artikel/upb/20251223-soft-opening-gedung-rektorat-universitas-panca-bhakti-35e6c2.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Seminar Akhir Penelitian Kerjasama Universitas Panca Bhakti Dan Kabupaten Kayong Utara",
+        "link": "https://upb.ac.id/seminar-akhir-penelitian-kerjasama-universitas-panca-bhakti-dan-kabupaten-kayong-utara/",
+        "waktu_crawl": "2025-12-23 15:20:59",
+        "file_arsip": "arsip_artikel/upb/20251223-seminar-akhir-penelitian-kerjasama-universitas-panca-bhakti--4afa5f.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Basic Leadership Training Outbond Membangun Kepemimpinan Yang Berkarakter Berintegritas Bertanggung Jawab",
+        "link": "https://upb.ac.id/basic-leadership-training-outbond-membangun-kepemimpinan-yang-berkarakter-berintegritas-bertanggung-jawab/",
+        "waktu_crawl": "2025-12-23 15:20:58",
+        "file_arsip": "arsip_artikel/upb/20251223-basic-leadership-training-outbond-membangun-kepemimpinan-yan-37dfe3.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pendaftaran Kkn Upb Tahun 2024",
+        "link": "https://upb.ac.id/pendaftaran-kkn-upb-tahun-2024/",
+        "waktu_crawl": "2025-12-23 15:20:56",
+        "file_arsip": "arsip_artikel/upb/20251223-pendaftaran-kkn-upb-tahun-2024-0b8fe0.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Lomba Cerdas Cermat Economic Accounting Challenge Tingkat Sma Smk Se Kota Pontianak",
+        "link": "https://upb.ac.id/lomba-cerdas-cermat-economic-accounting-challenge-tingkat-sma-smk-se-kota-pontianak/",
+        "waktu_crawl": "2025-12-23 15:20:55",
+        "file_arsip": "arsip_artikel/upb/20251223-lomba-cerdas-cermat-economic-accounting-challenge-tingkat-sm-d56704.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Semnas Sinergi Dan Kolaborasi Pemberdayaan Umkm Dalam Perspektif Kebijakan Mbkm",
+        "link": "https://upb.ac.id/semnas-sinergi-dan-kolaborasi-pemberdayaan-umkm-dalam-perspektif-kebijakan-mbkm/",
+        "waktu_crawl": "2025-12-23 15:20:54",
+        "file_arsip": "arsip_artikel/upb/20251223-semnas-sinergi-dan-kolaborasi-pemberdayaan-umkm-dalam-perspe-b99c47.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Wisuda Xxxv Universitas Panca Bhakti Tahun 2023",
+        "link": "https://upb.ac.id/wisuda-xxxv-universitas-panca-bhakti-tahun-2023/",
+        "waktu_crawl": "2025-12-23 15:20:53",
+        "file_arsip": "arsip_artikel/upb/20251223-wisuda-xxxv-universitas-panca-bhakti-tahun-2023-c07031.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Sdgs Centre Universitas Panca Bhakti Gelar Capacity Building And Round Table Discussion",
+        "link": "https://upb.ac.id/sdgs-centre-universitas-panca-bhakti-gelar-capacity-building-and-round-table-discussion/",
+        "waktu_crawl": "2025-12-23 15:20:51",
+        "file_arsip": "arsip_artikel/upb/20251223-sdgs-centre-universitas-panca-bhakti-gelar-capacity-building-d53b9a.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Dosen Universitas Panca Bhakti Raih Hibah Penelitian Dan Pkm 2024 Dari Kemdikbudristek",
+        "link": "https://upb.ac.id/dosen-universitas-panca-bhakti-raih-hibah-penelitian-dan-pkm-2024-dari-kemdikbudristek/",
+        "waktu_crawl": "2025-12-23 15:20:50",
+        "file_arsip": "arsip_artikel/upb/20251223-dosen-universitas-panca-bhakti-raih-hibah-penelitian-dan-pkm-282c72.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Latihan Dasar Kepemimpinan Himpunan Mahasiswa Akuntansi Feb Upb Periode 2024 2025",
+        "link": "https://upb.ac.id/latihan-dasar-kepemimpinan-himpunan-mahasiswa-akuntansi-feb-upb-periode-2024-2025/",
+        "waktu_crawl": "2025-12-23 15:20:48",
+        "file_arsip": "arsip_artikel/upb/20251223-latihan-dasar-kepemimpinan-himpunan-mahasiswa-akuntansi-feb--11f8cd.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Informasi Kip Kuliah Ta 2024 2025 Upb",
+        "link": "https://upb.ac.id/informasi-kip-kuliah-ta-2024-2025-upb/",
+        "waktu_crawl": "2025-12-23 15:20:47",
+        "file_arsip": "arsip_artikel/upb/20251223-informasi-kip-kuliah-ta-2024-2025-upb-fdd044.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Kunjungan Mahasiswa Program Internasional Faculty Of Economics And Business Unimas",
+        "link": "https://upb.ac.id/kunjungan-mahasiswa-program-internasional-faculty-of-economics-and-business-unimas/",
+        "waktu_crawl": "2025-12-23 15:20:46",
+        "file_arsip": "arsip_artikel/upb/20251223-kunjungan-mahasiswa-program-internasional-faculty-of-economi-eb68a1.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Turut Berduka Cita 6",
+        "link": "https://upb.ac.id/turut-berduka-cita-6/",
+        "waktu_crawl": "2025-12-23 15:20:45",
+        "file_arsip": "arsip_artikel/upb/20251223-turut-berduka-cita-6-a4639d.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Mewujudkan Generasi Muda Yang Berprestasi Dan Bersinergi Melalui Eac",
+        "link": "https://upb.ac.id/mewujudkan-generasi-muda-yang-berprestasi-dan-bersinergi-melalui-eac/",
+        "waktu_crawl": "2025-12-23 15:20:43",
+        "file_arsip": "arsip_artikel/upb/20251223-mewujudkan-generasi-muda-yang-berprestasi-dan-bersinergi-mel-b619cf.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Edaran Peniadaan Pemungutan Biaya Dan Pkkmb Lanjutan Tahun 2024",
+        "link": "https://upb.ac.id/edaran-peniadaan-pemungutan-biaya-dan-pkkmb-lanjutan-tahun-2024/",
+        "waktu_crawl": "2025-12-23 15:20:42",
+        "file_arsip": "arsip_artikel/upb/20251223-edaran-peniadaan-pemungutan-biaya-dan-pkkmb-lanjutan-tahun-2-8630a1.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Upb Launching Fakultas Ilmu Kesehatan Prodi Fisioterapi Jadi Pertama Dan Satu Satunya Di Kalbar",
+        "link": "https://upb.ac.id/upb-launching-fakultas-ilmu-kesehatan-prodi-fisioterapi-jadi-pertama-dan-satu-satunya-di-kalbar/",
+        "waktu_crawl": "2025-12-23 15:20:41",
+        "file_arsip": "arsip_artikel/upb/20251223-upb-launching-fakultas-ilmu-kesehatan-prodi-fisioterapi-jadi-060d9f.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Kip Kuliah Ta 2024 2025 Upb",
+        "link": "https://upb.ac.id/kip-kuliah-ta-2024-2025-upb/",
+        "waktu_crawl": "2025-12-23 15:20:40",
+        "file_arsip": "arsip_artikel/upb/20251223-kip-kuliah-ta-2024-2025-upb-fbd823.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Kelompok Kkn Dan Desa Kkn Upb Tahun 2024",
+        "link": "https://upb.ac.id/pengumuman-kelompok-kkn-dan-desa-kkn-upb-tahun-2024/",
+        "waktu_crawl": "2025-12-23 15:20:38",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-kelompok-kkn-dan-desa-kkn-upb-tahun-2024-72188a.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Peserta Lolos Verifikasi Kkn Upb Tahun 2024",
+        "link": "https://upb.ac.id/pengumuman-peserta-lolos-verifikasi-kkn-upb-tahun-2024/",
+        "waktu_crawl": "2025-12-23 15:20:37",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-peserta-lolos-verifikasi-kkn-upb-tahun-2024-4f9a56.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Wisuda Xxxvi Universitas Panca Bhakti Tahun 2024",
+        "link": "https://upb.ac.id/wisuda-xxxvi-universitas-panca-bhakti-tahun-2024/",
+        "waktu_crawl": "2025-12-23 15:20:36",
+        "file_arsip": "arsip_artikel/upb/20251223-wisuda-xxxvi-universitas-panca-bhakti-tahun-2024-760e67.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Diskusi Publik Bahas Kebijakan Di Era Kepemimpinan Prabowo",
+        "link": "https://upb.ac.id/diskusi-publik-bahas-kebijakan-di-era-kepemimpinan-prabowo/",
+        "waktu_crawl": "2025-12-23 15:20:35",
+        "file_arsip": "arsip_artikel/upb/20251223-diskusi-publik-bahas-kebijakan-di-era-kepemimpinan-prabowo-dde951.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pelatihan Scopus Berbasis Ai Bersama Cfds Dan Upb Pontianak Untuk Penelitian Berkualitas",
+        "link": "https://upb.ac.id/pelatihan-scopus-berbasis-ai-bersama-cfds-dan-upb-pontianak-untuk-penelitian-berkualitas/",
+        "waktu_crawl": "2025-12-23 15:20:34",
+        "file_arsip": "arsip_artikel/upb/20251223-pelatihan-scopus-berbasis-ai-bersama-cfds-dan-upb-pontianak--02b850.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "University Intercultural Exchange Program Unite",
+        "link": "https://upb.ac.id/university-intercultural-exchange-program-unite/",
+        "waktu_crawl": "2025-12-23 15:20:32",
+        "file_arsip": "arsip_artikel/upb/20251223-university-intercultural-exchange-program-unite-86cd6a.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Perpanjangan Entri Frs Semester Genap T A 2024 2025 Sampai Dengan 11 Oktober 2024",
+        "link": "https://upb.ac.id/pengumuman-perpanjangan-entri-frs-semester-genap-t-a-2024-2025-sampai-dengan-11-oktober-2024/",
+        "waktu_crawl": "2025-12-23 15:20:31",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-perpanjangan-entri-frs-semester-genap-t-a-2024-20-c7ad8b.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Gladi Resik Wisuda Sarjana Xxxvi Universitas Panca Bhakti Tahun 2024",
+        "link": "https://upb.ac.id/gladi-resik-wisuda-sarjana-xxxvi-universitas-panca-bhakti-tahun-2024/",
+        "waktu_crawl": "2025-12-23 15:20:30",
+        "file_arsip": "arsip_artikel/upb/20251223-gladi-resik-wisuda-sarjana-xxxvi-universitas-panca-bhakti-ta-52626f.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "International Symposium Intercultural Exchange Universiti Teknologi Mara Dan Universitas Panca Bhakti",
+        "link": "https://upb.ac.id/international-symposium-intercultural-exchange-universiti-teknologi-mara-dan-universitas-panca-bhakti/",
+        "waktu_crawl": "2025-12-23 15:20:29",
+        "file_arsip": "arsip_artikel/upb/20251223-international-symposium-intercultural-exchange-universiti-te-062406.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Upb Pontianak Kukuhkan Prof Agusalim Masulili Sebagai Guru Besar",
+        "link": "https://upb.ac.id/upb-pontianak-kukuhkan-prof-agusalim-masulili-sebagai-guru-besar/",
+        "waktu_crawl": "2025-12-23 15:20:27",
+        "file_arsip": "arsip_artikel/upb/20251223-upb-pontianak-kukuhkan-prof-agusalim-masulili-sebagai-guru-b-6519ed.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Kegiatan Pendampingan Peningkatan Kompetensi Pengrajin Di Kecamatan Sungai Kakap Kubu Raya",
+        "link": "https://upb.ac.id/kegiatan-pendampingan-peningkatan-kompetensi-pengrajin-di-kecamatan-sungai-kakap-kubu-raya/",
+        "waktu_crawl": "2025-12-23 15:20:26",
+        "file_arsip": "arsip_artikel/upb/20251223-kegiatan-pendampingan-peningkatan-kompetensi-pengrajin-di-ke-246ced.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Perpanjangan Entry Krs Semester Genap T A 2024 2025 Sampai Dengan 27 Maret 2025",
+        "link": "https://upb.ac.id/pengumuman-perpanjangan-entry-krs-semester-genap-t-a-2024-2025-sampai-dengan-27-maret-2025/",
+        "waktu_crawl": "2025-12-23 15:20:25",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-perpanjangan-entry-krs-semester-genap-t-a-2024-20-4f3abc.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Upb Gelar Stadium General Kebijakan Pemerintah Tekait Umkm",
+        "link": "https://upb.ac.id/upb-gelar-stadium-general-kebijakan-pemerintah-tekait-umkm/",
+        "waktu_crawl": "2025-12-23 15:20:24",
+        "file_arsip": "arsip_artikel/upb/20251223-upb-gelar-stadium-general-kebijakan-pemerintah-tekait-umkm-e762f6.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Membangun Jiwa Kepemimpinan Yang Kreatif Inovatif Dan Berintegritas Untuk Himsak Yang Berkemajuan",
+        "link": "https://upb.ac.id/membangun-jiwa-kepemimpinan-yang-kreatif-inovatif-dan-berintegritas-untuk-himsak-yang-berkemajuan/",
+        "waktu_crawl": "2025-12-23 15:20:22",
+        "file_arsip": "arsip_artikel/upb/20251223-membangun-jiwa-kepemimpinan-yang-kreatif-inovatif-dan-berint-f58f38.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Karya Kolaboratif Feb Upb Uitm Dorong Pembangunan Berkelanjutan Borneo",
+        "link": "https://upb.ac.id/karya-kolaboratif-feb-upb-uitm-dorong-pembangunan-berkelanjutan-borneo/",
+        "waktu_crawl": "2025-12-23 15:20:21",
+        "file_arsip": "arsip_artikel/upb/20251223-karya-kolaboratif-feb-upb-uitm-dorong-pembangunan-berkelanju-ee7792.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Kampus",
+        "link": "https://upb.ac.id/pengumuman-kampus/",
+        "waktu_crawl": "2025-12-23 15:20:20",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-kampus-f79b81.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Sekilas Upb",
+        "link": "https://upb.ac.id/sekilas-upb/",
+        "waktu_crawl": "2025-12-23 15:20:18",
+        "file_arsip": "arsip_artikel/upb/20251223-sekilas-upb-89059c.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Edaran Rektor Pelaksanaan Wisuda Xxxvii Universitas Panca Bhakti Tahun 2025",
+        "link": "https://upb.ac.id/edaran-rektor-pelaksanaan-wisuda-xxxvii-universitas-panca-bhakti-tahun-2025/",
+        "waktu_crawl": "2025-12-23 15:20:17",
+        "file_arsip": "arsip_artikel/upb/20251223-edaran-rektor-pelaksanaan-wisuda-xxxvii-universitas-panca-bh-ed8d65.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Unduhan",
+        "link": "https://upb.ac.id/unduhan/",
+        "waktu_crawl": "2025-12-23 15:20:16",
+        "file_arsip": "arsip_artikel/upb/20251223-unduhan-9165d1.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pmb 2025 2026",
+        "link": "https://upb.ac.id/pmb-2025-2026/",
+        "waktu_crawl": "2025-12-23 15:20:15",
+        "file_arsip": "arsip_artikel/upb/20251223-pmb-2025-2026-5a89f6.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Upb.Ac.Id",
+        "link": "https://upb.ac.id/",
+        "waktu_crawl": "2025-12-23 15:20:13",
+        "file_arsip": "arsip_artikel/upb/20251223-upb-ac-id-41e49f.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pmb Pascasarjana 2025 2026",
+        "link": "https://upb.ac.id/pmb-pascasarjana-2025-2026/",
+        "waktu_crawl": "2025-12-23 15:20:12",
+        "file_arsip": "arsip_artikel/upb/20251223-pmb-pascasarjana-2025-2026-ba4621.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Kip Kuliah Ta 2025 2026 Upb",
+        "link": "https://upb.ac.id/kip-kuliah-ta-2025-2026-upb/",
+        "waktu_crawl": "2025-12-23 15:20:10",
+        "file_arsip": "arsip_artikel/upb/20251223-kip-kuliah-ta-2025-2026-upb-3182cf.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Economic Accountin Challangeeactahun2025 Se Kalimantan Barat Himsak Universitas_P",
+        "link": "https://upb.ac.id/economic-accountin-challangeeactahun2025-se-kalimantan-barat-himsak-universitas_p/",
+        "waktu_crawl": "2025-12-23 15:20:09",
+        "file_arsip": "arsip_artikel/upb/20251223-economic-accountin-challangeeactahun2025-se-kalimantan-barat-dd8920.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Pengumuman Hasil Akhir Rekrutmen Tenaga Kependidikan Upb 2022",
+        "link": "https://upb.ac.id/pengumuman-hasil-akhir-rekrutmen-tenaga-kependidikan-upb-2022/",
+        "waktu_crawl": "2025-12-23 15:20:08",
+        "file_arsip": "arsip_artikel/upb/20251223-pengumuman-hasil-akhir-rekrutmen-tenaga-kependidikan-upb-202-6d77d8.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Tata Cara Pendaftaran Pembayaran",
+        "link": "https://upb.ac.id/tata-cara-pendaftaran-pembayaran/",
+        "waktu_crawl": "2025-12-23 15:20:06",
+        "file_arsip": "arsip_artikel/upb/20251223-tata-cara-pendaftaran-pembayaran-66a479.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Wisuda Xxxvii Universitas Panca Bhakti Tahun 2025",
+        "link": "https://upb.ac.id/wisuda-xxxvii-universitas-panca-bhakti-tahun-2025/",
+        "waktu_crawl": "2025-12-23 15:20:04",
+        "file_arsip": "arsip_artikel/upb/20251223-wisuda-xxxvii-universitas-panca-bhakti-tahun-2025-7e9ba8.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "Upb Didorong Jadi Pusat Penguatan Ham",
+        "link": "https://upb.ac.id/upb-didorong-jadi-pusat-penguatan-ham/",
+        "waktu_crawl": "2025-12-23 15:20:03",
+        "file_arsip": "arsip_artikel/upb/20251223-upb-didorong-jadi-pusat-penguatan-ham-1b09cb.md"
+    },
+    {
+        "kampus": "UPB",
+        "judul": "11",
+        "link": "https://upb.ac.id/berita/page/11/",
+        "waktu_crawl": "2025-12-23 15:20:02",
+        "file_arsip": "arsip_artikel/upb/20251223-11-988ff4.md"
+    }
+]
