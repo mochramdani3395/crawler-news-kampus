@@ -1,5 +1,6 @@
 import trafilatura
-from trafilatura.sitemaps import sitemap_search
+# Import spesifik untuk menghindari error 'no attribute spider'
+from trafilatura.spider import focused_crawler 
 import json, os, requests, re, hashlib, time, random
 from datetime import datetime
 
@@ -12,11 +13,10 @@ CONFIG = load_config()
 TELEGRAM_TOKEN = CONFIG["telegram_token"]
 TELEGRAM_CHAT_ID = CONFIG["telegram_chat_id"]
 TARGET_KAMPUS = CONFIG["target_kampus"]
-MAX_LINKS = CONFIG.get("max_links_per_run", 5)
+MAX_LINKS = CONFIG.get("max_links_per_run", 3) # Kecil saja agar aman
 DELAY_MIN = CONFIG.get("delay_min", 5)
-DELAY_MAX = CONFIG.get("delay_max", 12)
+DELAY_MAX = CONFIG.get("delay_max", 10)
 
-# Deteksi otomatis path repository untuk link Telegram
 REPO_PATH = os.getenv('GITHUB_REPOSITORY', 'mochramdani3395/crawler-news-kampus')
 REPO_URL = f"https://github.com/{REPO_PATH}/blob/main"
 DB_FILE = "database_artikel.json"
@@ -27,7 +27,7 @@ def slugify(text):
     text = re.sub(r'[^a-z0-9]+', '-', text).strip('-')
     return text[:60]
 
-def save_as_markdown(judul, isi, tanggal, penulis, link, image_url, nama_kampus):
+def save_as_markdown(judul, isi, link, image_url, nama_kampus):
     clean_title = slugify(judul)
     date_prefix = datetime.now().strftime('%Y%m%d')
     unique_id = hashlib.md5(link.encode()).hexdigest()[:6]
@@ -40,13 +40,11 @@ def save_as_markdown(judul, isi, tanggal, penulis, link, image_url, nama_kampus)
     
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"# {judul}\n\n")
-        if image_url and image_url.startswith("http"):
-            f.write(f"![Gambar Utama]({image_url})\n\n")
+        if image_url: f.write(f"![Gambar]({image_url})\n\n")
         f.write(f"- **Kampus:** {nama_kampus}\n")
-        f.write(f"- **Sumber:** {link}\n")
+        f.write(f"- **Sumber Asli:** {link}\n")
         f.write(f"- **Waktu Crawl:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        f.write(f"---\n\n")
-        f.write(isi if isi else "Konten teks tidak berhasil diekstrak.")
+        f.write(f"---\n\n{isi}")
     return f"{slugify(nama_kampus)}/{filename}"
 
 def send_telegram(message):
@@ -55,17 +53,6 @@ def send_telegram(message):
     try: requests.post(url, data=payload, timeout=20)
     except: pass
 
-def get_links(url):
-    """Mencoba mencari link lewat sitemap dahulu, lalu fallback ke crawl biasa"""
-    # 1. Coba lewat sitemap (lebih akurat untuk berita terbaru)
-    links = sitemap_search(url)
-    if not links:
-        # 2. Jika sitemap gagal, gunakan crawler standar
-        downloaded = trafilatura.fetch_url(url)
-        if downloaded:
-            links = trafilatura.spider.utils.extract_links(downloaded, url=url, external=False)
-    return list(set(links)) if links else []
-
 def jalankan_crawler():
     if os.path.exists(DB_FILE):
         with open(DB_FILE, "r", encoding="utf-8") as f: database = json.load(f)
@@ -73,60 +60,55 @@ def jalankan_crawler():
 
     existing_urls = {item['link'] for item in database}
     notif_list = []
-
-    # SHUFFLING: Acak urutan kampus
+    
+    # Shuffle kampus agar acak
     item_kampus = list(TARGET_KAMPUS.items())
     random.shuffle(item_kampus)
 
     for nama_kampus, domain in item_kampus:
-        print(f"Siklus: Mengecek {nama_kampus}...")
+        print(f"Memproses: {nama_kampus}")
         try:
-            links = get_links(domain)
+            # Menggunakan focused_crawler dengan benar
+            links, _ = focused_crawler(domain, max_seen_urls=10)
             
-            # Filter hanya link yang belum pernah di-crawl
-            new_links = [l for l in links if l not in existing_urls]
+            # Filter hanya link yang benar-benar artikel (bukan halaman /berita/ itu sendiri)
+            new_links = [l for l in links if l not in existing_urls and l.rstrip('/') != domain.rstrip('/')]
             
-            # Ambil hanya sebanyak MAX_LINKS terbaru
             for link in new_links[:MAX_LINKS]:
                 time.sleep(random.randint(DELAY_MIN, DELAY_MAX))
-                
                 downloaded = trafilatura.fetch_url(link)
                 if not downloaded: continue
                 
-                result = trafilatura.extract(downloaded, output_format='json', include_comments=False)
+                result = trafilatura.extract(downloaded, output_format='json')
                 if result:
                     data = json.loads(result)
-                    judul = data.get('title') or "Berita Baru"
-                    img = data.get('image')
+                    judul = data.get('title')
+                    # Jika judul gagal diambil, lewati atau cari alternatif
+                    if not judul or len(judul) < 10: continue 
+
+                    rel_path = save_as_markdown(judul, data.get('text', ''), link, data.get('image'), nama_kampus)
                     
-                    rel_path = save_as_markdown(judul, data.get('text', ''), 'N/A', 'Humas', link, img, nama_kampus)
-                    
-                    database.append({
+                    entry = {
                         "kampus": nama_kampus,
                         "judul": judul,
                         "link": link,
                         "waktu_crawl": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                         "file_arsip": f"{BASE_ARCHIVE_FOLDER}/{rel_path}"
-                    })
-                    
-                    github_link = f"{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}"
-                    notif_list.append(f"🔹 [{nama_kampus}] <a href='{github_link}'>{judul}</a>")
+                    }
+                    database.append(entry)
+                    notif_list.append(f"🔹 [{nama_kampus}] <a href='{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}'>{judul}</a>")
                     existing_urls.add(link)
+
         except Exception as e:
-            print(f"Gagal memproses {nama_kampus}: {e}")
+            print(f"Error di {nama_kampus}: {e}")
 
-    # Sorting: Urutkan data berdasarkan waktu crawl terbaru
     database.sort(key=lambda x: x['waktu_crawl'], reverse=True)
-
     with open(DB_FILE, "w", encoding="utf-8") as f:
         json.dump(database, f, indent=4, ensure_ascii=False)
 
     if notif_list:
-        chunk_size = 10
-        for i in range(0, len(notif_list), chunk_size):
-            msg = f"📰 <b>Update Berita Kampus ({i//chunk_size + 1})</b>\n\n" + "\n".join(notif_list[i:i+chunk_size])
-            send_telegram(msg)
-            time.sleep(3)
+        msg = f"📰 <b>{len(notif_list)} Berita Baru!</b>\n\n" + "\n".join(notif_list[:15])
+        send_telegram(msg)
 
 if __name__ == "__main__":
     jalankan_crawler()
