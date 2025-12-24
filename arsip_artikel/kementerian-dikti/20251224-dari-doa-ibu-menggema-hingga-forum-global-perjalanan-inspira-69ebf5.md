@@ -1,0 +1,25 @@
+# Dari Doa Ibu Menggema Hingga Forum Global Perjalanan Inspiratif Bryant Andhika Prayoga
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/dari-doa-ibu-menggema-hingga-forum-global-perjalanan-inspiratif-bryant-andhika-prayoga
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2025-12-24 07:12:26
+
+---
+
+UNDIP, Semarang (16/9) – Tidak semua kisah sukses berawal dari ruang keluarga ilmuwan atau fasilitas berlimpah. Ada yang tumbuh dari kesederhanaan, yaitu dari doa seorang ibu yang siap melepas perhiasannya agar anaknya tetap bisa bersekolah. Dari ruang inilah Bryant Andhika Prayoga, wisudawan S1 Kimia, Departemen Kimia, Fakultas Sains dan Matematika (FSM) Universitas Diponegoro pada Wisuda Periode ke-179 lalu, menapaki jalan panjang menuju panggung dunia.
+Bryant menyelesaikan studinya dalam waktu 3 tahun 9 bulan 29 hari dengan predikat Summa Cum Laude (IPK 3,90). Namun, angka itu hanyalah permukaan dari cerita yang sesungguhnya. Lebih dalam, ia membawa pulang keberanian untuk bermimpi global yang lahir bukan dari kemewahan, melainkan dari tekad yang dipupuk setiap malam di laboratorium sederhana UNDIP.
+Setelah resmi menyandang gelar sarjana, Bryant memilih jalan sebagai peneliti. Ia aktif sebagai Research Assistant bidang bioelektrokimia di UNDIP, sekaligus sempat mengemban amanah sebagai Visiting Researcher di Research School of Chemistry, The Australian National University (ANU), Canberra.
+Di sana, ia belajar langsung dari Prof. Zongyou Yin, ilmuwan kelas dunia yang pernah berkarier di Harvard dan MIT. Dari sosok itu, Bryant memahami bahwa penelitian bukan sekadar tabel data, melainkan latihan ketekunan dan kesabaran.
+Langkahnya kini menapaki fase baru dengan mendaftar program Master/PhD. Nama-nama universitas yang meliriknya bukanlah sembarangan seperti University of Oxford, Stanford University, Imperial College London, University of Vienna, University of Groningen, University of New South Wales (UNSW), Australian National University (ANU), University of Twente hingga University of Technology Sydney. Bagi Bryant, daftar itu bukan sekadar prestise, melainkan simbol bahwa karya dari Semarang bisa bergaung hingga pusat sains dunia.
+Diketahui perjalanan Bryant di UNDIP dipenuhi dengan capaian luar biasa. Ia meraih gelar Juara 1 Mahasiswa Berprestasi Utama Jenjang Sarjana UNDIP 2024, 2nd Runner Up Mahasiswa Berprestasi Nasional, hingga Top 4 PILMAPRES Utama Jenjang Sarjana Tingkat Jawa Tengah 2024.
+Kiprahnya menembus panggung internasional yaitu Gold Medal World Young Inventors Exhibition Malaysia, penghargaan riset dari Universiti Malaysia Sabah, serta Future Research Talent Award 2024 di ANU, sebuah program eksklusif yang hanya diberikan pada segelintir mahasiswa Indonesia.
+Tak hanya itu, ia tampil sebagai Main Speaker TEDx UNDIP 2025, membagikan kisah riset dan mimpi globalnya di kanal resmi TEDx. Ia juga memenangkan sponsorship riset senilai lebih dari Rp400 juta. Semua capaian itu diraih di sela perjalanan akademik yang membawanya hampir menjejakkan kaki di 13 negara di Asia, Australia, hingga Eropa.
+Di balik medali dan penghargaan, Bryant selalu kembali pada nilai-nilai yang ia pegang teguh dan selaras dengan tagline UNDIP Bermartabat dan Bermanfaat. “Bermartabat artinya menjaga integritas, menolak jalan pintas, dan berkompetisi secara jujur. Sementara bermanfaat artinya memastikan bahwa setiap capaian pribadi bisa membuka jalan bagi orang lain,” ujarnya.
+Ketika berbicara di TEDx UNDIP, ia tidak melihat panggung itu sebagai ruang untuk dirinya sendiri, melainkan sebagai sarana menyalakan keberanian mahasiswa lain agar berani bermimpi lebih jauh.
+Bryant percaya bahwa visi UNDIP menuju 500 besar World Class University bukan hanya tugas pimpinan kampus, tetapi juga mahasiswa. Caranya sederhana namun berdampak tentunya dengan menghadirkan nama UNDIP di percakapan akademik global melalui publikasi, konferensi, dan riset kolaboratif.
+“Setiap kali publikasi saya terbit di jurnal internasional atau saya berdiri di forum global, saya tahu nama UNDIP ikut terangkat. Itu kontribusi nyata mahasiswa untuk membawa kampus kita melampaui batas,” kata Bryant.
+Menutup kisahnya, Bryant menitipkan pesan kepada mahasiswa UNDIP untuk tidak membatasi diri pada ruang kelas semata. “Kelas adalah titik awal, bukan titik akhir. Dunia menunggu untuk dijelajahi. Setiap kali kita melangkah keluar, kita membawa bukan hanya nama pribadi, tetapi juga nama UNDIP,” tuturnya.
+“Jangan hanya pandai mencatat materi kuliah, tetapi beranilah mencatat sejarah. Jadilah generasi bermartabat yang menjaga integritas, bermanfaat bagi sekitar, berdampak nyata, dan siap bersaing di panggung global. Dunia tidak menunggu, tetapi dunia selalu terbuka bagi mereka yang berani mengetuk dan UNDIP sudah memberi kunci itu untuk kita,” tutup Bryant.
+Dari kisah Bryant Andhika Prayoga menjadi bukti nyata bahwa semangat UNDIP Bermartabat, UNDIP Bermanfaat, sekaligus mendukung program Diktisaintek Berdampak yang mampu melahirkan generasi unggul yang menjelajah dunia tanpa kehilangan akarnya di Semarang.
