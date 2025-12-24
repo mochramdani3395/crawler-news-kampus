@@ -1,7 +1,7 @@
 import trafilatura
-from trafilatura.spider import focused_crawler
 import json, os, requests, re, hashlib, time, random
 from datetime import datetime
+from urllib.parse import urljoin, urlparse
 
 # --- LOAD CONFIG ---
 def load_config():
@@ -43,14 +43,28 @@ def get_smart_title(data, link):
     return judul if judul else "Artikel Tanpa Judul"
 
 def fetch_tangguh(url):
-    """Mengambil konten dengan requests jika trafilatura diblokir (Error 403)"""
+    """Mengambil konten dengan requests untuk menembus blokir 403"""
     try:
-        response = requests.get(url, headers=HEADERS, timeout=20)
+        response = requests.get(url, headers=HEADERS, timeout=25, verify=True)
         if response.status_code == 200:
             return response.text
     except Exception as e:
-        print(f"  [!] Gagal fetch {url}: {e}")
+        print(f"  [!] Gagal akses {url}: {e}")
     return None
+
+def extract_links_manual(html, base_url):
+    """Fungsi mandiri untuk mengambil link guna menghindari error trafilatura.spider.utils"""
+    links = set()
+    pattern = re.compile(r'href=["\'](https?://[^"\']+|/[^"\']+)["\']')
+    found = pattern.findall(html)
+    domain = urlparse(base_url).netloc
+    
+    for l in found:
+        full_url = urljoin(base_url, l)
+        # Hanya ambil link yang berada di domain yang sama
+        if urlparse(full_url).netloc == domain:
+            links.add(full_url)
+    return list(links)
 
 def save_as_markdown(judul, isi, tanggal, penulis, link, image_url, nama_kampus):
     clean_title = slugify(judul)
@@ -93,17 +107,22 @@ def jalankan_crawler():
     for nama_kampus, domain in item_kampus:
         print(f"Memproses {nama_kampus}...")
         html_index = fetch_tangguh(domain)
-        if not html_index: continue
+        if not html_index:
+            print(f"  [!] Lewati: Gagal ambil index {nama_kampus}")
+            continue
 
-        # Ekstrak link dari halaman index
-        links = trafilatura.spider.utils.extract_links(html_index, url=domain)
-        article_links = [l for l in links if l not in existing_urls and len(l) > len(domain) + 3]
+        # Gunakan fungsi manual untuk menghindari AttributeError
+        links = extract_links_manual(html_index, domain)
+        
+        # Filter link artikel (yang lebih panjang dari link utama)
+        article_links = [l for l in links if l not in existing_urls and len(l) > len(domain.rstrip('/')) + 3]
 
         count = 0
         for link in article_links:
             if count >= MAX_LINKS: break
             time.sleep(random.randint(DELAY_MIN, DELAY_MAX))
             
+            print(f"  > Mengambil: {link}")
             html_article = fetch_tangguh(link)
             if not html_article: continue
             
@@ -112,7 +131,9 @@ def jalankan_crawler():
                 data = json.loads(result)
                 judul = get_smart_title(data, link)
                 isi = data.get('text', '')
-                if len(isi) < 200: continue
+                
+                # Validasi konten agar bukan 'read more'
+                if not isi or len(isi) < 250: continue
 
                 rel_path = save_as_markdown(judul, isi, data.get('date', 'N/A'), data.get('author', 'Humas'), link, data.get('image'), nama_kampus)
                 
@@ -122,14 +143,17 @@ def jalankan_crawler():
                 existing_urls.add(link)
                 count += 1
 
+    # Simpan DB
     with open(DB_FILE, "w", encoding="utf-8") as f:
         json.dump(database, f, indent=4, ensure_ascii=False)
 
+    # Kirim Notif
     if notif_list:
-        # Perbaikan baris yang menyebabkan SyntaxError
-        header_msg = f"<b>{len(notif_list)} Berita Kampus Baru!</b>\n\n"
+        header_msg = f"📰 <b>{len(notif_list)} Berita Kampus Baru!</b>\n\n"
         body_msg = "\n".join(notif_list[:15])
         send_telegram(header_msg + body_msg)
+    else:
+        print("Selesai. Tidak ada berita baru yang valid.")
 
 if __name__ == "__main__":
     jalankan_crawler()
