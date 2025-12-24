@@ -12,7 +12,7 @@ CONFIG = load_config()
 TELEGRAM_TOKEN = CONFIG["telegram_token"]
 TELEGRAM_CHAT_ID = CONFIG["telegram_chat_id"]
 TARGET_KAMPUS = CONFIG["target_kampus"]
-MAX_LINKS = CONFIG.get("max_links_per_run", 40)
+MAX_LINKS = CONFIG.get("max_links_per_run", 3)
 DELAY_MIN = CONFIG.get("delay_min", 5)
 DELAY_MAX = CONFIG.get("delay_max", 12)
 
@@ -21,20 +21,44 @@ BASE_ARCHIVE_FOLDER = "arsip_artikel"
 REPO_PATH = os.getenv('GITHUB_REPOSITORY', 'mochramdani3395/crawler-news-kampus')
 REPO_URL = f"https://github.com/{REPO_PATH}/blob/main"
 
+# Header Penyamaran agar terdeteksi sebagai Browser Google Chrome asli
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Cache-Control': 'no-cache',
+    'Pragma': 'no-cache',
+    'Referer': 'https://www.google.com/'
+}
+
 def slugify(text):
     text = text.lower()
     text = re.sub(r'[^a-z0-9]+', '-', text).strip('-')
     return text[:60]
 
 def get_smart_title(data, link):
-    """Logika Keberhasilan Anda: Ambil judul dari metadata atau URL"""
     judul = data.get('title')
-    # Jika judul default/sampah, ambil dari URL
     if not judul or "berita" in judul.lower() or len(judul) < 10:
         path_segments = [s for s in link.split('/') if s]
         if path_segments:
             judul = path_segments[-1].replace('-', ' ').replace('.html', '').title()
     return judul if judul else "Artikel Tanpa Judul"
+
+def fetch_tangguh(url):
+    """Mencoba mengambil konten web dengan penyamaran browser jika cara biasa gagal"""
+    try:
+        # Coba cara standar trafilatura dulu
+        content = trafilatura.fetch_url(url)
+        if content:
+            return content
+        
+        # Jika gagal (403/404), gunakan requests manual dengan Header Browser
+        response = requests.get(url, headers=HEADERS, timeout=20, verify=True)
+        if response.status_code == 200:
+            return response.text
+    except Exception as e:
+        print(f"  [!] Gagal akses {url}: {e}")
+    return None
 
 def save_as_markdown(judul, isi, tanggal, penulis, link, image_url, nama_kampus):
     clean_title = slugify(judul)
@@ -72,18 +96,21 @@ def jalankan_crawler():
     existing_urls = {item['link'] for item in database}
     notif_list = []
 
-    # BATCHING & SHUFFLING
     item_kampus = list(TARGET_KAMPUS.items())
     random.shuffle(item_kampus)
 
     for nama_kampus, domain in item_kampus:
         print(f"Memproses {nama_kampus}...")
         try:
-            # Mengambil link dari halaman index
-            links, _ = focused_crawler(domain, max_seen_urls=20)
+            # Mengambil daftar link menggunakan penyamaran
+            html_index = fetch_tangguh(domain)
+            if not html_index:
+                print(f"  [!] Skip {nama_kampus}: Tidak bisa akses halaman utama.")
+                continue
+
+            links = trafilatura.spider.utils.extract_links(html_index, url=domain)
             
-            # FILTER KRUSIAL: Link harus lebih panjang dari domain (artinya link detail)
-            # Dan bukan link index itu sendiri
+            # Filter: Harus link detail (bukan index) dan belum pernah ada di DB
             article_links = [
                 l for l in links 
                 if l not in existing_urls 
@@ -94,20 +121,19 @@ def jalankan_crawler():
             for link in article_links:
                 if count >= MAX_LINKS: break
                 
-                print(f"  > Mendownload artikel: {link}")
+                print(f"  > Mendownload: {link}")
                 time.sleep(random.randint(DELAY_MIN, DELAY_MAX))
                 
-                downloaded = trafilatura.fetch_url(link)
-                if not downloaded: continue
+                html_article = fetch_tangguh(link)
+                if not html_article: continue
                 
-                result = trafilatura.extract(downloaded, output_format='json', include_comments=False)
+                result = trafilatura.extract(html_article, output_format='json')
                 if result:
                     data = json.loads(result)
                     judul = get_smart_title(data, link)
                     isi = data.get('text', '')
 
-                    # Validasi: Jika isi terlalu pendek, kemungkinan gagal ekstrak
-                    if len(isi) < 150: continue
+                    if len(isi) < 200: continue # Hindari konten sampah/read more
 
                     rel_path = save_as_markdown(
                         judul, isi, data.get('date', 'N/A'), 
@@ -120,19 +146,17 @@ def jalankan_crawler():
                         "waktu_crawl": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                     })
                     
-                    notif_list.append(f"🔹 [{nama_kampus}] <a href='{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}'>{judul}</a>")
+                    github_link = f"{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}"
+                    notif_list.append(f"🔹 [{nama_kampus}] <a href='{github_link}'>{judul}</a>")
                     existing_urls.add(link)
                     count += 1
         except Exception as e:
             print(f"Error pada {nama_kampus}: {e}")
 
-    # Simpan DB & Kirim Notif (sama seperti sebelumnya)
+    # Simpan Database
     with open(DB_FILE, "w", encoding="utf-8") as f:
         json.dump(database, f, indent=4, ensure_ascii=False)
 
+    # Kirim Notifikasi
     if notif_list:
-        msg = f"📰 <b>{len(notif_list)} Berita Kampus Baru!</b>\n\n" + "\n".join(notif_list[:15])
-        send_telegram(msg)
-
-if __name__ == "__main__":
-    jalankan_crawler()
+        msg = f"📰 <b>{len(notif_list)} Berita Kamp
