@@ -1614,5 +1614,23 @@
         "judul": "Lecturer Performance Score",
         "link": "https://sevima.com/tag/lecturer-performance-score/",
         "waktu_crawl": "2025-12-30 12:27:10"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Jurusan Kuliah",
+        "link": "https://sevima.com/tag/jurusan-kuliah/",
+        "waktu_crawl": "2025-12-31 04:32:20"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Poltekkes Jakarta",
+        "link": "https://sevima.com/tag/poltekkes-jakarta/",
+        "waktu_crawl": "2025-12-31 04:32:50"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Ikest Muhammadiyah Palembang",
+        "link": "https://sevima.com/tag/ikest-muhammadiyah-palembang/",
+        "waktu_crawl": "2025-12-31 04:32:58"
     }
 ]
