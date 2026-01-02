@@ -1728,5 +1728,35 @@
         "judul": "News?Page=1085&Amp;Size=5&Amp;Search=",
         "link": "https://kemdiktisaintek.go.id/news?page=1085&amp;size=5&amp;search=",
         "waktu_crawl": "2026-01-02 04:34:30"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Universitas Sebelas Maret",
+        "link": "https://sevima.com/tag/universitas-sebelas-maret/",
+        "waktu_crawl": "2026-01-02 08:18:37"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Penerimaan Mahasiswa Baru",
+        "link": "https://sevima.com/tag/penerimaan-mahasiswa-baru/",
+        "waktu_crawl": "2026-01-02 08:18:45"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Tips Interview",
+        "link": "https://sevima.com/tag/tips-interview/",
+        "waktu_crawl": "2026-01-02 08:19:41"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Majalah Sevima",
+        "link": "https://sevima.com/tag/majalah-sevima/",
+        "waktu_crawl": "2026-01-02 08:19:48"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Outcome Based Education",
+        "link": "https://sevima.com/tag/outcome-based-education/",
+        "waktu_crawl": "2026-01-02 08:19:56"
     }
 ]

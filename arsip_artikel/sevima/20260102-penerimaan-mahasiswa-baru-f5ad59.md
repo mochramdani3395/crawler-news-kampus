@@ -1,0 +1,14 @@
+# Penerimaan Mahasiswa Baru
+
+- **Kampus:** Sevima
+- **Sumber:** https://sevima.com/tag/penerimaan-mahasiswa-baru/
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-01-02 08:18:45
+
+---
+
+Dunia Kampus • 17 Feb 2025
+Mengenal Marketing Funnel & Flywheel untuk Tingkatkan Penerimaan Mahasiswa Baru di Kampus
+SEVIMA.COM – Setiap tahun, perguruan tinggi di seluruh Indonesia menghadapi tantangan dalam menarik dan mempertahankan calon mahasiswa baru. Persaingan antar kampus semakin ketat, terutama dengan semakin berkembangnya pilihan pendidikan online dan kampus luar negeri yang menawarkan program menarik. Menurut Qausya Faviandhani, S.E., M.M., pakar marketing pendidikan tinggi sekaligus Direktur Marketing Universitas Narotama Surabaya, strategi pemasaran […]
+Liza SEVIMA
