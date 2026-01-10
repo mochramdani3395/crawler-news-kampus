@@ -1,0 +1,23 @@
+# Perkuat Kolaborasi Riset Dan Industri Indonesiajepang Ditjen Risbang Lanjutkan Diskusi Strategis Bersama Nedo Dan Toyota Di Itb
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/perkuat-kolaborasi-riset-dan-industri-indonesiajepang-ditjen-risbang-lanjutkan-diskusi-strategis-bersama-nedo-dan-toyota-di-itb
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-01-10 04:28:19
+
+---
+
+Bandung, Kamis (8/1/2026) — Direktorat Jenderal Riset dan Pengembangan, Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) memperkuat kemitraan riset dan industri Indonesia–Jepang melalui diskusi strategis bersama New Energy and Industrial Technology Development Organization (NEDO) dan Toyota di Institut Teknologi Bandung (ITB). Forum ini difokuskan untuk mempercepat kolaborasi riset yang lebih aplikatif di bidang biofuel dan energi berkelanjutan, sejalan dengan agenda transisi energi dan penguatan daya saing industri nasional.
+Diskusi digelar dalam format dialog terbuka yang mempertemukan pemerintah, perguruan tinggi, lembaga riset, dan industri. Pembahasan mencakup pengembangan Sustainable Aviation Fuel (SAF), bioetanol generasi kedua berbasis limbah biomassa, serta kesiapan teknologi kendaraan multi-pathway seperti flex-fuel, hybrid, dan teknologi rendah emisi lainnya.
+Sebagai pembuka diskusi, Direktur Jenderal Riset dan Pengembangan, Fauzan Adziman, menyampaikan bahwa rangkaian pertemuan ini diarahkan untuk mendorong lahirnya proyek percontohan kolaboratif yang terfokus dan berdampak. Pemerintah menargetkan peluncuran sejumlah proyek kunci dalam waktu relatif singkat dengan memanfaatkan kapasitas terbaik dari institusi di Indonesia dan Jepang.
+Menurutnya, hubungan yang telah terbangun kuat antara ITB dan Toyota menjadi salah satu modal utama dalam pengembangan kolaborasi riset jangka panjang. Dirjen Fauzan juga menekankan pentingnya membangun kemitraan Indonesia-Jepang dalam kerangka jangka panjang, sejalan dengan visi penguatan ekosistem riset dan inovasi hingga satu dekade ke depan, fokus kerja sama ini diarahkan pada bidang-bidang strategis, termasuk biofuel dan teknologi berkelanjutan, selaras dengan prioritas riset NEDO saat ini.
+“Peran kami adalah memastikan kolaborasi yang sudah kuat ini dapat dipecepat melalui dukungan kebijakan dan program, sehingga hasil riset dapat segera diimplementasikan dan memberi dampak luas,” ujarnya.
+Dari sisi perguruan tinggi, Rektor ITB Tatacipta Dirgantara menyampaikan bahwa kolaborasi Indonesia–Jepang berangkat dari kolaborasi akademik jangka panjang yang kini diperkuat melalui kerja sama riset berkelanjutan.
+“Energi ramah lingkungan adalah arah pengembangan energi global, dan kolaborasi lintas negara, industri, perguruan tinggi, serta pemerintah menjadi kunci agar riset memberi manfaat nyata bagi generasi mendatang,” tuturnya. Ia juga mencontohkan pengembangan pabrik katalis biofuel bersama Pertamina sebagai wujud riset yang diarahkan pada implementasi dan kebutuhan energi masa depan.
+Direktur Eksekutif NEDO Kikuo Kishimoto menilai pertemuan ini produktif dan menegaskan komitmen Jepang untuk berbagi pengetahuan teknologi guna mendukung pembangunan Indonesia, sekaligus membangun kolaborasi dua arah yang berkelanjutan dan berdampak positif bagi kedua negara.
+“Kami ingin membangun kolaborasi yang tidak hanya berbagi teknologi, tetapi juga tumbuh bersama untuk menghadapi tantangan masa depan,” ungkapnya.
+Sejalan dengan itu, Wakil Presiden Direktur PT Toyota Motor Manufacturing Indonesia Bob Azam menilai diskusi ini membuka peluang kerja sama konkret antara industri, perguruan tinggi, dan pemerintah. Toyota melihat potensi besar Indonesia dalam pengembangan energi baru dan berharap kolaborasi ini segera diwujudkan dalam program nyata.
+“Kerja sama ini penting untuk mendorong riset yang aplikatif sekaligus memperkuat daya saing industri nasional,” jelasnya.
+Sebagai bagian dari rangkaian kegiatan, delegasi juga melakukan kunjungan ke sejumlah fasilitas riset dan laboratorium di lingkungan ITB untuk melihat secara langsung kapasitas infrastruktur, aktivitas penelitian, serta dukungan ekosistem riset dalam pengembangan dan hilirisasi inovasi sains dan teknologi.
+Forum ini menegaskan komitmen Indonesia–Jepang untuk memperkuat kolaborasi riset dan industri yang berkelanjutan, mendorong transfer pengetahuan dan teknologi, serta mendukung transformasi riset nasional agar semakin aplikatif dan berdampak dalam mendukung transisi menuju ekonomi hijau dan pembangunan berkelanjutan.
