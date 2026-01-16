@@ -2166,5 +2166,23 @@
         "judul": "Uji Kompetensi",
         "link": "https://sevima.com/tag/uji-kompetensi/",
         "waktu_crawl": "2026-01-15 08:22:05"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Taklimat Presiden 2026 Tegaskan Peran Pendidikan Tinggi Dan Sains Untuk Kebangkitan Indonesia",
+        "link": "https://kemdiktisaintek.go.id/news/article/taklimat-presiden-2026-tegaskan-peran-pendidikan-tinggi-dan-sains-untuk-kebangkitan-indonesia",
+        "waktu_crawl": "2026-01-16 08:18:56"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Stkip Bandar Lampung",
+        "link": "https://sevima.com/tag/stkip-bandar-lampung/",
+        "waktu_crawl": "2026-01-16 08:19:44"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Rekognisi Pembelajaran Lampau",
+        "link": "https://sevima.com/tag/rekognisi-pembelajaran-lampau/",
+        "waktu_crawl": "2026-01-16 08:20:03"
     }
 ]
