@@ -2184,5 +2184,17 @@
         "judul": "Rekognisi Pembelajaran Lampau",
         "link": "https://sevima.com/tag/rekognisi-pembelajaran-lampau/",
         "waktu_crawl": "2026-01-16 08:20:03"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Penjadwalan Kelompok",
+        "link": "https://sevima.com/tag/penjadwalan-kelompok/",
+        "waktu_crawl": "2026-01-17 08:16:07"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Politeknik Raflesia",
+        "link": "https://sevima.com/tag/politeknik-raflesia/",
+        "waktu_crawl": "2026-01-17 08:16:56"
     }
 ]
