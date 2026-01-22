@@ -2322,5 +2322,17 @@
         "judul": "Permendikbudristek",
         "link": "https://sevima.com/tag/permendikbudristek/",
         "waktu_crawl": "2026-01-22 08:22:16"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "News?Page=1101&Amp;Size=5&Amp;Search=",
+        "link": "https://kemdiktisaintek.go.id/news?page=1101&amp;size=5&amp;search=",
+        "waktu_crawl": "2026-01-22 12:28:45"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Unit Layanan Disabilitas Sebagai Pilar Kesetaraan Di Perguruan Tinggi Langkah Nyata Menuju Kampus Inklusif",
+        "link": "https://kemdiktisaintek.go.id/news/article/unit-layanan-disabilitas-sebagai-pilar-kesetaraan-di-perguruan-tinggi-langkah-nyata-menuju-kampus-inklusif",
+        "waktu_crawl": "2026-01-22 12:28:50"
     }
 ]
