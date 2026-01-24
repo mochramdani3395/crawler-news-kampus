@@ -2352,5 +2352,17 @@
         "judul": "Stikes Kendedes",
         "link": "https://sevima.com/tag/stikes-kendedes/",
         "waktu_crawl": "2026-01-23 08:19:46"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Stikes Widyagama",
+        "link": "https://sevima.com/tag/stikes-widyagama/",
+        "waktu_crawl": "2026-01-24 08:16:35"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Teknologi Informasi",
+        "link": "https://sevima.com/tag/teknologi-informasi/",
+        "waktu_crawl": "2026-01-24 08:17:34"
     }
 ]
