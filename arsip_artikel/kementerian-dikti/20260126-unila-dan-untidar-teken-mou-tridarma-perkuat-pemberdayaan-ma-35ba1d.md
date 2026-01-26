@@ -1,0 +1,20 @@
+# Unila Dan Untidar Teken Mou Tridarma Perkuat Pemberdayaan Mahasiswa
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/unila-dan-untidar-teken-mou-tridarma-perkuat-pemberdayaan-mahasiswa
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-01-26 04:49:55
+
+---
+
+(Unila): Universitas Lampung (Unila) dan Universitas Tidar (Untidar) secara resmi menandatangani nota kesepahaman (Memorandum of Understanding/MoU) tentang Pelaksanaan Tridarma Perguruan Tinggi, Kamis, 22 Januari 2026, di ruang sidang utama kampus setempat. Penandatanganan MoU ini dihadiri jajaran pimpinan dari kedua perguruan tinggi sebagai wujud komitmen bersama dalam memperkuat kolaborasi di bidang pendidikan, penelitian, dan pengabdian kepada masyarakat.
+MoU ditandatangani Rektor Unila Prof. Dr. Ir. Lusmeilia Afriani, D.E.A., IPM., ASEAN Eng., dan Rektor Universitas Tidar, Prof. Dr. Sugiyarto, M.Si. Kerja sama ini berlaku selama lima tahun dan dapat diperpanjang sesuai kesepakatan para pihak. Prof. Lusmeilia Afriani dalam sambutannya menyampaikan, MoU ini menjadi landasan strategis untuk memperkuat sinergi antarperguruan tinggi negeri dalam meningkatkan mutu tata kelola, akademik, serta kontribusi nyata bagi masyarakat.
+“Kerja sama ini bukan sekadar penandatanganan dokumen, tetapi komitmen untuk menghadirkan program-program konkret yang berdampak langsung bagi dosen, mahasiswa, dan masyarakat. Unila terbuka untuk berbagi praktik baik, sekaligus belajar bersama Untidar dalam semangat kolaborasi dan kesetaraan,” ujarnya.
+Ia menambahkan, implementasi MoU akan ditindaklanjuti melalui Perjanjian Kerja Sama (PKS) dan Implementation Arrangement (IA) yang lebih spesifik, termasuk di bidang pengelolaan data, penguatan sumber daya manusia, serta pengembangan kemahasiswaan. Sementara itu, Prof. Sugiyarto menuturkan, penandatanganan MoU ini memiliki makna emosional dan historis bagi Untidar.
+Kunjungan ke Unila diawali dengan niat untuk bersilaturahmi dan memberikan penghormatan kepada almarhum Prof. John Hendri, tokoh Unila yang pernah berperan penting sebagai Pelaksana Tugas Rektor Untidar pada masa krisis kepemimpinan tahun 2018.
+“Kami datang dengan niat belajar menghargai jasa para tokoh yang telah berkontribusi bagi kemajuan institusi kami. Alhamdulillah, dari niat silaturahmi dan takziah ini, Allah subhanahu wa taala mempertemukan kami dengan momentum yang lebih besar, yaitu penandatanganan MoU antara Untidar dan Unila,” ungkap Prof. Sugiyarto.
+Ia juga menyampaikan, Untidar sebagai perguruan tinggi negeri yang relatif muda beralih status menjadi PTN pada 2014 masih berada pada fase pertumbuhan dan sangat terbuka untuk belajar dari Unila, khususnya dalam pengelolaan data dan informasi, tata kelola PD Dikti, serta pengembangan prestasi dan pemberdayaan mahasiswa.
+“Kami menyadari di era saat ini, kemajuan perguruan tinggi dan bangsa sangat ditentukan oleh kualitas pengelolaan informasi. Melalui kerja sama ini, kami berharap dapat belajar banyak dari Unila dalam manajemen data, sistem informasi, dan penguatan bidang kemahasiswaan,” jelasnya.
+Melalui MoU ini, kedua perguruan tinggi berkomitmen untuk menghasilkan berbagai outcome nyata, antara lain peningkatan kualitas pendidikan dan pembelajaran melalui pertukaran praktik baik, kolaborasi penelitian yang relevan dengan kebutuhan pembangunan daerah dan nasional, penguatan kapasitas dosen dan tenaga kependidikan, serta pengembangan prestasi dan pemberdayaan mahasiswa melalui program kemahasiswaan bersama.
+Dampak kerja sama ini diharapkan tidak hanya dirasakan oleh sivitas akademika Unila dan Untidar, tetapi juga oleh masyarakat luas, melalui program pengabdian kepada masyarakat yang lebih terarah, berbasis riset, dan berkelanjutan. Acara ditutup dengan penandatanganan nota kesepahaman oleh kedua Rektor, yang menandai langkah baru kolaborasi strategis antara Unila dan Untidar dalam upaya memberikan kontribusi terbaik bagi pengembangan ilmu pengetahuan, peningkatan kualitas sumber daya manusia, dan kemajuan bangsa Indonesia. [Humas]
