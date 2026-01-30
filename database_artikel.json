@@ -2604,5 +2604,17 @@
         "judul": "Rumah Sakit Unhas Perkuat Layanan Kesehatan Nasional",
         "link": "https://kemdiktisaintek.go.id/news/article/rumah-sakit-unhas-perkuat-layanan-kesehatan-nasional",
         "waktu_crawl": "2026-01-29 12:34:40"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Stt Duta Bangsa",
+        "link": "https://sevima.com/tag/stt-duta-bangsa/",
+        "waktu_crawl": "2026-01-30 08:27:37"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Universitas Bina Darma",
+        "link": "https://sevima.com/tag/universitas-bina-darma/",
+        "waktu_crawl": "2026-01-30 08:28:14"
     }
 ]
