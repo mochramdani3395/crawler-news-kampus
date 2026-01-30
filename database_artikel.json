@@ -2616,5 +2616,17 @@
         "judul": "Universitas Bina Darma",
         "link": "https://sevima.com/tag/universitas-bina-darma/",
         "waktu_crawl": "2026-01-30 08:28:14"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Kemdiktisaintek Perkuat Peran Kampus Dalam Mendukung Transformasi Ekonomi Digital",
+        "link": "https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-perkuat-peran-kampus-dalam-mendukung-transformasi-ekonomi-digital",
+        "waktu_crawl": "2026-01-30 12:34:51"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "News?Page=1107&Amp;Size=5&Amp;Search=",
+        "link": "https://kemdiktisaintek.go.id/news?page=1107&amp;size=5&amp;search=",
+        "waktu_crawl": "2026-01-30 12:35:06"
     }
 ]
