@@ -1,0 +1,22 @@
+# Indonesia Semiconductor Summit 2026 Dorong Sinergi Nasionalglobal Penguatan Ekosistem Semikonduktor
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/indonesia-semiconductor-summit-2026-dorong-sinergi-nasionalglobal-penguatan-ekosistem-semikonduktor
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-01-31 12:28:08
+
+---
+
+Bandung – Di tengah meningkatnya kompetisi global terkait rantai pasok semikonduktor, Indonesia mempertegas langkah strategis melalui Indonesia Semiconductor Summit (ISS) 2026 yang diselenggarakan Indonesia Chip Design Collaborative Center (ICDeC) pada 29–30 Januari 2026 di ITB Innovation Park, Gedebage, Kota Bandung.
+Forum ini mempertemukan pemerintah, perguruan tinggi, industri, serta mitra internasional untuk memperkuat ekosistem semikonduktor nasional dan konektivitasnya dengan rantai nilai global.
+Sebagai salah satu keynote, Direktur Jenderal Riset dan Pengembangan (Dirjen Risbang) Kemdiktisaintek Fauzan Adziman menyampaikan pentingnya kolaborasi lintas-heliks (pemerintah–kampus–industri) agar riset dan pengembangan dapat terhubung pada kebutuhan nyata industri, percepatan adopsi teknologi, dan penguatan rantai pasok nasional.
+Dirjen Fauzan menekankan bahwa talenta menjadi prasyarat utama bagi kedaulatan dan daya saing ekosistem semikonduktor. Ia menyoroti besarnya potensi suplai SDM Indonesia (total sekitar 9.967.487 mahasiswa, 4.416 perguruan tinggi/institusi, serta 303.067 akademisi), sekaligus menegaskan perlunya penataan pengembangan talenta supaya mengambil peran untuk lebih fokus pada bidang-bidang kunci yang selaras dengan kebutuhan industri.
+“Berbagai peran dalam ekosistem semikonduktor itu mencakup desain, fabrikasi, assembly, packaging, hingga testing,” tuturnya.
+Hal senada disampaikan Menteri Perindustrian (Menperin) Agus Gumiwang Kartasasmita yang membuka rangkaian agenda ISS 2026. Ia menyampaikan bahwa semikonduktor merupakan industri strategis yang menentukan ketahanan rantai pasok dan daya saing lintas sektor. Pemerintah mendorong penguatan fondasi ekosistem dari hulu ke hilir, termasuk pengembangan kapasitas desain, peningkatan kesiapan industri, serta penguatan peran Indonesia dalam rantai nilai global.
+“Pengembangan industri semikonduktor nasional tidak bisa dilakukan secara instan, hal ini perlu ditempuh melalui pendekatan bertahap dengan menempatkan pengembangan talenta dan desain chip sebagai langkah utama pada tahap awal,” tutur Menperin Agus.
+Wakil Menteri Luar Negeri Arif Havas Oegroseno menyampaikan semikonduktor berada pada posisi strategis global yang terkait langsung dengan dinamika geopolitik dan kompetisi teknologi. Ia mendorong Indonesia memperkuat pijakan melalui pengembangan kemampuan desain sebagai pintu masuk akselerasi yang realistis, sekaligus memperluas kerja sama internasional untuk memperkuat kapasitas SDM dan akses ekosistem pendukung.
+Dalam sambutannya, Rektor ITB Tatacipta Dirgantara menegaskan pembangunan industri semikonduktor nasional tidak bisa ditopang satu institusi. Diperlukan kolaborasi lintas sektor berkelanjutan agar riset, infrastruktur, dan pengembangan talenta bergerak searah dengan kebutuhan industri serta strategi pembangunan nasional.
+Ketua ICDeC Trio Adiono menyampaikan terdapat tiga modal Indonesia dalam semikonduktor, yakni material, talenta, dan pasar, yang perlu dipadukan melalui strategi kolaborasi agar Indonesia dapat masuk lebih dalam ke rantai nilai global.
+ISS 2026 juga menghadirkan pembicara dari berbagai mitra dan pemangku kepentingan di antaranya Economic Research Institute for ASEAN and East Asia (ERIA), Asian Development Bank (ADB), Polytron, dan Danantara Indonesia. Momen ini memperkaya perspektif mengenai aspek pembiayaan, penguatan rantai pasok, pengembangan talenta, transfer teknologi, serta praktik baik penguatan ekosistem semikonduktor.
+Di akhir sesi, Dirjen Risbang mengajak seluruh pihak memperkuat kolaborasi untuk membangun talenta, meningkatkan kualitas serta fokus riset dan pengembangan, serta menguatkan keterkaitan industri agar inovasi dapat cepat terhubung dengan kebutuhan pasar dan strategi industrialisasi nasional. Kolaborasi yang terstruktur dinilai krusial agar Indonesia tidak hanya menjadi pasar, tetapi juga pemain yang memiliki kapasitas desain, pengembangan, dan produk semikonduktor bernilai tambah.
