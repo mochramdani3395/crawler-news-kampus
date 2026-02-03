@@ -1,0 +1,16 @@
+# Untirta Berpartisipasi Dalam Kkm Kemanusiaan Kolaborasi Empat Perguruan Tinggi Di Aceh Tamiang
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/untirta-berpartisipasi-dalam-kkm-kemanusiaan-kolaborasi-empat-perguruan-tinggi-di-aceh-tamiang
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-02-03 08:28:26
+
+---
+
+LPPM UNTIRTA (9 Januari 2026) – Universitas Sultan Ageng Tirtayasa (UNTIRTA) mengambil bagian dalam kegiatan Kuliah Kerja Mahasiswa (KKM) Kemanusiaan Kolaborasi Empat Perguruan Tinggi sebagai bentuk komitmen nyata dalam pelaksanaan pengabdian kepada masyarakat pascabencana. Kegiatan ini diawali dengan pembekalan mahasiswa peserta KKM yang diselenggarakan oleh Universitas Samudra (Unsam) di Gedung Multiguna Universitas Samudra, Aceh Tamiang, pada Jumat (9/1).
+Pembekalan tersebut diikuti oleh mahasiswa serta perwakilan perguruan tinggi peserta, termasuk Lembaga Penelitian dan Pengabdian kepada Masyarakat (LPPM) UNTIRTA yang dipimpin oleh Prof. Dr. Meutia, S.E., M.P. selaku Kepala LPPM UNTIRTA. Kegiatan ini bertujuan untuk memastikan kesiapan mahasiswa dalam melaksanakan KKM Kemanusiaan secara kolaboratif, terstruktur, dan selaras dengan kebutuhan riil masyarakat di wilayah terdampak bencana.
+Program KKM Kemanusiaan Kolaborasi merupakan bentuk kerja sama lintas perguruan tinggi yang melibatkan Universitas Sultan Ageng Tirtayasa (UNTIRTA), Universitas Samudra (Unsam), Universitas Negeri Yogyakarta (UNY), dan Universitas Pembangunan Nasional “Veteran” Jakarta (UPNVJ). Program ini dirancang sebagai sarana pembelajaran kontekstual bagi mahasiswa untuk mengembangkan kompetensi akademik, kepedulian sosial, serta pengalaman kerja lintas disiplin dan lintas institusi.
+Dalam pelaksanaan program ini, UNTIRTA mengirimkan lima mahasiswa yang akan bergabung dengan mahasiswa dari perguruan tinggi mitra. Secara keseluruhan, KKM Kemanusiaan Kolaborasi melibatkan 241 mahasiswa Universitas Samudra, 110 mahasiswa Universitas Negeri Yogyakarta, 15–25 mahasiswa UPN “Veteran” Jakarta, serta mahasiswa UNTIRTA yang akan bekerja secara terpadu dalam mendukung upaya pemulihan masyarakat.
+Kegiatan KKM Kemanusiaan Kolaborasi direncanakan berlangsung selama satu bulan, mulai 10 Januari hingga 10 Februari 2026, dengan lokasi penugasan di Kabupaten Aceh Tamiang. Wilayah sasaran meliputi Kecamatan Manyak Payed (9 desa), Kecamatan Bendahara (10 desa), dan Kecamatan Karang Baru (5 desa). Setiap desa akan ditempati sekitar 15 mahasiswa dari berbagai perguruan tinggi yang bekerja secara kolaboratif.
+Keikutsertaan Universitas Sultan Ageng Tirtayasa dalam program ini menegaskan komitmen institusi dalam menjalankan Tri Dharma Perguruan Tinggi, khususnya pada aspek pengabdian kepada masyarakat. Melalui KKM Kemanusiaan Kolaborasi, UNTIRTA mendorong mahasiswa untuk berperan aktif sebagai agen perubahan yang memiliki kepedulian sosial, tanggung jawab kemanusiaan, serta semangat gotong royong dan kolaborasi antarperguruan tinggi.
