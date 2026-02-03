@@ -1,0 +1,24 @@
+# Ini Dia 5 Rekomendasi Strategis Catatan Kaki Dari Forum Dekan Aipki
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/ini-dia-5-rekomendasi-strategis-catatan-kaki-dari-forum-dekan-aipki
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-02-03 05:11:18
+
+---
+
+Masih dari Forum Dekan Asosiasi Institusi Pendidikan Kedokteran Indonesia (AIPKI), dan inilah sisik-meliknya.
+Berpacu dengan waktu untuk memperkuat ekosistem pendidikan spesialis kedokteran di Indonesia, Forum Dekan Asosiasi Institusi Pendidikan Kedokteran Indonesia (AIPKI) menggelar tiga parallel session (sesi diskusi paralel) dengan tema Kebijakan Pengembangan Pendidikan Kedokteran, di Sorong, Papua Barat Daya (31/1).
+Parallel Session I fokus pada penguatan pembinaan penyelenggaraan Progam Pendidikan Dokter Spesialis (PPDS) yang baru, serta pengembangan subspesialis dan prioritas pendidikan lanjutan. Topik yang dibahas meliputi pembinaan dan pendampingan prodi PPDS baru, termasuk insentif pembinaan dan faculty development.
+Dilanjutkan dengan pengembangan subspesialis dan prioritas prodi spesialis baru (termasuk pendidikan lanjutan dan rekognisi pembelajaran lampau atau RPL), pendampingan (deployment) oleh residen senior, seleksi bersama PPDS, uji kompetensi nasional melalui tim ad hoc, koordinasi dan integrasi sistem pendidikan kesehatan melalui Academic Health System (AHS), serta kebijakan pada rumah sakit pendidikan sebagai penyelenggara utama (RSPPU).
+Pada parallel session II pembahasan meliputi persiapan prodi PPDS dan peningkatan sistem pendidikan kedokteran. Adapun detil pembahasan meliputi persiapan prodi PPDS dan akreditasi, prosedur penyelenggaraan prodi pencangkokan, rekognisi pembelajaran lampau (RPL) dan pendidikan lanjutan dosen prodi spesialis. Juga dibahas mekanisme seleksi (afirmasi dan distribusi), uang kuliah tunggal PPDS dan kebijakan beasiswa, serta revitalisasi rumah sakit perguruan tinggi negeri (RSPTN) untuk penguatan sistem kesehatan akademik.
+Sedangkan pada parallel session III pembahasan difokuskan pada kebijakan kuota mahasiswa baru, standar nasional pendidikan tinggi tenaga medis, dan strategi peningkatan kinerja kelulusan. Termasuk dibahas secara granular peraturan menteri mengenai kuota mahasiswa baru untuk fakultas kedokteran, rancangan peraturan menteri tentang standar nasional Pendidikan Tinggi Tenaga Medis, pembinaan untuk peningkatan kinerja kelulusan, serta kajian penguatan kebijakan berbasis kajian (evidence-based policy) pada sistem kesehatan akademik di Indonesia.
+Keseluruhan parallel session ini pada gilirannya menelurkan 5 rekomendasi strategis sebagai implementasi praktik baik dan langkah konkret guna memperkuat dan meningkatkan mutu pendidikan kedokteran di Indonesia.
+5 Rekomendasi Strategis
+Dan berikut ini adalah poin-poin utama dari 5 rekomendasi tersebut. Pertama, mendorong percepatan pembukaan program studi baru dokter spesialis dan subspesialis guna mendukung Program Asta Cita Presiden Prabowo Subianto. Khususnya dalam menjamin pemerataan distribusi layanan kesehatan di seluruh Indonesia dengan tetap menjaga mutu pendidikan.
+Kedua, Asosiasi Institusi Pendidikan Kedokteran Indonesia (AIPKI) akan terlibat aktif dalam upaya pendirian program Rumah Sakit Pendidikan Penyelenggara Utama (RSPPU) dengan mengacu pada ketentuan pendirian program studi yang telah ditetapkan oleh Kementerian Pendidikan Tinggi, Sains, dan Teknologi.
+Ketiga, AIPKI siap menjalankan program pendampingan (deployment) Peserta Program Pendidikan Dokter Spesialis (PPDS) senior ke daerah Tertinggal, Terdepan, dan Terluar (3T) di Indonesia. Hal ini dimaksudkan untuk memenuhi capaian kompetensi pendidikan sekaligus memberikan pelayanan spesialis dan subspesialis kepada masyarakat secara luas.
+Keempat, mendorong implementasi Putusan Mahkamah Konstitusi Nomor 111/PUU-XXII/2024 dengan tetap memperhatikan keberlanjutan (sustainability) pendidikan kedokteran.
+Dan kelima, mendorong pendidikan dokter spesialis dan subspesialis agar memperoleh dukungan pembiayaan melalui berbagai skema beasiswa, seperti LPDP dan sumber pendanaan lainnya.
+Lima rekomendasi ini akan dilaksanakan secara seksama dan dalam tempo yang sesingkat-singkatnya, yang sekaligus menggarisbawahi peta jalan pengembangan pendidikan kedokteran di Indonesia. Seperti yang disitir oleh Dirjen Pendidikan Tinggi (Dirjen Dikti) Kemdiktisaintek Khairul Munadi sehari sebelum pelaksanaan parallel session, pendidikan kedokteran tidak hanya diarahkan untuk menghasilkan lulusan yang kompeten secara akademik dan klinis, tetapi juga berorientasi pada kebutuhan nyata masyarakat dan pemerataan layanan kesehatan nasional.
