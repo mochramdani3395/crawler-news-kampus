@@ -1,0 +1,21 @@
+# Audiensi Aptisi Pt Surge Dengan Pak Sesjen Kemendiktisaintek 29 01 2026
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/audiensi-aptisi-pt-surge-dengan-pak-sesjen-kemendiktisaintek-29-01-2026
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-02-05 05:14:48
+
+---
+
+Sekretaris Jenderal Kementerian Pendidikan Tinggi, Sain dan Teknologi, Prof Togar Mangihut Simatupang, pada hari Kamis 29 Januari 2026, di ruang meeting Kantor Sekretariat JenderalKemendiktisaintek, menerima audiensi pimpinan APTISI danmitra strategis APTISI (Asosiasi Perguruan Tinggi SwastaIndonesia) yakni PT Surge (Solusi Sinergi Digital serta APJII (Asosiasi Penyedia Jasa Internet Indonesia. Dalam audiensitersebut APTISI dan mitranya mendiskusikan agenda 1) percepatan peningkatan mutu pendidikan tinggi khususnya PTS dan 2) penyediaan akses pendidikan tinggi untuk kalanganmasyarakat yang kurang mampu. Disamping agenda tersebut, APTISI yang telah bersinergi dengan PT Surge dan AIPJIImenyatakan kesiapannya untuk berkontribusi aktifmensukseskan kebijakan DIKTISAINTEK BERDAMPAK. APTISI dan mitra akan bersinergi dengan Kementerian untuk mengakselerasi peningkatan APK pendidikan tinggi yang inklusif yang akan dilayani oleh lebih dari 2.500 PTS dan layanan internet yang terjangkau yang disediakan oleh mitraAPTISI.
+Dalam audiensi tersebut Prof. Togar menyampaikan arahanterkait pergeseran paradigma pendidikan tinggi dan konseppembelajaran sepanjang hayat (life-long learning). Beliaumenyampaikan dalam sistem pendidikan tinggi, perguruantinggi dituntut untuk mempersiapkan lulusannya agar dapat beradaptasi. Dalam konteks adaptasi terhadap kebutuhanindustri, Prof Togar menyebutkan bahwa PTS harusmenyediakan layanan yang memiliki empat dimensi, yang dirancang untuk mempersiapkan individu menjadi profesionalyang handal. Dimensi-dimensi tersebut meliputi:
+1. Mikroprofesional: Persiapan untuk memasuki karir baru, mengakselerasi karir, atau bahkan mengubah karir.
+2. Mikroekstra: Peluang belajar hal-hal baru yang sesuaidengan tugas, minat, atau kebutuhan individu.
+3. Rekognisi Pembelajaran Lampau (RPL): Pengakuanterhadap pengetahuan dan keterampilan yang telah diperolehsebelumnya, juga dikenal sebagai micro-recognition.
+4. Mikroskolar: Kesempatan untuk mendalami suatu bidangpengetahuan secara lebih intensif, mendukung individu dalammendesain dan mengeksplorasi bidang tertentu lebih dalam.
+Dengan pendekatan proses multidimensi setiap individu harusmemiliki kemampuan adaptif sehingga kompetensinya harussesuai dengan permintaan pasar kerja di era digital dan global.
+Hal paling penting yang disampaikan Prof. Togar adalah mengajak APTISI dan mitra strategisnya melakukan integrasi layanan tridarma pendidikan tinggi dari semua anggota APTISImelalui SPADA Indonesia dan ICE Institute. Melalui layananterintegrasi tersebut PTS dapat berbagi data dan sumberdaya. Prof. Togar juga menyampaikan bahwa Kementerian akanmemfasilitasi integrasi dan sinergi anggota APTISI melaluiberbagai kebijakan seperti rekognisi, narasumber, MoU APTISI dengan mitra dan program serta kegiatan lainnya yang berdampak bagi anggota APTISI dan Indonesia.
+Tindak lanjut dari audiensi tersebut adalah APTISI dan para mitra diminta untuk membuat POKJA platform edukasitermasuk single database materi pembelajaran dan hasil karyatridarma serta budaya mutu yang akan diintegrasikan dengan SPADA Indonesia dan ICE Institute. Apabila POKJA telah siap, maka Kementerian akan mamfasilitasi penandatangan MoU antara APTISI dengan mitra PT Surge dan AIPJII.
+Dengan sinergi antar pemangku kepentingan maka pendidikantinggi menjadi inklusif dan multidimensi, mengakomodasikebutuhan individu yang beragam serta memenuhi tuntutanindustri yang terus berkembang.
+Audiensi dengan Bapak Sesjen Kemendiktisaintek dihadiri oleh Sesjen APTISI Dr. Arief Kusuma Among Praja, Wakil KetuaAPTISI bidang pembelajaran dan akademik Dr. Paristiyanti Nurwardani dan Dr. Ridwan Maronrong, CEO PT Surge d Bapak Yune Marketanto, dan Founder PT Surge Bapak Hendrik Lee serta dari Ketua APJII Bapak Muhammad Arif.
