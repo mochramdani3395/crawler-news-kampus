@@ -1,0 +1,22 @@
+# Mendorong Riset Berdampak Melalui Kolaborasi Nasional Dan Globa
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/mendorong-riset-berdampak-melalui-kolaborasi-nasional-dan-globa
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-02-06 20:23:32
+
+---
+
+Tangerang Selatan — Pemerintah mengalokasikan pendanaan sekitar Rp8 triliun untuk memperkuat ekosistem riset nasional melalui skema community science and technology. Kebijakan ini disampaikan Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) dalam Talkshow Strategis yang menjadi bagian dari Nobel Lecture Profesor Susumu Kitagawa, Penerima Penghargaan Nobel Kimia Tahun 2025, yang diselenggarakan Badan Riset dan Inovasi Nasional (BRIN) di Tangerang Selatan, Rabu (4/2).
+Direktur Jenderal Riset dan Pengembangan Kemdiktisaintek Dirjen Fauzan Adziman mengatakan, pendanaan tersebut merupakan instrumen utama pemerintah dalam mendorong kolaborasi riset serta memperkuat ekosistem riset berbasis komunitas di Indonesia.
+“Pendanaan sekitar delapan triliun rupiah untuk community science and technology ini dirancang untuk memperkuat ekosistem riset nasional sekaligus mendorong kolaborasi lintas perguruan tinggi, lembaga riset, dan pemangku kepentingan lainnya,” ujar Dirjen Fauzan.
+Selain pendanaan, Kemdiktisaintek juga mendorong kolaborasi riset nasional melalui pendekatan berbasis data. Dirjen Fauzan mengungkapkan hasil survei nasional terhadap 5.942 responden civitas akademika yang menunjukkan tingginya minat kolaborasi lintas institusi. Dari survei tersebut tercatat lebih dari 1.700 usulan kolaborasi riset antara perguruan tinggi dan BRIN, dengan BRIN menjadi mitra riset yang berpotensi paling besar untuk kerja samanya.
+“Temuan ini menunjukkan tingkat kepercayaan yang kuat dari perguruan tinggi terhadap BRIN sebagai mitra riset strategis,” katanya.
+Untuk meningkatkan kualitas riset, Kemdiktisaintek menerapkan mekanisme merit-based funding, yakni pendanaan berbasis kinerja dan capaian peneliti. Pendekatan ini diharapkan mampu mendorong keunggulan riset nasional tanpa mengabaikan prinsip pemerataan akses bagi peneliti di berbagai daerah.
+Menutup paparannya, Dirjen Fauzan menekankan pentingnya penguatan kolaborasi internasional dan diplomasi sains, serta pengambilan keputusan berbasis data nasional. Menurutnya, riset harus menjadi fondasi utama dalam perumusan kebijakan pembangunan agar inovasi yang dihasilkan memiliki dampak nyata bagi masyarakat.
+Dalam kesempatan yang sama, Nobel Lecture Profesor Susumu Kitagawa menjadi acara utama yang memperkaya forum strategis tersebut. Penerima Penghargaan Nobel Kimia Tahun 2025 ini membagikan perspektif global mengenai pengembangan riset material maju serta pentingnya membangun ekosistem riset yang kolaboratif, terbuka, dan berkelanjutan. Paparan tersebut menjadi inspirasi bagi komunitas riset nasional untuk mendorong keunggulan ilmiah yang tidak hanya berorientasi pada publikasi, tetapi juga pada pemanfaatan dan dampak nyata.
+Sejalan dengan arah kebijakan tersebut, Deputi Bidang Sumber Daya Manusia Ilmu Pengetahuan dan Teknologi BRIN Edy Giri Rachman Putra menegaskan bahwa investasi riset perlu diiringi dengan penguatan kualitas dan kapasitas sumber daya manusia IPTEK. Ia menyebut kolaborasi antara perguruan tinggi, peneliti, industri, dan pemerintah daerah sebagai prasyarat utama dalam membangun riset yang berkelanjutan.
+“Penguatan SDM IPTEK adalah kunci agar investasi riset benar-benar menghasilkan dampak. Tanpa kolaborasi yang solid, riset akan sulit tumbuh menjadi inovasi yang dirasakan masyarakat,” ujar Edy.
+Sementara itu, Direktur Pendanaan Riset dan Inovasi BRIN Arthur Lelono menyampaikan bahwa BRIN terus mendorong penguatan pendanaan riset yang berorientasi pada kolaborasi lintas universitas, lembaga riset, dan industri. Hingga saat ini, pendanaan lebih dari Rp1 triliun telah disalurkan kepada guru dan peneliti, termasuk untuk mendukung hilirisasi riset melalui pusat riset kolaboratif dan skema mobilitas peneliti lintas negara.
+Melalui momentum Nobel Lecture ini, Kemdiktisaintek menegaskan komitmennya untuk terus memperkuat sinergi kebijakan pendanaan riset, pengembangan sumber daya manusia IPTEK, serta kolaborasi nasional dan internasional guna meningkatkan daya saing riset dan inovasi Indonesia di tingkat global.
