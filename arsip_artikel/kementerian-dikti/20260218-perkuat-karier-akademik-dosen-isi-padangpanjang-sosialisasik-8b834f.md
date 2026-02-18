@@ -1,0 +1,12 @@
+# Perkuat Karier Akademik Dosen Isi Padangpanjang Sosialisasikan Juknis Percepatan Profesor
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/perkuat-karier-akademik-dosen-isi-padangpanjang-sosialisasikan-juknis-percepatan-profesor
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-02-18 01:19:07
+
+---
+
+Perkuat Karier Akademik Dosen, ISI Padangpanjang Sosialisasikan Juknis Percepatan Profesor . Padangpanjang — Institut Seni Indonesia (ISI) Padangpanjang menyelenggarakan kegiatan Sosialisasi Petunjuk Teknis (Juknis) Percepatan Profesor pada Rabu, 12 Februari 2026, bertempat di Ruang Videoconference Lantai 2 Rektorat ISI Padangpanjang. Kegiatan ini menghadirkan narasumber Prof. Andar Indra Sastra yang memberikan pemaparan strategis terkait mekanisme dan kebijakan terbaru percepatan jabatan akademik profesor. Kegiatan ini turut dihadiri oleh Wakil Rektor II ISI Padangpanjang Dr. Iswandi serta Wakil Rektor III Dr. Susas Rita Loravianti, yang menunjukkan komitmen pimpinan institusi dalam mendorong percepatan pengembangan karier akademik dosen. Sosialisasi ini dilaksanakan sebagai bagian dari upaya institusi dalam meningkatkan kualitas sumber daya manusia akademik sekaligus memperkuat strategi percepatan capaian jabatan fungsional dosen menuju profesor sesuai regulasi terbaru Kementerian Pendidikan Tinggi, Sains, dan Teknologi No. 52 tahun 2025 tentang Profesi, Karir dan Penghasilan Dosen. Kegiatan ini juga menjadi forum diskusi bagi para dosen untuk memperoleh pemahaman yang lebih komprehensif mengenai prosedur, persyaratan, serta strategi yang dapat dilakukan dalam pengajuan kenaikan jabatan akademik.
+Dalam pemaparannya, Prof. Andar Indra Sastra menekankan pentingnya perencanaan karier akademik yang sistematis, konsistensi dalam publikasi ilmiah bereputasi, serta pemenuhan indikator kinerja tridharma perguruan tinggi sebagai faktor utama dalam percepatan jabatan profesor. Selain itu, peserta juga mendapatkan penjelasan teknis mengenai implementasi regulasi terbaru terkait profesi, karier, dan penghasilan dosen. Kegiatan yang berlangsung secara interaktif ini diikuti oleh dosen di lingkungan ISI Padangpanjang dan diharapkan dapat menjadi langkah strategis dalam memperkuat budaya akademik serta meningkatkan jumlah guru besar di lingkungan kampus. Melalui kegiatan ini, ISI Padangpanjang menegaskan komitmennya untuk terus mendukung pengembangan karier akademik dosen secara berkelanjutan sebagai bagian dari penguatan kualitas pendidikan tinggi berbasis seni dan budaya.
