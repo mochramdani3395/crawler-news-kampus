@@ -1,0 +1,19 @@
+# Undip Pt Terbaik Se Jateng Dalam Collaborative Award 2026 Tegaskan Komitmen Kampus Bermartabat Dan Bermanfaat
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/undip-pt-terbaik-se-jateng-dalam-collaborative-award-2026-tegaskan-komitmen-kampus-bermartabat-dan-bermanfaat
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-02-24 08:37:15
+
+---
+
+UNDIP, Semarang (20/2) – Universitas Diponegoro (UNDIP) menorehkan prestasi membanggakan dengan meraih penghargaan sebagai Perguruan Tinggi Se-Jawa Tengah Terbaik dalam Collaborative Award Jawa Tengah Tahun 2026.
+Penghargaan ini diberikan oleh Pemerintah Provinsi Jawa Tengah dalam ajang Anugerah Collaborative Award 2026 yang digelar di Gradhika Bhakti Praja, Semarang, Jumat (20/1), bertepatan dengan momentum satu tahun pemerintahan Gubernur–Wakil Gubernur Jawa Tengah, Ahmad Luthfi dan Taj Yasin. Penghargaan diterima secara langsung oleh Wakil Rektor IV Bidang Riset, Kerja Sama, Inovasi dan Komunikasi Publik UNDIP, Dr. Wijayanto, S.Sos., M.Si., Ph.D., didampingi Direktur Inovasi dan Kerjasama, drh. Dian Wahyu Harjanti, Ph.D.
+UNDIP dinilai konsisten menghadirkan program kolaboratif yang berdampak langsung pada pembangunan daerah, mulai dari implementasi teknologi inovasi, penyediaan air bersih melalui teknologi Desalinasi, kerjasama layanan kesehatan, pengelolaan sampah , pemberdayaan petani dan peternak, pengabdian masyarakat, hingga pemberdayaan UMKM dan desa binaan.
+Rektor Universitas Diponegoro, Prof. Dr. Suharnomo, S.E., M.Si., menyampaikan apresiasi atas sinergi yang telah terbangun antara UNDIP dan Pemerintah Provinsi Jawa Tengah. “Kolaborasi adalah napas utama perguruan tinggi di era sekarang. UNDIP berkomitmen untuk terus menghadirkan riset dan inovasi yang tidak berhenti di jurnal, tetapi terimplementasi dan memberikan solusi nyata bagi masyarakat. Banyak hal yang telah kita lakukan bersama-sama mulai menyediaan air bersih untuk masyarakat di Jawa Tengah dengan teknologi desalinasi, upaya penanggulangan banjir di pantura dan lain sebagainya”, katanya.
+Sementara itu, Wakil Rektor IV UNDIP, Dr. Wijayanto, menyampaikan bahwa penghargaan ini merupakan pengakuan atas kerja nyata UNDIP dalam mengintegrasikan riset, inovasi, dan kolaborasi strategis untuk kemajuan Jawa Tengah. “Penghargaan ini adalah apresiasi atas kerja nyata UNDIP untuk membumikan ilmu pengetahuan agar memberikan manfaat langsung bagi masyarakat sekitar, utamanya masyarakat Jawa Tengah, sebagaimana terangkum dalam tagline UNDIP Bermartabat, UNDIP Bermanfaat,” ujar Dr. Wijayanto.
+Menurutnya, kolaborasi antara perguruan tinggi dan pemerintah daerah menjadi elemen penting dalam memperkuat pembangunan berbasis ilmu pengetahuan dan inovasi. UNDIP secara konsisten mendorong sinergi riset, pengabdian masyarakat, hilirisasi inovasi, serta penguatan komunikasi publik sebagai bagian dari kontribusi nyata bagi pembangunan daerah.
+Direktur Inovasi dan Kerjasama Undip, drh. Dian Wahyu Harjanti, PhD menegaskan bahwa: “Ke depan, Undip akan terus memperluas jejaring kerja sama dan mendorong inovasi kolaboratif yang berdampak luas, sejalan dengan visi universitas sebagai pusat pendidikan dan riset yang unggul serta berdaya saing global, tentunya Undip senantiasa mendukung program strategis dan pembangunan di Provinsi Jawa Tengah”
+Dalam event tersebut, Pemerintah Provinsi Jawa Tengah juga memberikan penghargaan kepada enam kabupaten/kota dan perguruan tinggi lain di Jawa Tengah yang dinilai aktif bersinergi dalam mendorong pembangunan daerah.
+Penghargaan ini semakin memperkuat UNDIP sebagai perguruan tinggi yang tidak hanya unggul secara akademik dan riset, tetapi juga berperan aktif dalam membangun ekosistem kolaboratif demi kemajuan dan kesejahteraan masyarakat Jawa Tengah. Dengan semangat itulah UNDIP terus bergerak dan berkontribusi sebagai perguruan tinggi yang UNDIP Bermanfaat dan UNDIP Bermartabat. (Komunikasi Publik/ UNDIP/ Nurul)
