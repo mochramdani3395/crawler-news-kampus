@@ -1,0 +1,26 @@
+# Uncen Luncurkan Prodi Ppds Pertama Di Tanah Papua Ukir Sejarah Kesehatan Di Ujung Nusantara
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/uncen-luncurkan-prodi-ppds-pertama-di-tanah-papua-ukir-sejarah-kesehatan-di-ujung-nusantara
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-02-28 04:48:07
+
+---
+
+Jayapura - Sebuah langkah historis dalam pembangunan sumber daya manusia (SDM) kesehatan di Tanah Papua telah terwujud. Universitas Cenderawasih (UNCEN) secara resmi meluncurkan prodi Program Pendidikan Dokter Spesialis (PPDS) Anestesiologi dan Terapi Intensif pada Jumat (27/2).
+Acara yang bertempat di Auditorium Fakultas Kedokteran UNCEN ini, sekaligus menandai terobosan untuk mengatasi krisis dan disparitas tenaga medis di kawasan paling timur Indonesia.
+Peluncuran ini merupakan bagian dari program akselerasi Nasional yang diusung pemerintah melalui Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek). Dengan pendekatan Sistem Kesehatan Akademik (SKA), program ini bertujuan mempercepat pemenuhan dokter spesialis, salah satunya dengan membuka program studi di 11 provinsi yang belum pernah memilikinya, termasuk Papua.
+Hadirnya PPDS pertama di Papua ini menjawab kebutuhan yang sangat mendesak. Dalam audiensi yang mendahului acara peluncuran kali ini, terungkap data bahwa di Papua hanya terdapat 28 dokter anestesi untuk melayani lebih dari 40 rumah sakit di empat provinsi di Tanah Papua. Akibatnya, banyak rumah sakit tidak dapat menjalankan pelayanan operatif secara optimal, sehingga akses masyarakat terhadap layanan kesehatan menjadi sangat terbatas.
+Dalam kesempatan ini Rektor UNCEN, Oscar Oswald O. Wambrauw, menyatakan komitmen universitas yang dipimpinnya untuk mengatasi tantangan ini.
+“Kami berkomitmen mengembangkan program studi spesialis, dimulai dengan Anestesiologi dan akan diikuti dengan program studi lainnya. Fokus kami adalah mendorong pemenuhan tenaga kesehatan spesialis di rumah sakit yag mengalami kekurangan,” tegas Rektor Uncen Oscar Oswald O. Wambrauw. Ia menambahkan niscaya membuka kesempatan kolaborasi dengan Pemerintah Daerah untuk menyediakan kuota khusus bagi putra-putri daerah agar dapat mengabdi dalam waktu jangka panjang.
+Dukungan penuh juga datang dari Pemerintah Daerah. Wakil Gubernur Provinsi Papua, Aryoko Alberto Ferdinand Rumaropen, menegaskan urgensi program ini.
+“Kebutuhan ini menjadi sangat penting karena banyak tindakan operasi yang tertunda akibat tidak adanya spesialis anestesi. Ini adalah program pendidikan spesialis pertama di Tanah Papua, yang memungkinkan pendidikan dilakukan di tanah sendiri. Sebagaimana semangatnya, pendidikan ini sekaligus membantu proses pelayanan,”ujar Wagub Aryoko.
+Inisiatif ini, lanjutnya, selaras dengan visi Transformasi Papua yang Cerdas, Sejahtera dan Harmonis (CERAH). Dukungan dari Wagub juga meliputi pemberian beasiswa dari Pemda, khususnya kabupaten dan kota, untuk para mahasiswa PPDS Uncen.
+Dalam kesempatan yang sama Sekretaris Ditjen Dikti, Setiawan, menegaskan bahwa upaya ini merupakan sarana untuk mendukung tercapainya visi Indonesia Emas 2045 dengan meningkatkan akses dan mutu layanan kesehatan bagi seluruh lapisan masyarakat.
+“Adanya program studi ini perlu ditindaklanjuti dengan identifikasi putra daerah dan penyediaan dukungan ikatan dinas melalui beasiswa,” jelasnya.
+Lebih lanjut Sekretaris Ditjen Dikti menambahkan, Kemdiktisaintek juga berkomitmen pada penjaminan mutu melalui evaluasi berkala yang melibatkan LAM-PTKes, AIPKI, MGBKI, asosiasi program studi, hingga kolegium. Dan sebagai universitas pembina, Universitas Gadjah Mada (UGM) Yogyakarta akan terus memastikan kualitas lulusan prodi PPDS Universitas Cendrawasih.
+“FK-KMK UGM sebagai pembina akan terus mendampingi proses pengembangan agar dapat menghasilkan lulusan yang berkualitas dan mampu memenuhi kebutuhan layanan anestesi di rumah sakit-rumah sakit di Provinsi Papua.’ kata dr Sudadi yang mewakili UGM di sela-sela acara.
+Sementara itu Tenaga Ahli Mendiktisaintek dan Koordinator Satuan Tugas Program Akselerasi, Tri Hanggono Achmad, menekankan bahwa peluncuran ini adalah langkah kecil untuk cita-cita yang besar.
+“Penyelenggaraan program studi ini memerlukan perubahan mindset dan tata kelola institusi yang mengarah pada penguatan kapasitas, yang kemudian diintegrasikan ke dalam satu Sistem Kesehatan Akademik. Saya meyakini penyelenggaraan program studi di Provinsi Papua dapat menghasilkan lulusan berkualitas yang mampu melayani masyarakat dengan berbagai kompleksitasnya,” pungkasnya.
+Peluncuran prodi PPDS di UNCEN juga dilakukan dengan serangkaian dialog strategis antara Ditjen Dikti, UNCEN dan pimpinan daerah di antaranya wakil gubernur, Sekda, Kadinkes Provinsi, DPRD dan beberapa direktur RSUD di wilayah Papua. Dialog tersebut memperkuat dukungan terhadap FK UNCEN untuk mengokohkan layanan kesehatan sesuai kebutuhan wilayah dengan membuka prodi PPDS lainnya yang dinilai sudah siap, di antaranya bedah, obgyn dan anak.
