@@ -3630,5 +3630,23 @@
         "judul": "Sistem Kedokteran",
         "link": "https://sevima.com/tag/sistem-kedokteran/",
         "waktu_crawl": "2026-02-28 08:18:44"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Universitas Jember",
+        "link": "https://sevima.com/tag/universitas-jember/",
+        "waktu_crawl": "2026-03-01 08:21:47"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Puncak Perayaan Imlek 2026 Tegaskan Keberagaman Sebagai Kekuatan Bangsa",
+        "link": "https://kemdiktisaintek.go.id/news/article/puncak-perayaan-imlek-2026-tegaskan-keberagaman-sebagai-kekuatan-bangsa",
+        "waktu_crawl": "2026-03-01 08:22:02"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Mendiktisaintek Dorong Pemanfaatan Maggot Untuk Atasi Masalah Sampah",
+        "link": "https://kemdiktisaintek.go.id/news/article/mendiktisaintek-dorong-pemanfaatan-maggot-untuk-atasi-masalah-sampah",
+        "waktu_crawl": "2026-03-01 08:22:30"
     }
 ]
