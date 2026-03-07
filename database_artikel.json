@@ -3768,5 +3768,17 @@
         "judul": "Executive Forum",
         "link": "https://sevima.com/tag/executive-forum/",
         "waktu_crawl": "2026-03-07 04:55:10"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "News?Page=1152&Amp;Size=5&Amp;Search=",
+        "link": "https://kemdiktisaintek.go.id/news?page=1152&amp;size=5&amp;search=",
+        "waktu_crawl": "2026-03-07 08:19:16"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Dari Rumah Tangga Hingga Industri Kemdiktisaintek Dorong Sistem Pengelolaan Sampah Terintegrasi",
+        "link": "https://kemdiktisaintek.go.id/news/article/dari-rumah-tangga-hingga-industri-kemdiktisaintek-dorong-sistem-pengelolaan-sampah-terintegrasi",
+        "waktu_crawl": "2026-03-07 08:19:22"
     }
 ]
