@@ -1,0 +1,17 @@
+# Sambut Mahasiswa Internasional Fisip Undip Gelar Campus Tour Untuk Peserta Deep Scholarship
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/sambut-mahasiswa-internasional-fisip-undip-gelar-campus-tour-untuk-peserta-deep-scholarship
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-03-16 05:45:42
+
+---
+
+UNDIP, Semarang (13/3) – Departemen Administrasi Bisnis, Fakultas Ilmu Sosial dan Ilmu Politik (FISIP) Universitas Diponegoro menyelenggarakan kegiatan Undip Campus Tour 2026 bagi mahasiswa internasional yang mengikuti program DEEP Scholarship. Kegiatan ini bertujuan untuk memperkenalkan lingkungan kampus Universitas Diponegoro secara lebih mendalam kepada para mahasiswa internasional yang sedang menjalani program Exchange Student di Departemen Administrasi Bisnis.Melalui kegiatan ini, para mahasiswa internasional diajak berkeliling berbagai area penting di lingkungan kampus Universitas Diponegoro.
+Campus tour ini memberikan kesempatan bagi mereka untuk mengenal fasilitas akademik, pusat kegiatan mahasiswa, serta berbagai sarana pendukung pembelajaran yang tersedia di UNDIP seperti Rektorat – Perpus – Jogging Track 2 – GOR Bulu tangkis – Waduk – Penangkaran Rusa – GOR Basket – RSND – Muladi Dome – Rusunawa.
+Pada tahun ini, Departemen Administrasi Bisnis menerima 10 mahasiswa internasional yang berasal dari beberapa universitas antara lain Akmasheva Guzel Anfisovna, Yakhiyaeva Darina Ruslanovna, Lukmanova Liana, Yakovleva Anastasiya, Sultanova Dinara Ilgizarovna, dan Bazhanov Danil Petrovich dari Federal University Rusia. Selain itu terdapat Nguyen Hoang Phat, Pham Ngoc Anh Thu, dan Le Hoang Vy dari Ho Chi Minh University of Banking Vietnam dan Mohamed Jamaleddine merupakan mahasiswa dari Bochum University of Applied Sciences, Jerman.
+Selama kegiatan berlangsung, para mahasiswa internasional juga didampingi oleh Robetmi Jumpakita Pinem, S.AB, MBA, Ph.D Sekretaris Proram Studi Administrasi Bisnis, Dhaifina Idznitia Apriyani Naimi, S.M., M.B.A. Koordinator IUP Administrasi Bisnis dan Umi Lestari S.S serta mahasiswa lokal melalui Buddy Program yang diselenggarakan oleh Departemen Administrasi Bisnis.
+“Kegiatan UNDIP Campus Tour ini tidak hanya menjadi sarana pengenalan kampus, tetapi juga menjadi momen penting dalam membangun interaksi antara mahasiswa internasional dan mahasiswa lokal. Melalui kegiatan ini, diharapkan para mahasiswa internasional dapat merasa lebih nyaman dalam menjalani kegiatan akademik serta memperoleh pengalaman belajar yang berkesan selama berada di Universitas Diponegoro”, kata Robertmi.
+Ke depan, Departemen Administrasi Bisnis Universitas Diponegoro berharap kegiatan seperti ini dapat terus mendukung proses internasionalisasi kampus sekaligus memperkuat kerja sama akademik dengan berbagai universitas mitra di dunia sesuai arahan Bapak Dr. Drs. Teguh Yuwono, M.Pol.Admin Dekan Fakultas Ilmu Sosial dan Ilmu Politik.
+Robetmi Jumpakita Menegaskan bahwa alat transportasi Buggy yang digunakan memberikan kesan special bagi mahasiswa international dan kegiatan ini diharapkan menumbuhkan rasa sense of belonging terhadap Undip sehingga Ketika pulang ke negara masing-masing mahasiswa international bisa menjadi global ambassador Undip memperkenalkan UNDIP ke masyarakat luas dinegara masing-masing. (Ilmu Komunikasi/ UNDIP/ Robertmi)
