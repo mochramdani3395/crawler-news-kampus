@@ -4428,5 +4428,23 @@
         "judul": "Kampus Unzah Genggong",
         "link": "https://sevima.com/tag/kampus-unzah-genggong/",
         "waktu_crawl": "2026-04-16 13:08:12"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Kampus Mitra Baru",
+        "link": "https://sevima.com/tag/kampus-mitra-baru/",
+        "waktu_crawl": "2026-04-17 05:59:42"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "News?Page=1179&Amp;Size=5&Amp;Search=",
+        "link": "https://kemdiktisaintek.go.id/news?page=1179&amp;size=5&amp;search=",
+        "waktu_crawl": "2026-04-17 06:00:38"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Cegah Kekerasan Di Lingkungan Kampus Kemdiktisaintek Gelar Pertemuan Lintas Institusi",
+        "link": "https://kemdiktisaintek.go.id/news/article/cegah-kekerasan-di-lingkungan-kampus-kemdiktisaintek-gelar-pertemuan-lintas-institusi",
+        "waktu_crawl": "2026-04-17 06:00:47"
     }
 ]
