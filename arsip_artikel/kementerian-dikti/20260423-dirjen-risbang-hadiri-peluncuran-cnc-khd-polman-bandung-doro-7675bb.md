@@ -1,0 +1,27 @@
+# Dirjen Risbang Hadiri Peluncuran Cnc Khd Polman Bandung Dorong Kemandirian Teknologi Manufaktur
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/dirjen-risbang-hadiri-peluncuran-cnc-khd-polman-bandung-dorong-kemandirian-teknologi-manufaktur
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-04-23 01:48:44
+
+---
+
+Bandung — Direktur Jenderal Riset dan Pengembangan Kementerian Pendidikan Tinggi, Sains, dan Teknologi menjadi tamu undangan dalam peluncuran produk inovasi CNC KHD 40E di Politeknik Manufaktur Bandung, Rabu (22/4). Kegiatan ini mengusung tema “Kemandirian Teknologi Manufaktur Indonesia” dan menjadi ruang kolaborasi antara pendidikan vokasi, inovasi terapan, serta kebutuhan industri nasional.
+CNC KHD 40E merupakan mesin Computer Numerical Control (CNC) hasil pengembangan Polman Bandung yang dirancang untuk mendukung pembelajaran vokasi sekaligus menjawab kebutuhan industri manufaktur. Mesin ini dikembangkan secara mandiri sejak tahap desain hingga fabrikasi, dengan melibatkan dosen, mahasiswa, serta berbagai program studi di lingkungan Polman Bandung. Sebagian besar komponen diproduksi secara lokal, mencerminkan upaya nyata dalam mendorong kemandirian teknologi nasional.
+Dalam sambutannya, Direktur Jenderal Riset dan Pengembangan Fauzan Adziman menyoroti perjalanan panjang riset CNC KHD yang telah dimulai sejak tahun 2016 dan dikembangkan secara konsisten hingga hampir satu dekade. Ia menilai peluncuran ini sebagai contoh ideal dari riset yang tidak berhenti pada prototipe, tetapi berlanjut hingga tahap komersialisasi
+“Ini adalah contoh riset yang ideal. Prosesnya panjang, konsisten, dan hari ini kita melihat hasilnya siap masuk ke tahap bisnis. Namun perlu diingat, setelah launching, justru tantangan yang sesungguhnya baru dimulai, yakni bagaimana memastikan produk ini dapat bersaing, beradaptasi dengan kebutuhan industri, dan berkelanjutan di pasar,” ujarnya.
+Ia juga menyampaikan pentingnya pengembangan industri semikonduktor sebagai bagian dari arah strategis nasional. Ia menyampaikan bahwa pemerintah, termasuk Presiden, saat ini memberikan perhatian besar terhadap penguatan SDM dan ekosistem semikonduktor, yang diperkuat melalui kebijakan nasional serta dukungan investasi awal.
+Berangkat dari pengalamannya sebagai lead negosiator dalam inisiatif semikonduktor lintas kementerian hingga pengembangan material di tingkat global, ia menilai Indonesia memiliki peluang besar untuk melakukan lompatan teknologi.
+“Ini adalah momentum langka. Dukungan kebijakan, investasi, dan kolaborasi lintas sektor sudah mulai terbentuk. Tinggal bagaimana kita mengorkestrasikan kekuatan ini agar mampu mendorong industri semikonduktor nasional naik kelas dan berdaya saing,” tambahnya.
+Sebagai penutup, Dirjen Fauzan menyampaikan apresiasi atas kolaborasi yang terjalin dalam pengembangan inovasi ini.
+“Saya mengucapkan selamat dan apresiasi yang tinggi kepada seluruh civitas akademika Polman Bandung, mitra industri, lembaga vokasi, serta Kemendikdasmen. Mari kita terus perkuat kolaborasi dan menyatukan langkah agar teknologi yang dikembangkan tidak hanya menjadi atraksi di kampus, tetapi benar-benar menjadi tulang punggung industri manufaktur Indonesia yang berdaya saing global,” tutupnya.
+Sebagai tuan rumah penyelenggara kegiatan, Direktur Politeknik Manufaktur Bandung, Darma Firmasyah, menegaskan bahwa penguasaan teknologi manufaktur merupakan pilar penting dalam meningkatkan daya saing bangsa.
+“Ketergantungan terhadap teknologi impor masih menjadi tantangan besar. Karena itu, Polman Bandung berkomitmen tidak hanya sebagai institusi pendidikan vokasi, tetapi juga sebagai pusat inovasi dan pengembangan teknologi yang mampu menjawab kebutuhan industri nasional.”
+“Pengembangan CNC KHD 40E ini menjadi bukti bahwa putra-putri bangsa mampu merancang, memproduksi, dan mengembangkan teknologi manufaktur secara mandiri. Produk ini bukan sekadar mesin, melainkan simbol semangat inovasi, kolaborasi, dan kemandirian,” jelasnya.
+Selaras dengan hal tersebut, perwakilan dari Kementerian Pendidikan Dasar dan Menengah, Direktur Jenderal Pendidikan Menengah dan Khusus, Tatang Muttaqin, menekankan pentingnya momentum ini dalam mendorong industri manufaktur digital.
+“Target pertumbuhan manufaktur nasional sebesar 5,5% menjadi peluang yang harus kita dorong bersama. Permintaan terhadap teknologi CNC terus meningkat, sehingga diperlukan sumber daya manusia yang memiliki kompetensi di bidang ini. Kunci utamanya adalah kolaborasi antara Kemdiktisaintek, Kemendikdasmen, pemerintah daerah, dan dunia industri. Jika semua dapat diorkestrasi dengan baik, hasilnya akan jauh lebih optimal,” ungkapnya.
+Peluncuran CNC KHD menunjukkan potensi besar institusi pendidikan tinggi vokasi dalam menghasilkan inovasi yang tidak hanya bernilai akademik, tetapi juga berdampak langsung pada penguatan sektor manufaktur Indonesia. Selain menjadi simbol karya anak bangsa, inovasi ini diharapkan dapat diimplementasikan secara luas di berbagai institusi pendidikan vokasi. Dengan demikian, pembelajaran menjadi semakin berbasis praktik industri, kompetensi lulusan meningkat, serta keterkaitan antara dunia pendidikan dan dunia usaha semakin kuat.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
