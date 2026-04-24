@@ -1,0 +1,31 @@
+# Forum Pimpinan Perguruan Tinggi Maritim Fokus Pada Sinergi Dan Keterserapan Lulusan
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/forum-pimpinan-perguruan-tinggi-maritim-fokus-pada-sinergi-dan-keterserapan-lulusan
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-04-24 13:01:28
+
+---
+
+Makassar — Upaya membangun kekuatan maritim Indonesia tidak hanya bertumpu pada infrastruktur, tetapi juga pada kualitas sumber daya manusia. Atas dasar itu pimpinan perguruan tinggi maritim dari seluruh Indonesia berkumpul dalam forum strategis perdana pada Rapat Koordinasi di Makassar, Jumat (24/4).
+Forum ini menjadi ruang konsolidasi nasional untuk menjembatani kesenjangan antara lulusan perguruan tinggi maritim dan kebutuhan industri (link and match), sekaligus mendorong ultra-absorption, yakni keterserapan lulusan yang cepat, tepat, dan menjangkau pasar kerja nasional hingga global.
+Kegiatan yang diinisiasi Direktorat Jenderal Pendidikan Tinggi melalui Direktorat Pembelajaran dan Kemahasiswaan (Dit. Belmawa) Kemdiktisaintek ini menghadirkan berbagai pemangku kepentingan strategis. Mulai dari pimpinan perguruan tinggi maritim negeri, swasta, hingga Perguruan Tinggi Kementerian/Lembaga (PTKL), serta mitra industri seperti INSA, Pelindo, dan Pertamina. Semua ambil bagian guna merumuskan solusi bersama.
+Direktur Jenderal Pendidikan Tinggi, Khairul Munadi, dalam sambutan sekaligus pembukaan kegiatan, menegaskan bahwa masa depan sektor maritim Indonesia sangat ditentukan oleh kemampuan pendidikan tinggi dalam beradaptasi dengan dinamika global dan kebutuhan industri.
+“Momentum ini harus dimanfaatkan untuk memperkuat konsolidasi dan kolaborasi antar-institusi pendidikan maritim. Guna mendorong transformasi pendidikan vokasi yang berorientasi pada lulusan yang terserap dan berdaya saing, dalam menangkap berbagai peluang yang ada,” tegas Dirjen Dikti Khairul Munadi.
+Menurutnya, tantangan utama saat ini bukan hanya menghasilkan lulusan saja. Tetapi yang lebih penting lagi memastikan lulusan tersebut memiliki kompetensi yang sesuai, tersertifikasi, dan terkoneksi dengan peluang kerja yang tersedia, baik di dalam maupun luar negeri.
+Dorongan ini sejalan dengan perhatian Presiden Republik Indonesia Prabowo Subianto, yang menempatkan sektor kemaritiman sebagai salah satu pilar utama pembangunan nasional. Dengan demikian lulusan bidang kemaritiman diharapkan tidak hanya mengisi kebutuhan domestik, tetapi juga mampu mengambil peran strategis dalam pasar tenaga kerja global yang terus berkembang.
+Di kancah internasional, peluang tersebut sangat terbuka. Industri pelayaran dunia saat ini masih menghadapi kekurangan puluhan ribu tenaga kerja terampil, khususnya pada level perwira. Kebutuhan ini diproyeksikan terus meningkat dalam beberapa tahun ke depan, membuka ruang besar bagi Indonesia sebagai salah satu negara pemasok tenaga kerja maritim dunia.
+Indonesia sendiri termasuk dalam jajaran negara utama penyedia pelaut global. Namun potensi besar ini belum sepenuhnya terkonsolidasi. Kontribusi tenaga kerja maritim Indonesia di tingkat internasional masih terkonsentrasi pada sejumlah institusi tertentu. Sementara banyak perguruan tinggi vokasi maritim lainnya belum terhubung secara optimal dalam ekosistem global tersebut.
+Direktur Pembelajaran dan Kemahasiswaan, Beny Bandanadjaja, menegaskan bahwa masa depan pendidikan vokasi maritim ditentukan oleh kemampuannya menghasilkan talenta siap kerja dan berdaya saing global.
+“Pendidikan vokasi maritim harus menjadi jalur utama penyiapan talenta global Indonesia. Karena itu, penguatan kolaborasi antarperguruan tinggi menjadi kunci agar lulusan terserap optimal, baik di pasar kerja nasional maupun internasional,” ujarnya.
+Pada kesempatan yang sama, Staf Khusus Menteri Bidang Jejaring Industri dan Kerjasama Luar Negeri Kemdiktisaintek, Oki Earlivan Sampurno, menyebutkan bahwa ini adalah peluang besar bagi Indonesia untuk memperkuat kolaborasi, meningkatkan relevansi kurikulum, dan memastikan lulusan vokasi semakin siap menjawab kebutuhan pasar, baik di dalam maupun luar negeri
+“Kita melihat masih ada gap dalam menyelaraskan lulusan (supply) dengan kebutuhan industri, khususnya di sektor kemaritiman. Ini menjadi tantangan kita bersama untuk merumuskan langkah konkret,” jelasnya.
+Forum kali ini diharapkan menjadi katalis dalam menyatukan visi, menyusun standar bersama, serta membuka akses kerja sama yang lebih luas dengan industri maritim global. Dengan demikian, lulusan perguruan tinggi maritim Indonesia tidak hanya mampu bersaing di pasar domestik, tetapi juga menjadi pemain inti di tingkat internasional.
+Perlu untuk dicatat, peningkatan keterserapan lulusan pendidikan vokasi maritim menunjukkan hasil yang menggembirakan di sejumlah perguruan tinggi. Salah satu contoh praktik baik datang dari Politeknik Maritim AMI Makassar yang berhasil menjembatani kebutuhan industri dengan kompetensi lulusan.
+“Sebagai praktik baik, Politeknik Maritim AMI Makassar berhasil mencapai tingkat keterserapan lulusan hingga 100 persen di dunia kerja,” ujar Direktur Polimarim, Amrin Rani.
+Selain itu, keterlibatan aktif dunia industri dalam forum seperti ini menjadi sinyal kuat bahwa pengembangan SDM maritim ke depan akan semakin berbasis kebutuhan nyata lapangan. Dunia usaha tidak lagi menjadi pihak penerima, tetapi turut menjadi mitra strategis dalam proses pendidikan.
+Hasil dari rapat koordinasi ini meliputi sejumlah rekomendasi strategis. Di antaranya peningkatan penyerapan lulusan, penguatan jejaring industri, serta penyusunan draf awal struktur dan mekanisme forum bersama.
+Hasil tersebut diharapkan menjadi titik awal konsolidasi nasional pendidikan maritim Indonesia. Sebuah langkah penting untuk memastikan bahwa potensi besar sektor maritim tidak berhenti sebagai wacana, tetapi benar-benar terwujud melalui SDM unggul yang siap menggerakkan roda industri.
+Ke depan, Direktorat Jenderal Pendidikan Tinggi Kemdiktisaintek berkomitmen untuk terus memperkuat peran pendidikan vokasi sebagai pilar utama pembangunan nasional, khususnya dalam mendukung visi Indonesia sebagai poros maritim dunia.
+Di laut kita jaya.
