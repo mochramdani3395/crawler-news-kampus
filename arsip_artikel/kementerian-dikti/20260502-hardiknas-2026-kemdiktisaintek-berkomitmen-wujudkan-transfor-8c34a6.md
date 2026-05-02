@@ -1,0 +1,26 @@
+# Hardiknas 2026 Kemdiktisaintek Berkomitmen Wujudkan Transformasi Pendidikan Berkualitas
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/hardiknas-2026-kemdiktisaintek-berkomitmen-wujudkan-transformasi-pendidikan-berkualitas
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-05-02 06:02:50
+
+---
+
+Jakarta–Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) mendorong seluruh elemen di Indonesia untuk mewujudkan transformasi pendidikan berkualitas yang dibangun sebagai ekosistem utuh dan berkelanjutan, dengan penguatan pembelajaran, perluasan akses, serta riset dan inovasi yang berdampak. Hal ini disampaikan Menteri Pendidikan Tinggi, Sains, dan Teknologi (Mendiktisaintek), Brian Yuliarto saat menjadi pembina upacara pada momentum upacara Hari Pendidikan Nasional (Hardiknas) 2026 bersama Kementerian Pendidikan Dasar dan Menengah (Kemdikdasmen) dan Kementerian Kebudayaan (Kemenbud) di halaman kantor Kemdikdasmen, Sabtu (2/5).
+Dalam amanatnya, Mendiktisaintek menekankan bahwa pendidikan harus dipahami sebagai ekosistem berkelanjutan yang mencakup seluruh jenjang, mulai dari pendidikan dasar hingga perguruan tinggi, serta terhubung erat dengan riset dan inovasi.
+“Pendidikan nasional harus kita bangun sebagai satu ekosistem yang utuh dan berkelanjutan, dari rumah, sekolah, hingga perguruan tinggi, dari pembelajaran menuju riset, dari pengetahuan menuju inovasi,” tegas Menteri Brian.
+Lebih lanjut, Mendiktisaintek menyoroti bahwa transformasi pendidikan dimulai dari penguatan fondasi pembelajaran melalui pendekatan deep learning yang mendorong peserta didik untuk lebih dari menguasai pengetahuan, tetapi juga memahami, menalar, dan mampu menerapkannya dalam kehidupan nyata. Upaya ini diperkuat melalui revitalisasi satuan pendidikan, digitalisasi pembelajaran, serta pemanfaatan Papan Interaktif Digital (PID) sebagai bagian dari program prioritas nasional.
+Penguatan pembelajaran tidak hanya fokus pada aspek kognitif, tetapi juga pembentukan karakter melalui budaya Aman, Sehat, Resik, dan Indah (ASRI) serta program Tujuh Kebiasaan Anak Indonesia Hebat (7KAIH), Makan Bergizi Gratis (MBG), dan Pramuka. Secara paralel, peningkatan kualitas pembelajaran didorong melalui Gerakan Literasi dan Numerasi, pendekatan STEM, serta Tes Kemampuan Akademik (TKA) sebagai instrumen evaluasi berbasis mutu. Perluasan akses juga terus diakselerasi melalui skema Sekolah Satu Atap, Sekolah Terbuka, Pembelajaran Jarak Jauh (PJJ), penguatan komunitas belajar, serta layanan pendidikan inklusif bagi anak berkebutuhan khusus guna memastikan tidak ada peserta didik yang tertinggal dalam sistem pendidikan nasional.
+Penguatan peran guru, dosen, dan tenaga kependidikan terus dilakukan melalui berbagai program peningkatan kompetensi, termasuk penguasaan teknologi seperti coding, kecerdasan artifisial (AI), dan Rekognisi Pembelajaran Lampau (RPL), yang turut didukung peningkatan kesejahteraan melalui sertifikasi dan insentif.
+Pada jenjang pendidikan tinggi, peran dosen dan peneliti diarahkan untuk membangun ekosistem akademik yang responsif terhadap kebutuhan masa depan. Kolaborasi multipihak melalui pendekatan pentahelix, program Magang Berdampak, Katalisator Kemitraan Berdikari, serta pengembangan kawasan sains dan teknologi (Science Techno Park) menjadi instrumen strategis untuk memastikan bahwa hasil pembelajaran bertransformasi menjadi solusi nyata bagi masyarakat. Konsorsium perguruan tinggi juga disorot telah berkontribusi dalam menangani tantangan seperti stunting dan kemiskinan.
+“Pada akhirnya, semua itu bermuara pada riset yang berdampak nyata. Riset tidak boleh berhenti pada publikasi, tetapi harus melahirkan inovasi dan solusi. Fokus riset nasional diarahkan pada program prioritas dan strategis di bidang-bidang kunci masa depan, seperti energi, pangan, kesehatan, lingkungan, dan teknologi,” jelas Menteri Brian.
+Selain peningkatan mutu, perluasan akses pendidikan tetap menjadi prioritas melalui berbagai skema afirmasi dan inklusi, termasuk Kartu Indonesia Pintar (KIP) Kuliah, Beasiswa Afirmasi Pendidikan Tinggi), serta beasiswa pradoktoral dan doktoral. Langkah ini memastikan bahwa setiap anak bangsa memiliki kesempatan yang setara untuk mengakses pendidikan hingga jenjang tertinggi.
+Peringatan Hardiknas 2026 juga menegaskan pentingnya partisipasi seluruh elemen bangsa dalam membangun pendidikan. Pemerintah, keluarga, satuan pendidikan, perguruan tinggi, dunia usaha, dan masyarakat didorong untuk berkolaborasi dalam menciptakan ekosistem pendidikan yang inklusif, relevan, dan berkelanjutan.
+Sebagai penutup, Kemdiktisaintek menegaskan komitmennya untuk terus mendorong transformasi pendidikan tinggi, sains, dan teknologi yang berorientasi pada dampak nyata bagi masyarakat. Melalui penguatan ekosistem riset dan inovasi, peningkatan kualitas sumber daya manusia, serta kolaborasi lintas sektor, Kemdiktisaintek berkomitmen menghadirkan pendidikan tinggi yang adaptif, berdaya saing global, dan berkontribusi langsung terhadap pembangunan nasional.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak
