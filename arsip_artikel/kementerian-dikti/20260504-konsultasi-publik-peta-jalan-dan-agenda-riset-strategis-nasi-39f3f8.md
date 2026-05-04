@@ -1,0 +1,20 @@
+# Konsultasi Publik Peta Jalan Dan Agenda Riset Strategis Nasional Edisi 2026
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/konsultasi-publik-peta-jalan-dan-agenda-riset-strategis-nasional-edisi-2026
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-05-04 17:22:00
+
+---
+
+Jakarta — Direktorat Jenderal Riset dan Pengembangan (Ditjen Risbang) Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) bersama Badan Riset dan Inovasi Nasional (BRIN) telah merampungkan dan akan meluncurkan Buku Peta Jalan dan Agenda Riset Strategis Nasional Edisi 2026. Dalam proses peluncuran dokumen ini Kemdiktisaintek dan BRIN telah membuka konsultasi publik untuk memperoleh masukan, tanggapan, kritik, dan saran dari para pemangku kepentingan serta masyarakat luas, Senin (04/05).
+Peta Jalan dan Agenda Riset Strategis Nasional Edisi 2026 disusun sebagai kerangka strategis dan implementatif untuk mengintegrasikan prioritas pengembangan riset dan inovasi dengan arah pembangunan nasional secara terukur, bertahap, dan berorientasi pada dampak.
+Dokumen ini terdiri atas dua bagian utama yang saling melengkapi. Buku 1, Peta Jalan Riset Strategis Nasional 2026–2045: Pendekatan Dinamis dan Multi-pihak, memuat arah transformasi riset nasional jangka panjang. Sementara itu, Buku 2, Agenda Riset dan Inovasi Strategis Nasional 2026–2029: Rencana Implementasi, menerjemahkan arah tersebut ke dalam agenda implementasi yang lebih rinci, terukur, dan bertahap pada fase awal.
+“Peta Jalan dan Agenda Riset Strategis Nasional Edisi 2026 disusun untuk memperkuat keterhubungan antara arah transformasi nasional jangka panjang dan agenda implementasi riset serta inovasi dalam jangka pendek dan menengah. Melalui konsultasi publik ini, kami mengundang berbagai pihak untuk memberikan masukan agar dokumen ini semakin kuat, terukur, dan berdampak,” ujar Dirjen Fauzan.
+“Transformasi berbasis sains dan teknologi tidak dapat dilepaskan dari dimensi sosial, hukum, budaya, ekonomi, bisnis, pendidikan, seni, dan keagamaan. Karena itu, sosial humaniora memiliki peran strategis dalam memastikan bahwa setiap agenda riset dan inovasi dapat diimplementasikan secara tepat dan memberikan dampak nyata bagi masyarakat” tambahnya.
+Pada dokumen tersebut, bidang sosial humaniora menjadi bidang kunci dalam mendukung pengembangan industri strategis nasional. Penguatan riset dan inovasi di berbagai sektor tidak hanya membutuhkan teknologi, tetapi juga pemahaman tentang masyarakat, kebijakan, dampak ekonomi, sosial, dan lingkungan yang ditimbulkan. Pendekatan ini penting agar agenda riset dan inovasi nasional dapat mendukung pembangunan secara menyeluruh, inklusif, dan berkelanjutan.
+Penyusunan dokumen melibatkan 279 anggota tim, yang terdiri atas 230 pakar dari perguruan tinggi, kementerian/lembaga, dan industri dengan beragam bidang kepakaran. Keterlibatan multi pihak tersebut mencerminkan komitmen Kemdiktisaintek dan BRIN untuk memastikan arah riset dan inovasi nasional disusun secara inklusif, kolaboratif, dan relevan dengan kebutuhan nyata pembangunan.
+Kemdiktisaintek dan BRIN mengundang kementerian/lembaga, perguruan tinggi, industri, komunitas riset dan inovasi, mitra pembangunan, serta masyarakat luas untuk memberikan masukan terhadap dokumen tersebut.
+Dokumen konsultasi publik dan tanggapan terhadap Buku Peta Jalan dan Agenda Riset Strategis Nasional Edisi 2026 dapat disampaikan sampai dengan Minggu, 17 Mei 2026 melalui risbang.kemdiktisaintek.go.id/konsultasi-publik.
+Masukan dari para pemangku kepentingan dan masyarakat akan menjadi bagian penting dalam penyempurnaan dokumen ini agar mampu menjadi rujukan strategis yang kuat, terukur, adaptif, dan responsif terhadap kebutuhan transformasi nasional berbasis sains, teknologi, dan inovasi.
