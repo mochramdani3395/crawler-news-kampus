@@ -4980,5 +4980,47 @@
         "judul": "Kemdiktisaintek Dorong Penguatan Peran Kampus Untuk Meningkatkan Pertumbuhan Ekonomi Nasional",
         "link": "https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-dorong-penguatan-peran-kampus-untuk-meningkatkan-pertumbuhan-ekonomi-nasional",
         "waktu_crawl": "2026-05-08 13:09:17"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Perguruan Tinggi Kesehatan",
+        "link": "https://sevima.com/perguruan-tinggi-kesehatan",
+        "waktu_crawl": "2026-05-08 17:02:42"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Perguruan Tinggi Negeri",
+        "link": "https://sevima.com/perguruan-tinggi-negeri",
+        "waktu_crawl": "2026-05-08 17:02:51"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Perguruan Tinggi Keagamaan",
+        "link": "https://sevima.com/perguruan-tinggi-keagamaan",
+        "waktu_crawl": "2026-05-08 17:03:00"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Header Home Rumpun 20260428.Css?Ver=20260431",
+        "link": "https://sevima.com/wp-content/themes/sevima2024-v2/assets/css/header-home-rumpun-20260428.css?ver=20260431",
+        "waktu_crawl": "2026-05-08 17:03:57"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Perguruan Tinggi Kedinasan",
+        "link": "https://sevima.com/perguruan-tinggi-kedinasan",
+        "waktu_crawl": "2026-05-08 17:04:32"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Perguruan Tinggi Vokasi",
+        "link": "https://sevima.com/perguruan-tinggi-vokasi",
+        "waktu_crawl": "2026-05-08 17:04:54"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Perguruan Tinggi Swasta",
+        "link": "https://sevima.com/perguruan-tinggi-swasta/",
+        "waktu_crawl": "2026-05-08 17:05:29"
     }
 ]
