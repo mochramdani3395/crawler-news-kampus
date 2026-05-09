@@ -5022,5 +5022,17 @@
         "judul": "Perguruan Tinggi Swasta",
         "link": "https://sevima.com/perguruan-tinggi-swasta/",
         "waktu_crawl": "2026-05-08 17:05:29"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "News?Page=1196&Amp;Size=5&Amp;Search=",
+        "link": "https://kemdiktisaintek.go.id/news?page=1196&amp;size=5&amp;search=",
+        "waktu_crawl": "2026-05-09 01:59:11"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Kemdiktisaintek Gelar Dialog Bersama Mahasiswa Penerima Kip Kuliah Di Aceh",
+        "link": "https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-gelar-dialog-bersama-mahasiswa-penerima-kip-kuliah-di-aceh",
+        "waktu_crawl": "2026-05-09 01:59:20"
     }
 ]
