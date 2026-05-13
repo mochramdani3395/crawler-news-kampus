@@ -1,0 +1,26 @@
+# Wamendiktisaintek Fauzan Dorong Lulusan Perguruan Tinggi Siap Menjadi Generasi Unggul
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/wamendiktisaintek-fauzan-dorong-lulusan-perguruan-tinggi-siap-menjadi-generasi-unggul
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-05-13 17:57:16
+
+---
+
+Pekanbaru – Transformasi pendidikan tinggi hari ini tidak lagi cukup hanya berorientasi pada keunggulan akademik, lebih dari itu perguruan tinggi dituntut menghasilkan lulusan yang mampu menjawab tantangan nyata di tengah perubahan sosial, ekonomi, dan teknologi yang bergerak semakin cepat. Tuntutan ini terasa semakin mendesak mengingat Indonesia tengah memasuki periode bonus demografi yang diproyeksikan berlangsung hingga 2045, sebuah momentum strategis yang menuntut hadirnya sumber daya manusia yang adaptif, tangguh, dan berdampak bagi masyarakat.
+Gambaran tantangan tersebut tercermin pula dari data Angka Partisipasi Kasar (APK) Perguruan Tinggi tahun 2025. Di Provinsi Riau, tingkat partisipasi pendidikan tinggi tercatat sebesar 35,30 persen, sedikit di atas rata-rata nasional yang berada pada angka 32,89 persen. Meski capaian ini patut diapresiasi, selisihnya yang tipis menunjukkan bahwa Riau belum benar-benar berada pada posisi aman dalam hal pemerataan akses pendidikan tinggi. Masih ada ruang besar untuk memperkuat partisipasi, terlebih bagi generasi muda di daerah-daerah yang belum sepenuhnya terjangkau layanan pendidikan tinggi bermutu, sehingga kehadiran Wamendiktisaintek Fauzan di Pekanbaru menjadi bentuk perhatian langsung pemerintah pusat terhadap denyut perkembangan pendidikan tinggi di Bumi Lancang Kuning.
+Perhatian tersebut menemukan konteksnya yang nyata pada kehadiran perguruan tinggi baru di daerah, yang turut memperkuat ekosistem pendidikan nasional. Salah satunya adalah Institut Pendidikan dan Teknologi Aisyiyah Riau (IPTAR), yang saat ini tercatat memiliki 634 mahasiswa aktif dengan dukungan 20 dosen tetap, termasuk tiga dosen bergelar doktor. Tidak hanya itu, dua dari tiga program studi yang dimilikinya telah memperoleh akreditasi “Baik Sekali” — sebuah pencapaian yang menunjukkan keseriusan kampus muda ini dalam menjaga mutu pendidikan. Kehadiran Wamen di tengah momen wisuda perdana IPTAR pun menjadi penanda penting bahwa pertumbuhan kampus-kampus baru di daerah mendapat tempat dalam peta strategis pembangunan SDM nasional.
+Merespons berbagai tantangan dan peluang tersebut, Wakil Menteri Pendidikan Tinggi, Sains, dan Teknologi (Wamendiktisaintek), Fauzan, mengajak para lulusan untuk membangun mental yang tangguh, percaya diri, dan adaptif dalam menghadapi dinamika kehidupan. Pesan ini disampaikannya dalam Sidang Terbuka Senat IPTAR pada Wisuda Sarjana ke-1 sekaligus Milad ke-1 IPTAR, Rabu (13/5).
+“Saudara saat ini sudah lulus dari kampus dan menuju kampus kehidupan yang lebih nyata, yang lebih kompleks persoalannya. Tentu memerlukan keberanian, energi, dan mental yang kuat untuk menyelesaikan problematika yang berkembang,” ujar Wamen Fauzan.
+Lebih lanjut, Wamendiktisaintek menekankan pentingnya membangun rasa percaya diri, karakter yang baik, serta soft skill yang relevan dengan kebutuhan dunia nyata. Menurutnya, lulusan perguruan tinggi harus memiliki fokus, daya juang, dan kemampuan beradaptasi yang kuat agar mampu bersaing di tengah kompetisi global dan perubahan teknologi yang berjalan begitu cepat.
+Tidak berhenti pada penguatan individu lulusan, Wamendiktisaintek juga menegaskan komitmen pemerintah untuk terus memperluas akses pendidikan bermutu melalui berbagai program strategis. Beberapa di antaranya adalah penguatan pendidikan di daerah Tertinggal, Terdepan, dan Terluar (3T) serta perluasan akses beasiswa untuk jenjang pendidikan lanjutan. Langkah-langkah ini sejalan dengan visi Asta Cita Presiden dan Wakil Presiden Republik Indonesia yang menempatkan penguatan kualitas Sumber Daya Manusia sebagai fondasi menuju Indonesia Emas 2045. Semangat yang sama juga digaungkan Menteri Pendidikan Tinggi, Sains, dan Teknologi (Mendiktisaintek), Brian Yuliarto, yang mendorong transformasi pendidikan tinggi melalui arah kebijakan Diktisaintek Berdampak.
+Apresiasi terhadap perkembangan IPTAR turut disampaikan Kepala Lembaga Layanan Pendidikan Tinggi (LLDikti) Wilayah XVII, Nopriadi. Ia menilai kampus tersebut menunjukkan kemajuan yang pesat meski baru berdiri satu tahun, dengan capaian akreditasi institusi “Baik” dan dua program studi yang telah meraih akreditasi “Baik Sekali”.
+“Menjadi lulusan angkatan pertama merupakan kebanggaan sekaligus tanggung jawab besar, karena saudara-saudara adalah wajah pertama kualitas IPTAR di masyarakat,” ujar Nopriadi.
+Melalui momentum wisuda perdana dan milad pertama ini, Kemdiktisaintek mengajak seluruh perguruan tinggi, dosen, mahasiswa, dan pemangku kepentingan untuk bersama-sama membangun ekosistem pendidikan tinggi yang berdampak, adaptif terhadap perkembangan teknologi, sekaligus mampu melahirkan generasi unggul yang berdaya saing dan berkarakter kuat.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak
+#Kampustransformatif
