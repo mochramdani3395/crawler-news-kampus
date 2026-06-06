@@ -1,0 +1,20 @@
+# Kemdiktisaintek Perkuat Kemitraan Riset Dan Inovasi Teknologi Indonesiaprancis Melalui Penandatanganan Perjanjian Pelaksanaan Bersama Ird
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-perkuat-kemitraan-riset-dan-inovasi-teknologi-indonesiaprancis-melalui-penandatanganan-perjanjian-pelaksanaan-bersama-ird
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-06 09:53:25
+
+---
+
+Jakarta — Direktur Jenderal Riset dan Pengembangan (Dirjen Risbang) Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) menandatangani Perjanjian Pelaksanaan (Implementating Agreement) dengan Institut de Recherche pour le Développement (IRD) atau lembaga penelitian dan pembangunan Prancis di Residence of France, Jakarta, Kamis (04/06). Kegiatan ini menjadi bagian dari kunjungan Direktur Utama IRD, Dr. Valérie Verdier, ke Indonesia sekaligus memperingati 50 tahun kehadiran IRD di Indonesia.
+Penandatanganan Perjanjian Pelaksanaan tersebut mencerminkan komitmen Indonesia dan Prancis dalam memperkuat kolaborasi riset dan inovasi untuk menjawab berbagai tantangan pembangunan berkelanjutan. Selama lima dekade terakhir, kerja sama kedua negara telah berkembang di berbagai bidang, mulai dari lingkungan, kesehatan, keanekaragaman hayati, hingga pertanian berkelanjutan.
+Direktur Jenderal Riset dan Pengembangan Kemdiktisaintek, Fauzan Adziman, menegaskan bahwa kerja sama internasional memiliki peran penting dalam meningkatkan kualitas riset nasional dan memperluas kontribusi Indonesia dalam pengembangan ilmu pengetahuan global.
+“Kerja sama Indonesia dan Prancis akan dikembangkan melalui skema co-funding yang memungkinkan kedua negara berkontribusi secara setara dalam menghasilkan riset yang berkualitas dan berdampak. Kolaborasi ini tidak hanya mendorong mobilitas mahasiswa dan peneliti, tetapi juga memperkuat kapasitas riset untuk menjawab berbagai tantangan yang dihadapi kedua negara. Indonesia tidak lagi dilihat sebagai obyek atau lokasi penelitian namun sebagai rekanan penelitian penting bagi Prancis” ujar Fauzan.
+Menurut Fauzan, kemitraan riset perlu menghasilkan solusi nyata bagi masyarakat. Karena itu, Kemdiktisaintek terus memperluas kolaborasi internasional yang berorientasi pada dampak dan relevan dengan kebutuhan pembangunan nasional.
+“Bersama BRIN, kami tengah menyusun Peta Jalan dan Agenda Riset Nasional sebagai arah strategis pengembangan riset Indonesia ke depan. Melalui kemitraan seperti ini, kami ingin mempercepat lahirnya solusi atas berbagai permasalahan prioritas nasional sekaligus memperkuat posisi Indonesia sebagai mitra riset yang setara di tingkat global,” tambahnya.
+Dalam kesempatan tersebut, Direktur Utama IRD, Dr. Valérie Verdier, menyampaikan apresiasi kepada seluruh mitra Indonesia yang telah berkontribusi dalam memperkuat kerja sama ilmiah Indonesia–Prancis selama lima dekade terakhir. Menurutnya, kemitraan yang telah terjalin menjadi fondasi penting untuk memperluas kolaborasi riset yang memberikan manfaat bagi kedua negara.
+Sementara itu, Duta Besar Prancis untuk Indonesia menegaskan komitmen Prancis untuk terus memperkuat kerja sama dengan Indonesia di bidang pendidikan tinggi, penelitian, dan inovasi. Kolaborasi yang semakin erat diharapkan dapat memperluas pertukaran pengetahuan, meningkatkan kapasitas sumber daya manusia, dan menghasilkan solusi berbasis sains bagi berbagai tantangan global.
+Sebagai lembaga penelitian publik Prancis yang berfokus pada pembangunan berkelanjutan, IRD telah menjadi salah satu mitra strategis Indonesia selama hampir 50 tahun. Berbagai program kolaboratif yang dijalankan telah berkontribusi pada penguatan kapasitas penelitian, pengembangan sumber daya manusia, dan penyediaan dasar ilmiah bagi perumusan kebijakan.
+Momentum 50 tahun kehadiran IRD di Indonesia diharapkan menjadi landasan untuk memperluas kolaborasi riset yang lebih strategis dan berkelanjutan. Melalui kemitraan yang semakin erat, Indonesia dan Prancis diharapkan dapat menghasilkan riset dan inovasi yang memberikan manfaat nyata bagi pembangunan dan kesejahteraan masyarakat.
