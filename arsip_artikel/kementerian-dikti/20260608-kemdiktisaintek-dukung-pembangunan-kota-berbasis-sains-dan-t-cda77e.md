@@ -1,0 +1,25 @@
+# Kemdiktisaintek Dukung Pembangunan Kota Berbasis Sains Dan Teknologi
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-dukung-pembangunan-kota-berbasis-sains-dan-teknologi
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-08 08:49:31
+
+---
+
+Jakarta– Wakil Menteri Pendidikan Tinggi, Sains, dan Teknologi (Wamendiktisaintek), Stella Christie menghadiri peresmian Jakarta Urban Knowledge Hub (JUKH), Senin (8/6). Wamendiktisaintek menyampaikan bahwa saat ini merupakan momentum penting untuk membangun Jakarta dengan pendekatan yang bertumpu pada ilmu pengetahuan, riset, dan inovasi. Wamen juga menegaskan pembangunan Jakarta ke depan membutuhkan keterlibatan seluruh ekosistem pendidikan tinggi, sains, dan teknologi agar kebijakan yang dihasilkan semakin berdampak bagi masyarakat.
+“Saatnya kita membangun Jakarta dengan sains dan teknologi. Itulah mengapa kami hadir di sini, Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek), untuk melibatkan bukan hanya kementerian, tetapi seluruh pelaku sains dan teknologi, mulai dari dosen, peneliti, mahasiswa, industri, pemerintah daerah, pemerintah pusat, hingga masyarakat. Karena pada akhirnya seluruh upaya ini dikembalikan kepada masyarakat untuk menjadikan Jakarta sebagai kota yang bertumbuh melalui sains dan teknologi demi meningkatkan kenyamanan dan keamanan warganya,” ujar Wamen Stella.
+Menurut Wamen Stella, kolaborasi lintas sektor menjadi kunci dalam memastikan hasil pendidikan tinggi, riset, dan inovasi dapat diterapkan untuk menjawab berbagai tantangan pembangunan perkotaan. Melalui Jakarta Urban Knowledge Hub, pengetahuan dan hasil kajian dari perguruan tinggi serta berbagai lembaga riset dapat terhubung lebih erat dengan kebutuhan pembangunan daerah.
+Wamen Stella menambahkan bahwa Jakarta memiliki potensi besar untuk berkembang sebagai international talent hub. Berdasarkan pemetaan yang dilakukan, kondisi geopolitik global saat ini membuka peluang bagi Indonesia, khususnya Jakarta, untuk menjadi tujuan mahasiswa, peneliti, dan sivitas akademika internasional. Potensi tersebut perlu didukung melalui penguatan ekosistem pendidikan tinggi, riset, dan inovasi yang terintegrasi antara pemerintah pusat dan pemerintah daerah.
+Lebih lanjut, Wamen Stella menjelaskan bahwa penguatan kerja sama antara pemerintah pusat dan pemerintah daerah menjadi faktor penting dalam mengembangkan pendidikan tinggi dan riset yang mampu memberikan manfaat langsung bagi pembangunan wilayah. Wamendiktisaintek menambahkan, berbagai data global menunjukkan bahwa kota-kota yang memiliki universitas dan pusat riset berkualitas cenderung memiliki pertumbuhan ekonomi yang lebih kuat karena didukung oleh talenta dan inovasi yang berkembang secara berkelanjutan.
+Sejalan dengan semangat Diktisaintek Berdampak, Kemdiktisaintek terus mendorong agar pendidikan tinggi, sains, dan teknologi tidak hanya menghasilkan pengetahuan, tetapi juga memberikan solusi nyata bagi kebutuhan masyarakat dan pembangunan daerah. Jakarta Urban Knowledge Hub menjadi salah satu contoh kolaborasi yang menghubungkan dunia akademik dengan pengambilan kebijakan berbasis bukti (evidence-based policy) untuk menciptakan dampak yang lebih luas bagi masyarakat.
+Senada dengan hal tersebut, Gubernur DKI Jakarta Pramono Anung menegaskan bahwa Jakarta Urban Knowledge Hub akan menjadi salah satu instrumen penting dalam mendukung transformasi Jakarta sebagai kota global yang modern dan berdaya saing.
+Menurut Gubernur DKI Jakarta, pemanfaatan data, sains, dan teknologi akan memperkuat kualitas perencanaan pembangunan di berbagai sektor, mulai dari transportasi, lingkungan, energi, hingga pengembangan kawasan berorientasi transit. Pendekatan berbasis bukti tersebut juga menjadi landasan dalam pengelolaan sampah di Jakarta, termasuk melalui penguatan budaya pemilahan sampah dari tingkat rumah tangga, sekolah, hingga masyarakat secara luas untuk mendukung sistem pengolahan sampah yang lebih berkelanjutan.
+Kehadiran Jakarta Urban Knowledge Hub juga melengkapi berbagai inisiatif strategis Pemerintah Provinsi DKI Jakarta, seperti Jakarta Future Festival dan Jakarta Innovation Day, dalam membangun ekosistem pengetahuan perkotaan yang lebih kuat. Peresmian Jakarta Urban Knowledge Hub turut diramaikan dengan berbagai kegiatan yang mendorong diseminasi dan pengelolaan pengetahuan perkotaan, termasuk Urban Hub Virtual Class bertajuk How History Shapes the Future serta pameran publikasi dan kajian pembangunan yang telah dihasilkan oleh Bappeda Provinsi DKI Jakarta.
+Melalui kolaborasi yang semakin erat antara pemerintah, perguruan tinggi, industri, dan masyarakat, Jakarta Urban Knowledge Hub diharapkan menjadi ruang bersama untuk menghasilkan gagasan, riset, dan inovasi yang mampu mendukung pembangunan Jakarta yang lebih inklusif, berkelanjutan, dan berdaya saing global.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak
