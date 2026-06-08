@@ -1,0 +1,23 @@
+# Kemdiktisaintek Tegaskan Sma Unggul Garuda Perluas Kesempatan Talenta Unggul Dari Seluruh Indonesia
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-tegaskan-sma-unggul-garuda-perluas-kesempatan-talenta-unggul-dari-seluruh-indonesia
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-08 02:43:13
+
+---
+
+Jakarta–Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) menegaskan bahwa Program SMA Unggul Garuda merupakan strategi pemerintah dalam menyiapkan generasi unggul Indonesia yang mampu bersaing di tingkat global menuju Indonesia Emas 2045. Program ini hadir sebagai upaya memperkuat ekosistem pendidikan nasional sekaligus memperluas kesempatan bagi talenta terbaik dari seluruh daerah untuk memperoleh pendidikan berkualitas.
+Program SMA Unggul Garuda terdiri atas dua skema, yaitu SMA Unggul Garuda Baru dan SMA Unggul Garuda Transformasi. SMA Unggul Garuda Baru dibangun di wilayah-wilayah dengan akses pendidikan yang masih terbatas untuk mendorong pemerataan pendidikan dan kesempatan belajar yang lebih baik kepada talenta muda Indonesia. Sementara itu, skema SMA Unggul Garuda Transformasi dilaksanakan di sekolah-sekolah yang sudah beroperasi di berbagai wilayah di Indonesia untuk memperkuat mutu pendidikan nasional.
+Pada tahun ajaran 2026/2027, empat SMA Unggul Garuda Baru akan mulai beroperasi di Kabupaten Belitung Timur, Kabupaten Bulungan, Kabupaten Timor Tengah Selatan, dan Kabupaten Konawe Selatan. Hingga tahun 2029, pemerintah akan membangun 20 SMA Unggul Garuda Baru di berbagai wilayah Indonesia. Pada tahun 2025 dan 2026, sebanyak 42 sekolah dan madrasah telah terpilih menjadi bagian dari program SMA Unggul Garuda Transformasi. Sesuai arahan Presiden Republik Indonesia, pemerintah menargetkan jumlah tersebut meningkat menjadi 80 SMA Unggul Garuda Transformasi pada tahun 2029.
+Program SMA Unggul Garuda Baru juga menerapkan skema beasiswa penuh bagi seluruh peserta didik yang diterima. Seleksi dilakukan secara terbuka, objektif, terukur, dan berbasis kemampuan. Saat ini, proses seleksi peserta didik untuk empat SMA Unggul Garuda Baru telah selesai dilaksanakan. Hasil seleksi menunjukkan bahwa siswa terpilih berasal dari berbagai daerah di Indonesia dengan nilai rata-rata akademik sebesar 88. Sebaran siswa terpilih mencerminkan jangkauan nasional program ini, Sumatera Utara, Kepulauan Bangka Belitung, dan DKI Jakarta menyumbangkan persentase tertinggi jumlah siswa yang lolos.
+Sejumlah sekolah yang telah bergabung dalam program ini juga menunjukkan peningkatan capaian yang signifikan. Pada 12 sekolah SMA Unggul Garuda Transformasi, jumlah Letter of Acceptance (LoA) yang diterima dari 100 universitas terbaik dunia meningkat 167 persen, dari 587 LoA pada 2025 menjadi 1.567 LoA pada 2026. Dalam periode yang sama, jumlah siswa yang berhasil diterima di universitas-universitas tersebut juga meningkat dari 132 menjadi 330 siswa atau tumbuh 150 persen. Capaian ini menunjukkan semakin kuatnya daya saing talenta Indonesia di tingkat global.
+Kemdiktisaintek memahami adanya perhatian publik terkait pemerataan akses pendidikan dan prioritas anggaran. Karena itu, pemerintah menegaskan bahwa Program SMA Unggul Garuda berjalan selaras dengan berbagai program peningkatan mutu pendidikan yang selama ini telah dilaksanakan. Pemerintah berkomitmen memperkuat sarana dan prasarana pendidikan, meningkatkan kualitas guru, mentransformasi pembelajaran, serta memperluas akses pendidikan bagi seluruh masyarakat Indonesia.
+Untuk menjamin keberlangsungan penyelenggaraan Sekolah Garuda, Kemdiktisaintek telah mengalokasikan dana abadi pendidikan yang dikelola oleh Lembaga Pengelola Dana Pendidikan (LPDP) untuk mendukung biaya operasional tahunan Sekolah Garuda. Dana tersebut direncanakan mulai dimanfaatkan pada tahun 2030. Hingga tahun 2026, akumulasi dana abadi yang telah terkumpul mencapai Rp6,198 triliun.
+Melalui Program SMA Unggul Garuda, Kemdiktisaintek berkomitmen memperkuat ekosistem pembinaan talenta nasional yang inklusif, berkelanjutan, dan berdampak. Pemerintah berharap program ini dapat melahirkan generasi Indonesia yang unggul, berkarakter, inovatif, serta mampu berkontribusi bagi kemajuan bangsa dan bersaing di tingkat dunia menuju terwujudnya Indonesia Emas 2045.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak
