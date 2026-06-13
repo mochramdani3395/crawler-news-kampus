@@ -1,0 +1,20 @@
+# Dirjen Risbang Dorong Peran Mahasiswa Dalam Solusi Pengelolaan Sampah Dan Transisi Energi Berkelanjutan
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/dirjen-risbang-dorong-peran-mahasiswa-dalam-solusi-pengelolaan-sampah-dan-transisi-energi-berkelanjutan
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-13 13:25:38
+
+---
+
+Yogyakarta – Direktur Jenderal Riset dan Pengembangan (Dirjen Risbang) Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek), Fauzan Adziman, mendorong mahasiswa untuk mengambil peran dalam menghadirkan solusi atas berbagai tantangan pembangunan, termasuk pengelolaan sampah dan transisi energi berkelanjutan.
+Hal tersebut disampaikan dalam talkshow Indonesia Punya Kamu: Connecting Generations dengan tema “Peran Perguruan Tinggi dalam Mendukung Ketahanan dan Transisi Energi Nasional” yang diselenggarakan Garuda TV bekerja sama dengan Universitas Gadjah Mada (UGM) di Gelanggang Inovasi dan Kreativitas (GIK), Yogyakarta (12/6).
+Dalam kegiatan tersebut, Dirjen Fauzan berkesempatan menaiki eKarsa, mobil listrik yang dikembangkan tim peneliti UGM. Momen tersebut sekaligus menunjukkan kontribusi perguruan tinggi dalam menghadirkan inovasi teknologi ramah lingkungan yang mendukung transisi energi nasional.
+Dirjen Fauzan menyampaikan bahwa Kemdiktisaintek telah mendukung berbagai riset terkait pengolahan sampah menjadi energi. Perguruan tinggi berperan strategis melalui dua jalur utama: menghasilkan inovasi berbasis kepakaran akademik serta membina talenta, termasuk mahasiswa, yang mampu menghubungkan ilmu pengetahuan dengan kebutuhan masyarakat.
+“Pengelolaan sampah merupakan persoalan yang melibatkan aspek teknologi, ekonomi, tata kelola, dan transformasi sosial masyarakat. Kita membutuhkan talenta-talenta yang mampu melihat persoalan secara menyeluruh dan menghadirkan solusi yang berkelanjutan,” ujarnya.
+Saat ini, Kemdiktisaintek juga mendorong keterlibatan mahasiswa melalui Program Aksara Mahasiswa, yaitu Aksi Pembelajaran dan Pemberdayaan Masyarakat oleh Mahasiswa. Melalui program ini, mahasiswa hadir langsung di tengah masyarakat untuk berdialog dengan warga, memetakan persoalan di lapangan, membangun kesadaran publik, serta mendorong praktik pengelolaan sampah yang lebih baik mulai dari tingkat rumah tangga.
+“Mahasiswa tidak hanya belajar dari masyarakat, tetapi juga menjadi agen perubahan yang membantu membangun ekosistem pengelolaan sampah yang lebih baik. Ini adalah bagian dari upaya menciptakan solusi yang berkelanjutan,” tambah Dirjen Fauzan.
+Pada kesempatan yang sama, Kepala Organisasi Riset Energi dan Manufaktur BRIN, Cuk Supriyadi Ali Nandar, menjelaskan bahwa pemilahan sampah dari rumah tangga akan menekan biaya pengolahan dan mengurangi residu yang masuk ke TPS3R maupun TPA. Teknologi pengolahan sampah saat ini akan jauh lebih efektif apabila sampah telah dipilah sejak awal. Sampah organik dapat diolah menjadi kompos atau biogas, sementara sampah anorganik dapat masuk ke rantai daur ulang dan memiliki nilai ekonomi.
+Sebelumnya, Wakil Rektor UGM Bidang Penelitian, Pengembangan Usaha, dan Kerja Sama, Danang Sri Hadmoko, dalam sambutannya menyampaikan bahwa perguruan tinggi merupakan kawah candradimuka bagi generasi muda untuk menjadi pemimpin masa depan. Menurutnya, isu energi dan persoalan strategis perlu dijawab melalui pendekatan multidisiplin dan multiaktor.
+Melalui kesempatan ini, Kemdiktisaintek kembali menegaskan komitmen dalam memperkuat peran perguruan tinggi sebagai pusat pengembangan talenta dan riset yang mampu menghasilkan solusi nyata bagi masyarakat. Penguatan kapasitas mahasiswa, kolaborasi lintas sektor, serta pemanfaatan ilmu pengetahuan dan teknologi diharapkan dapat mendukung terwujudnya pembangunan berkelanjutan dan transisi energi yang lebih inklusif di Indonesia.
