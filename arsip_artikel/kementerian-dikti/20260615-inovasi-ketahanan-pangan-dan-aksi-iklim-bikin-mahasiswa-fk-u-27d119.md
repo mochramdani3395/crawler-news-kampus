@@ -1,0 +1,17 @@
+# Inovasi Ketahanan Pangan Dan Aksi Iklim Bikin Mahasiswa Fk Undip Raih Gold Medal Dan 1St Winner Di Malaysia
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/inovasi-ketahanan-pangan-dan-aksi-iklim-bikin-mahasiswa-fk-undip-raih-gold-medal-dan-1st-winner-di-malaysia
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-15 09:55:37
+
+---
+
+UNDIP, Malaysia (10/6) – Mahasiswa Fakultas Kedokteran Universitas Diponegoro (FK UNDIP), Ahmad Salman Faadhillah, berhasil meraih Gold Medal dan 1st Winner pada ajang 5th International Youth Summit (IYS) 2026 yang diselenggarakan oleh Sentosa Foundation bekerja sama dengan Centre of Entrepreneurial Development and Graduate Marketability (CEM), Universiti Putra Malaysia (UPM), pada 30–31 Mei 2026.
+Kompetisi internasional yang mengusung tema “Youth Contributions to Global Influence on International Policy Through Innovation” tersebut menjadi wadah bagi generasi muda untuk menghadirkan solusi inovatif terhadap berbagai tantangan global melalui riset dan pengembangan gagasan yang berdampak. Dalam kompetisi ini, Ahmad Salman Faadhillah mengembangkan sebuah inovasi yang mengintegrasikan tujuan pembangunan berkelanjutan atau Sustainable Development Goals (SDGs), khususnya SDG 2 (Zero Hunger), SDG 12 (Responsible Consumption and Production), dan SDG 13 (Climate Action). Gagasan tersebut disusun bersama mahasiswa dari Fakultas Hukum Universitas Gadjah Mada (UGM) sebagai bentuk kolaborasi lintas disiplin ilmu yang menggabungkan perspektif kesehatan, lingkungan, dan kebijakan.
+Ahmad Salman Faadhillah dari Fakultas Kedokteran Universitas Diponegoro bersama rekan kolaborator dari Fakultas Hukum UGM menunjukkan penghargaan Gold Medal dan 1st Winner pada ajang 5th International Youth Summit 2026 di Universiti Putra Malaysia.
+Ahmad Salman Faadhillah, mahasiswa Fakultas Kedokteran Universitas Diponegoro (FK UNDIP), bersama rekan kolaborator dari Fakultas Hukum UGM berhasil meraih Gold Medal dan gelar 1st Winner pada 5th International Youth Summit (IYS) 2026 yang diselenggarakan di Universiti Putra Malaysia.
+Pada tahap awal kompetisi, seluruh peserta mempresentasikan poster ilmiah yang terbagi ke dalam sembilan subtema. Melalui presentasi tersebut, karya yang diusung Salman berhasil meraih Gold Medal pada kategori Food, sehingga berhak melaju ke babak final. Pada tahap final, para peserta mempresentasikan gagasan mereka di hadapan delapan dewan juri untuk memperebutkan posisi terbaik dalam kompetisi. Berkat kualitas inovasi, relevansi terhadap isu global, serta kemampuan presentasi yang unggul, Salman berhasil meraih gelar 1st Winner setelah bersaing dengan lebih dari 100 karya dari berbagai peserta.
+Prestasi ini menjadi bukti bahwa kolaborasi lintas disiplin ilmu mampu menghasilkan solusi inovatif yang relevan dengan tantangan global saat ini. Keberhasilan Ahmad Salman Faadhillah juga menunjukkan kapasitas mahasiswa Indonesia, khususnya mahasiswa Fakultas Kedokteran UNDIP, dalam berkontribusi pada pengembangan ide-ide strategis yang mendukung pencapaian tujuan pembangunan berkelanjutan di tingkat internasional.
+Capaian tersebut diharapkan dapat menjadi inspirasi bagi mahasiswa lainnya untuk terus aktif melakukan riset, berinovasi, dan berkontribusi dalam menyelesaikan berbagai permasalahan global melalui karya-karya yang berdampak bagi masyarakat. (Komunikasi Publik/UNDIP/Saradita/Erman)
