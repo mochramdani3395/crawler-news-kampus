@@ -1,0 +1,21 @@
+# Delegasi Undip Raih Medali Di Onmipa Pt Tingkat Nasional 2026 Cetak Prestasi Terbaik Dalam Beberapa Tahun Terakhir
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/delegasi-undip-raih-medali-di-onmipa-pt-tingkat-nasional-2026-cetak-prestasi-terbaik-dalam-beberapa-tahun-terakhir
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-17 08:54:33
+
+---
+
+UNDIP, Surabaya (13/6) – Universitas Diponegoro (UNDIP) kembali menorehkan prestasi membanggakan pada Olimpiade Nasional Matematika dan Ilmu Pengetahuan Alam Perguruan Tinggi (ONMIPA-PT) Tingkat Nasional Tahun 2026 yang diselenggarakan oleh Direktorat Pembelajaran dan Kemahasiswaan Kementerian Pendidikan Tinggi, Sains dan Teknologi di Universitas Airlangga (UNAIR) pada Senin s.d. Kamis, 8 s.d. 11 Juni 2026.
+Pada ajang yang mempertemukan mahasiswa terbaik dari berbagai perguruan tinggi di Indonesia tersebut, kontingen UNDIP berhasil meraih 1 Medali Emas Bidang Biologi atas nama Reyhan Patera Pramudya dari Fakultas Kedokteran, 1 Medali Perak Bidang Biologi atas nama Ida Ayu Bulan Putri Ahilya dari Fakultas Kedokteran, dan 1 Medali Perak Bidang Matematika atas nama M. Rival Faiz Faturohman dari Fakultas Sains dan Matematika. Peraihan ini meningkat dibandingkan dengan capaian pada tahun sebelumnya yang mendapatkan 2 Medali Perunggu Bidang Biologi, dan 1 Kategori Honorable Mention bidang Biologi.
+Peningkatan hasil ini menjadi bukti komitmen UNDIP dalam membina mahasiswa berprestasi di bidang Matematika dan Ilmu Pegetahuan Alam. Melalui proses seleksi dan pembinaan yang berkelanjutan, para delegasi UNDIP mampu menunjukkan Kompetensi terbaiknya di tengah persaingan yang sangat ketat.
+Pencapaian ini mendapat apresiasi dari PIC ONMIPA UNDIP, Nurdin Bahtiar, S.Si., M.T. Ia menyampaikan rasa syukur atas hasil yang berhasil diraih oleh para delegasi UNDIP pada ONMIPA-PT Tingkat Nasional 2026.
+“Alhamdulillah, pada ONMIPA-PT Tingkat Nasional 2026 UNDIP berhasil meraih 1 medali emas dan medali perak. Capaian ini merupakan hasil dari kerja keras mahasiswa, dosen Pembina, serta berbagai pihak yang telah mendukung proses pembinaan dan persiapan kompetisi. Semoga prestasi yang membanggakan ini dapat terus dipertahankan dan ditingkatkan pada tahun-tahun mendatang,” ucapnya.
+Menurutnya, keberhasilan tersebut menjadi bukti bahwa mahasiswa UNDIP mampu bersaing di tingkat nasional Sekaligus menunjukkan kualitas pembinaan akademik yang terus berkembang dari tahun ke tahun.
+Keberhasilan tersebut tidak diperoleh secara instan. Para delegasi telah melalui rangkaian seleksi berjenjang mulai dari tingkat perguruan tinggi hingga tingkat wilayah sebelum akhirnya berkompetisi di tingkat nasional bersama mahasiswa-mahasiswa terbaik dari seluruh Indonesia.
+Salah satu delegasi UNDIP yang meraih medali perak pada Bidang Matematika, M. Rival Faiz Faturohman dari Fakultas Sains dan Matematika, mengungkapkan bahwa ONMIPA-PT Nasional memberikan pengalaman yang sangat berharga.
+“Bagi saya, ONMIPA-PT Tingkat Nasional bukan hanya kompetisi, tetapi juga tentang proses belajar dan bertumbuh bersama. Saya merasa senang dapat beriteraksi dengan mahasiswa mahasiswa hebat dari seluruh Indonesia, berbagi cerita, pengalaman, dan semangat yang sama dalam bidang sains. Meski demikian, suasana kompetisi yang ketat tentu menghadirkan rasa tegang karena setiap peserta datang dengan persiapan dan kemampuan terbaiknya,” ujarnya.
+Lebih lanjut, ia berharap ONMIPA-PT Nasional dapat terus menjadi wadah pengembangan talenta sains mahasiswa Indonesia. “Saya berharap ONMIPA-PT Nasional dapat terus menjadi ajang yang membanggakan bagi mahasiswa Indonesia. Selain mempertahankan kualitas penyelenggaraan yang baik, saya berharap dukungan dan apresiasi terhadap para peserta serta peraih prestasi dapat ditingkatkan pada tahun tahun yang akan datang. Hal tersebut akan menjadi bentuk penghargaan atas kerja keras peserta sekaligus mendorong semakin banyak mahasiswa untuk berprestasi di bidang sains,” pungkasnya.
+Capain yang lebih baik dibandingkan tahun sebelumnya diharapkan menjadi motivasi bagi seluruh civitas academica UNDIP untuk terus meningkatkan kualitas akademik, penelitian, dan prestasi mahasiswa di tingkat nasional maupun internasional. (Komunikasi Publik/UNDIP)
