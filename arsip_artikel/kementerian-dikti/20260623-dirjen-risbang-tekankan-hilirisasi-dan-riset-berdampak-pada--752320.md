@@ -1,0 +1,21 @@
+# Dirjen Risbang Tekankan Hilirisasi Dan Riset Berdampak Pada Rakerpim Lldikti Wilayah Vii Program Kakak Tangguh Diluncurkan
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/dirjen-risbang-tekankan-hilirisasi-dan-riset-berdampak-pada-rakerpim-lldikti-wilayah-vii-program-kakak-tangguh-diluncurkan
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-23 02:12:52
+
+---
+
+Surabaya – Direktorat Jenderal Riset dan Pengembangan (Ditjen Risbang) Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) menegaskan komitmennya dalam memperkuat riset yang berdampak bagi masyarakat dan industri pada Rapat Kerja Pimpinan (Rakerpim) Perguruan Tinggi di Lingkungan Lembaga Layanan Pendidikan Tinggi (LLDIKTI) Wilayah VII Jawa Timur Tahun 2026. Kegiatan yang diikuti pimpinan perguruan tinggi negeri dan swasta se-Jawa Timur ini juga dirangkaikan dengan peluncuran Program Kakak Tangguh sebagai program unggulan LLDIKTI Wilayah VII, Surabaya (22/06).
+Pada sesi panel, Dirjen Risbang, Fauzan Adziman, menyampaikan bahwa pemerintah terus berupaya memperluas dukungan pendanaan riset untuk meningkatkan kontribusi perguruan tinggi dalam menjawab berbagai tantangan pembangunan nasional.
+Dirjen Fauzan menjelaskan bahwa jumlah proposal riset yang diajukan pada tahun 2026 meningkat hampir dua kali lipat hingga mencapai sekitar 120 ribu proposal. Namun demikian, jumlah proposal yang dapat didanai masih berada pada kisaran 20 ribu proposal. Untuk meningkatkan kapasitas riset nasional, pemerintah telah menambah alokasi anggaran riset sebesar Rp4 triliun.
+Lebih lanjut, Dirjen Fauzan menegaskan bahwa arah kebijakan riset saat ini tidak hanya berorientasi pada publikasi ilmiah, tetapi juga pada penyelesaian masalah nyata yang dihadapi masyarakat dan industri. Perguruan tinggi didorong untuk menghasilkan inovasi yang dapat dimanfaatkan secara luas, memperkuat daya saing nasional, serta mendukung pertumbuhan ekonomi berbasis pengetahuan.
+Kepala LLDIKTI Wilayah VII, Diah Savitri, menyampaikan bahwa Jawa Timur memiliki 304 perguruan tinggi dengan lebih dari 22 ribu dosen yayasan yang menjadi bagian penting dalam pengembangan pendidikan tinggi di daerah. Menurutnya, berbagai capaian telah diraih, termasuk penghargaan Pelaporan Pangkalan Data Pendidikan Tinggi (PDDikti) Terbaik tingkat nasional.
+Ia juga menjelaskan bahwa perguruan tinggi di Jawa Timur terus menunjukkan perkembangan positif dalam penguatan ekosistem riset. Pada tahun 2025, pendanaan riset hilirisasi yang diterima perguruan tinggi di Jawa Timur mencapai sekitar Rp114 miliar dan meningkat menjadi sekitar Rp127 miliar pada tahun 2026. Ia berharap peningkatan kualitas perguruan tinggi dapat terus dilakukan melalui penguatan tata kelola, kolaborasi, serta konsolidasi kelembagaan.
+Selain membahas penguatan riset, forum juga menyoroti pentingnya peningkatan relevansi pendidikan tinggi terhadap kebutuhan dunia kerja. Gubernur Jawa Timur, Khofifah Indar Parawansa, menekankan bahwa peningkatan employability lulusan menjadi tantangan yang perlu mendapat perhatian bersama. Menurutnya, sinergi antara perguruan tinggi, pemerintah, dan dunia usaha perlu terus diperkuat agar lulusan memiliki kompetensi yang sesuai dengan kebutuhan pembangunan dan industri.
+Dalam kesempatan yang sama, LLDIKTI Wilayah VII secara resmi meluncurkan Program Kampus Berdampak Untuk Komunitas Lebih Tangguh (KAKAK TANGGUH) sebagai program unggulan tahun 2026. Program ini merupakan kolaborasi strategis yang bertujuan membangun komunitas yang mandiri dan sehat melalui enam klaster intervensi prioritas berbasis kebutuhan lokal. Pelaksanaan program melibatkan mahasiswa sebagai pelaksana kegiatan di lapangan dengan pendampingan dosen dari berbagai perguruan tinggi. Program akan dijalankan secara bertahap mulai Juni 2026 hingga Januari 2027.
+Melalui kegiatan ini, Ditjen Risbang berharap terbangun sinergi yang semakin kuat antara pemerintah, perguruan tinggi, dunia usaha, dan masyarakat dalam mewujudkan ekosistem pendidikan tinggi yang unggul, inovatif, dan berdampak bagi kemajuan bangsa.
+Humas Ditjen Risbang
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
