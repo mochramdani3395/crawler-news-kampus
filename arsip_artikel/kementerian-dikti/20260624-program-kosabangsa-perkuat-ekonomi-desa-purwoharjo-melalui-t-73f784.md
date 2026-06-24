@@ -1,0 +1,20 @@
+# Program Kosabangsa Perkuat Ekonomi Desa Purwoharjo Melalui Teknologi Air Bersih Dan Pengelolaan Sampah
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/program-kosabangsa-perkuat-ekonomi-desa-purwoharjo-melalui-teknologi-air-bersih-dan-pengelolaan-sampah
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-24 07:35:30
+
+---
+
+Makassar - Keindahan alam dan kedekatan dengan kawasan strategis pariwisata tidak selalu berdampak positif terhadap kemajuan sebuah desa wisata. Di Desa Purwoharjo, Kecamatan Samigaluh, Kabupaten Kulon Progo, dalam pengembangan ekowisata masih menghadapi sejumlah tantangan, mulai dari ketersediaan air bersih, pengelolaan sampah, hingga kebutuhan diversifikasi produk wisata yang mampu memberikan manfaat ekonomi lebih luas bagi masyarakat.
+Melalui Program Kolaborasi Sosial Membangun Masyarakat (Kosabangsa), tim pelaksana dari Sekolah Tinggi Pariwisata Ambarrukmo Yogyakarta bersama tim pendamping dari Universitas AKPRIND Indonesia berupaya memperkuat ekosistem ekowisata di Desa Purwoharjo melalui penerapan teknologi tepat guna dan pemberdayaan masyarakat. Program ini melibatkan dua mitra utama, yakni Gapoktan Tani Ternak Mudi Makmur dan Pokdarwis Desa Wisata Tinalah.
+Ketua tim pelaksana, Novi Irawati, menjelaskan bahwa salah satu fokus program adalah penyediaan teknologi air minum berbasis reverse osmosis (RO). Teknologi tersebut tidak hanya membantu memenuhi kebutuhan air bersih bagi aktivitas wisata, tetapi juga membuka peluang usaha baru bagi kelompok masyarakat.
+Air hasil teknologi RO yang kami terapkan dimanfaatkan mendukung aktivitas wisata sekaligus dijual kepada masyarakat umum. Saat ini air tersebut dipasarkan sekitar Rp7.000 per galon dan memberikan kenaikan omzet sebesar 8% bagi kelompok pengelola,” ujarnya.
+Selain penyediaan air bersih, program ini juga mendorong diversifikasi produk wisata melalui pengembangan berbagai produk olahan lokal baik kuliner maupun kerajinan. Potensi singkong dan pisang yang melimpah di desa dimanfaatkan menjadi aneka produk keripik, sementara limbah tempurung kelapa diolah menjadi produk kerajinan seperti gelas, mangkuk, dan sendok yang digunakan sebagai bagian dari pengalaman wisata berbasis lingkungan.
+“Desa ini memiliki potensi singkong dan pisang yang cukup melimpah. Kami kemudian mengolahnya menjadi berbagai produk yang dapat dinikmati wisatawan sekaligus memberikan nilai tambah bagi masyarakat.” kata Novi. “Selain itu, kami juga melihat banyak pohon kelapa yang pemanfaatannya belum optimal sehingga menghasilkan limbah. Karena itu, kami mendorong pengolahan tempurung dan daun kelapa menjadi produk yang memiliki nilai ekonomi,”
+Tidak berhenti pada pengembangan produk, tim juga melakukan identifikasi dan penyusunan paket wisata baru untuk memperkuat daya tarik Desa Wisata Tinalah. Upaya tersebut dilengkapi dengan penyusunan buku panduan wisata edukasi yang diharapkan dapat menjadi acuan bagi masyarakat dalam mengelola dan mengembangkan destinasi wisata secara berkelanjutan.
+Menurut Novi, berbagai teknologi dan inovasi yang diterapkan memberikan dampak yang cukup cepat bagi masyarakat, kehadiran fasilitas baru tidak hanya meningkatkan kenyamanan wisatawan, tetapi juga berkontribusi terhadap peningkatan kinerja ekonomi kelompok pengelola wisata.
+“Teknologi yang diterapkan memberikan kemudahan bagi aktivitas wisata dan berdampak signifikan terhadap peningkatan omzet mitra. Dalam enam bulan terakhir, omszet yang diperoleh mencapai sekitar Rp400 juta sehingga kami melihat manfaat program ini dapat dirasakan secara nyata oleh masyarakat.” katanya.
+Program Kosabangsa di Desa Purwoharjo menunjukkan bahwa pengembangan pariwisata memerlukan pendekatan yang terintegrasi antara peningkatan fasilitas dasar, pengelolaan lingkungan, penguatan produk lokal, dan pemberdayaan masyarakat. Kolaborasi perguruan tinggi dan masyarakat ini mengangkat potensi desa purwoharjo secara maksimal dan kini menjadi sumber nilai ekonomi baru yang berkelanjutan.
