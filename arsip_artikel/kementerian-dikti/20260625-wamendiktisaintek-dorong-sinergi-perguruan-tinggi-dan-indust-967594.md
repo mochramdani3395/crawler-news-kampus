@@ -1,0 +1,28 @@
+# Wamendiktisaintek Dorong Sinergi Perguruan Tinggi Dan Industri Untuk Mencetak Talenta Global Indonesia
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/wamendiktisaintek-dorong-sinergi-perguruan-tinggi-dan-industri-untuk-mencetak-talenta-global-indonesia
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-25 14:06:47
+
+---
+
+Jakarta–Persaingan global yang semakin terbuka menuntut Indonesia, terutama para lulusan perguruan tingginya, untuk mampu beradaptasi dan berkontribusi pada sektor-sektor strategis dunia. Dalam menghadapi transformasi ekonomi dan perkembangan teknologi, sinergi yang lebih erat antara perguruan tinggi dan dunia industri menjadi kunci untuk melahirkan talenta Indonesia yang berdaya saing global sekaligus mampu menjawab kebutuhan pembangunan nasional.
+Tantangan tersebut tercermin dari data Badan Pusat Statistik (BPS) yang menunjukkan bahwa pada 2025 terdapat sekitar 1,01 juta lulusan perguruan tinggi yang masih menganggur sebagai bagian dari 7,28 juta pengangguran terbuka di Indonesia. Tingkat Pengangguran Terbuka (TPT) lulusan universitas juga masih berada pada kisaran 5,39 persen, sementara kelompok usia muda 15–24 tahun menjadi penyumbang angka pengangguran tertinggi. Kondisi tersebut menunjukkan pentingnya transformasi pendidikan tinggi agar semakin relevan dengan kebutuhan dunia kerja dan perkembangan industri.
+Merespons tantangan tersebut, Wakil Menteri Pendidikan Tinggi, Sains, dan Teknologi (Wamendiktisaintek), Fauzan mendorong perguruan tinggi untuk memperkuat relevansi pendidikan melalui kemitraan yang lebih erat dengan industri guna menghasilkan talenta profesional yang mampu bersaing di tingkat global. Hal tersebut disampaikannya pada The 4th Universitas Indonesia (UI) Employer Forum bertajuk “Beyond Borders: The Next-Gen Talent Ecosystem for a World-Class Indonesia”, Rabu (24/6).
+“Perguruan tinggi kita harus terus berupaya untuk menerjemahkan relevansi. Dinamika masyarakat dan dunia industri dijadikan acuan dalam mengembangkan pendidikan tinggi. Karena itu, kemitraan dengan industri harus menjadi bagian dari proses pembelajaran agar lulusan benar-benar siap menjawab kebutuhan dunia kerja," ujar Wamen Fauzan.
+Indonesia dinilai perlu mulai memandang talenta unggul sebagai aset strategis bangsa, termasuk dalam memperkuat posisi Indonesia di tingkat global. Menurut Wamendiktisaintek, perguruan tinggi perlu memetakan dan menyiapkan lulusan yang mampu mengisi sektor-sektor strategis di berbagai negara, mulai dari teknologi, kesehatan, pendidikan, hingga kebijakan publik.
+“Kampus harus melakukan lompatan-lompatan yang dapat memberikan kontribusi kepada masyarakat melalui talenta-talenta profesional yang disiapkan. Kita harus mulai memetakan sektor-sektor strategis yang memiliki nilai tawar tinggi sehingga tenaga profesional Indonesia menjadi kekuatan bangsa di tingkat global,” tegas Wamen Fauzan.
+Senada dengan hal tersebut, Wakil Rektor Bidang Perencanaan, Keuangan, dan Sumber Daya UI, Ahmad Gamal menegaskan bahwa keberhasilan perguruan tinggi tidak lagi diukur hanya dari proses pembelajaran di dalam kampus, melainkan dari dampak nyata yang dihasilkan para lulusannya.
+“Kualitas pendidikan tinggi tidak lagi dapat diukur melalui apa yang terjadi di dalam tembok-tembok tingginya. Pada akhirnya, kualitas itu diukur dari apa yang dilakukan para lulusannya di dunia,” kata Ahmad Gamal.
+Ahmad Gamal menambahkan bahwa hasil tracer study UI menunjukkan masih terdapat kesenjangan pada aspek adaptabilitas, tanggung jawab, integritas, dan kemampuan bekerja lintas budaya, kompetensi yang justru paling dibutuhkan dunia kerja saat ini. Karena itu, forum tersebut menjadi ruang kolaborasi antara perguruan tinggi dan industri untuk bersama-sama merancang ekosistem pendidikan yang lebih relevan.
+Pandangan tersebut diperkuat oleh Managing Director Global Relations & Governance Danantara, Mohamad Al-Arief yang menilai bahwa batas antara kampus dan dunia industri kini semakin hilang sehingga pengembangan talenta harus dilakukan secara bersama.
+“Kita perlu menghilangkan kesenjangan antara pendidikan tinggi dan industri. Kita harus berhenti mengembangkan talenta berdasarkan masa lalu, dan secara kolektif membangun ekosistem talenta yang dapat menghapus batasan-batasan,” ujar Mohamad Al-Arief.
+Sejalan dengan pernyataan Wamen Fauzan, Presiden dan Wakil Presiden Republik Indonesia (RI) melalui Asta Cita menempatkan pembangunan sumber daya manusia unggul sebagai fondasi utama menuju Indonesia Emas 2045. Menteri Pendidikan Tinggi, Sains, dan Teknologi (Mendiktisaintek), Brian Yuliarto juga terus mendorong transformasi pendidikan tinggi melalui semangat Diktisaintek Berdampak, dengan memperkuat kolaborasi antara perguruan tinggi, dunia usaha dan dunia industri (DUDI), pemerintah, serta masyarakat agar pendidikan tinggi mampu menghasilkan inovasi dan talenta yang memberikan manfaat nyata bagi pembangunan bangsa.
+Kemdiktisaintek akan terus memperkuat ekosistem kemitraan antara perguruan tinggi dan dunia industri melalui pengembangan kurikulum yang adaptif, pembelajaran berbasis pengalaman, serta kolaborasi riset dan inovasi. Dengan semangat Diktisaintek Berdampak, perguruan tinggi diharapkan mampu melahirkan talenta profesional yang kompetitif di tingkat global sekaligus menjadi penggerak pembangunan dan kemajuan Indonesia.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak
