@@ -1,0 +1,25 @@
+# Kemdiktisaintek Dan Komisi X Dpr Ri Serap Aspirasi Seleksi Penerimaan Mahasiswa Baru Di Sumatra Utara
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-dan-komisi-x-dpr-ri-serap-aspirasi-seleksi-penerimaan-mahasiswa-baru-di-sumatra-utara
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-27 09:56:14
+
+---
+
+Medan—Angka partisipasi kasar pendidikan tinggi di Sumatera Utara berdasarkan data Badan Pusat Statistik Tahun 2024 mencapai 31,63% atau sebanyak 269 ribu orang dari 394,14 lulusan tidak melanjutkan ke jenjang pendidikan tinggi. Beberapa tantangan terkait hal tersebut diantaranya yakni keterbatasan ekonomi, biaya hidup dan transportasi, termasuk minimnya informasi terkait penerimaan mahasiswa baru di PT dan ketersediaan beasiswa yang dapat diakses oleh lulusan sekolah menengah
+Melihat hal itu, Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) dan Komisi X Dewan Perwakilan Rakyat Republik Indonesia (DPR RI) menerima berbagai aspirasi terkait seleksi penerimaan mahasiswa baru dari berbagai kampus baik negeri maupun swasta di Sumatra Utara. Selain melakukan evaluasi, kegiatan yang diselenggarakan di Universitas Sumatera Utara (USU) juga bertujuan untuk menghimpun masukan dari berbagai pemangku kepentingan guna merumuskan rekomendasi penyempurnaan kebijakan tersebut ke depan, Jumat (26/6).
+Staf Khusus Menteri (SKM) Bidang Pemerintahan dan Akuntabilitas Kemdiktisaintek, Tjitjik Srie Tjahjandarie menjelaskan bahwa secara umum keresahan dari perguruan tinggi swasta maupun negeri terkait penerimaan mahasiswa baru yakni mengenai keseimbangan daya tampung antara PTN dan PTS serta pemenuhan daya tampung yang rendah. Lebih lanjut, daya tampung penerimaan mahasiswa di perguruan tinggi negeri di bawah Kemdiktisaintek tidak semata-mata ditentukan oleh kampus tersebut melainkan perlu persetujuan dari Kemdiktisaintek dan ditetapkan di awal, bukan setiap tahapan seleksi. Hal ini sebagai bentuk kebijakan Kemdiktisaintek dalam menjaga standar mutu dan keseimbangan akses masuk PTN dan PTS.
+SKM Tjitjik menegaskan urusan pendidikan tinggi memang diampu oleh Kemdiktisaintek, tetapi pengendalian daya tampung PT yang dapat dilakukan hanya pada PTN dibawah Kemdiktisaintek. Sementara itu, juga ada perguruan tinggi yang diselenggarakan oleh Kementerian/Lembaga (K/L) lain yang jumlahnya juga cukup banyak dan daya tampungnya merupakan kewenangan dari K/L pengampu kampus tersebut, termasuk penetapan jadwal tahapan seleksi penerimaan mahasiswa baru. Hal ini menjadi usulan dalam revisi Undang-Undang Sistem Pendidikan Nasional (UU Sisdiknas) oleh Komisi X DPR RI bahwa pengampu urusan pendidikan tinggi ke depan sebaiknya satu pintu di Kemdiktisaintek.
+Kepala Biro Kemahasiswaan, Alumni, dan Kerjasama Universitas Muhammadiyah Sumatera Utara (UMSU), Abdurrahman Zuhdi berharap agar adanya regulasi yang proporsional dalam penerimaan mahasiswa baru di Indonesia, khususnya komposisi bagi perguruan tinggi swasta. Selain itu, perlu adanya penambahan kuota beasiswa bagi mahasiswa yang berasal dari wilayah terdampak bencana Sumatra 2025 lalu karena pangsa pasar UMSU berada di sana seperti Sibolga, Aceh Tamiang, dan lainnya.
+Selain daya tampung, aspek pemenuhannya pun perlu mendapat perhatian karena pada tahun 2025 sebanyak 10% daya tampung di PTN tidak terisi. Wakil Rektor I Universitas Sumatera Utara (USU), Poppy Anjelisa Zaitun Hasibuan mengungkapkan, kendala utama terkait penerimaan mahasiswa baru di USU adalah banyaknya calon mahasiswa yang tidak mendaftar ulang setelah dinyatakan lulus, khususnya di Program Studi Sastra Melayu dan Sastra Batak. Beberapa faktor utamanya adalah lulus di perguruan tinggi lain, diterima di sekolah kedinasan, dan terkendala biaya termasuk status Kartu Indonesia Pintar Kuliah yang tidak eligible.
+Kepala Bagian Umum Lembaga Layanan Pendidikan Tinggi (LLDikti), Ahmad Subhan mengungkapkan bahwa perlunya peran yang lebih ditingkatkan dari LLDikti khususnya terkait monitoring dan evaluasi terhadap kampus-kampus yang berada di wilayahnya. Dengan anggaran yang terbatas, saat ini LLDikti belum dapat secara optimal menangani maupun menindaklanjuti berbagai pengaduan dari para pemangku kepentingan di wilayahnya.
+“Jika ada pelanggaran, kami hanya bisa memberikan teguran tertulis dan hampir tidak ada efek jeranya,” ungkap Ahmad.
+Pada kesempatan yang sama, Wakil Ketua Komisi X DPR RI, Kurniasih Mufidayati menyampaikan apresiasi atas aspirasi, kejelasan, dan tanggapan yang disampaikan oleh para pemangku kepentingan bidang pendidikan tinggi di Sumatera Utara.
+“Insyaallah akan jadi masukan yang komprehensif dan strategis dalam merumuskan rekomendasi Panja Sistem Penerimaan Mahasiswa Baru Komisi X DPR RI, sekaligus memperkaya substansi dalam proses revisi UU Sisdiknas,” pungkas Wakil Ketua Kurniasih.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak
