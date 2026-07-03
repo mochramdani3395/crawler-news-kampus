@@ -1,0 +1,24 @@
+# Mahasiswa Utb Raih Pengakuan Dari Anthropic Atas Temuan Kerentanan Pada Claude Ai
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/mahasiswa-utb-raih-pengakuan-dari-anthropic-atas-temuan-kerentanan-pada-claude-ai
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-07-03 10:26:33
+
+---
+
+Bandung – Prestasi membanggakan kembali ditorehkan oleh mahasiswa Universitas Teknologi Bandung (UTB). Muhamad Arga Reksapati, mahasiswa Departemen Teknik Informatika UTB, berhasil memperoleh pengakuan dari Anthropic, perusahaan pengembang teknologi kecerdasan buatan yang mengembangkan Claude AI, setelah menemukan celah keamanan pada sistem Claude Code Action.
+Melalui platform HackerOne, Arga berhasil mengidentifikasi celah keamanan pada mekanisme yang digunakan untuk menjalankan asisten AI pada GitHub Issue dan Pull Request (PR). Atas temuannya tersebut, ia memperoleh reward bug bounty sebesar 3.700 dolar Amerika Serikat atau sekitar Rp66 juta.
+Kerentanan yang ditemukan berpotensi memengaruhi instruksi yang diproses oleh sistem AI. Dalam kondisi tertentu, mekanisme perlindungan yang dirancang untuk menjaga konsistensi isi Issue dan Pull Request dapat dilewati melalui proses pemrosesan gambar. Akibatnya, sistem berpotensi membaca informasi yang telah mengalami perubahan setelah proses awal berlangsung.
+Reward sebesar 3.700 dolar Amerika Serikat tersebut diberikan berdasarkan hasil penilaian tingkat keparahan celah keamanan oleh tim keamanan Anthropic. Berbeda dengan beberapa program keamanan lainnya, Anthropic tidak memberikan sertifikat apresiasi resmi atas temuan tersebut. Bentuk penghargaan yang diberikan berupa bug bounty yang disalurkan melalui platform HackerOne sebagai bentuk pengakuan atas kontribusi dalam meningkatkan keamanan sistem mereka.
+Arga menjelaskan bahwa dalam aktivitas penelitiannya, penggunaan teknologi Artificial Intelligence hanya berfungsi sebagai alat bantu untuk mempercepat proses analisis dan membentuk hipotesis awal. Namun, seluruh tahapan verifikasi, pengujian, dan pembuktian tetap dilakukan secara manual.
+Ia juga menegaskan bahwa penggunaan AI secara sembarangan dalam dunia keamanan siber dapat menghasilkan laporan yang tidak akurat. Oleh karena itu, pemahaman mendalam terhadap teknologi, kemampuan analisis, serta penerapan etika profesional menjadi aspek yang tidak dapat diabaikan.
+Ketertarikan Arga terhadap dunia keamanan siber telah tumbuh sejak beberapa tahun lalu. Berawal dari rasa ingin tahu terhadap sistem digital, ia kemudian mempelajari berbagai aspek keamanan siber secara mandiri melalui eksplorasi source code, pembuatan proof-of-concept (PoC), hingga mengikuti berbagai program bug bounty internasional.
+Menariknya, Arga tidak berasal dari latar belakang pendidikan komputer. Saat menempuh pendidikan di SMK, ia berasal dari jurusan Teknik Mesin. Namun, minatnya terhadap dunia teknologi yang telah tumbuh sejak SMP mendorongnya untuk terus belajar secara mandiri hingga mampu berkontribusi terhadap keamanan sistem milik perusahaan teknologi global.
+Menurut Arga, pencapaian tersebut memiliki makna yang besar bagi perjalanan belajarnya. Ia berharap pengalamannya dapat menjadi motivasi bagi mahasiswa lain bahwa keterbatasan latar belakang maupun fasilitas bukanlah penghalang untuk berkembang.
+Dalam keterangannya, Arga menyampaikan bahwa pencapaian ini memiliki makna yang besar bagi perjalanan belajarnya di bidang teknologi. Ia mengaku tidak memiliki latar belakang pendidikan formal di bidang pemrograman, karena saat menempuh pendidikan di SMK dirinya berasal dari jurusan Teknik Mesin, bukan Teknik Informatika atau komputer. Meski demikian, ketertarikannya terhadap dunia teknologi sudah tumbuh sejak SMP, ketika ia mulai mempelajari dasar-dasar coding secara mandiri.
+Prestasi yang diraih Muhamad Arga Reksapati menunjukkan bahwa mahasiswa Indonesia mampu bersaing di tingkat internasional dan berkontribusi terhadap perkembangan teknologi kecerdasan buatan dunia. Universitas Teknologi Bandung terus mendukung pengembangan talenta digital serta kompetensi mahasiswa dalam bidang teknologi dan keamanan siber agar mampu menjawab tantangan industri global yang terus berkembang.
+Capaian Arga tidak hanya menjadi prestasi personal, tetapi juga memberikan inspirasi bagi mahasiswa lainnya untuk mengembangkan kompetensi di bidang teknologi dan keamanan siber. Keberhasilan tersebut turut memperkuat budaya pembelajaran mandiri, eksplorasi teknologi, serta semangat inovasi di lingkungan Universitas Teknologi Bandung.
+Universitas Teknologi Bandung terus berkomitmen mendukung pengembangan talenta digital dan kompetensi mahasiswa agar mampu menjawab tantangan industri global serta berkontribusi pada perkembangan teknologi masa depan.
+Sumber: Universitas Teknologi Bandung
