@@ -1,0 +1,21 @@
+# Polije Perluas Akses Pendidikan Tinggi Di Sabu Raijua Perkuat Sdm Dan Pengembangan Potensi Daerah
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/polije-perluas-akses-pendidikan-tinggi-di-sabu-raijua-perkuat-sdm-dan-pengembangan-potensi-daerah
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-07-07 07:28:33
+
+---
+
+SABU RAIJUA – Kehadiran Politeknik Negeri Jember (Polije) di Kabupaten Sabu Raijua menjadi langkah strategis dalam memperluas akses pendidikan tinggi sekaligus memperkuat pengembangan sumber daya manusia (SDM) di wilayah terdepan, terluar, dan tertinggal (3T). Melalui Program Studi di Luar Kampus Utama (PSDKU) Kampus 6, Polije membuka kesempatan bagi generasi muda untuk menempuh pendidikan vokasi tanpa harus meninggalkan daerah asal, sekaligus mendukung pengembangan potensi lokal melalui kolaborasi dengan pemerintah daerah.
+Mahasiswa Polije Kampus Sabu Raijua, Marquez Rona, mengaku merasakan langsung manfaat hadirnya Polije di daerahnya. Menurutnya, masyarakat kini memiliki akses yang lebih mudah dan terjangkau untuk melanjutkan pendidikan tinggi tanpa harus merantau ke Kupang dengan biaya yang lebih besar.
+"Kehadiran Polije membuat kami sangat bersyukur karena anak-anak Sabu Raijua kini memiliki kesempatan melanjutkan pendidikan tinggi di daerah sendiri. Kami tidak lagi harus mengeluarkan biaya yang besar untuk kuliah di luar daerah. Bagi kami, Polije membawa harapan baru agar generasi muda Sabu Raijua bisa meraih masa depan yang lebih baik melalui pendidikan," ujarnya.
+Ia juga mengapresiasi proses pembelajaran yang telah berlangsung selama satu tahun terakhir. Meski kegiatan perkuliahan sementara masih memanfaatkan gedung DPRD Kabupaten Sabu Raijua, menurutnya fasilitas yang tersedia telah mampu mendukung proses belajar mengajar. Dedikasi dosen dari kampus utama di Jember yang menempuh perjalanan jauh untuk mengajar pun menjadi motivasi tersendiri bagi para mahasiswa.
+"Kami melihat kesungguhan para dosen yang datang dari Jember untuk mengajar. Hal itu membuat kami semakin bersemangat belajar. Kami berharap kerja sama antara Polije dan Pemerintah Kabupaten Sabu Raijua terus berlanjut sehingga kampus ini dapat berkembang dan semakin banyak anak-anak Sabu Raijua yang memperoleh pendidikan tinggi berkualitas," tambahnya.
+Bupati Sabu Raijua, Krisman Bernard Riwu Kore, menilai kehadiran Polije menjadi tonggak penting dalam pembangunan daerah. Menurutnya, dukungan perguruan tinggi sangat dibutuhkan untuk meningkatkan kualitas SDM sekaligus mengoptimalkan pengelolaan potensi sumber daya alam yang dimiliki daerah agar memberikan nilai tambah bagi masyarakat.
+"Kolaborasi ini menjadi awal yang baik bagi pembangunan Sabu Raijua. Kami berharap kerja sama dengan Polije terus berkembang, termasuk melalui penambahan program studi yang sesuai dengan kebutuhan daerah. Dengan dukungan dunia akademik, kami optimistis potensi daerah dapat dikelola lebih baik untuk meningkatkan kesejahteraan masyarakat," kata Krisman.
+Sementara itu, Direktur Politeknik Negeri Jember, Saiful Anwar, S.TP., M.P., menegaskan bahwa pembukaan PSDKU di Sabu Raijua merupakan wujud komitmen Polije dalam menghadirkan pendidikan vokasi yang berkualitas, inklusif, dan selaras dengan kebutuhan pembangunan daerah.
+Menurutnya, sebagai wilayah 3T, Sabu Raijua memiliki potensi sumber daya alam yang besar sehingga memerlukan SDM yang kompeten agar mampu mengelolanya secara berkelanjutan.
+"Kami hadir di Sabu Raijua untuk menjawab kebutuhan masyarakat akan pendidikan tinggi sekaligus menyiapkan SDM yang memiliki kompetensi sesuai dengan potensi daerah. Melalui pendidikan vokasi, kami ingin melahirkan lulusan yang tidak hanya siap bekerja, tetapi juga mampu mengembangkan sektor-sektor unggulan daerah sehingga memberikan dampak nyata bagi kemajuan Sabu Raijua dan wilayah sekitarnya," ujar Saiful.
+Melalui sinergi antara perguruan tinggi dan pemerintah daerah, Polije optimistis dapat berkontribusi dalam meningkatkan kualitas SDM, mendorong lahirnya inovasi berbasis potensi lokal, serta memperkuat pembangunan ekonomi yang berkelanjutan di Kabupaten Sabu Raijua. Kehadiran kampus ini diharapkan menjadi fondasi bagi terciptanya generasi muda yang unggul dan mampu menjadi motor penggerak kemajuan daerah.
