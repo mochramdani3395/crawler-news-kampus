@@ -6576,5 +6576,23 @@
         "judul": "News?Page=1273&Amp;Size=5&Amp;Search=",
         "link": "https://kemdiktisaintek.go.id/news?page=1273&amp;size=5&amp;search=",
         "waktu_crawl": "2026-07-07 10:45:18"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Sevima Community",
+        "link": "https://sevima.com/tag/sevima-community/",
+        "waktu_crawl": "2026-07-08 06:21:55"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Kemdiktisaintek Dan Pemprov Maluku Utara Perkuat Sinergi Siapkan Talenta Unggul Pendukung Hilirisasi Industri",
+        "link": "https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-dan-pemprov-maluku-utara-perkuat-sinergi-siapkan-talenta-unggul-pendukung-hilirisasi-industri",
+        "waktu_crawl": "2026-07-08 06:24:53"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Presiden Prabowo Sambut Kunjungan Kenegaraan Pm Modi Di Istana Merdeka",
+        "link": "https://kemdiktisaintek.go.id/news/article/presiden-prabowo-sambut-kunjungan-kenegaraan-pm-modi-di-istana-merdeka",
+        "waktu_crawl": "2026-07-08 06:24:58"
     }
 ]
