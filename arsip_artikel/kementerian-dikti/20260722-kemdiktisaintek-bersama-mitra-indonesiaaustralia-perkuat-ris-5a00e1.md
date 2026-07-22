@@ -1,0 +1,25 @@
+# Kemdiktisaintek Bersama Mitra Indonesiaaustralia Perkuat Riset Berdampak Melalui Pair Annual Meeting 2026
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-bersama-mitra-indonesiaaustralia-perkuat-riset-berdampak-melalui-pair-annual-meeting-2026
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-07-22 06:21:31
+
+---
+
+Makassar - Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) melalui Direktorat Jenderal Riset dan Pengembangan (Ditjen Risbang) terus memperkuat kemitraan riset internasional untuk memastikan hasil penelitian dapat dimanfaatkan dalam mendukung kebijakan publik, inovasi, dan penyelesaian berbagai tantangan pembangunan.
+Komitmen tersebut disampaikan dalam Partnership for Australia–Indonesia Research (PAIR) Annual Meeting 2026, forum yang mempertemukan pemerintah, perguruan tinggi, peneliti, masyarakat sipil, dan mitra pembangunan Indonesia–Australia untuk membahas capaian serta keberlanjutan program riset di wilayah Sulawesi yang diselenggarakan di Universitas Hasanuddin, Selasa (21/07).
+Program PAIR Sulawesi merupakan kemitraan riset Indonesia–Australia yang didukung Kemdiktisaintek, Lembaga Pengelola Dana Pendidikan (LPDP), serta Pemerintah Australia melalui Department of Foreign Affairs and Trade (DFAT). Sejak dimulai pada 2019, program ini telah melibatkan 19 perguruan tinggi dari Indonesia dan Australia untuk mengembangkan penelitian pada isu strategis, seperti perubahan iklim, ekonomi sirkular kelautan, transisi energi bersih, dan kesehatan.
+Mendiktisaintek, Brian Yuliarto, dalam sambutannya menyampaikan bahwa Sulawesi memiliki potensi besar dalam pengembangan ekonomi biru berkelanjutan melalui kekayaan sumber daya pesisir. Namun, kawasan pesisir juga menghadapi ancaman perubahan iklim dan degradasi lingkungan yang membutuhkan solusi berbasis sains.
+"Sulawesi memiliki potensi luar biasa melalui keberagaman, kekayaan sumber daya pesisir, dan peluang dalam pengembangan ekonomi biru berkelanjutan. Pada saat yang sama, komunitas pesisir menjadi salah satu kelompok yang paling rentan terhadap perubahan iklim dan degradasi lingkungan," jelas Menteri Brian.
+Menurutnya, tantangan tersebut membutuhkan kerja sama lintas disiplin dan lintas negara agar hasil penelitian dapat diterjemahkan menjadi kebijakan dan aksi nyata bagi masyarakat.
+Dirjen Risbang, Fauzan Adziman, menyampaikan bahwa penguatan ekosistem riset nasional tidak hanya dilakukan melalui pendanaan berbagai proyek penelitian, tetapi juga dengan membangun kolaborasi yang saling terhubung antara perguruan tinggi, pemerintah, industri, dan masyarakat.
+Menurutnya, semangat gotong royong menjadi fondasi penting agar hasil penelitian dapat saling memperkuat dan menghasilkan dampak yang lebih besar.
+Ia menegaskan bahwa PAIR Sulawesi merupakan salah satu contoh penerapan pendekatan tersebut, di mana hasil penelitian tidak berhenti sebagai luaran akademik, tetapi dimanfaatkan untuk mendukung pengambilan keputusan pemerintah daerah.
+"Program PAIR Sulawesi telah menghasilkan output penelitian yang menjadi bagian dari kebijakan pemerintah. Salah satu contohnya adalah Peraturan Gubernur yang ditetapkan pada 2023, menunjukkan bahwa hasil penelitian telah menjadi bagian dalam keputusan pemerintah daerah," ujar Dirjen Fauzan.
+"Dampak penelitian tidak hanya bermanfaat bagi masyarakat, tetapi juga harus bermanfaat bagi pemerintah daerah dalam pengambilan keputusan dan pembentukan kebijakan publik yang berkelanjutan," lanjutnya.
+Dalam kesempatan yang sama direktur Fasilitas Riset LPDP, Ayom Widi Paminto, turut menyampaikan bahwa penguatan pendanaan menjadi bagian penting dalam memperluas ekosistem riset nasional. Dalam keberlanjutan program PAIR, LPDP menyiapkan pendanaan tahap kedua untuk mendukung 15 proyek riset baru serta membuka peluang pendanaan bersama (co-funding) dengan pemerintah, perguruan tinggi, industri, donor, dan mitra internasional.
+Rektor Universitas Hasanuddin, Jamaluddin Jompa, turut menjelaskan bahwa perubahan iklim merupakan tantangan global yang membutuhkan kerja sama antarnegara. Menurutnya, persoalan seperti kenaikan muka laut, perubahan pola cuaca, erosi pesisir, dan penurunan ekosistem laut menjadi isu bersama yang perlu dijawab melalui penelitian dan inovasi.
+Sementara itu, Konsul Jenderal Australia di Makassar, Todd Dias, menilai kemitraan PAIR menjadi bagian penting dalam memperkuat hubungan Indonesia–Australia, khususnya melalui kerja sama riset yang berfokus pada isu lingkungan dan pembangunan berkelanjutan.
+Melalui PAIR Annual Meeting 2026, Kemdiktisaintek bersama mitra Indonesia dan Australia memperkuat keberlanjutan kemitraan riset yang berorientasi pada pemanfaatan hasil penelitian. Program ini diharapkan dapat meningkatkan kapasitas peneliti, memperkuat peran perguruan tinggi sebagai pusat inovasi, serta menghasilkan solusi berbasis sains bagi masyarakat, khususnya di wilayah Sulawesi.
