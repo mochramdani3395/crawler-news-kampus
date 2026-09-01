@@ -7236,5 +7236,11 @@
         "judul": "Kampus Bandar Lampung",
         "link": "https://sevima.com/tag/kampus-bandar-lampung/",
         "waktu_crawl": "2026-08-20 04:27:09"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Peraturan Menteri",
+        "link": "https://sevima.com/tag/peraturan-menteri/",
+        "waktu_crawl": "2026-09-01 15:46:38"
     }
 ]
