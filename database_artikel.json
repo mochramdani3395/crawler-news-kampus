@@ -7290,5 +7290,17 @@
         "judul": "Regulasi Kampus",
         "link": "https://sevima.com/tag/regulasi-kampus/",
         "waktu_crawl": "2026-10-06 10:53:54"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Regulasi Pendidikan Tinggi",
+        "link": "https://sevima.com/tag/regulasi-pendidikan-tinggi/",
+        "waktu_crawl": "2026-10-08 11:01:46"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Kinerja Kampus",
+        "link": "https://sevima.com/tag/kinerja-kampus/",
+        "waktu_crawl": "2026-10-08 11:06:06"
     }
 ]
