@@ -7302,5 +7302,11 @@
         "judul": "Kinerja Kampus",
         "link": "https://sevima.com/tag/kinerja-kampus/",
         "waktu_crawl": "2026-10-08 11:06:06"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Lifelong Learning",
+        "link": "https://sevima.com/tag/lifelong-learning/",
+        "waktu_crawl": "2026-10-09 11:03:33"
     }
 ]
