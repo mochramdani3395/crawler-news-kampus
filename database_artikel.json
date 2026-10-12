@@ -7320,5 +7320,23 @@
         "judul": "Surat Peringatan",
         "link": "https://sevima.com/tag/surat-peringatan/",
         "waktu_crawl": "2026-10-12 03:18:11"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Sistem Terpusat",
+        "link": "https://sevima.com/tag/sistem-terpusat/",
+        "waktu_crawl": "2026-10-12 11:29:25"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Tips Rekrutmen",
+        "link": "https://sevima.com/tag/tips-rekrutmen/",
+        "waktu_crawl": "2026-10-12 11:29:47"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Layanan Kampus",
+        "link": "https://sevima.com/tag/layanan-kampus/",
+        "waktu_crawl": "2026-10-12 11:30:03"
     }
 ]
