@@ -7338,5 +7338,35 @@
         "judul": "Layanan Kampus",
         "link": "https://sevima.com/tag/layanan-kampus/",
         "waktu_crawl": "2026-10-12 11:30:03"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Persiapan Kuliah",
+        "link": "https://sevima.com/tag/persiapan-kuliah/",
+        "waktu_crawl": "2026-10-13 04:32:54"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Masterclass Mentor",
+        "link": "https://sevima.com/tag/masterclass-mentor/",
+        "waktu_crawl": "2026-10-13 04:32:59"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Simulasi Penilaian Akreditasi",
+        "link": "https://sevima.com/tag/simulasi-penilaian-akreditasi/",
+        "waktu_crawl": "2026-10-13 04:33:02"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Universitas Muslim Maros",
+        "link": "https://sevima.com/tag/universitas-muslim-maros/",
+        "waktu_crawl": "2026-10-13 04:34:13"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Penulisan Ilmiah",
+        "link": "https://sevima.com/tag/penulisan-ilmiah/",
+        "waktu_crawl": "2026-10-13 04:34:20"
     }
 ]
