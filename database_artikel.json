@@ -7506,5 +7506,29 @@
         "judul": "News?Page=1398&Amp;Size=5&Amp;Search=",
         "link": "https://kemdiktisaintek.go.id/news?page=1398&amp;size=5&amp;search=",
         "waktu_crawl": "2026-10-15 16:01:20"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Migrasi Beda Server",
+        "link": "https://sevima.com/tag/migrasi-beda-server/",
+        "waktu_crawl": "2026-10-16 08:37:10"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Cek Pelaporan Pddikti",
+        "link": "https://sevima.com/tag/cek-pelaporan-pddikti/",
+        "waktu_crawl": "2026-10-16 08:37:45"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Siakad Kampus Eror",
+        "link": "https://sevima.com/tag/siakad-kampus-eror/",
+        "waktu_crawl": "2026-10-16 08:38:50"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Angkat Muruah Pendidikan Tinggi Kesenian Guru Besar Isi Surakarta Tekankan Metode 3R Dalam Penciptaan Karya Seni",
+        "link": "https://kemdiktisaintek.go.id/news/article/angkat-muruah-pendidikan-tinggi-kesenian-guru-besar-isi-surakarta-tekankan-metode-3r-dalam-penciptaan-karya-seni",
+        "waktu_crawl": "2026-10-16 08:39:20"
     }
 ]
