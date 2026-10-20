@@ -7704,5 +7704,29 @@
         "judul": "Pembukuan Kampus",
         "link": "https://sevima.com/tag/pembukuan-kampus/",
         "waktu_crawl": "2026-10-20 02:39:49"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Dr Martiman S Sarumaha",
+        "link": "https://sevima.com/tag/dr-martiman-s-sarumaha/",
+        "waktu_crawl": "2026-10-20 09:01:05"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Lantik Rektor Uho Mendiktisaintek Riset Kampus Mesti Berbasis Potensi Daerah",
+        "link": "https://kemdiktisaintek.go.id/news/article/lantik-rektor-uho-mendiktisaintek-riset-kampus-mesti-berbasis-potensi-daerah",
+        "waktu_crawl": "2026-10-20 09:02:34"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "News?Page=1405&Amp;Size=5&Amp;Search=",
+        "link": "https://kemdiktisaintek.go.id/news?page=1405&amp;size=5&amp;search=",
+        "waktu_crawl": "2026-10-20 09:02:42"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Dari Jember Ke China Polije Perluas Kolaborasi Vokasi Berkelas Global",
+        "link": "https://kemdiktisaintek.go.id/news/article/dari-jember-ke-china-polije-perluas-kolaborasi-vokasi-berkelas-global",
+        "waktu_crawl": "2026-10-20 09:02:56"
     }
 ]
