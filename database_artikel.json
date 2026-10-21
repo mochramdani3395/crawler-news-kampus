@@ -7770,5 +7770,17 @@
         "judul": "Kampus Inklusif",
         "link": "https://sevima.com/tag/kampus-inklusif/",
         "waktu_crawl": "2026-10-21 02:34:11"
+    },
+    {
+        "kampus": "Kementerian DIKTI",
+        "judul": "Mendiktisaintek Tekankan Penguasaan Teknologi Chip Merah Putih Untuk Kedaulatan Digital Indonesia",
+        "link": "https://kemdiktisaintek.go.id/news/article/mendiktisaintek-tekankan-penguasaan-teknologi-chip-merah-putih-untuk-kedaulatan-digital-indonesia",
+        "waktu_crawl": "2026-10-21 08:59:06"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Pddikti Integrator",
+        "link": "https://sevima.com/tag/pddikti-integrator/",
+        "waktu_crawl": "2026-10-21 09:00:23"
     }
 ]
