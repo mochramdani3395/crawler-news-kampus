@@ -1,0 +1,19 @@
+# Dirjen Risbang Dorong Kolaborasi Multidisipliner Untuk Perkuat Inovasi Berkelanjutan
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/dirjen-risbang-dorong-kolaborasi-multidisipliner-untuk-perkuat-inovasi-berkelanjutan
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-10-23 02:35:37
+
+---
+
+Tangerang Selatan—Direktur Jenderal Riset dan Pengembangan, Fauzan Adziman, menekankan pentingnya kolaborasi lintas disiplin ilmu dan kemitraan multipihak dalam mendorong riset yang menghasilkan dampak nyata bagi masyarakat. Hal tersebut disampaikan dalam keynote speech pada The 5th International Conference on Multidisciplinary Academic Studies (ICoMUS) 2026 yang diselenggarakan oleh Universitas Terbuka di Universitas Terbuka Convention Center, Kamis (22/10).
+Mengusung tema “Smart Innovations for Sustainable Development: Integrating Science, Social, Economic, and Future Education Perspectives”, konferensi ini menjadi ruang pertukaran pengetahuan dan gagasan mengenai peran inovasi dalam menjawab tantangan pembangunan berkelanjutan melalui integrasi sains, sosial, ekonomi, dan pendidikan masa depan.
+Dalam paparannya, Dirjen Fauzan menjelaskan bahwa inovasi tidak dapat dibangun secara terpisah. Penggabungan berbagai disiplin ilmu, mulai dari matematika, fisika, dan rekayasa hingga ilmu sosial, ekonomi, dan komunikasi, diperlukan untuk mengembangkan solusi yang lebih komprehensif serta memperluas dampak riset.
+Pengalaman pengembangan inovasi di bidang material maju dan manufaktur digital menjadi salah satu contoh bagaimana kolaborasi lintas disiplin dapat menghasilkan penerapan teknologi di berbagai sektor. Pengembangan material yang melibatkan matematika, fisika, dan rekayasa, misalnya, dapat mendukung berbagai kebutuhan, mulai dari industri kedirgantaraan dan otomotif hingga perangkat medis.
+Lebih lanjut, perkembangan kecerdasan buatan (artificial intelligence/AI) turut mengubah lanskap riset, industri, dan kebutuhan kompetensi tenaga kerja. Dalam situasi tersebut, penguasaan keterampilan teknis perlu diimbangi dengan kemampuan pemecahan masalah, kreativitas, dan ketangguhan (resilience). Penguatan talenta menjadi faktor penting agar Indonesia tidak hanya mengadopsi teknologi, tetapi juga mampu menciptakan teknologi melalui inovasi.
+Dirjen Fauzan juga menyoroti peran perguruan tinggi sebagai penggerak inovasi nasional. Perguruan tinggi diharapkan mampu menghubungkan pengembangan ilmu pengetahuan dengan kebutuhan industri dan persoalan masyarakat. Untuk itu, orientasi riset perlu diarahkan pada permasalahan nyata yang membutuhkan penyelesaian, dengan mempertimbangkan kebutuhan industri, kondisi sosial, serta karakteristik dan potensi daerah.
+Pendekatan tersebut memerlukan kemitraan multipihak yang melibatkan perguruan tinggi, pemerintah, industri, dan masyarakat. Melalui kolaborasi dalam konsorsium riset, para peneliti dari berbagai latar belakang keilmuan dapat bekerja bersama untuk menghasilkan solusi yang relevan dengan kebutuhan nasional.
+Sejalan dengan hal tersebut, Wakil Rektor Universitas Terbuka bidang Riset, Kerja Sama, dan Bisnis, Hendrian, menyampaikan bahwa tantangan global, seperti perubahan iklim, kesenjangan akses pendidikan, dan perkembangan kecerdasan buatan (AI), membutuhkan gagasan serta keahlian dari berbagai bidang. Ia berharap ICoMUS 2026 menjadi ruang pertukaran gagasan yang produktif, penguatan kemitraan, dan pengembangan solusi praktis untuk mewujudkan masa depan yang lebih inklusif dan berkelanjutan.
+Melalui ICoMUS 2026, kolaborasi multidisipliner diharapkan semakin memperkuat ekosistem riset nasional yang terintegrasi dan berorientasi pada pemecahan masalah. Sinergi antara perguruan tinggi, pemerintah, industri, dan masyarakat menjadi langkah penting untuk memastikan hasil riset dapat dikembangkan menjadi inovasi yang memberikan manfaat nyata serta mendukung pembangunan Indonesia yang berkelanjutan.
