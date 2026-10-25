@@ -7944,5 +7944,23 @@
         "judul": "News?Page=1409&Amp;Size=5&Amp;Search=",
         "link": "https://kemdiktisaintek.go.id/news?page=1409&amp;size=5&amp;search=",
         "waktu_crawl": "2026-10-24 22:10:15"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Universitas Insan Cita Indonesia",
+        "link": "https://sevima.com/tag/universitas-insan-cita-indonesia/",
+        "waktu_crawl": "2026-10-25 15:15:52"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Publikasi Ilmiah",
+        "link": "https://sevima.com/tag/publikasi-ilmiah/",
+        "waktu_crawl": "2026-10-25 15:17:44"
+    },
+    {
+        "kampus": "Sevima",
+        "judul": "Penggabungan Kampus",
+        "link": "https://sevima.com/tag/penggabungan-kampus/",
+        "waktu_crawl": "2026-10-25 15:18:27"
     }
 ]
