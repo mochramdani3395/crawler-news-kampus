@@ -1,0 +1,20 @@
+# Wujudkan Riset Berdampak Di Era Ai Kemdiktisaintek Dorong Inovasi Bagi Masyarakat Dan Industri
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/wujudkan-riset-berdampak-di-era-ai-kemdiktisaintek-dorong-inovasi-bagi-masyarakat-dan-industri
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-10-26 17:57:15
+
+---
+
+Jakarta — Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) mendorong pengembangan riset yang tidak hanya menghasilkan publikasi ilmiah, tetapi juga mampu menjawab kebutuhan industri dan masyarakat. Hal tersebut disampaikan Direktur Jenderal Riset dan Pengembangan (Dirjen Risbang), Fauzan Adziman, dalam sesi keynote speech mewakili Menteri Pendidikan Tinggi, Sains, dan Teknologi dalam kegiatan Kick Off dan Seminar Nasional Forum Alumni Telkom University bertema “Artificial Intelligence (AI), Data Centre, and Energy: Peluang dan Tantangan bagi Indonesia” di Jakarta, Senin (19/10).
+Dalam paparannya, Dirjen Fauzan menyoroti perkembangan kecerdasan artifisial atau artificial intelligence (AI) yang membawa perubahan dalam berbagai bidang. Menurutnya, perkembangan teknologi perlu diimbangi dengan kemampuan beradaptasi, kreativitas, dan pemecahan masalah. Kondisi ini sekaligus membuka peluang bagi Indonesia untuk mengembangkan solusi berbasis AI, termasuk melalui pemanfaatan model AI yang semakin terbuka dan dapat disesuaikan dengan kebutuhan.
+Peluang pengembangan AI tersebut tidak terlepas dari kesiapan infrastruktur digital, terutama pusat data dan energi. Peningkatan penggunaan AI membutuhkan dukungan komputasi dan energi yang memadai. Namun, Dirjen Fauzan menekankan bahwa pengembangan teknologi tidak cukup hanya berfokus pada penyediaan infrastruktur. Lebih dari itu, teknologi perlu diarahkan untuk menghasilkan solusi yang relevan dengan persoalan yang dihadapi Indonesia.
+Salah satu contoh pemanfaatan teknologi tersebut adalah pengembangan riset untuk mendeteksi potensi kebakaran lahan gambut di Kalimantan secara dini. Contoh ini menunjukkan bagaimana AI, data, dan kemampuan komputasi dapat dimanfaatkan untuk mendukung upaya penanganan persoalan lingkungan.
+Untuk mendorong pemanfaatan hasil penelitian secara lebih luas, Kemdiktisaintek juga mengembangkan akses informasi riset melalui platform Risbang dan Asisten Riset Indonesia (ASRI AI) yang dapat diakses pada (https://risbang.kemdiktisaintek.go.id). Platform ini diharapkan membantu masyarakat dan pemangku kepentingan menelusuri penelitian yang telah dilakukan serta mengidentifikasi hasil riset yang berpotensi dikembangkan lebih lanjut. Dengan akses terhadap informasi tersebut, penelitian yang sudah ada dapat menjadi pijakan bagi pengembangan inovasi berikutnya.
+Upaya tersebut sejalan dengan penekanan Dirjen Fauzan bahwa penelitian perlu memiliki arah dan manfaat yang jelas bagi pengguna.
+“Kami ingin ilmu pengetahuan riset yang kita bangun berdampak bagi masyarakat, berdampak bagi industri,” Ujarnya.
+Keterhubungan antara kebutuhan industri, persoalan masyarakat, dan kapasitas peneliti menjadi bagian penting dalam mendorong hasil riset agar tidak berhenti pada publikasi, tetapi dapat dimanfaatkan untuk menghasilkan solusi.
+Sejalan dengan hal tersebut, Rektor Telkom University, Suyanto, menekankan peran perguruan tinggi sebagai pusat pengembangan ilmu pengetahuan, inovasi, dan solusi bagi berbagai tantangan bangsa. Ia juga berharap Forum Alumni Telkom University (FAST) dapat memperkuat persatuan alumni serta membangun sinergi dengan perguruan tinggi dan ekosistem industri.
+Kehadiran Kemdiktisaintek dalam kegiatan ini menjadi bagian dari upaya mendorong kolaborasi antara perguruan tinggi, alumni, dan industri dalam pengembangan riset dan teknologi. Melalui forum ini, pembahasan mengenai AI, pusat data, dan energi diharapkan dapat memperluas pertukaran gagasan serta membuka peluang kolaborasi untuk menghasilkan inovasi yang menjawab kebutuhan Indonesia dan memberikan manfaat bagi masyarakat.
