@@ -1,28 +1,32 @@
-name: Crawl Otomatis Harian
+name: Suteki News Radar Harvester
+
 on:
   schedule:
-    - cron: '0 17 * * *' # Jam 00:00 WIB
-  workflow_dispatch: # Tombol manual
+    # Berjalan setiap hari pukul 06:00 WIB (23:00 UTC)
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Tombol pemicu manual di tab Actions GitHub
+
 jobs:
-  build:
+  harvest:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
-      - name: Install Libs
-        run: pip install trafilatura requests
-      - name: Run Crawler
-        run: python crawler_kampus.py
-      - name: Simpan Hasil
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Perintah di bawah ini akan menambahkan folder dan file jika ada
-          git add database_artikel.json
-          if [ -d "arsip_artikel" ]; then git add arsip_artikel/; fi
-          # Menghindari error jika tidak ada perubahan file
-          git commit -m "Update arsip berita harian" || echo "No changes to commit"
-          git push
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run News Harvester
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        run: |
+          python harvester.py
