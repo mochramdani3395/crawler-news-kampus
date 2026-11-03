@@ -4,6 +4,7 @@ import json
 import re
 import urllib.parse
 import urllib.request
+import traceback
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -243,6 +244,16 @@ def collect_all_articles():
     print(f"[+] Total artikel unik terkumpul: {len(unique_articles)}")
     return unique_articles
 
+def extract_spreadsheet_id(raw_input):
+    """Mengekstrak ID bersih dari Spreadsheet ID murni atau URL lengkap."""
+    if not raw_input:
+        return ""
+    text = raw_input.strip()
+    match = re.search(r'/d/([a-zA-Z0-9-_]+)', text)
+    if match:
+        return match.group(1)
+    return text
+
 def sync_to_google_sheets(articles):
     """Menyinkronkan artikel baru ke Google Sheets menggunakan Service Account."""
     if not HAS_GSPREAD:
@@ -250,10 +261,11 @@ def sync_to_google_sheets(articles):
         return False
 
     gcp_sa_key = os.getenv("GCP_SA_KEY")
-    spreadsheet_id = os.getenv("SPREADSHEET_ID")
+    raw_sheet_input = os.getenv("SPREADSHEET_ID")
     local_sa_file = "service_account.json"
 
     client = None
+    bot_email = "Service Account"
     if gcp_sa_key and gcp_sa_key.strip():
         raw_key = gcp_sa_key.strip()
         if not raw_key.startswith("{"):
@@ -262,10 +274,14 @@ def sync_to_google_sheets(articles):
             return False
         try:
             sa_info = json.loads(raw_key)
-            scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+            bot_email = sa_info.get("client_email", bot_email)
+            scopes = [
+                "https://www.googleapis.com/auth/spreadsheets",
+                "https://www.googleapis.com/auth/drive"
+            ]
             creds = Credentials.from_service_account_info(sa_info, scopes=scopes)
             client = gspread.authorize(creds)
-            print("[+] Berhasil autentikasi menggunakan GCP_SA_KEY dari Secrets.")
+            print(f"[+] Berhasil autentikasi bot: {bot_email}")
         except Exception as e:
             print(f"[ERROR] Gagal memproses JSON pada GCP_SA_KEY: {e}")
             return False
@@ -281,12 +297,15 @@ def sync_to_google_sheets(articles):
         print("[INFO] Menjalankan dalam mode Dry-Run...")
         return False
 
-    if not spreadsheet_id or not spreadsheet_id.strip():
+    spreadsheet_id = extract_spreadsheet_id(raw_sheet_input)
+    if not spreadsheet_id:
         print("[ERROR] Secret 'SPREADSHEET_ID' belum diisi di GitHub Repository Secrets.")
         return False
 
+    print(f"[*] Menghubungkan ke Google Spreadsheet ID: {spreadsheet_id}")
+
     try:
-        sh = client.open_by_key(spreadsheet_id.strip())
+        sh = client.open_by_key(spreadsheet_id)
         
         # Cari worksheet 'News_Radar' atau buat jika belum ada
         worksheet_title = "News_Radar"
@@ -331,8 +350,23 @@ def sync_to_google_sheets(articles):
             print("[INFO] Tidak ada artikel baru yang perlu ditambahkan (semua URL sudah tercatat).")
 
         return True
+    except gspread.exceptions.SpreadsheetNotFound:
+        print("=" * 60)
+        print(f"[ERROR] Spreadsheet dengan ID '{spreadsheet_id}' TIDAK DITEMUKAN atau TIDAK DAPAT DIAKSES.")
+        print("[SOLUSI]:")
+        print("1. Buka file Google Spreadsheet Anda di browser.")
+        print(f"2. Klik tombol 'Share' (Bagikan) di pojok kanan atas.")
+        print(f"3. Masukkan email bot berikut: {bot_email}")
+        print("4. Atur izin akses sebagai 'Editor', lalu klik 'Kirim/Bagikan'.")
+        print("=" * 60)
+        return False
+    except gspread.exceptions.APIError as e:
+        print(f"[ERROR] Google Sheets API Error: {e}")
+        print("[PETUNJUK]: Pastikan 'Google Sheets API' dan 'Google Drive API' sudah di-ENABLE di Google Cloud Console.")
+        return False
     except Exception as e:
-        print(f"[ERROR] Terjadi kesalahan saat komunikasi dengan Google Sheets: {e}")
+        print(f"[ERROR] Terjadi kesalahan: {type(e).__name__} - {e}")
+        traceback.print_exc()
         return False
 
 def main():
