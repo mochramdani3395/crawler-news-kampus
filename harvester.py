@@ -11,7 +11,13 @@ from datetime import datetime
 if sys.stdout and hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-# Coba import feedparser jika tersedia, jika tidak gunakan fallback XML parser
+# Coba import requests dan feedparser jika tersedia
+try:
+    import requests
+    HAS_REQUESTS = True
+except ImportError:
+    HAS_REQUESTS = False
+
 try:
     import feedparser
     HAS_FEEDPARSER = True
@@ -41,7 +47,7 @@ GOOGLE_NEWS_QUERIES = [
 
 # RSS Feed langsung dari portal berita nasional (Kanal Edukasi)
 DIRECT_RSS_FEEDS = [
-    {"source": "Detik Edu", "url": "https://rss.detik.com/index.php/detikedu"},
+    {"source": "Detik Edu", "url": "https://feed.detik.com/rss/detikedu"},
     {"source": "Antara Humaniora", "url": "https://www.antaranews.com/rss/humaniora.xml"},
     {"source": "Sindonews Edukasi", "url": "https://edukasi.sindonews.com/rss"}
 ]
@@ -67,11 +73,15 @@ HEADER_COLUMNS = [
     "Status Tindak Lanjut"
 ]
 
+DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+}
+
 def clean_title(title):
     """Membersihkan imbuhan nama media di akhir judul berita."""
     if not title:
         return "Tanpa Judul"
-    # Menghapus akhiran seperti ' - Detikcom', ' - Kompas.com', ' | Tempo.co'
     cleaned = re.sub(r'\s*[-|–—]\s*([A-Za-z0-9\s.]+)(com|co\.id|id)?\s*$', '', title, flags=re.IGNORECASE)
     return cleaned.strip()
 
@@ -91,7 +101,6 @@ def parse_date(date_str):
     if not date_str:
         return datetime.now().strftime("%Y-%m-%d")
     try:
-        # Coba parsing RFC 2822 (umum di RSS)
         import email.utils
         parsed_tuple = email.utils.parsedate_tz(date_str)
         if parsed_tuple:
@@ -102,9 +111,21 @@ def parse_date(date_str):
     return datetime.now().strftime("%Y-%m-%d")
 
 def fetch_rss_feedparser(url, default_source="Google News"):
-    """Mengambil feed menggunakan library feedparser."""
+    """Mengambil feed menggunakan requests + feedparser agar tahan terhadap pemblokiran & network error."""
     articles = []
-    feed = feedparser.parse(url)
+    try:
+        if HAS_REQUESTS:
+            resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=12)
+            if resp.status_code != 200:
+                print(f"[WARN] HTTP {resp.status_code} saat mengakses {url}")
+                return articles
+            feed = feedparser.parse(resp.content)
+        else:
+            feed = feedparser.parse(url)
+    except Exception as e:
+        print(f"[WARN] Gagal mengambil feed dari {url}: {e}")
+        return articles
+
     for entry in feed.entries:
         link = entry.get("link", "").strip()
         title = entry.get("title", "").strip()
@@ -133,12 +154,9 @@ def fetch_rss_feedparser(url, default_source="Google News"):
 def fetch_rss_builtin(url, default_source="Google News"):
     """Fallback parser menggunakan standard library Python jika feedparser belum diinstall."""
     articles = []
-    req = urllib.request.Request(
-        url, 
-        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-    )
+    req = urllib.request.Request(url, headers=DEFAULT_HEADERS)
     try:
-        with urllib.request.urlopen(req, timeout=15) as response:
+        with urllib.request.urlopen(req, timeout=12) as response:
             xml_data = response.read()
         root = ET.fromstring(xml_data)
         for item in root.findall(".//item"):
@@ -176,25 +194,31 @@ def fetch_rss_builtin(url, default_source="Google News"):
     return articles
 
 def collect_all_articles():
-    """Mengumpulkan artikel dari Google News RSS query dan portal langsung."""
+    """Mengumpulkan artikel dari Google News RSS query dan portal langsung secara resilient."""
     all_raw = []
     fetcher = fetch_rss_feedparser if HAS_FEEDPARSER else fetch_rss_builtin
     parser_name = "feedparser" if HAS_FEEDPARSER else "standard XML fallback"
     print(f"[*] Menggunakan parser: {parser_name}")
 
-    # 1. Google News Queries
+    # 1. Google News Queries (Dibungkus try..except per query)
     for q in GOOGLE_NEWS_QUERIES:
-        encoded_query = urllib.parse.quote(q)
-        url = f"https://news.google.com/rss/search?q={encoded_query}&hl=id&gl=ID&ceid=ID:id"
-        print(f"[*] Menarik Google News Feed: {q}")
-        items = fetcher(url, default_source="Google News")
-        all_raw.extend(items)
+        try:
+            encoded_query = urllib.parse.quote(q)
+            url = f"https://news.google.com/rss/search?q={encoded_query}&hl=id&gl=ID&ceid=ID:id"
+            print(f"[*] Menarik Google News Feed: {q}")
+            items = fetcher(url, default_source="Google News")
+            all_raw.extend(items)
+        except Exception as e:
+            print(f"[WARN] Melewati query '{q}' karena error: {e}")
 
-    # 2. Direct Media RSS
+    # 2. Direct Media RSS (Dibungkus try..except per media)
     for direct in DIRECT_RSS_FEEDS:
-        print(f"[*] Menarik Direct RSS: {direct['source']}")
-        items = fetcher(direct["url"], default_source=direct["source"])
-        all_raw.extend(items)
+        try:
+            print(f"[*] Menarik Direct RSS: {direct['source']}")
+            items = fetcher(direct["url"], default_source=direct["source"])
+            all_raw.extend(items)
+        except Exception as e:
+            print(f"[WARN] Melewati direct RSS {direct['source']} karena error: {e}")
 
     # Filter lokal & duplikasi URL di memori
     seen_urls = set()
@@ -209,7 +233,6 @@ def collect_all_articles():
 
         keywords = detect_keywords(art["raw_text"])
 
-        # Masukkan ke daftar artikel siap ekspor
         unique_articles.append({
             "tanggal_input": today_str,
             "sumber": art["source"],
@@ -277,7 +300,7 @@ def sync_to_google_sheets(articles):
             ws.insert_row(HEADER_COLUMNS, 1)
 
         # Ambil daftar URL yang sudah ada di Kolom D (Kolom ke-4) untuk anti-duplikasi
-        existing_urls = set(ws.col_values(4)[1:])  # Lewati baris header
+        existing_urls = set(ws.col_values(4)[1:])
         print(f"[*] Ditemukan {len(existing_urls)} URL yang sudah ada di Google Sheet.")
 
         new_rows = []
