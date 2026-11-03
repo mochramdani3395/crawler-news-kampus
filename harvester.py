@@ -47,7 +47,6 @@ GOOGLE_NEWS_QUERIES = [
 
 # RSS Feed langsung dari portal berita nasional (Kanal Edukasi)
 DIRECT_RSS_FEEDS = [
-    {"source": "Detik Edu", "url": "https://feed.detik.com/rss/detikedu"},
     {"source": "Antara Humaniora", "url": "https://www.antaranews.com/rss/humaniora.xml"},
     {"source": "Sindonews Edukasi", "url": "https://edukasi.sindonews.com/rss"}
 ]
@@ -255,15 +254,20 @@ def sync_to_google_sheets(articles):
     local_sa_file = "service_account.json"
 
     client = None
-    if gcp_sa_key:
+    if gcp_sa_key and gcp_sa_key.strip():
+        raw_key = gcp_sa_key.strip()
+        if not raw_key.startswith("{"):
+            print("[ERROR] Nilai secret 'GCP_SA_KEY' tidak diawali dengan '{'.")
+            print("[PETUNJUK] Pastikan Anda menyalin SELURUH isi file .json (bukan nama file atau path-nya).")
+            return False
         try:
-            sa_info = json.loads(gcp_sa_key)
+            sa_info = json.loads(raw_key)
             scopes = ["https://www.googleapis.com/auth/spreadsheets"]
             creds = Credentials.from_service_account_info(sa_info, scopes=scopes)
             client = gspread.authorize(creds)
             print("[+] Berhasil autentikasi menggunakan GCP_SA_KEY dari Secrets.")
         except Exception as e:
-            print(f"[ERROR] Gagal memproses GCP_SA_KEY: {e}")
+            print(f"[ERROR] Gagal memproses JSON pada GCP_SA_KEY: {e}")
             return False
     elif os.path.exists(local_sa_file):
         try:
@@ -273,16 +277,16 @@ def sync_to_google_sheets(articles):
             print(f"[ERROR] Gagal memproses service_account.json: {e}")
             return False
     else:
-        print("[INFO] Kredensial GCP_SA_KEY / service_account.json belum diatur.")
+        print("[INFO] Kredensial GCP_SA_KEY / service_account.json belum diatur atau kosong.")
         print("[INFO] Menjalankan dalam mode Dry-Run...")
         return False
 
-    if not spreadsheet_id:
-        print("[ERROR] SPREADSHEET_ID belum ditentukan di environment variables.")
+    if not spreadsheet_id or not spreadsheet_id.strip():
+        print("[ERROR] Secret 'SPREADSHEET_ID' belum diisi di GitHub Repository Secrets.")
         return False
 
     try:
-        sh = client.open_by_key(spreadsheet_id)
+        sh = client.open_by_key(spreadsheet_id.strip())
         
         # Cari worksheet 'News_Radar' atau buat jika belum ada
         worksheet_title = "News_Radar"
