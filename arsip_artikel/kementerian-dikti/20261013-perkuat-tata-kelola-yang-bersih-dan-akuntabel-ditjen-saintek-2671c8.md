@@ -1,0 +1,26 @@
+# Perkuat Tata Kelola Yang Bersih Dan Akuntabel Ditjen Saintek Canangkan Pembangunan Zona Integritas Menuju Wbk Dan Wbbm
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/perkuat-tata-kelola-yang-bersih-dan-akuntabel-ditjen-saintek-canangkan-pembangunan-zona-integritas-menuju-wbk-dan-wbbm
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-10-13 20:53:54
+
+---
+
+Jakarta – Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) mencanangkan Pembangunan Zona Integritas menuju Wilayah Bebas dari Korupsi (WBK) dan Wilayah Birokrasi Bersih dan Melayani (WBBM) di lingkungan Direktorat Jenderal Sains dan Teknologi (Ditjen Saintek), Selasa (13/10).
+Kegiatan ini menjadi bagian dari upaya memperkuat reformasi birokrasi serta mewujudkan tata kelola pemerintahan yang bersih, transparan, akuntabel, dan berorientasi pada pelayanan publik yang berkualitas.
+Dalam arahannya, Direktur Jenderal Sains dan Teknologi (Dirjen Saintek), Kemdiktisaintek, Ahmad Najib Burhani menekankan bahwa pembangunan Zona Integritas tidak sekadar menjadi pemenuhan persyaratan administratif, tetapi harus diwujudkan melalui perubahan pola pikir, budaya kerja, serta perilaku seluruh aparatur dalam menjalankan tugas dan memberikan pelayanan kepada masyarakat.
+“Pembangunan Zona Integritas merupakan komitmen bersama untuk menciptakan lingkungan kerja yang menjunjung tinggi integritas, profesionalisme, transparansi, dan akuntabilitas. Komitmen tersebut perlu didukung dengan penguatan sistem pengendalian internal, pencegahan korupsi, pengelolaan konflik kepentingan, serta peningkatan kualitas pelayanan publik secara berkelanjutan.” jelas Dirjen Saintek.
+Melalui pencanangan ini, Ditjen Saintek memperkuat upaya pembangunan Zona Integritas pada tiga unit kerja, yaitu Direktorat Bina Talenta Sains dan Teknologi, Direktorat Diseminasi dan Pemanfaatan Sains dan Teknologi, serta Direktorat Strategi dan Sistem Pembelajaran Transformatif.
+Dalam pelaksanaannya, pembangunan Zona Integritas membutuhkan keterlibatan aktif seluruh unsur organisasi, mulai dari pimpinan hingga setiap pegawai. Integritas perlu tercermin dalam proses pengambilan keputusan, pelaksanaan program, pengelolaan sumber daya negara, serta penyelenggaraan pelayanan yang adil dan transparan. Dengan demikian, komitmen terhadap Zona Integritas tidak berhenti pada kegiatan pencanangan, tetapi menjadi bagian dari budaya kerja sehari-hari.
+“Pembangunan Zona Integritas bukan sekadar pemenuhan ketentuan administratif, melainkan komitmen nyata untuk membangun budaya kerja yang bersih, transparan, dan akuntabel. Melalui semangat Berdampak, Profesional, Empatik, Sinergis, Terukur, Akuntabel, Solutif, dan Inovatif (BERPRESTASI), kami ingin memastikan bahwa integritas menjadi landasan dalam setiap pengambilan keputusan, pelaksanaan program, dan penyelenggaraan pelayanan publik. Komitmen ini harus diwujudkan secara konsisten oleh seluruh jajaran Ditjen Saintek agar kepercayaan publik semakin kuat dan kontribusi kami dalam membangun ekosistem sains dan teknologi nasional semakin berdampak,” ujar Sekretaris Direktorat Jenderal (Sesditjen) Saintek, M. Samsuri.
+Menanggapi pernyataan tersebut, Sekretaris Deputi Bidang Reformasi Birokrasi, Akuntabilitas Aparatur, dan Pengawasan Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi (KemenPANRB), Nurhasni mengatakan bahwa Melalui budaya kerja yang profesional dan akuntabel, Ditjen Saintek diharapkan mampu memperkuat kepercayaan publik terhadap penyelenggaraan pemerintahan sekaligus meningkatkan kualitas pelaksanaan program di bidang sains dan teknologi. Penerapan nilai-nilai tersebut juga menjadi bagian dari upaya membangun lingkungan kerja yang berintegritas dan mendorong perbaikan berkelanjutan.
+“Pembangunan Zona Integritas harus dimulai dari hal-hal kecil yang diterapkan secara bertahap, konsisten, dan nyata di seluruh lingkungan Ditjen Saintek. Bukan sekadar mengejar predikat WBK/WBBM, tetapi membangun budaya kerja berintegritas, memperkuat kualitas pelayanan, dan menghadirkan perubahan yang manfaatnya dapat dirasakan langsung oleh masyarakat.” ujar Sekretaris Deputi Bidang Reformasi Birokrasi, Akuntabilitas Aparatur, dan Pengawasan KemenPANRB.
+Pencanangan Pembangunan Zona Integritas ini bukan merupakan titik akhir, melainkan langkah untuk memperkuat komitmen dan memastikan keberlanjutan reformasi birokrasi di lingkungan Ditjen Saintek. Seluruh unit kerja diharapkan dapat menindaklanjuti komitmen tersebut melalui langkah-langkah perbaikan yang terukur, konsisten, dan berorientasi pada hasil.
+Melalui pencanangan ini, Ditjen Saintek menegaskan komitmennya untuk terus membangun birokrasi yang bersih, transparan, dan akuntabel serta meningkatkan kualitas pelayanan publik. Upaya tersebut diharapkan dapat mendukung terwujudnya tata kelola pemerintahan yang berintegritas dan memperkuat kontribusi Ditjen Saintek dalam pembangunan sains dan teknologi Indonesia.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak

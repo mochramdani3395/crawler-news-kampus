@@ -1,0 +1,20 @@
+# Pumpunan Penyederhanaan Visa Bagi Mahasiswa Asing Menuju Brain Circulation
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/pumpunan-penyederhanaan-visa-bagi-mahasiswa-asing-menuju-brain-circulation
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-03-02 16:33:13
+
+---
+
+Jakarta — Direktorat Kelembagaan Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) bersama-sama dengan Direktorat Jenderal Imigrasi dan perwakilan perguruan tinggi negeri berbadan hukum (PTN-BH), melaksanakan pumpunan guna membahas berbagai tantangan sistemik dalam layanan keimigrasian bagi mahasiswa internasional di Jakarta (27/2).
+Dalam pumpunan tersebut sejumlah isu utama mengemuka. Antara lain tingginya beban administratif kampus sebagai sponsor visa, lamanya waktu pemrosesan, biaya visa yang relatif tinggi, serta keterbatasan transparansi informasi dan integrasi sistem antarinstansi. Kondisi ini dinilai menjadi salah satu faktor yang menghambat daya saing Indonesia dalam menarik mahasiswa asing dibanding negara-negara tetangga di kawasan ASEAN.
+Dan untuk mengakselerasi berbagai problem di atas, salah satu gagasan utama yang dibahas adalah transformasi peran sponsor. Yaitu mendorong mekanisme pengajuan dan pembayaran visa secara mandiri oleh mahasiswa asing dengan menggunakan Letter of Acceptance (LoA) dari perguruan tinggi. Skema ini diharapkan dapat mengurangi beban operasional kampus sehingga institusi pendidikan dapat lebih fokus pada penguatan aspek akademik, pembinaan mahasiswa, serta pengawasan mutu.
+Lebih jauh pumpunan kali ini juga membahas perlunya kepastian standar waktu layanan maksimal empat hari kerja, penguatan call center atau help desk khusus di Ditjen Imigrasi, keterbukaan informasi teknis melalui laman resmi, serta integrasi sistem izin belajar Kemdiktisaintek dengan sistem e-visa dan ITAS milik Imigrasi untuk meningkatkan akurasi data dan efisiensi layanan.
+“Kita ingin meningkatkan jumlah mahasiswa asing yang datang ke Indonesia, maka proses administratifnya juga harus kita benahi. Kampus seharusnya fokus pada aspek akademik, sementara sistem layanan perlu dibuat lebih sederhana, cepat, dan pasti,” ujar Tenaga Ahli Mendiktisaintek, Hermawan K. Dipojono.
+Ia menambahkan pembenahan sistem visa mahasiswa asing merupakan bagian fundamental dari strategi internasionalisasi pendidikan tinggi Indonesia. Semacam anak tangga menuju brain circulation talenta-talent dunia di Indonesia. Menurutnya visa menjadi pintu masuk pertama yang membentuk kesan awal mahasiswa internasional terhadap Indonesia.
+Pada kesempatan yang sama, Direktur Kelembagaan Ditjen Dikti, Mukhamad Najib, menekankan pentingnya sinergi lintas kementerian dan lembaga dalam membangun tata kelola layanan publik yang adaptif dan berorientasi solusi.
+“Ini bukan semata isu perguruan tinggi, melainkan menyangkut sistem pelayanan publik secara keseluruhan. Diperlukan penyamaan persepsi dan langkah bersama agar kebijakan yang dirumuskan benar-benar aplikatif di lapangan,” jelas Direktur Kelembagaan Mukhammad Najib.
+Ia juga berharap pumpunan ini menjadi ruang strategis untuk menyatukan perspektif sekaligus merumuskan arah kebijakan yang lebih terstruktur, terukur, dan berkelanjutan. Termasuk pembahasan mengenai reformasi biaya dan prosedur, kemungkinan penurunan tarif student visa, pemberian fasilitas “nol rupiah” bagi komponen keimigrasian penerima beasiswa di perguruan tinggi negeri, penghapusan kewajiban keluar wilayah Indonesia saat perpindahan jenjang studi, serta pemberian izin kerja paruh waktu (part-time) bagi mahasiswa asing dalam konteks akademik, seperti asisten dosen, asisten peneliti, atau magang riset.
+Pertemuan ini ditengarai menghasilkan rekomendasi kebijakan yang komprehensif sebagai dasar perbaikan regulasi nasional terkait visa dan izin tinggal mahasiswa asing. Langkah tersebut sekaligus menjadi bagian dari strategi besar Kemdiktisaintek dalam memperkuat daya saing internasional, memperluas jejaring akademik global, serta mendorong Indonesia sebagai destinasi studi unggulan di kawasan.

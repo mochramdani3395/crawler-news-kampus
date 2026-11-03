@@ -1,0 +1,23 @@
+# Kick Off Mid Term Review Mission Prime Step 2026 Dorong Percepatan Hilirisasi Riset Perguruan Tinggi
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kick-off-mid-term-review-mission-prime-step-2026-dorong-percepatan-hilirisasi-riset-perguruan-tinggi
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-05 08:02:13
+
+---
+
+Yogyakarta – Direktorat Jenderal Riset dan Pengembangan, Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) bersama Asian Development Bank (ADB) resmi memulai Mid Term Review Mission PRIME STeP 2026 melalui kegiatan Kick-off Meeting yang diselenggarakan di Universitas Gadjah Mada, Rabu (3/6). Kegiatan ini menjadi forum strategis untuk mengevaluasi capaian program, mengidentifikasi tantangan implementasi, serta menyusun langkah percepatan pelaksanaan program hingga masa penutupan proyek pada 2027.
+Program Promoting Research and Innovation through Modern and Efficient Science and Technology Parks (PRIME STeP) merupakan kerja sama Pemerintah Indonesia dan ADB yang bertujuan memperkuat kapasitas Science Techno Park (STP) perguruan tinggi, mempercepat hilirisasi hasil riset, dan mendorong lahirnya startup berbasis teknologi.
+Direktur Bina Talenta Penelitian dan Pengembangan, Heri Kuswanto, menyampaikan bahwa mid term review mission merupakan agenda penting untuk memastikan seluruh target program dapat dicapai secara optimal dan memberikan dampak nyata bagi ekosistem inovasi nasional.
+“Mid term review mission ini menjadi kesempatan untuk meninjau capaian yang telah diraih, mengidentifikasi berbagai tantangan yang masih dihadapi, serta memastikan setiap kendala dapat diatasi sedini mungkin,” ujarnya.
+Direktur Heri juga mendorong seluruh pelaksana program untuk berbagi praktik baik maupun permasalahan yang dihadapi agar solusi dapat dirumuskan secara bersama.
+Direktur Penelitian dan Pengabdian kepada Masyarakat, I Ketut Adnyana, menekankan pentingnya percepatan implementasi program pada sisa masa pelaksanaan PRIME STeP.
+“Secara umum, pelaksanaan PRIME STeP sudah berada pada jalur yang tepat. Namun, diperlukan upaya ekstra agar hasil riset tidak berhenti sebagai produk, tetapi benar-benar dapat dikomersialisasikan, dimanfaatkan industri, dan memberikan dampak nyata bagi masyarakat,” ujar Direktur Ketut.
+Project Director sekaligus ADB Mission Leader, Yumiko Yamakawa, dalam sambutannya menyampaikan bahwa PRIME STeP merupakan salah satu proyek unggulan ADB. Menurutnya, capaian Indonesia dalam pengembangan STP dan komersialisasi hasil riset menjadi perhatian negara lain yang tengah menyiapkan program serupa.
+“Mid term review mission ini bukan hanya untuk melihat kemajuan program, tetapi juga untuk memastikan berbagai hambatan implementasi dapat diselesaikan dan keberhasilan yang telah dicapai dapat direplikasi,” ujarnya.
+Dalam kegiatan yang juga dihadiri perwakilan dari Kementerian Keuangan dan Badan Perencanaan Pembangunan Nasional, Project Management Unit memaparkan perkembangan pelaksanaan program, termasuk capaian indikator Design and Monitoring Framework (DMF), perkembangan pengadaan barang dan jasa, realisasi dan rencana penyerapan anggaran, pelaksanaan program hibah riset inovasi dan inkubasi startup, program peningkatan kapasitas sumber daya manusia, serta berbagai isu implementasi yang memerlukan tindak lanjut bersama.
+Hingga akhir 2025, program PRIME STeP mencatat sejumlah capaian positif. Sebanyak 118 kekayaan intelektual dari empat STP telah dimanfaatkan oleh industri melalui perjanjian lisensi maupun penggunaan komersial. Capaian ini menunjukkan semakin kuatnya peran perguruan tinggi dalam menghasilkan inovasi yang berpotensi memberikan nilai tambah ekonomi dan manfaat bagi masyarakat.
+ADB turut menekankan pentingnya menggeser fokus program dari pencapaian target kuantitatif menuju kualitas dampak yang dihasilkan. Oleh karena itu, perguruan tinggi didorong untuk memperkuat keterhubungan dengan industri, meningkatkan komersialisasi hasil riset, memperluas pemanfaatan produk inovasi, serta memastikan keberlanjutan startup dan ekosistem STP.
+Kegiatan Mid Term Review Mission PRIME STeP 2026 akan berlangsung melalui serangkaian diskusi teknis, peninjauan capaian program, serta kunjungan ke perguruan tinggi pelaksana, yaitu Universitas Gadjah Mada, Institut Pertanian Bogor, Institut Teknologi Bandung, dan Universitas Indonesia. Hasil reviu akan menjadi dasar penyusunan langkah strategis untuk mempercepat implementasi program hingga 2027, sekaligus memperkuat kontribusi STP dalam mendukung transformasi ekonomi berbasis inovasi di Indonesia.

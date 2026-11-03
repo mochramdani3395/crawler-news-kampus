@@ -1,0 +1,28 @@
+# Rakor Humas Dan Protokol 2026 Perkuat Komunikasi Publik Pendidikan Tinggi Yang Berdampak
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/rakor-humas-dan-protokol-2026-perkuat-komunikasi-publik-pendidikan-tinggi-yang-berdampak
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-03 08:50:03
+
+---
+
+Depok–Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) memperkuat peran strategis kehumasan dan keprotokolan dalam mendukung transformasi pendidikan tinggi melalui penyelenggaraan Rapat Koordinasi (Rakor) Humas dan Protokol Tahun 2026 di Universitas Indonesia, Rabu (3/6).
+Kegiatan ini diikuti oleh perwakilan humas dan protokol dari Perguruan Tinggi Negeri (PTN), Lembaga Layanan Pendidikan Tinggi (LLDikti), serta unit kerja di lingkungan Kemdiktisaintek.
+Rakor Humas dan Protokol 2026 diselenggarakan sebagai forum strategis untuk memperkuat sinergi, meningkatkan kapasitas, serta menyelaraskan arah komunikasi publik pendidikan tinggi di Indonesia. Kegiatan ini juga menjadi bagian dari upaya Kemdiktisaintek dalam memasifkan branding kebijakan Diktisaintek Berdampak, meningkatkan kompetensi kehumasan dan keprotokolan, serta mensosialisasikan Anugerah Humas Diktisaintek dan Anugerah Protokol Diktisaintek Tahun 2026.
+Wakil Menteri Pendidikan Tinggi, Sains, dan Teknologi (Wamendiktisaintek), Fauzan menegaskan bahwa pendidikan tinggi saat ini menghadapi tantangan sekaligus peluang besar di tengah perubahan global yang berlangsung cepat. Dalam konteks tersebut, perguruan tinggi dituntut tidak hanya menghasilkan lulusan berkualitas, tetapi juga menghadirkan solusi atas berbagai persoalan masyarakat melalui inovasi, riset, dan pengabdian. Perguruan tinggi dinilai memiliki peran yang semakin strategis sebagai pusat inovasi, penggerak transformasi sosial, sekaligus penguat daya saing bangsa.
+“Saat ini, Kemdiktisaintek sedang menerjemahkan peran pendidikan tinggi, tidak hanya sebagai pusat ilmu pengetahuan, tetapi juga sebagai pusat pendorong lahirnya kesejahteraan baru bagi masyarakat. Oleh karena itu, kampus sebagai problem solver akan melibatkan peran humas dan protokol yang sangat besar,” tegas Wamen Fauzan.
+Lebih lanjut Wamendiktisaintek menyebut bahwa berbagai capaian pendidikan tinggi yang berdampak bagi masyarakat, perlu dikomunikasikan secara lebih kuat dan strategis agar manfaatnya dapat dipahami publik secara luas. Wamen Fauzan juga menekankan pentingnya kemampuan komunikasi krisis di era digital. Menurutnya, insan humas pendidikan tinggi harus mampu merespons berbagai isu secara cepat, tepat, empatik, dan berbasis data untuk menjaga kredibilitas serta reputasi institusi di tengah derasnya arus informasi.
+Menurut Wamendiktisaintek, peran humas pendidikan tinggi menjadi semakin strategis karena tidak lagi sekadar menyampaikan informasi, melainkan membangun narasi yang mampu menjelaskan kontribusi nyata kampus terhadap pembangunan bangsa. Komunikasi publik yang efektif diperlukan untuk menjembatani berbagai capaian perguruan tinggi dengan kebutuhan dan pemahaman masyarakat.
+Sementara itu, Pelaksana Tugas Sekretaris Jenderal (Plt. Sesjen) Kemdiktisaintek, Badri Munir Sukoco dalam laporannya menyampaikan bahwa tantangan komunikasi publik yang semakin kompleks menuntut fungsi kehumasan dan keprotokolan untuk terus beradaptasi. Humas dan protokol, menurutnya, memiliki peran penting dalam membangun kepercayaan masyarakat, menjaga reputasi institusi, serta memastikan kebijakan pemerintah dapat dipahami dan diterima secara tepat oleh publik.
+“Arus informasi yang bergerak semakin cepat dan kompleks menuntut fungsi kehumasan dan keprotokolan untuk terus beradaptasi. Di lingkungan pendidikan tinggi, humas dan protokol memegang peranan penting bukan hanya dalam menyampaikan informasi, tetapi juga dalam mengelola komunikasi secara strategis untuk membangun kepercayaan masyarakat, menjaga reputasi institusi, serta memastikan berbagai kebijakan pemerintah dapat dipahami dengan baik dan diterima secara tepat oleh publik,” ujar Plt. Sesjen Badri.
+Pelaksana Harian (Plh.) Rektor Universitas Indonesia, Ahmad Gamal menyatakan bahwa humas dan protokol merupakan bagian penting dari tata kelola institusi dalam lanskap komunikasi publik yang berubah dengan cepat.
+“Semangat yang hadir hari ini merupakan panggilan untuk memastikan seluruh kebijakan, pencapaian, dan kontribusi Bapak-Ibu benar-benar dirasakan manfaatnya oleh masyarakat dan dilaksanakan secara kredibel dan tepat sasaran. Kami sampaikan penghargaan untuk humas dan protokol yang telah menjaga reputasi institusi masing-masing, dan lebih dari itu, menjaga reputasi pendidikan tinggi,” kata Plh. Rektor Universitas Indonesia.
+Rakor Humas dan Protokol 2026 diikuti oleh sekitar 350 peserta yang berasal dari PTN, 17 LLDikti, serta pelaksana fungsi humas di lingkungan Kemdiktisaintek. Selama kegiatan, peserta memperoleh berbagai materi mengenai komunikasi publik pendidikan tinggi, komunikasi riset dan inovasi, komunikasi krisis, transformasi kehumasan di era kecerdasan artifisial (AI), hingga penguatan fungsi keprotokolan.
+Melalui Rakor Humas dan Protokol 2026, Kemdiktisaintek menegaskan komitmennya untuk terus memperkuat ekosistem kehumasan dan keprotokolan yang profesional, adaptif, dan kolaboratif. Penguatan kapasitas Sumber Daya Manusia (SDM), pemanfaatan teknologi digital, serta perluasan ruang berbagi praktik baik antarkampus dan LLDikti akan terus didorong agar berbagai kebijakan, inovasi, dan capaian pendidikan tinggi dapat tersampaikan secara efektif serta memberikan dampak yang semakin luas bagi masyarakat.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak

@@ -1,0 +1,22 @@
+# Sarasehan Kebangsaan Ksti 2026 Perkuat Peran Perguruan Tinggi Dalam Merumuskan Strategi Kemandirian Ekonomi Dan Kesejahteraan Indonesia
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/sarasehan-kebangsaan-ksti-2026-perkuat-peran-perguruan-tinggi-dalam-merumuskan-strategi-kemandirian-ekonomi-dan-kesejahteraan-indonesia
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-26 07:42:15
+
+---
+
+Jakarta–Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) bersama Majelis Rektor Perguruan Tinggi Negeri Indonesia (MRPTNI) menyelenggarakan Sarasehan Kebangsaan sebagai bagian dari rangkaian Konvensi Sains, Teknologi, dan Industri Indonesia (KSTI) 2026, Jumat (26/5).
+Bertema “Strategi Kemandirian Ekonomi dan Kesejahteraan Indonesia”, Sarasehan Kebangsaan KSTI 2026 diselenggarakan sebagai ruang diskusi antara pemerintah, perguruan tinggi, dan pemangku kepentingan untuk membahas isu-isu prioritas yang berkaitan dengan kemandirian ekonomi dan kesejahteraan masyarakat.
+Menteri Pendidikan Tinggi, Sains, dan Teknologi (Mendiktisaintek) Brian Yuliarto menegaskan bahwa pendidikan tinggi, sains, teknologi, riset, dan inovasi harus menjadi landasan penting dalam mendukung kebijakan publik. Menurutnya, berbagai agenda strategis bangsa memerlukan kajian yang kuat agar kebijakan yang dihasilkan lebih tepat sasaran dan memberikan manfaat nyata bagi masyarakat.
+"Melalui Sarasehan Kebangsaan ini, kami ingin mendorong agar kampus, berkolaborasi dengan pemerintah dan industri, semakin berperan dalam menghasilkan penelitian dan inovasi yang menjawab persoalan nyata pada tujuh bidang prioritas pembangunan," ujar Menteri Brian.
+Menurut Menteri Brian, hasil riset dan inovasi perguruan tinggi harus dapat dirasakan secara sosial maupun ekonomi oleh masyarakat di wilayah sekitarnya. Ketika setiap perguruan tinggi mampu menghadirkan solusi bagi daerahnya, maka fondasi kemandirian bangsa dan kesejahteraan nasional dapat diwujudkan.
+Menteri Brian juga menekankan bahwa kemandirian ekonomi tidak dapat dibangun secara sektoral, melainkan melalui keterhubungan berbagai bidang, mulai dari ekonomi, pangan, energi, industri, kelautan, hingga pendidikan. Karena itu, forum ini diperlukan untuk menghimpun masukan berbasis data dan ilmu pengetahuan guna mendukung pengambilan kebijakan yang lebih terintegrasi.
+Sarasehan Kebangsaan KSTI 2026 membahas tujuh bidang fokus yang menjadi bagian penting dalam upaya memperkuat kemandirian ekonomi dan kesejahteraan Indonesia, yaitu ekonomi dan keuangan, pertanian, energi, hilirisasi dan industri, kelautan dan perikanan, ketahanan pangan, serta pendidikan.
+Pembahasan dalam sarasehan ini diarahkan untuk membahas kemandirian ekonomi dan kesejahteraan masyarakat secara menyeluruh. Pada bidang ekonomi dan keuangan, diskusi mencakup penguatan daya beli masyarakat, stabilitas ekonomi, dan kebijakan fiskal. Isu tersebut berkaitan erat dengan bidang pertanian dan ketahanan pangan, terutama dalam upaya mewujudkan swasembada pangan, memperkuat distribusi, menjaga stabilitas harga, serta meningkatkan produktivitas sektor pertanian.
+Penguatan kemandirian ekonomi juga dibahas melalui bidang energi, hilirisasi, dan industri. Pada bidang energi, pembahasan berfokus pada peningkatan pasokan serta pengembangan energi baru dan terbarukan. Sementara itu, bidang hilirisasi dan industri diarahkan pada penciptaan nilai tambah nasional, penguatan rantai pasok, dan pengembangan industri yang berkelanjutan.
+Dari perspektif kewilayahan dan pengelolaan sumber daya alam, bidang kelautan dan perikanan membahas pengembangan ekonomi biru, kesejahteraan masyarakat pesisir, serta ketahanan pangan laut. Adapun bidang pendidikan menyoroti penguatan akses, mutu, pemerataan, dan relevansi pendidikan sebagai fondasi penting dalam mendukung kebutuhan pembangunan nasional.
+“Kami berharap setiap sesi sarasehan dapat menghasilkan tiga hal penting, yaitu pemetaan isu yang objektif dan berbasis data, rekomendasi kebijakan yang substantif dan realistis, serta agenda kolaborasi yang jelas antara pemerintah, perguruan tinggi, industri, pemerintah daerah, dan masyarakat,” ujar Menteri Brian.
+Humas Kementerian Pendidikan Tinggi, Sains, dan Teknologi

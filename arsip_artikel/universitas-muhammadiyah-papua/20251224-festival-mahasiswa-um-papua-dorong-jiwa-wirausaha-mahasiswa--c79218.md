@@ -1,0 +1,26 @@
+# Festival Mahasiswa Um Papua Dorong Jiwa Wirausaha Mahasiswa Melalui Bazar
+
+- **Kampus:** Universitas Muhammadiyah Papua
+- **Sumber:** https://umpapua.ac.id/2025/11/29/festival-mahasiswa-um-papua-dorong-jiwa-wirausaha-mahasiswa-melalui-bazar/
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2025-12-24 01:02:19
+
+---
+
+Festival Mahasiswa UM Papua Dorong Jiwa Wirausaha Mahasiswa Melalui Bazar
+Jayapura, UM Papua — Mahasiswa program studi Ilmu Komunikasi semester 5 Universitas Muhammadiyah Papua sukses menyelenggarakan Festival Mahasiswa UM Papua Seri Kewirausahaan. Kegiatan ini menggabungkan bazar UMKM mahasiswa dan seminar kewirausahaan sebagai bagian dari tugas mata kuliah Marketing Public Relations yang diampu Dewi Anggraeni.
+Kegiatan ini dirancang untuk mengembangkan keterampilan kewirausahaan melalui praktik langsung yang melibatkan elemen customer relations, dengan mahasiswa UM Papua sebagai sasaran utama. Melalui bazar, mahasiswa diberi ruang untuk mengenalkan produk kreatif, melatih kemampuan bisnis, serta memperkuat ekosistem wirausaha di lingkungan kampus.
+Nurul Hunul Khatimah selaku ketua panitia mengatakan bazar ini menjadi media untuk melatih kemampuan berbisnis, mengenalkan produk kreatif mahasiswa, serta membangun ekosistem wirausaha di kampus,” ujar Nurul.
+Promosi kegiatan dilakukan melalui penyebaran flyer di berbagai media sosial sejak empat hari sebelum acara. Bazar dibuka pada pukul 09.00–15.00 WIT, meskipun panitia menilai durasi tersebut masih kurang efektif karena relatif singkat.
+Lokasi kegiatan berada di halaman kampus Universitas Muhammadiyah Papua. Secara internal, lokasi dianggap strategis, namun panitia menyampaikan bahwa sebagian masyarakat umum kurang mengetahui lokasi kampus sehingga jumlah pengunjung dari luar kampus tidak terlalu banyak. Pengunjung bazar didominasi oleh mahasiswa UM Papua, meskipun kegiatan ini dibuka untuk umum.
+Panitia menargetkan peserta bazar adalah mahasiswa UM Papua yang memiliki usaha mandiri. Dari 10 stan yang disediakan, 7 stan terisi oleh pelaku usaha mahasiswa dan 3 stan mitra acara. Setelah stan terpenuhi, panitia kembali melakukan promosi terbuka untuk meramaikan bazar.
+Selain panitia dari prodi Ilmu Komunikasi, kegiatan ini juga diikuti oleh berbagai unsur mahasiswa UM Papua, juga mahasiswa UNIYAP. Salah satunya Himpunan Mahasiswa Psikologi (HIMAPSI) UM Papua yang ikut membuka stan dan mempromosikan produk serta program organisasi mereka.
+“Kami mau mempromosikan UMKM lokal mahasiswa. Harapannya, ke depan bazar ini bisa dipromosikan lebih luas sehingga tidak hanya dikenal di dalam kampus, tetapi juga masyarakat Jayapura,” ujar Putri Samara, salah satu peserta bazar.
+Nurul Hunul Khatimah selaku Ketua panitia berharap kegiatan ini dapat berkembang lebih besar pada tahun-tahun berikutnya.
+“Semoga bazar kami dapat menjadi acara yang lebih luas jangkauannya sehingga kampus UM Papua semakin dikenal publik. Kami juga berharap dapat bersaing sehat dengan festival-festival bazar dari universitas lain,” ujarnya.
+Kegiatan ini merupakan implementasi nyata dari pembelajaran mata kuliah Marketing Public Relations yang mendorong mahasiswa untuk memahami konsep event, promosi, dan komunikasi bisnis melalui pengalaman langsung. Dengan melibatkan berbagai pihak internal kampus, festival ini diharapkan menjadi kegiatan rutin yang mendukung pertumbuhan wirausaha muda di UM Papua.
+Peliput: Edison, Kamanus
+Penulis: Abdul
+Fotografer: Oroi
+Editor: Dewi

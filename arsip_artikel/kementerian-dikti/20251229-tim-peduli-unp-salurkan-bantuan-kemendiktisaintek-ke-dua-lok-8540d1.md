@@ -1,0 +1,11 @@
+# Tim Peduli Unp Salurkan Bantuan Kemendiktisaintek Ke Dua Lokasi Bencana Di Kecamatan Matur Agam
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/tim-peduli-unp-salurkan-bantuan-kemendiktisaintek-ke-dua-lokasi-bencana-di-kecamatan-matur-agam
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2025-12-29 12:30:12
+
+---
+
+Padang—Paket bantuan bencana alam dari Kementerian Pendidikan Tinggi, Sains dan Teknologi Republik Indonesia untuk korban bencana di sejumlah titik di Sumatera Barat mulai disalurkan oleh Tim Peduli Bencana Universitas Negeri Padang (UNP), diantaranya langsung dipimpin oleh Rektor UNP Krismadinata, Ph.D Bersama Sekretaris Universitas Dr. Erianjoni, M.Si, Kamis (25/12) pada dua titik Lokasi bencana di Kecamatan Matur Kabupaten Agam, yakni di Jorong Kuok Tigo Koto Nagari Matur Mudik dan Jorong Pauh Nagari Matur Hilir. Pada kesempatan tersebut Rektor menyerahkan sejumlah bantuan dari Kemendiktisaintek khususnya keluarga terdampak berupa kebutuhan pangan (beras, mie instan, susu, sarden, minyak makan, roti), kasur, kompor gas, dan air mineral serta penampung air. Terdapat 25 rumah keluarga yang rumahnya hancur oleh bencana banjir dan longsor tersebut pada dua titik yakni di Kuok dan Pauh tersebut ada 1 orang meninggal serta bencana hidrometeorologi menganhancurkan jembatan, jalan, pesantren, area sawah dan lahan pertanian masyarakat di lokasi ini. Rektor UNP Krismadinata, Ph.D mengatakan “sebagai wujud kepedulian sesama kita, maka Kemendiktisaintek RI meminta kepada Tim Peduli Bencana UNP untuk mengantar bantuan ini langsung ke posko bencana di dua daerah yang terdampak di daerah Matur ini, semoga bantuan meringankan beban saudara-saudara kita yang terkena musibah ini. Kami dari UNP dengan dua armada kendaraan ini, hanya menyalurkan bantuan pihak kemendiktisaintek dan kita bertermakasih pada pak Menteri beserta jajarannya atas bantuan ini” demikan petikan sambutan Rektor UNP ketika menyerahkan bantuan pada kepala Jorong Kuok Tigo Koto Romi Dt. Marajo. Sementara itu Tim Peduli UNP yang beranggotakan 10 orang juga melakukan kunjungan ke titik lokasi longsor di Jorong Pauh Matur dan didampingi oleh staf kantor Kecamatan Matur yang juga alumni Prodi Ilmu Administrasi Negara FIS UNP dan Sekretaris wali nagari Matur Hilir (Er/ Humas UNP).

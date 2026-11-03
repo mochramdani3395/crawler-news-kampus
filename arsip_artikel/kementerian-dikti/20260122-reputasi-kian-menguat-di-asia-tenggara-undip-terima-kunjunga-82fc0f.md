@@ -1,0 +1,20 @@
+# Reputasi Kian Menguat Di Asia Tenggara Undip Terima Kunjungan Akademik Mindanao State University
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/reputasi-kian-menguat-di-asia-tenggara-undip-terima-kunjungan-akademik-mindanao-state-university
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-01-22 08:20:31
+
+---
+
+UNDIP, Semarang (21/1) – UNDIP saat ini telah menjadi salah satu universitas di Asia Tenggara dengan reputasi yang semakin baik. Hal ini dibuktikan dengan adanya kunjungan dari Mindanao State University (Filipina) yang melakukan studi banding di bidang Tri Dharma Perguruan Tinggi minggu ini.
+Delegasi Mindanao State University diantaranya MSU System President, Atty. Paisalin P.D. Tago, CPA; Executive Secretary, Office of the President, Sittie Norhaya A. Tago, CPA; Vice President for Academic Affairs, Dr. Minerva-Saminah M. Naga; Vice Chancellor for Research & Extension, Dr. Annie Mae C. Berowa; beserta dekan fakultas.
+Wakil Rektor Riset, Inovasi, Kerja Sama, dan Komunikasi UNDIP, Wijayanto, S.I.P., M.Si., Ph.D secara langsung menerima kedatangan delegasi dari Mindanao State University (20/1) di kampus UNDIP Semarang. Pada hari ini, Rabu, 21 Januari 2026, agenda UNDIP dan Mindanao State University dilanjutkan dengan sesi “Benchmarking Session and Academic Engagements” yang dilaksanakan di Ruang Sidang Rektor, Gedung Widya Puraya, UNDIP Semarang pada pukul 10:00 WIB.
+Direktur Reputasi, Kemitraan, dan Konektivitas Global UNDIP, Prof. Dr. Ir. Hadiyanto, S.T., M.Sc., IPU. membuka acara ini dan memulai diskusi terkait riset dan kolaborasi internasional, “Selamat datang kepada seluruh delegasi Mindanao State University. Mari kita bertukar pikiran dan semoga melalui pertemuan ini ke depannya kita bisa wujudkan kerja sama dan menghasilkan riset unggulan.”
+Pulung Widhi Hari Hananto, S.H., M.H., LL.M. memimpin sesi diskusi ini. Vice President for Academic Affairs, Dr. Minerva-Saminah M. Naga mengucapkan terima kasih kepada delegasi UNDIP. “Ini adalah international benchmarking kami yang pertama kali. Kami harap mampu mendapatkan insight tentang akademik dan riset internasional,” tuturnya.
+Ketua LP2MP UNDIP, Prof. Anis Chariri, S.E., M.Com., Ph.D., Akt. menjelaskan bahwa LP2MP UNDIP membuat kebijakan dan standar kualitas perguruan tinggi, dengan peninjauan Internal Quality Assurance (IQA) dan External Quality Assurance (EQA) secara berkala. “UNDIP memiliki 8 standar pendidikan, 3 standar penelitian, 3 standar komunitas, serta 12 standar yang diadopsi dari persyaratan BAN-PT,” terangnya. Selain itu, program studi di UNDIP juga banyak yang telah memiliki standar internasional ASIIN, FIBAA, dan IABEE.
+Selanjutnya, Direktur Reputasi, Kemitraan, dan Konektivitas Global UNDIP, Prof. Dr. Ir. Hadiyanto, S.T., M.Sc., IPU. menyebutkan bahwa saat ini UNDIP berada di fase Pematangan World-Class University / WCU (2025-2029) setelah fase Penguatan Universitas Riset (2020-2024). “Berdasarkan QS World University Ranking, pada tahun 2025 ini UNDIP berada pada peringkat ke-624 yang meningkat dari kedudukannya pada tahun 2024 di posisi ke-725.
+Menjunjung tinggi nilai ‘Bermartabat dan Bermanfaat’ di dunia akademik, UNDIP mendukung para dosen untuk menghasilkan jurnal ilmiah terindeks Scopus. UNDIP juga menggerakkan aktivitas pendukung sitasi dalam bentuk postdoc, scientific consortium, dan konferensi internasional.
+Hadir pula dalam kegiatan ini Ketua LP2MP UNDIP, Prof. Anis Chariri, S.E., M.Com., Ph.D., Akt.; Wakil Direktur Reputasi, Kemitraan, dan Konektivitas Global, Pulung Widhi Hari Hananto, S.H., M.H., LL.M.; dan dekan FH, FPP, FPIK, dan FEB UNDIP.
+Acara dilanjutkan dengan sesi tanya jawab interaktif yang juga melibatkan diskusi dari dekan fakultas antar dua institusi pendidikan tinggi. Harapannya, dari studi banding ini dapat terjalin kolaborasi di masa mendatang yang bermartabat dan bermanfaat bagi masyarakat luas. (UNDIP/Komunikasi Publik/Titis)

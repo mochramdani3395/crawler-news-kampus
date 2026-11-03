@@ -1,0 +1,25 @@
+# Utm Dan Unimal Salurkan Bantuan Seragam Dan Perlengkapan Sekolah Untuk Siswa Terdampak Banjir Di Aceh
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/utm-dan-unimal-salurkan-bantuan-seragam-dan-perlengkapan-sekolah-untuk-siswa-terdampak-banjir-di-aceh
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-03-12 05:13:32
+
+---
+
+Aceh Utara – Universitas Trunodjoyo Madura (UTM) bersama Universitas Malikussaleh (Unimal) menyalurkan bantuan paket seragam dan perlengkapan sekolah kepada siswa terdampak bencana banjir di Aceh dan Sumatera pada Selasa, 10 Maret 2026. Bantuan tersebut diberikan kepada siswa-siswi SDN 2 Sawang, Aceh Utara sebagai bagian dari upaya pemulihan pascabencana, khususnya pada sektor pendidikan.
+Penyaluran bantuan dilakukan melalui LPPM UTM dan LPPM Unimal yang secara simbolis diberikan kepada Kepala Sekolah SDN 2 Sawang, Yusmawati, dalam kegiatan yang dihadiri oleh dewan guru serta seluruh siswa dari kelas 1 hingga kelas 6. Turut hadir dalam kegiatan tersebut Kepala Desa Payarabo Lhok, Zubir, Babinsa Kecamatan Sawang, Martin, serta mahasiswa dan perwakilan dari LPPM Universitas Trunodjoyo Madura dan LPPM Universitas Malikussaleh.
+Bantuan yang disalurkan berupa paket perlengkapan sekolah lengkap yang terdiri dari pakaian seragam sekolah, sepatu, kaos kaki, dasi, ikat pinggang, topi, tas sekolah, serta alat tulis bagi para siswa. Bantuan ini berasal dari program UTM Peduli, yang dihimpun dari kontribusi dan kepedulian civitas akademika Universitas Trunodjoyo Madura sebagai bentuk solidaritas terhadap masyarakat yang terdampak bencana.
+Dalam sambutannya, Kepala Sekolah SDN 2 Sawang, Yusmawati, menyampaikan rasa terima kasih atas perhatian dan bantuan yang diberikan kepada para siswa di sekolah tersebut.
+“Kami mengucapkan terima kasih yang sebesar-besarnya kepada Universitas Trunodjoyo Madura dan Universitas Malikussaleh atas kepedulian yang diberikan kepada siswa-siswi kami. Bantuan ini sangat berarti bagi anak-anak kami yang sedang berusaha kembali menjalani kegiatan belajar setelah bencana,” ujarnya.
+Sementara itu, Kepala Desa Payarabo Lhok, Zubir, juga menyampaikan apresiasi atas dukungan yang diberikan oleh kedua perguruan tinggi tersebut. Ia menjelaskan bahwa kondisi desa masih membutuhkan penanganan yang cukup panjang dalam proses pemulihan pascabencana.
+“Kami sangat berterima kasih atas bantuan yang diberikan. Kondisi desa kami masih membutuhkan penanganan yang berkelanjutan, baik dari segi waktu maupun sumber daya. Kami berharap ke depan akan semakin banyak pihak yang turut membantu proses pemulihan masyarakat,” ungkapnya.
+Kepala LPPM Universitas Malikussaleh, Prof. Mawardati, dalam sambutannya menyampaikan terima kasih kepada Universitas Trunodjoyo Madura atas kolaborasi yang terjalin dalam kegiatan kemanusiaan ini. Ia berharap kerja sama antara kedua institusi dapat terus berlanjut dalam berbagai kegiatan pengabdian kepada masyarakat di masa mendatang.
+Pada kesempatan yang sama, LPPM Universitas Trunodjoyo Madura melalui Sekretaris LPPM UTM, M. Latif, menyampaikan bahwa kegiatan ini merupakan bagian dari komitmen perguruan tinggi untuk hadir membantu masyarakat yang terdampak bencana, khususnya dalam mendukung keberlangsungan pendidikan anak-anak. Dalam sambutannya, ia juga menyampaikan ucapan terima kasih kepada Universitas Malikussaleh atas kolaborasi yang terjalin dengan baik dalam kegiatan kemanusiaan ini.
+“Kami mengucapkan terima kasih kepada Universitas Malikussaleh yang telah menjadi mitra kolaborasi dalam kegiatan penyaluran bantuan ini. Sinergi antara perguruan tinggi sangat penting dalam menghadirkan solusi dan dukungan nyata bagi masyarakat yang sedang menghadapi musibah,” ujarnya.
+Dalam pesannya kepada para siswa, ia juga memberikan motivasi agar tetap semangat dalam belajar meskipun berada dalam kondisi yang sulit.
+“Anak-anakku sekalian, kalian harus tetap semangat dalam belajar dalam kondisi apa pun. Kejar cita-cita kalian setinggi mungkin. Semoga kelak kalian menjadi orang-orang sukses dan menjadi pribadi besar yang mampu berkontribusi bagi bangsa dan negara. Kalian adalah aset bangsa yang harus terus belajar dan menggapai masa depan yang lebih baik,” pesannya kepada para siswa.
+Lebih lanjut disampaikan bahwa Universitas Trunodjoyo Madura juga mengirimkan satu tim mahasiswa Kuliah Kerja Nyata Tematik (KKNT) Kemanusiaan yang berkolaborasi dengan Universitas Malikussaleh selama dua bulan, mulai 26 Januari 2026 hingga 26 Maret 2026, untuk membantu berbagai kegiatan pemulihan masyarakat di wilayah terdampak bencana.
+Dalam kegiatan penyaluran bantuan ini, UTM mengutus Sekretaris LPPM UTM, M. Latif, serta Kepala Pusat Penelitian dan Inovasi Garam, Haryo Triajie, sebagai perwakilan institusi.
+Melalui kolaborasi antara perguruan tinggi, pemerintah desa, dan masyarakat, diharapkan proses pemulihan pascabencana dapat berjalan lebih cepat, khususnya dalam mendukung keberlanjutan pendidikan bagi anak-anak di daerah terdampak.

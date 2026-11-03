@@ -1,0 +1,38 @@
+# Dari Blockchain Hingga Kerupuk Kerang Muhammad Bagas Althaafah Dan Dampak Yang Melampaui Batas Kampus
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/dari-blockchain-hingga-kerupuk-kerang-muhammad-bagas-althaafah-dan-dampak-yang-melampaui-batas-kampus
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-05-26 07:40:03
+
+---
+
+Bayangkan seorang mahasiswa semester 6 yang telah mengukir deretan pencapaian nasional yang membanggakan, sambil mempertahankan IPK 3.91, memimpin dua organisasi besar kampus, mengajar pemrograman kepada siswa sekolah dasar, sekaligus terjun langsung ke masyarakat memberdayakan warga pesisir Banten. Bagi sebagian orang, itu terdengar mustahil. Bagi Muhammad Bagas Althaafah, itu adalah keseharian.
+UGM dan Bali: Dua Momen yang Membentuk Mental Juara
+Perjalanan Bagas di dunia kompetisi tidak dimulai dengan kemenangan. Ia dimulai dengan keberanian — keberanian untuk mendaftarkan diri, mengangkat koper, dan melangkah ke luar zona nyaman. Dua momen paling berkesan dalam perjalanannya adalah ketika pertama kali berlomba ke luar kota di Universitas Gadjah Mada, dan ketika untuk pertama kalinya ia naik pesawat — bukan untuk liburan, tetapi untuk membawa nama Untirta ke ajang nasional di Bali.
+“Saya sangat berkesan karena dipercaya universitas untuk membawa nama Untirta berlomba di kampus ternama. Walaupun bersaing dengan kampus-kampus ternama lainnya, alhamdulillah mendapatkan Juara 2. Itu sangat membentuk mentalitas saya bahwa kita harus berani apply apapun lombanya, walaupun diadakan oleh kampus ternama.”
+Di Bali, ia pulang membawa lebih dari sekadar medali. Dari ajang Idea Fest 4 Sentosa Foundation, ia meraih Gold Medal, Best Paper Award, sekaligus Favorite Poster Award — tiga penghargaan sekaligus dalam satu kompetisi. Sebuah pencapaian yang membuktikan bahwa keberanian keluar pulau pertama kali itu tidak sia-sia.
+“Pertama kali naik pesawat karena lomba itu pada saat saya ke Bali. Tentunya itu sangat bangga dan berkesan — saya bisa jalan-jalan keluar pulau dan dibiayai oleh universitas. Dan alhamdulillah mendapatkan Gold Medal.”
+Dari Coding hingga Kerupuk Kerang: Inovasi yang Melampaui Batas Prodi
+Yang membedakan Bagas dari mahasiswa berprestasi pada umumnya adalah luasnya cakupan dampak yang ia berikan — melampaui batas program studinya sendiri. Sebagai mahasiswa Teknik Informatika, ia memang membangun sistem prediksi banjir berbasis machine learning, merancang platform pendanaan berbasis blockchain, dan mengembangkan website showcase untuk UKM TRAS. Namun di saat yang sama, ia juga turun ke sawah figuratif — ke masyarakat pesisir Banten.
+Melalui Program PPK Ormawa Kemendikbud 2025, Bagas bersama timnya mendampingi warga Desa Margaluyu, Kecamatan Karangantu, mengolah limbah cangkang kerang hijau — yang selama ini hanya menjadi sampah — menjadi dua produk bernilai tambah: kerupuk dan tepung. Seratus persen target pengembangan produk berhasil dicapai, dan yang lebih penting, masyarakat mendapatkan peluang ekonomi baru dari sumber daya yang sebelumnya terbuang sia-sia.
+Tidak berhenti di situ, ia juga memberikan edukasi literasi digital kepada lebih dari 50 anak yatim piatu di Yayasan Baitul Qur’an, dengan hasil lebih dari 95% peserta menunjukkan peningkatan ketertarikan terhadap teknologi. Ia pun mengunjungi tiga sekolah — SMKN 1 Cilegon, SMKN 1 Anyer, dan SMA Al-Khairiyah — berbagi strategi dan motivasi untuk masuk Perguruan Tinggi Negeri kepada lebih dari 150 siswa.
+Pengalamannya pun tidak hanya terbatas di lingkungan kampus. Ia juga pernah menjalani program internship di PT KTI selama 4 bulan, yang memberinya gambaran langsung tentang bagaimana ilmu dan keterampilan yang dimilikinya dapat diterapkan serta memberikan kontribusi nyata di dunia industri.
+Mengajar Anak SD Coding: Ketika Ilmu Dibagikan Sejak Dini
+Ada satu peran Bagas yang mungkin paling mengejutkan: ia adalah tutor pemrograman untuk siswa sekolah dasar. Bukan sekadar mengajari, ia mengembangkan lebih dari 10 proyek game interaktif per semester menggunakan platform Scratch — dari Pong Game, Mario Bros Clone, hingga Geometry Dash — untuk memperkenalkan pemikiran komputasional kepada anak-anak dengan cara yang menyenangkan.
+Hasilnya: 100% proyek selesai tepat waktu, tingkat keterlibatan siswa mencapai lebih dari 90%, dan tingkat kepuasan siswa melampaui 95%. Angka-angka ini bukan sekadar statistik — melainkan cerminan dari cara Bagas mendekati setiap peran yang ia emban: dengan totalitas dan perhatian penuh.
+Reviewer, Mentor, dan Inspirator di Kampus
+Di dalam kampus, Bagas menjalankan peran yang tidak kalah berarti. Sebagai Kepala Departemen Riset Interdisipliner UKM TRAS, ia memfasilitasi kolaborasi akademik lintas universitas — termasuk benchmarking TRAS x UNJ Young Researchers Group yang dihadiri lebih dari 50 peserta dari dua universitas. Ia menjadi reviewer karya ilmiah rekan-rekannya sebelum mereka mengirimkan paper ke kompetisi nasional.
+“Saya ingin bisa berdampak ke masyarakat sekitar dengan pengalaman-pengalaman yang saya punya. Contohnya di TRAS, saya menjadi reviewer. Kalau teman-teman ingin bertanya atau minta pendapat, mereka drop paper ke saya, dan saya review apa kurangnya sebelum mereka submit.”
+Sebagai Ketua Umum Ikatan Duta Untirta, ia memimpin 40 anggota komite dalam menyelenggarakan Seleksi Duta Universitas 2025 dari tahap awal hingga grand final. Ia pun kerap tampil sebagai pembicara dan MC di berbagai webinar nasional yang dihadiri ratusan peserta — termasuk webinar yang dihadiri Wakil Dekan dan lebih dari 300 peserta.
+Well Balanced: Rahasia di Balik IPK 3.91 dan 25+ Prestasi
+Pertanyaan yang paling sering ditujukan kepada Bagas mungkin adalah: bagaimana bisa melakukan semua itu sekaligus? Jawabannya bukan bakat luar biasa atau jam tidur yang dikurangi drastis — melainkan manajemen waktu yang ia latih dengan disiplin setiap harinya.
+“Saya tidak mau dengan mengikuti perlombaan, kuliah saya tertinggal. Dan begitu juga sebaliknya. Saya mau well balanced, tidak ada yang ditinggalkan. Caranya, setiap minggu saya buat planning harian: hari ini fokusnya apa, sorenya fokusnya apa.”
+Filosofi well balanced ini terbukti. IPK 3.91 tetap terjaga, prestasi terus bertambah, organisasi tetap berjalan, dan pengabdian masyarakat tidak pernah absen. Bahkan ia berhasil lulus dengan predikat Distinction dalam Pelatihan Keamanan Siber dari Kemenkominfo dan Sertifikasi Cloud Essentials AWS — dua kompetensi teknis yang menunjukkan bahwa belajar baginya tidak pernah berhenti di bangku kuliah.
+Pesan untuk Mahasiswa Untirta: Hadapi Ketakutan Itu
+Di penghujung perjalanannya yang masih terus berlanjut, Bagas menitipkan pesan yang lahir bukan dari teori, melainkan dari pengalaman yang ia rasakan sendiri setiap kali mendaftarkan diri ke kompetisi baru:
+“Teruslah berjuang. Selagi kita masih memiliki titel sebagai mahasiswa, dimaksimalkan. Karena ketika sudah lulus, privilege-nya bukan sebagai mahasiswa lagi. Apapun yang ada di depan mata dan bisa kita raih, langsung ambil. Walaupun takut, hadapi saja. Karena takut itu biasanya hanya di awal. Once ketika kita sudah sukses menghadapi ketakutan itu, sangat amat puas rasanya. Kalau bukan sekarang, kapan lagi?”
+Sebuah pengingat yang relevan — dari seorang mahasiswa yang membuktikan bahwa keberanian untuk memulai, sekecil apapun langkahnya, adalah awal dari setiap dampak besar yang bisa kita berikan kepada dunia.
+“Teruslah berjuang. Selagi kita masih memiliki titel sebagai mahasiswa, dimaksimalkan. Apapun yang ada di depan mata dan bisa kita raih, langsung ambil. Walaupun takut, hadapi saja — karena takut itu biasanya hanya di awal. Kalau bukan sekarang, kapan lagi?”
+— Muhammad Bagas Althaafah

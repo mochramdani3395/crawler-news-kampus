@@ -1,0 +1,32 @@
+# Mahasiswa Penerima Kip Kuliah Raih Pengakuan Internasional Atas Temuan Kerentanan Claude Ai
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/mahasiswa-penerima-kip-kuliah-raih-pengakuan-internasional-atas-temuan-kerentanan-claude-ai
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-07-03 17:16:07
+
+---
+
+Jakarta–Akses pendidikan tinggi melalui Program Kartu Indonesia Pintar (KIP) Kuliah yang didukung ekosistem pembelajaran di perguruan tinggi terus membuka peluang bagi mahasiswa Indonesia untuk mengembangkan potensi dan meraih prestasi di tingkat internasional.
+Salah satu capaian tersebut ditorehkan oleh Muhamad Arga Reksapati, mahasiswa Universitas Teknologi Bandung (UTB). Pemuda penerima KIP Kuliah ini berhasil memperoleh pengakuan dari dunia internasional, yakni dari perusahaan kecerdasan artifisial (AI) global, Anthropic, setelah menemukan dan melaporkan kerentanan keamanan pada sistem Claude AI.
+Prestasi Arga diawali saat dirinya menyampaikan informasi, melalui mekanisme pelaporan keamanan resmi Anthropic di platform HackerOne. Setelah melalui proses peninjauan, laporan tersebut divalidasi memiliki tingkat keparahan High dengan skor 7,7. Atas temuannya tersebut, Anthropic memberikan apresiasi melalui program bug bounty senilai USD3.700.
+Ketertarikan Arga terhadap keamanan AI berawal dari keinginannya memahami bagaimana sistem memproses konteks, masukan, dan data pendukung dalam alur kerja pengembangan perangkat lunak. Ketertarikan tersebut kemudian mendorongnya melakukan analisis keamanan secara mandiri hingga menemukan indikasi kerentanan pada sistem Claude AI.
+"Setelah menemukan indikasi kerentanan, saya tidak langsung menyimpulkan bahwa temuan tersebut valid. Saya terlebih dahulu melakukan verifikasi teknis untuk memastikan bahwa celah tersebut benar-benar dapat direproduksi, memiliki alur yang jelas, dan memberikan dampak keamanan yang nyata," ujar Arga.
+Setelah proses verifikasi selesai, Arga menyusun laporan teknis yang memuat ringkasan temuan, dampak keamanan, langkah reproduksi yang aman, serta bukti pendukung sebelum melaporkannya kepada Antropic melalui mekanisme pelaporan keamanan resmi. Menurutnya, pengalaman tersebut menunjukkan bahwa riset keamanan yang dilakukan secara etis, terukur, dan bertanggung jawab dapat memberikan kontribusi nyata terhadap keamanan teknologi global.
+Pengakuan dari Antropic menambah rekam jejak Arga di bidang keamanan siber. Sebelumnya, Arga juga melaporkan sejumlah kerentanan pada proyek open-source curl/libcurl yang digunakan secara luas secara global. Temuan tersebut telah memperoleh identitas Common Vulnerabilities and Exposures (CVE) dan tercatat dalam National Vulnerability Database (NVD). Nama Arga juga tercantum pada security advisory resmi curl pada bagian Credits/Reported-by sebagai pelapor kerentanan. Salah satu temuannya juga pernah diberitakan oleh media teknologi di Swedia.
+Sebagai penerima KIP Kuliah, Arga mengaku program tersebut menjadi dukungan penting dalam perjalanan studinya.
+"KIP Kuliah memberikan kesempatan bagi saya untuk melanjutkan pendidikan tinggi dan lebih fokus dalam mengembangkan kemampuan tanpa terlalu terbebani oleh kendala biaya pendidikan. Bantuan ini bukan hanya mendukung saya dari sisi akademik, tetapi juga memberi ruang untuk belajar lebih serius, mengikuti perkembangan teknologi, dan mengembangkan kompetensi di bidang keamanan siber serta kecerdasan artifisial. Bagi saya, KIP Kuliah adalah amanah dan kesempatan besar yang harus dimanfaatkan sebaik-baiknya," kata Arga.
+Arga juga mengajak para penerima KIP Kuliah lainnya untuk memanfaatkan kesempatan tersebut sebaik mungkin dalam mengembangkan diri.
+"Pesan saya kepada para penerima KIP Kuliah lainnya adalah jangan merasa terbatas oleh keadaan. Manfaatkan kesempatan ini untuk belajar, berani mencoba, aktif mencari pengalaman, dan terus meningkatkan kemampuan. Prestasi tidak selalu datang dari fasilitas yang sempurna, tetapi dari kemauan untuk terus belajar, konsisten, dan berani berkontribusi. Saya berharap semakin banyak penerima KIP Kuliah yang mampu membuktikan bahwa mereka dapat berprestasi dan memberikan manfaat bagi Indonesia," ujarnya.
+Keberhasilan Arga turut mendapat apresiasi dari Universitas Teknologi Bandung. Rektor UTB Muchammad Naseer, mengatakan bahwa capaian tersebut tidak lepas dari komitmen UTB dalam membangun ekosistem pembelajaran yang memberi ruang bagi mahasiswa untuk mengembangkan kompetensi, melakukan riset, dan menghasilkan inovasi yang relevan dengan kebutuhan masyarakat dan industri.
+Komitmen tersebut diwujudkan melalui tiga ekosistem utama, yakni Ekosistem Prestasi, Ekosistem Siap Kerja, dan Ekosistem Creativepreneur, yang mendorong mahasiswa mengembangkan kompetensi melalui pembelajaran, pendampingan dosen, keterlibatan dalam proyek inovasi, riset, kompetisi, serta kolaborasi dengan berbagai mitra.
+"Capaian Arga, yang juga merupakan mahasiswa penerima KIP Kuliah, menjadi bukti bahwa ketika akses pendidikan bertemu dengan ekosistem kampus yang mendukung, mahasiswa Indonesia mampu menghasilkan karya yang diakui oleh perusahaan teknologi kelas dunia. Bagi UTB, pengakuan dari Anthropic ini bukan hanya prestasi individu, tetapi juga validasi bahwa perguruan tinggi Indonesia memiliki kapasitas untuk melahirkan talenta digital yang unggul, adaptif, dan berdaya saing global," ujar Rektor UTB.
+Ke depan, UTB akan terus memperkuat ekosistem prestasi dengan memperluas akses mahasiswa terhadap riset, inovasi, kompetisi nasional dan internasional, kolaborasi industri, serta proyek-proyek berbasis teknologi masa depan, termasuk kecerdasan artifisial, keamanan siber, dan transformasi digital.
+Capaian Arga menjadi salah satu contoh bagaimana dukungan Program KIP Kuliah yang didukung ekosistem pembelajaran di perguruan tinggi dapat membuka ruang bagi mahasiswa untuk mengembangkan kompetensi dan menghasilkan karya yang memperoleh pengakuan di tingkat internasional.
+Sejalan dengan semangat Diktisaintek Berdampak, Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) terus mendorong perguruan tinggi membangun ekosistem pembelajaran, riset, dan inovasi yang memberi ruang bagi mahasiswa untuk mengembangkan potensi, menghasilkan karya, serta memberikan kontribusi nyata bagi masyarakat dan kemajuan ilmu pengetahuan serta teknologi.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak

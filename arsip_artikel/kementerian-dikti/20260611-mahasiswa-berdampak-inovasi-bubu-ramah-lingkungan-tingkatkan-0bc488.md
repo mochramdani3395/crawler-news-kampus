@@ -1,0 +1,22 @@
+# Mahasiswa Berdampak Inovasi Bubu Ramah Lingkungan Tingkatkan Penghasilan Nelayan Aceh Barat
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/mahasiswa-berdampak-inovasi-bubu-ramah-lingkungan-tingkatkan-penghasilan-nelayan-aceh-barat
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-11 02:44:03
+
+---
+
+Yogyakarta - Bagi sebagian nelayan, alat tangkap yang digunakan sehari-hari bukan hanya menentukan hasil laut yang dibawa pulang, tetapi juga penghasilan keluarga. Hal itulah mendorong tim Program Mahasiswa Berdampak dari Universitas Teuku Umar menghadirkan inovasi bubu dasar jaring atau Budar, sebuah alat tangkap ramah lingkungan yang terbukti membantu meningkatkan pendapatan nelayan di Aceh Barat.
+Dalam pameran pada Seminar Dampak Program Mahasiswa Berdampak Tahun Anggaran 2025 yang diselenggarakan Direktorat Penelitian dan Pengabdian Masyarakat, Direktorat Jenderal Riset dan Pengembangan Kemdiktisaintek bersama Universitas Ahmad Dahlan (UAD), tim Universitas Teuku Umar (UTU) memamerkan prototipe Budar sekaligus membagikan kisah dampak yang dirasakan langsung oleh masyarakat nelayan binaan.
+Dosen tim Pelaksana UTU, Afdal Fuadi, menjelaskan bahwa inovasi tersebut lahir dari keresahan terhadap praktik penangkapan ikan yang masih menggunakan alat tangkap ramah lingkungan. Bersama mahasiswa dan kelompok nelayan dampingan, mereka memperkenalkan Budar sebagai alternatif yang lebih berkelanjutan.
+“Nelayan di lokasi dampingan sebelumnya masih menggunakan alat tangkap yang kurang ramah lingkungan. Karena itu, kami memperkenalkan teknologi bubu sebagai solusi yang lebih berkelanjutan sekaligus dapat meningkatkan perekonomian nelayan,” ujarnya.
+Budar dirancang untuk menangkap ikan karang bernilai ekonomis tinggi, seperti kakap merah, kerapu, dan Jenaha. Berbeda dengan alat tangkap pada umumnya, Budar tidak menggunakan umpan, melainkan memanfaatkan daun pinang dan daun kelapa sebagai atraktor alami. Selain itu, ukuran mata jaringnya dibuat lebih besar sehingga ikan-ikan kecil dapat keluar dan tetapi menjaga keberlanjutan sumber daya perikanan.
+Tidak berhenti pada inovasi alat tangkap, program ini juga mendorong pemberdayaan keluarga nelayan. Hasil tangkapan sampingan (by-cacth) yang sebelumnya memiliki nilai ekonomi rendah diolah bersama kelompok istri nelayan menjadi berbagai produk pangan seperti nugget ikan, bakso ikan, dan kaki naga untuk memberikan nilai tambah bagi pendapatan keluarga.
+Keterlibatan mahasiswa menjadi bagian penting dalam keseluruhan proses. Salah satunya melalui peran Zarkasyi, mahasiswa dari Fakultas Perikanan dan Ilmu Kelautan Universitas Teuku Umar, yang bersama tim mahasiswa terlibat mulai dari menyusun agenda kegiatan, melakukan sosialisasi dan pelatihan, hingga mendampingi nelayan membuat unit bubu serta produk olahan ikan. Sebelum terjun ke masyarakat, mereka juga melakukan berbagai pengujian di laboratorium kampus bersama dosen pendamping.
+“Sebelum turun lapangan, kami melakukan berbagai pengujian di laboratorium bersama dosen. Saat mendampingi masyarakat, kami belajar bahwa ilmu yang diperoleh di kampus bisa diterapkan secara langsung untuk memberikan manfaat bagi nelayan,” ujarnya.
+Tim telah memproduksi sebanyak 45 unit Budar untuk diterapkan di kelompok nelayan binaan. Berdasarkan hasil riset yang dilakukan bersama mahasiswa, waktu perendaman selama 10 hari menghasilkan tangkapan paling optimal. Bahkan, ikan kakap merah dengan berat 16 kilogram pernah diperoleh menggunakan alat tangkap tersebut.
+Dampak ekonominya pun dirasakan langsung oleh masyarakat. Menurut Afdal, nelayan mengaku hasil tangkapan menggunakan dua unit Budar mampu menghasilkan pendapatan sekitar Rp1,5 juta per trip, jauh lebih tinggi dibandingkan hasil tangkapan menggunakan jaring tradisional yang rata-rata hanya sekitar Rp500 ribu.
+“Respon masyarakat sangat positif. Mereka melihat sendiri bahwa alat tangkap ini mampu meningkatkan hasil tangkapan sekaligus memberikan keuntungan ekonomi yang lebih baik. hal ini disebabkan oleh nilai jual hasil tangkapan lebih tinggi krn memiliki kualitas yang baik,” katanya.
+Bagi tim Universitas Teuku Umar, keberhasilan program ini bukan semata tentang menciptakan teknologi baru, melainkan tentang menghadirkan solusi yang dapat menjawab kebutuhan masyarakat pesisir. Melalui Program Mahasiswa Berdampak, inovasi dari perguruan tinggi diharapkan dapat terus tumbuh sebagai upaya menjaga kelestarian lingkungan sekaligus meningkatkan kesejahteraan masyarakat secara berkelanjutan.

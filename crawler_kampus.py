@@ -1,11 +1,7 @@
 import trafilatura
-from trafilatura.spider import focused_crawler
-import json
-import os
-import requests
-import re
-import hashlib
+import json, os, requests, re, hashlib, time, random
 from datetime import datetime
+from urllib.parse import urljoin, urlparse
 
 # --- LOAD CONFIG ---
 def load_config():
@@ -16,11 +12,22 @@ CONFIG = load_config()
 TELEGRAM_TOKEN = CONFIG["telegram_token"]
 TELEGRAM_CHAT_ID = CONFIG["telegram_chat_id"]
 TARGET_KAMPUS = CONFIG["target_kampus"]
+MAX_LINKS = CONFIG.get("max_links_per_run", 3)
+DELAY_MIN = CONFIG.get("delay_min", 5)
+DELAY_MAX = CONFIG.get("delay_max", 12)
+
 DB_FILE = "database_artikel.json"
 BASE_ARCHIVE_FOLDER = "arsip_artikel"
+REPO_PATH = os.getenv('GITHUB_REPOSITORY', 'mochramdani3395/crawler-news-kampus')
+REPO_URL = f"https://github.com/{REPO_PATH}/blob/main"
 
-if not os.path.exists(BASE_ARCHIVE_FOLDER):
-    os.makedirs(BASE_ARCHIVE_FOLDER)
+# Header Penyamaran Browser
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Referer': 'https://www.google.com/'
+}
 
 def slugify(text):
     text = text.lower()
@@ -29,11 +36,35 @@ def slugify(text):
 
 def get_smart_title(data, link):
     judul = data.get('title')
-    if not judul or judul == "Tanpa Judul" or len(judul) < 5:
+    if not judul or "berita" in judul.lower() or len(judul) < 10:
         path_segments = [s for s in link.split('/') if s]
         if path_segments:
             judul = path_segments[-1].replace('-', ' ').replace('.html', '').title()
     return judul if judul else "Artikel Tanpa Judul"
+
+def fetch_tangguh(url):
+    """Mengambil konten dengan requests untuk menembus blokir 403"""
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=25, verify=True)
+        if response.status_code == 200:
+            return response.text
+    except Exception as e:
+        print(f"  [!] Gagal akses {url}: {e}")
+    return None
+
+def extract_links_manual(html, base_url):
+    """Fungsi mandiri untuk mengambil link guna menghindari error trafilatura.spider.utils"""
+    links = set()
+    pattern = re.compile(r'href=["\'](https?://[^"\']+|/[^"\']+)["\']')
+    found = pattern.findall(html)
+    domain = urlparse(base_url).netloc
+    
+    for l in found:
+        full_url = urljoin(base_url, l)
+        # Hanya ambil link yang berada di domain yang sama
+        if urlparse(full_url).netloc == domain:
+            links.add(full_url)
+    return list(links)
 
 def save_as_markdown(judul, isi, tanggal, penulis, link, image_url, nama_kampus):
     clean_title = slugify(judul)
@@ -41,90 +72,88 @@ def save_as_markdown(judul, isi, tanggal, penulis, link, image_url, nama_kampus)
     unique_id = hashlib.md5(link.encode()).hexdigest()[:6]
     
     folder_path = os.path.join(BASE_ARCHIVE_FOLDER, slugify(nama_kampus))
-    if not os.path.exists(folder_path):
-        os.makedirs(folder_path)
+    if not os.path.exists(folder_path): os.makedirs(folder_path)
     
     filename = f"{date_prefix}-{clean_title}-{unique_id}.md"
     filepath = os.path.join(folder_path, filename)
-    
+
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"# {judul}\n\n")
-        # Jika image_url ditemukan, tampilkan. Jika tidak, beri placeholder atau kosongkan
-        if image_url and image_url.startswith("http"):
-            f.write(f"![Gambar Utama]({image_url})\n\n")
-        
+        if image_url: f.write(f"![Gambar Utama]({image_url})\n\n")
         f.write(f"- **Kampus:** {nama_kampus}\n")
         f.write(f"- **Sumber:** {link}\n")
         f.write(f"- **Penulis:** {penulis}\n")
         f.write(f"- **Tanggal Posting:** {tanggal}\n")
         f.write(f"- **Waktu Crawl:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        f.write(f"---\n\n")
-        f.write(isi if isi else "Konten teks tidak berhasil diekstrak.")
-        
+        f.write(f"---\n\n{isi}")
     return f"{slugify(nama_kampus)}/{filename}"
 
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "HTML", "disable_web_page_preview": True}
-    try: requests.post(url, data=payload)
+    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "HTML"}
+    try: requests.post(url, data=payload, timeout=20)
     except: pass
 
 def jalankan_crawler():
     if os.path.exists(DB_FILE):
-        with open(DB_FILE, "r", encoding="utf-8") as f: 
-            database = json.load(f)
-    else:
-        database = []
+        with open(DB_FILE, "r", encoding="utf-8") as f: database = json.load(f)
+    else: database = []
 
-    existing_urls = [item['link'] for item in database]
+    existing_urls = {item['link'] for item in database}
     notif_list = []
+    item_kampus = list(TARGET_KAMPUS.items())
+    random.shuffle(item_kampus)
 
-    for nama_kampus, domain in TARGET_KAMPUS.items():
-        print(f"Mengecek {nama_kampus}: {domain}")
-        try:
-            links, _ = focused_crawler(domain, max_seen_urls=10)
-            if links:
-                for link in links:
-                    if link not in existing_urls:
-                        downloaded = trafilatura.fetch_url(link)
-                        # Gunakan fallback_to_metadata untuk mencoba lebih keras mencari gambar
-                        result = trafilatura.extract(downloaded, output_format='json', include_comments=False)
-                        
-                        if result:
-                            data = json.loads(result)
-                            judul = get_smart_title(data, link)
-                            image_url = data.get('image')
-                            
-                            rel_path = save_as_markdown(
-                                judul, data.get('text', ''), 
-                                data.get('date', 'N/A'), 
-                                data.get('author', 'Humas'), 
-                                link, image_url, nama_kampus
-                            )
-                            
-                            entry = {
-                                "kampus": nama_kampus,
-                                "judul": judul, 
-                                "link": link, 
-                                "waktu_crawl": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                                "file_arsip": f"{BASE_ARCHIVE_FOLDER}/{rel_path}"
-                            }
-                            database.append(entry)
-                            notif_list.append(f"🔹 [{nama_kampus}] {judul}")
-                            existing_urls.append(link)
-        except Exception as e:
-            print(f"Error pada {nama_kampus}: {e}")
+    for nama_kampus, domain in item_kampus:
+        print(f"Memproses {nama_kampus}...")
+        html_index = fetch_tangguh(domain)
+        if not html_index:
+            print(f"  [!] Lewati: Gagal ambil index {nama_kampus}")
+            continue
 
-    # SORTING: Urutkan database berdasarkan waktu_crawl terbaru (descending)
-    database.sort(key=lambda x: x['waktu_crawl'], reverse=True)
+        # Gunakan fungsi manual untuk menghindari AttributeError
+        links = extract_links_manual(html_index, domain)
+        
+        # Filter link artikel (yang lebih panjang dari link utama)
+        article_links = [l for l in links if l not in existing_urls and len(l) > len(domain.rstrip('/')) + 3]
 
+        count = 0
+        for link in article_links:
+            if count >= MAX_LINKS: break
+            time.sleep(random.randint(DELAY_MIN, DELAY_MAX))
+            
+            print(f"  > Mengambil: {link}")
+            html_article = fetch_tangguh(link)
+            if not html_article: continue
+            
+            result = trafilatura.extract(html_article, output_format='json')
+            if result:
+                data = json.loads(result)
+                judul = get_smart_title(data, link)
+                isi = data.get('text', '')
+                
+                # Validasi konten agar bukan 'read more'
+                if not isi or len(isi) < 250: continue
+
+                rel_path = save_as_markdown(judul, isi, data.get('date', 'N/A'), data.get('author', 'Humas'), link, data.get('image'), nama_kampus)
+                
+                database.append({"kampus": nama_kampus, "judul": judul, "link": link, "waktu_crawl": datetime.now().strftime('%Y-%m-%d %H:%M:%S')})
+                github_link = f"{REPO_URL}/{BASE_ARCHIVE_FOLDER}/{rel_path}"
+                notif_list.append(f"🔹 [{nama_kampus}] <a href='{github_link}'>{judul}</a>")
+                existing_urls.add(link)
+                count += 1
+
+    # Simpan DB
     with open(DB_FILE, "w", encoding="utf-8") as f:
         json.dump(database, f, indent=4, ensure_ascii=False)
 
+    # Kirim Notif
     if notif_list:
-        msg = f"📰 <b>{len(notif_list)} Berita Kampus Baru!</b>\n\n"
-        msg += "\n".join(notif_list[:15])
-        send_telegram(msg)
+        header_msg = f"📰 <b>{len(notif_list)} Berita Kampus Baru!</b>\n\n"
+        body_msg = "\n".join(notif_list[:15])
+        send_telegram(header_msg + body_msg)
+    else:
+        print("Selesai. Tidak ada berita baru yang valid.")
 
 if __name__ == "__main__":
     jalankan_crawler()

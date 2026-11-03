@@ -1,0 +1,20 @@
+# Fpik Undip Perkuat Kompetensi Mahasiswa Dan Alumninya Dengan Program Magang Dan Kesempatan Berkarir Internasional
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/fpik-undip-perkuat-kompetensi-mahasiswa-dan-alumninya-dengan-program-magang-dan-kesempatan-berkarir-internasional
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-05-29 07:49:13
+
+---
+
+UNDIP, Semarang (28/5) – Fakultas Perikanan dan Ilmu Kelautan Universitas Diponegoro (FPIK UNDIP) terus menunjukkan komitmennya dalam menyiapkan lulusan yang unggul, kompetitif, dan siap bersaing di tingkat global. Sejak tahun 2023, mahasiswa-mahasiswi FPIK UNDIP telah memperoleh kesempatan mengikuti program magang internasional di berbagai industri perikanan dan kelautan yang tersebar di sejumlah wilayah di Jepang.
+Program ini menjadi salah satu langkah nyata FPIK UNDIP dalam menghubungkan dunia pendidikan dengan kebutuhan industri global, khususnya pada sektor perikanan, budidaya, dan kelautan modern. Melalui program tersebut, mahasiswa tidak hanya mendapatkan pengalaman kerja internasional, tetapi juga memperluas wawasan budaya, meningkatkan kemampuan bahasa asing, serta mengasah keterampilan profesional di lingkungan kerja global.
+Pada 19 April 2026, FPIK UNDIP kembali memberangkatkan sebanyak 28 mahasiswa untuk mengikuti program magang di Jepang. Sebanyak 13 mahasiswa ditempatkan di Kota Ako, sementara 15 mahasiswa lainnya menjalani program di wilayah Esashi. Selain itu, terdapat 11 mahasiswa dari Program Studi Teknologi Hasil Perikanan (THP) yang dijadwalkan akan segera menyusul berangkat menuju Esashi.
+Program magang ini mencakup berbagai sektor industri perikanan dan kelautan, mulai dari budidaya perikanan, pengolahan hasil laut, hatchery, hingga pengelolaan fasilitas akuakultur modern. Para mahasiswa mendapatkan pengalaman langsung bekerja bersama perusahaan dan mitra industri Jepang yang telah memiliki standar internasional.
+Tidak hanya membuka peluang magang bagi mahasiswa aktif, FPIK UNDIP juga turut memfasilitasi kesempatan bekerja di luar negeri bagi para alumninya. Saat ini, sebanyak 9 alumni tengah mengikuti program pelatihan dan persiapan kerja untuk penempatan di perusahaan akuakultur di Korea Selatan melalui skema Visa E-7-3.
+Program Visa E-7-3 merupakan visa kerja khusus bagi tenaga kerja asing terampil (skilled worker) di sektor tertentu, termasuk bidang akuakultur dan budidaya perikanan. Melalui program ini, alumni FPIK UNDIP dipersiapkan untuk bekerja secara profesional di perusahaan-perusahaan akuakultur Korea Selatan dengan dukungan pelatihan bahasa, kompetensi teknis, serta pembekalan budaya kerja internasional.
+Sebelum memasuki tahap pelatihan dan pemberangkatan, para peserta juga diwajibkan mengikuti rangkaian seleksi ketat, termasuk Medical Check Up (MCU) lengkap dan tes psikologi guna memastikan kesiapan fisik maupun mental dalam menghadapi dunia kerja internasional.
+Dekan FPIK UNDIP Prof. Agus Trianto, S.T., M.Sc., Ph.D. menyampaikan bahwa program internasionalisasi ini merupakan bagian dari upaya kampus dalam meningkatkan kualitas lulusan agar mampu menjadi sumber daya manusia unggul di bidang perikanan dan kelautan.
+“FPIK UNDIP tidak hanya fokus pada pendidikan akademik, tetapi juga memastikan mahasiswa dan alumni memiliki akses terhadap pengalaman global serta peluang karier internasional yang nyata. Ini menjadi bentuk komitmen kami dalam mencetak lulusan yang adaptif, profesional, dan siap menghadapi tantangan dunia kerja global,” ucapnya.
+Melalui berbagai program magang dan penempatan kerja internasional tersebut, FPIK UNDIP terus memperkuat perannya sebagai institusi pendidikan tinggi yang aktif membangun konektivitas global sekaligus membuka peluang masa depan yang lebih luas bagi mahasiswa dan alumninya. (Komunikasi Publik/UNDIP/FPIK)

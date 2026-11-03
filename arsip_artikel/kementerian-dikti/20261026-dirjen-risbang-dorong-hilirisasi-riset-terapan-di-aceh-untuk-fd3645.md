@@ -1,0 +1,19 @@
+# Dirjen Risbang Dorong Hilirisasi Riset Terapan Di Aceh Untuk Menjawab Kebutuhan Masyarakat
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/dirjen-risbang-dorong-hilirisasi-riset-terapan-di-aceh-untuk-menjawab-kebutuhan-masyarakat
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-10-26 17:57:45
+
+---
+
+Lhokseumawe — Penguatan riset nasional membutuhkan pemerataan kesempatan bagi perguruan tinggi untuk mengembangkan kapasitas penelitian dan memperkuat kolaborasi agar hasilnya dapat menjawab kebutuhan masyarakat. Pesan tersebut disampaikan Direktur Jenderal Riset dan Pengembangan (Dirjen Risbang) Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek), Fauzan Adziman, dalam dialog bersama peneliti pada rangkaian Seminar Nasional Politeknik Negeri Lhokseumawe (SEMNAS PNL) ke-10 Tahun 2026, Rabu (21/10).
+Dirjen Fauzan menjelaskan bahwa pemerintah mendorong pemerataan melalui pendekatan dua jalur, yaitu Riset Prioritas dan Riset Strategis. Upaya ini membuka kesempatan lebih luas bagi perguruan tinggi dan peneliti pemula untuk mengembangkan kapasitas riset. Sementara bagi perguruan tinggi yang telah memiliki kapasitas kuat didorong untuk berkontribusi dalam menyelesaikan persoalan strategis nasional.
+Dalam sesi dialog yang diikuti perwakilan peneliti di Lhokseumawe dan sekitarnya, turut membahas berbagai tantangan, mulai dari kendala transportasi untuk menjangkau lokasi penelitian hingga perlunya dukungan terhadap kegiatan penelitian dan pengabdian kepada masyarakat di daerah rawan bencana. Mereka juga menyoroti pentingnya menyelaraskan hasil riset dengan kebijakan pemerintah agar penelitian dapat merespons persoalan yang beragam di setiap daerah.
+Salah satu contoh riset terapan yang dibahas ialah pemanfaatan limbah industri fly ash menjadi bahan konstruksi, seperti paving block, roster, dan panel ornamen. Inisiatif tersebut memperlihatkan potensi pengembangan hasil penelitian menjadi produk yang dapat dimanfaatkan masyarakat sekaligus meningkatkan nilai guna limbah industri.
+Berbagai isu tersebut sejalan dengan pembahasan dalam SEMNAS PNL ke-10 yang mengusung tema “Hilirisasi Riset Terapan Melalui Transformasi Digital untuk Memperkuat Ketahanan Energi, Industri, dan Ekonomi Berkelanjutan”. Forum ini menjadi wadah bagi akademisi, peneliti, pemerintah, serta praktisi dan mitra industri untuk membahas pengembangan riset terapan dan pemanfaatan hasilnya.
+Dalam sambutan dan orasi ilmiahnya, Dirjen Fauzan menegaskan pentingnya kerja sama antara perguruan tinggi, pemerintah daerah, dan industri agar riset tidak berhenti sebagai karya akademik, tetapi dapat dikembangkan menjadi solusi yang bermanfaat bagi masyarakat.
+“Kita perlu lebih banyak bekerja sama dengan pemerintah daerah karena di sanalah sebetulnya masalah-masalah masyarakat yang perlu dipecahkan,” ujarnya.
+Menurutnya, pemerintah daerah memiliki pemahaman langsung mengenai persoalan yang dihadapi masyarakat. Karena itu, keterlibatan pemerintah daerah bersama perguruan tinggi dan industri diperlukan untuk memastikan penelitian berangkat dari kebutuhan nyata.
+Melalui dialog bersama peneliti dan partisipasinya dalam SEMNAS PNL ke-10, Kemdiktisaintek mendorong penguatan ekosistem riset yang memberikan kesempatan lebih luas bagi perguruan tinggi di berbagai daerah sekaligus memperbesar peluang pemanfaatan hasil penelitian. Pemerataan kapasitas, dukungan terhadap kebutuhan peneliti, dan kolaborasi lintas sektor diharapkan dapat memperkuat kontribusi riset dalam menyelesaikan persoalan masyarakat serta mendukung pembangunan ekonomi berkelanjutan.

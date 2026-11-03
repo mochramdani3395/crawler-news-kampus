@@ -1,0 +1,26 @@
+# Presiden Ajak Perguruan Tinggi Perkuat Kontribusi Bagi Industrialisasi Nasional Pada Sarasehan Kebangsaan Ksti 2026
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/presiden-ajak-perguruan-tinggi-perkuat-kontribusi-bagi-industrialisasi-nasional-pada-sarasehan-kebangsaan-ksti-2026
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-26 14:06:00
+
+---
+
+Jakarta—Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) menyelenggarakan Sarasehan Kebangsaan Konvensi Sains, Teknologi, dan Industri Indonesia (KSTI) 2026 sebagai forum strategis untuk memperkuat sinergi antara pemerintah, perguruan tinggi, industri, dan para dan masyarakat dalam merumuskan kontribusi pendidikan tinggi terhadap agenda pembangunan nasional. Kegiatan yang berlangsung di Jakarta International Convention Center (JICC) pada 26–28 Juni 2026 ini dibuka secara resmi oleh Presiden Republik Indonesia (RI), Prabowo Subianto dan didampingi Wakil Presiden RI, Gibran Rakabuming Raka serta sejumlah jajaran menteri Kabinet Merah Putih, Jumat (26/6).
+Sarasehan yang diselenggarakan bersama Majelis Rektor Perguruan Tinggi Indonesia (MRPTNI) serta Badan Riset dan Inovasi Nasional (BRIN) ini dihadiri lebih dari 2.600 peserta, terdiri dari pimpinan Perguruan Tinggi Negeri (PTN), Perguruan Tinggi Swasta (PTS), Perguruan Tinggi Keagamaan Islam Negeri (PTKIN), kementerian dan lembaga, akademisi, peneliti, serta mitra industri. Selama tiga hari pelaksanaan, forum membahas berbagai isu strategis pembangunan, meliputi pertanian, energi, ekonomi dan keuangan, ketahanan pangan, kelautan dan perikanan, hingga hilirisasi dan industri sebagai dasar penyusunan rekomendasi kebijakan berbasis ilmu pengetahuan.
+Dalam forum ini, Presiden Prabowo menjelaskan bahwa sepanjang sejarah peradaban manusia, perubahan besar selalu ditentukan oleh perkembangan ilmu pengetahuan dan teknologi. Oleh karena itu, Presiden RI menegaskan pentingnya peran perguruan tinggi, para akademisi, dan peneliti dalam percepatan pembangunan nasional berbasis ilmu pengetahuan, teknologi, dan sumber daya manusia unggul.
+“Jadi, kalau negara mau bangkit, negara mau maju, memang harus dimanfaatkan atau digerakan potensi dan kemampuan dari kampus-kampus,” tegas Presiden RI.
+Menteri Pendidikan Tinggi, Sains, dan Teknologi (Mendiktisaintek), Brian Yuliarto menjelaskan bahwa Sarasehan Kebangsaan KSTI 2026 menjadi ruang strategis untuk menyatukan pandangan pemerintah, perguruan tinggi, ilmuwan, peneliti, dan mitra pembangunan dalam mendukung agenda prioritas nasional. Peserta kegiatan ini antara lain sebanyak 219 rektor, 44 direktur perguruan tinggi vokasi, enam ketua asosiasi perguruan tinggi, 1.596 dosen, ilmuwan, dan peneliti (termasuk sekitar 300 peneliti dari BRIN), serta lebih dari 635 mitra kolaborasi perguruan tinggi dan Kemdiktisaintek. Momentum ini diharapkan menjadi tonggak untuk mewujudkan kemandirian nasional, selaras dengan tema Sarasehan Kebangsaan KSTI 2026, yakni “Strategi Kemandirian Ekonomi dan Kesejahteraan Indonesia”.
+"Di bawah arahan Bapak Presiden, pemerintah terus bergerak cepat dalam menjawab berbagai tantangan pembangunan nasional. Dalam semangat tersebut, Kemdiktisaintek bersama seluruh perguruan tinggi memperkuat peran kampus sebagai mitra strategis pemerintah dalam menghadirkan solusi berbasis ilmu pengetahuan, riset, dan inovasi," ujar Menteri Brian.
+Menteri Brian menambahkan bahwa Sarasehan Kebangsaan diarahkan untuk menghasilkan rumusan strategis mengenai peran dan kontribusi perguruan tinggi dalam mempercepat pelaksanaan program-program prioritas nasional. Rumusan tersebut diharapkan menjadi masukan berbasis ilmu pengetahuan bagi pemerintah sekaligus memperkuat kontribusi pendidikan tinggi dalam mendukung kemandirian ekonomi dan peningkatan kesejahteraan Indonesia.
+Ketua MRPTNI, Eduart Wolok mengapresiasi penyelenggaraan Sarasehan Kebangsaan sebagai ruang dialog yang mempertemukan pemerintah dengan sivitas akademika secara langsung.
+"Sarasehan yang diselenggarakan hari ini menjadi ajang pertukaran informasi sehingga pemangku kepentingan pendidikan tinggi dapat memperoleh informasi langsung dari Presiden maupun para menteri Kabinet Merah Putih mengenai arah pembangunan Indonesia ke depan. Dengan demikian, insan pendidikan tinggi dapat bersama-sama merumuskan strategi yang tepat untuk mendukung pencapaian agenda pembangunan nasional," ujar Ketua MRPTNI.
+Forum tersebut dipandang sebagai langkah positif dalam membangun kesamaan pandangan antara pemerintah dan perguruan tinggi. Menurut Eduart Wolok, berbagai rumusan yang dihasilkan selama Sarasehan akan menjadi masukan strategis bagi pemerintah dalam memperkuat kebijakan pembangunan berbasis ilmu pengetahuan.
+Melalui Sarasehan Kebangsaan KSTI 2026, Kemdiktisaintek menegaskan komitmennya untuk terus memperkuat peran pendidikan tinggi sebagai mitra strategis pemerintah dalam menghasilkan sumber daya manusia unggul, riset yang berdampak, serta inovasi yang mampu menjawab tantangan pembangunan nasional menuju Indonesia Emas 2045.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak

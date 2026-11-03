@@ -1,0 +1,45 @@
+# Um Papua Gelar Bazar Dan Seminar Kewirausahaan Temukan Jiwa Wirausahamu Mulai Bisnismu
+
+- **Kampus:** Universitas Muhammadiyah Papua
+- **Sumber:** https://umpapua.ac.id/2025/11/29/um-papua-gelar-bazar-dan-seminar-kewirausahaan-temukan-jiwa-wirausahamu-mulai-bisnismu/
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2025-12-24 01:02:12
+
+---
+
+UM Papua Gelar Bazar dan Seminar Kewirausahaan: “Temukan Jiwa Wirausahamu, Mulai Bisnismu!”
+Jayapura, UM Papua — Universitas Muhammadiyah Papua kembali menunjukkan komitmennya dalam membangun jiwa kewirausahaan mahasiswa melalui penyelenggaraan Bazar dan Seminar Kewirausahaan bertema “Temukan Jiwa Wirausahamu, Mulai Bisnismu!”, Sabtu, (29/11/2025) di kampus UM Papua. Kegiatan ini merupakan bagian dari Festival Mahasiswa UM Papua Seri Kewirausahaan sekaligus implementasi langsung mata kuliah Marketing Public Relations.
+Acara dihadiri oleh jajaran pimpinan kampus, mitra sponsor, serta mahasiswa dari enam program studi, Ilmu Komunikasi, Ilmu Komputer, Ilmu Lingkungan, Hukum, Psikologi, dan Kewirausahaan.
+Hadir sebagai tamu undangan dan mitra pendukung di antaranya Pegadaian Cabang Abepura sebagai sponsor utama, serta BNI Kotaraja, Bank Mandiri Tanah Hitam, Bank Syariah Indonesia KCP Abepura, dan Lazatto Jayapura sebagai sponsor pendukung.
+Dalam laporannya, Ketua Panitia, Nurul Husnul Khatimah, menyampaikan bahwa kegiatan ini berlangsung atas dukungan banyak pihak, baik internal maupun eksternal.
+“Melalui arahan, bimbingan, dan dukungan dari Ibu Dewi Anggraeni, sebagai dosen pengampu mata kuliah Marketing Public Relations, kegiatan ini bisa terselenggara sebagai bentuk implementasi nyata dari pembelajaran di kelas ke dunia praktik,” ujarnya.
+Nurul juga menekankan bahwa tema “Temukan Jiwa Wirausahamu, Mulai Bisnismu!” dipilih karena sangat relevan dengan kondisi mahasiswa saat ini yang perlu dilatih untuk melihat peluang, mulai dari langkah kecil, hingga mampu membangun usaha sendiri.
+“Tema ini mengajak mahasiswa untuk berani mengenali potensi diri, memulai usaha sekecil apa pun, dan tidak hanya berorientasi menjadi pencari kerja. Mahasiswa harus belajar menciptakan peluang,” tambahnya.
+Ia juga menyampaikan terima kasih kepada sponsor utama dan pendukung.
+Sementara, dosen pengampu mata kuliah sekaligus pembina kegiatan, Dewi Anggraeni, menjelaskan bahwa kegiatan ini merupakan rangkaian dari Festival Mahasiswa Universitas Muhammadiyah Papua.
+“Kegiatan ini merupakan bentuk perhatian dari Universitas Muhammadiyah Papua agar mahasiswa tidak hanya menerima hak-hak akademik, tetapi juga mendapatkan pengembangan kemampuan non-akademik atau soft skill yang kali ini kami fokuskan pada kewirausahaan,” jelasnya.
+Ia juga memperkenalkan narasumber seminar, Leswadi, seorang praktisi bisnis yang memulai karier sebagai motivator dan pendidik anak muda sebelum akhirnya terjun ke bisnis properti.
+“Beliau bermula sebagai seorang motivator yang bergerak di bidang pendidikan dan pelatihan, kemudian mengembangkan bimbingan belajar hingga memiliki empat cabang, dan kini menjadi owner PT Adisland, Total Jaya,” tutur Dewi.
+Dewi Anggraeni berharap seri-seri lain dari Festival Mahasiswa akan terus berkembang.
+“Kami berharap pada tahun-tahun mendatang akan hadir seri-seri sains, teknologi, lingkungan, hukum, psikologi, dan lainnya sebagai bentuk pelayanan kampus kepada mahasiswa.”
+Dilanjutkan dengan proses pembukaan kegiatan Bazar dan Seminar Kewirausahaan, acara resmi dibuka oleh Wakil Rektor I Universitas Muhammadiyah Papua, Indah Sulistiani, yang mewakili Rektor UM Papua. Dalam sambutannya, ia mengapresiasi kreativitas mahasiswa dan dosen pengampu mata kuliah.
+“Sangat kreatif sekali. Mata kuliah Marketing Public Relations diwujudkan dalam bentuk event. Tinggal bagaimana kegiatan ini memberikan manfaat, tidak hanya bagi lembaga, tetapi juga adik-adik mahasiswa,” ujarnya.
+Ia menekankan pentingnya menumbuhkan jiwa kewirausahaan sejak dini serta menyampaikan apresiasi atas kreativitas mahasiswa dan dosen pengampu dalam mempraktekkan teori secara langsung melalui penyelenggaraan event.
+“Kegiatan seperti ini sangat penting untuk menumbuhkan jiwa kewirausahaan sejak dini. Dari 10 pintu rezeki, 9 di antaranya berasal dari usaha. Artinya, peluang mahasiswa untuk berkembang sangat besar ketika berani berinovasi dan memulai bisnis,” jelasnya.
+Warek I juga menegaskan bahwa visi UM Papua adalah unggul, berbudaya, berwawasan lingkungan, dan berjiwa kewirausahaan. Karena itu, setiap program studi memiliki kewajiban mengembangkan kegiatan yang mendorong kemampuan berwirausaha mahasiswa.
+“Visi Universitas Muhammadiyah Papua adalah menjadi universitas yang unggul, berbudaya, berwawasan lingkungan, dan berjiwa kewirausahaan. Itulah ruh dari kampus ini,” ujarnya.
+Ia juga menyampaikan bahwa teknologi dan dunia maya seharusnya dimanfaatkan untuk mendukung kreativitas, bukan hanya untuk hiburan.
+“Kemajuan teknologi harus dioptimalkan untuk mendukung kreativitas, membuka usaha, dan memberdayakan diri,” demikian Indah mengingatkan.
+Sebagai pembicara utama, Leswadi, membagikan kisah perjalanan kariernya serta tips membangun bisnis sejak muda.
+Dalam sesi materi, Leswadi menyampaikan materi kewirausahaan, bagaimana mengenal dunia usaha, menghasilkan ide usaha, diferensiasi produk, penguatan pola pikir wirausahawan, penjualan dan pemasaran, sumber modal, manajemen bisnis dan legalitas usaha.
+Ia menekankan bahwa setiap orang memiliki jalur sukses yang berbeda-beda. Ia juga mendorong mahasiswa untuk memanfaatkan peluang kecil yang sudah ada.
+Selain seminar, kegiatan ini juga diramaikan oleh bazar mahasiswa dan mitra usaha. Booth kuliner, minuman, produk UMKM, serta stan mitra sponsor turut meramaikan area acara.
+Beberapa booth seperti Kopi Baraya, Lazatto, serta stand mahasiswa menjadi daya tarik utama bagi pengunjung.
+Wakil Rektor I bahkan sempat memuji kehadiran para pelaku UMKM muda.
+“Saat krisis, usaha yang paling eksis adalah sektor kuliner. Ini peluang besar bagi mahasiswa”, demikian pandangannya.
+Kegiatan Bazar dan Seminar Kewirausahaan ini menjadi bukti keseriusan UM Papua dalam mencetak generasi muda yang mandiri, kreatif, dan berjiwa wirausaha. Kolaborasi antara kampus, mahasiswa, dosen, dan mitra sponsor menjadikan kegiatan ini bukan hanya program akademik, tetapi juga pengalaman nyata yang berdampak langsung.
+Peliput: Lala
+Penulis: Nia
+Fotografer: Diana, Elsa
+Editor: Dewi

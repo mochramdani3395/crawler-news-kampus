@@ -1,0 +1,21 @@
+# Kemdiktisaintek Dorong Pendidikan Tinggi Vokasi Sampai Ke Negeri China
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-dorong-pendidikan-tinggi-vokasi-sampai-ke-negeri-china
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-01-21 12:29:04
+
+---
+
+Sebagai bagian penting dari ekosistem pendidikan tinggi di tanah air, Kemdiktisaintek melalui Direktorat Belmawa gencar mendorong pendidikan tinggi vokasi mempersiapkan tenaga profesional yang berdaya saing global. Pendidikan vokasi harus mampu melahirkan lulusan yang kompeten, profesional, dan percaya diri, yang pada gilirannya berdampak bagi masyarakat dan berkontribusi untuk pembangunan nasional.
+Sebagai ujung tombak skilled labour yang dibutuhkan pasar kerja, arah kebijakan penguatan pendidikan vokasi dilandasi upaya menaikkan kelas kualitas pendidikan dan kompetensi tenaga kerja nasional. Karena itu pembelajaran berbasis praktik baik (best practices) penting dikedepankan. Di samping penguasaan bahasa dan komunikasi, sertifikasi kompetensi yang kredibel, serta penguatan kolaborasi dan jejaring dengan mitra industri dan pemangku kepentingan lainnya.
+Dan untuk mengakselerasi hal tersebut di atas, Kemdiktisaintek menginisiasi penandatanganan nota kesepahaman (memorandum of understanding) antara Asosiasi Pendidikan Guangdong untuk Pertukaran Internasional (GEAIE) dengan Forum Perguruan Tinggi Vokasi Indonesia (FPTVI). Pananda-tanganan nota kesepahaman dilaksanakan di Jakarta (21/1).
+Salah satu butir penting dari nota kesepahaman ini adalah melaksanakan program kerja sama 1+10+100+1000=10000. Skema ini mencakup pembentukan satu pusat kerja sama dan mekanisme aliansi, yang fokus pada 10 sektor utama industri, dengan penyelenggaraan lebih dari 100 kegiatan pertukaran dan pembelajaran, untuk peningkatan mobilitas dua arah sebanyak 1000 mahasiswa antara Indonesia dan Tiongkok, serta pelatihan 10.000 talenta lokal Indonesia. Kerja sama ini dilaksanakan melalui proyek kolaborasi Lingnan Artisan Polytechnic dengan tujuan utama mendorong pengembangan pendidikan vokasi, pelatihan keterampilan, dan pembinaan talenta.
+“Nota kesepahaman ini merupakan peluang yang strategis bagi pendidikan tinggi vokasi. Kita berharap nota kesepahaman ini dapat dilaksanakan secara konkret, sehingga betul-betul berdampak bagi masyarakat,” kata Direktur Pembelajaran dan Kemahasiswaan (Belmawa) Kemdiktisaintek, Beny Bandanadjaja di sela-sela penandatanganan nota kesepahaman.
+Proyek kolaborasi Lingnan Artisan Polytechnic ini dinilai sebagai langkah strategis dan solutif bagi politeknik di Indonesia untuk menjangkau dunia global. Mengingat kerja sama ini juga meliputi sektor industri utama melalui integrasi industri, pendidikan, riset, dan pengembangan talenta. Termasuk pertukaran talenta dua arah program pendidikan bersama, serta peningkatan kapasitas tenaga pendidik.
+Sebelumnya proyek kolaborasi Lingnan Artisan Polytechnic telah melaksanakan pameran pendidikan di Padang, Sumatera Barat. Diikuti lebih dari 11 politeknik dari Guangdong, pameran ini dinilai sukses untuk diestafetkan di wilayah lain di Indonesia.
+Selain pembelajaran berbasis pelatihan praktik, kerja sama ini juga memberikan sertifikasi dan pelatihan bahasa. Didukung skema 1+10+100+1000+10.000 diharapkan politeknik di Indonesia mampu mewarnai pasar kerja di tingkat global. Dengan demikian akan terjadi brain circulation di mana pengalaman dan pengetahuan dibawa pulang ke tanah air.
+Pada kesempatan yang sama, Ketua Forum Perguruan Tinggi Vokasi Indonesia (FPTVI) Muhammad Restu mengatakan, nota kesepahaman ini menjadi pintu masuk bagi politeknik di Indonesia untuk menjadi pemain utama di pasar global. Dia berharap nota kesepahaman ini dapat segera dikonkretkan.
+“Menjadi tugas kami mengakselerasi nota kesepahaman ini menjadi konkret. Lulusan politeknik yang berkesempatan mendapatkan pelatihan atau magang di Guangdong, mereka akan menemukan anak tangga berikutnya untuk memasuki pasar global. ,” kata Restu.
+Turut hadir dalam penandatanganan nota kesepahaman ini Deputi Bidang Koordinasi Peningkatan Kualitas Pendidikan Kemenko PMK Ojat Darojat, Presiden Asosiasi Pendidikan Guangdong untuk Pertukaran Internasional Mr. Zhao Pengfei, dan ketua Forum Komunikasi Direktur Vokasi Indonesia (FDPNI) Ahyar Muhammad Diah.

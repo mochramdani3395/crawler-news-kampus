@@ -1,0 +1,20 @@
+# Menguatkan Jejak Global Prodi Kesehatan Masyarakat Umb Sukses Selenggarakan Bemphic 2025 Internasional
+
+- **Kampus:** Universitas Muara Bungo
+- **Sumber:** https://umb.ac.id/berita/menguatkan-jejak-global-prodi-kesehatan-masyarakat-umb-sukses-selenggarakan-bemphic-2025-internasional/
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2025-12-23 16:44:44
+
+---
+
+Program Studi Kesehatan Masyarakat, Fakultas Ilmu Kesehatan, Universitas Muhammadiyah Bengkulu (UMB) sukses menyelenggarakan Bengkulu Muhammadiyah Public Health International Conference (BEMPHIC) 2025 pada 16–17 Desember 2025. Kegiatan ini menjadi forum akademik internasional yang menghadirkan akademisi, peneliti, dan praktisi kesehatan masyarakat dari berbagai negara.
+Mengusung tema “Digital Transformation and Emerging Issues in Public Health: Navigating the Disruption Era”, BEMPHIC 2025 menjadi wadah strategis untuk membahas tantangan serta peluang transformasi digital dalam bidang kesehatan masyarakat. Fokus pembahasan diarahkan pada upaya merespons perubahan cepat di era disrupsi yang berdampak pada sistem pelayanan kesehatan, kebijakan kesehatan, serta penguatan sumber daya manusia kesehatan.
+Konferensi hari pertama dibuka dengan Keynote Speech oleh Prof. dr. Adang Bachtiar, MPH, D.Sc dari Universitas Indonesia. Dalam paparannya, ia menekankan pentingnya penguatan sistem kesehatan masyarakat berbasis bukti ilmiah dan pemanfaatan teknologi digital guna menghadapi tantangan kesehatan global yang semakin kompleks.
+Selanjutnya, sesi pemaparan materi diisi oleh sejumlah narasumber internasional dan nasional, yaitu Dr. Sujeewa Dilhani Maithreepala (University of Peradeniya, Sri Lanka), Prof. Miaofen Yen, PhD, RN, FAAN (National Cheng Kung University, Taiwan), Dr. Jon Hendri Nurdan, M.Kes (IAKMI Association Bengkulu Province), serta Afriyanto, M.Kes., DPH dari Universitas Muhammadiyah Bengkulu. Para pemateri membahas berbagai isu strategis, mulai dari kesehatan masyarakat global, transformasi digital layanan kesehatan, hingga peran institusi dan organisasi profesi dalam menjawab tantangan kesehatan masyarakat di era disrupsi.
+Sementara itu, pada hari kedua, BEMPHIC 2025 menghadirkan narasumber internal Universitas Muhammadiyah Bengkulu, yakni Dr. Ida Samida, M.Kes, Dr. Emi Koevianti, SKM., M.Ph, dan Dr. Bintang Agustina Pratiwi, SKM., MKM. Selain sesi panel, konferensi ini juga diramaikan dengan oral presentation yang diikuti oleh 20 peserta dari berbagai perguruan tinggi dan institusi. Para peserta mempresentasikan hasil penelitian serta gagasan inovatif terkait isu-isu kesehatan masyarakat kontemporer.
+Dekan Fakultas Ilmu Kesehatan Universitas Muhammadiyah Bengkulu, Dr. Eva Oktavidiati, M.Si, dalam sambutannya menyebut penyelenggaraan BEMPHIC 2025 merupakan wujud komitmen fakultas dalam mendorong atmosfer akademik yang unggul dan berdaya saing global.
+“Melalui konferensi internasional ini, kami berharap terjalin pertukaran pengetahuan, penguatan jejaring akademik, serta lahirnya gagasan-gagasan inovatif yang dapat berkontribusi nyata bagi pengembangan ilmu kesehatan masyarakat,” ujar Eva.
+Rektor Universitas Muhammadiyah Bengkulu turut memberikan apresiasi atas terselenggaranya BEMPHIC 2025 sebagai bagian dari upaya internasionalisasi universitas.
+“Kegiatan ini sejalan dengan visi Universitas Muhammadiyah Bengkulu untuk menjadi perguruan tinggi yang unggul, berdaya saing internasional, serta responsif terhadap perkembangan ilmu pengetahuan dan teknologi, khususnya di bidang kesehatan masyarakat,” tegas Susiyanto.
+Melalui penyelenggaraan BEMPHIC 2025, Program Studi Kesehatan Masyarakat Fakultas Ilmu Kesehatan Universitas Muhammadiyah Bengkulu menegaskan perannya sebagai pusat pengembangan keilmuan kesehatan masyarakat yang adaptif terhadap transformasi digital serta berkontribusi aktif dalam menjawab tantangan kesehatan di tingkat lokal, nasional, dan global.

@@ -1,0 +1,32 @@
+# Hadir Di Belitung Timur Kemdiktisaintek Perkenalkan Ekosistem Pendidikan Unggul Sekolah Garuda Serentak Di 51 Titik
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/hadir-di-belitung-timur-kemdiktisaintek-perkenalkan-ekosistem-pendidikan-unggul-sekolah-garuda-serentak-di-51-titik
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-10-17 14:41:55
+
+---
+
+Belitung Timur - Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) menyelenggarakan secara serentak open house di 51 Sekolah yang tergabung dalam Ekosistem Sekolah Garuda, Sabtu (17/10).
+51 Sekolah tersebut terdiri dari 4 (empat) lokasi SMA Unggul Garuda Baru yaitu SMA Unggul Garuda Baru Belitung Timur, SMA Unggul Garuda Baru Konawe Selatan, SMA Unggul Garuda Baru Bulungan, dan SMA Unggul Garuda Baru Timor Tengah Selatan, serta 47 SMA Unggul Garuda Transformasi yang tersebar di seluruh Indonesia.
+Kegiatan Open House bertema “Satu Tahun Sekolah Menengah Atas Unggul Garuda Melahirkan Talenta Unggul untuk Indonesia”, yang diinisiasi Direktorat Jenderal Sains dan Teknologi (Ditjen Saintek) ini menjadi momentum penting, untuk merefleksikan capaian dan komitmen pemerintah dalam menghadirkan pendidikan berkualitas. Selain mengenalkan ekosistem SMA Unggul Garuda kepada masyarakat luas, acara ini bertujuan mensosialisasikan tata cara Penerimaan Peserta Didik Baru (PPDB) Tahun Ajaran 2027/2028 untuk 4 SMA Unggul Garuda Baru.
+Dalam momen tersebut, Menteri Pendidikan Tinggi, Sains dan Teknologi (Mendiktisaintek), Brian Yuliarto hadir secara langsung pada Open House di SMAN 28 Jakarta sebagai salah satu SMA Unggul Garuda Transformasi.
+Dalam sambutannya secara virtual, pada kegiatan open house dimaksud menyampaikan kepada seluruh peserta didik kelas 9 SMP/Madrasah Tsanawiyah, untuk terus belajar dan berani mencoba hal-hal baru. Selanjutnya ditegaskan kembali bahwa rasa ingin tahu merupakan awal terjadinya hal-hal besar yang dapat diraih.
+SMA Unggul Garuda hadir agar anak-anak dari seluruh daerah memiliki kesempatan yang sama dalam memperoleh pendidikan yang baik, memberikan pendampingan terbaik dalam pengembangan sains dan teknologi. Lebih lanjut pada kegiatan Open House di SMA Unggul Garuda Baru Belitung Timur tersebut, hadir langsung Sekretaris Direktorat Jenderal Sains dan Teknologi (Sesditjen Saintek) Kemdiktisaintek, M. Samsuri. Dikatakan Sesditjen Samsuri, bahwa seluruh biaya pendidikan di SMA Unggul Garuda Baru dipastikan bebas biaya oleh negara.
+"Untuk sampai dengan saat ini sekolah di SMA Unggul Garuda baru itu free pembiayaan. Bahkan yang dari jauh itu termasuk tiket pesawat kedatangan pertama itu dibiayai oleh negara karena betul-betul harapannya adalah talenta-talenta ini bisa terfasilitasi dengan baik," jelas Sesditjen Saintek.
+Lebih lanjut, Sesditjen Samsuri menanamkan visi besar agar keberadaan SMA Unggul Garuda Belitung Timur mampu mencetak talenta riset dan sains kelas dunia.
+"Mudah-mudahan dari Belitung Timur ini nanti akan lahir generasi-generasi hebat. Akan menjadi leader di bidang penelitian, ada yang menjadi salah satu kandidat peraih Nobel tingkat dunia. Mimpi harus mulai kita tancapkan dari sekarang dan tentu tidak menutup kemungkinan akan menjadi leader-leader di bidang yang lain. Tapi yang menjadi prioritas adalah di bidang STEM kita ingin punya generasi yang setidaknya menjadi top scientist dunia," tegas Sesditjen Samsuri.
+Dalam kegiatan tersebut turut dihadiri oleh Wakil Gubernur Lembaga Pengelolaan Universitas dan Pendidikan Kebangsaan RI, Yos Sunityoso yang menyampaikan bahwa hadirnya sekolah ini menjadi ruang penting untuk menumbuhkan generasi muda yang tidak hanya unggul secara akademik, melainkan juga memiliki integritas serta kepedulian sosial yang kuat.
+"Ada tiga kualitas yang kita harapkan. Yang pertama adalah base heart, hati dan karakter yang baik. Kita membutuhkan generasi muda yang menjunjung tinggi integritas, kejujuran, empati, tanggung jawab. Kedua, pengembangan kapasitas intelektual, disebut base mind, dan ketiga adalah kontribusi nyata bagi masyarakat dan negara, atau base contribution,” ungkapnya.
+Bupati Belitung Timur, Kamarudin Muten, menyampaikan rasa haru dan bangga atas terselenggaranya open house SMA Unggul Garuda Belitung Timur. Bupati Kamarudin mengimbau seluruh jajaran Kepala SMP di Kabupaten Belitung Timur dan Pulau Belitung untuk aktif mempersiapkan para siswa agar bersiap menangkap peluang emas ini.
+"Saya berpesan kepada seluruh kepala SMP di Kepulauan Belitung agar aktif membimbing mempersiapkan dan memotivasi siswa untuk belajar serta berani bercita-cita tinggi pastikan mereka mendapatkan informasi pendampingan dan persiapan yang memadai agar mampu bersaing untuk melanjutkan pendidikan ke SMA Unggul Garuda. Mari bersama-sama membuka lebih banyak kesempatan bagi generasi muda Belitung Timur untuk bertumbuh menjadi talenta unggul yang berkolaborasi bagi daerah dan mengharumkan nama Indonesia," tegas Bupati Belitung Timur.
+Sementara itu, Kepala Sekolah SMA Unggul Garuda Belitung Timur, Winda, menjelaskan sekolah saat ini menampung 73 siswa yang berasal dari Sumatera Utara hingga Nusa Tenggara Timur dan memeluk agama yang beragam.
+“Terinspirasi oleh Laskar Pelangi, kami percaya bahwa potensi anak-anak itu tidak hanya berasal dari kota besar. Kami yakin anak-anak dari daerah pun mampu bersaing jika diberikan kesempatan dan lingkungan belajar yang tepat,” kata Kepala Sekolah Winda.
+Melalui pembelajaran STEM, pengembangan karakter, dan pembentukan kepemimpinan, sekolah berkomitmen mempersiapkan generasi muda agar mampu bersaing secara global namun tetap aware terhadap kebutuhan lokal. Visi besar sekolah adalah masuk ke jajaran 100 universitas terbaik di dunia.
+Dalam rangkaian acara peringatan satu tahun ini juga disemarakkan oleh pertunjukan seni, Sosialisasi Penerimaan Peserta Didik Baru (PPDB), peluncuran buku tentang SMA Unggul Garuda serta kunjungan/visitasi dalam rangka melihat secara langsung sarana prasarana yang disediakan sekolah untuk mendukung pembelajaran seperti ruang belajar, laboratorium, perpustakaan, dan fasilitas lainnya.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak

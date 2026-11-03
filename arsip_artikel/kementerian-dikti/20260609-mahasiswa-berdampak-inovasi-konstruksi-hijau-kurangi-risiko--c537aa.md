@@ -1,0 +1,23 @@
+# Mahasiswa Berdampak Inovasi Konstruksi Hijau Kurangi Risiko Banjir Dan Manfaatkan Limbah Di Penggaron Kidul
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/mahasiswa-berdampak-inovasi-konstruksi-hijau-kurangi-risiko-banjir-dan-manfaatkan-limbah-di-penggaron-kidul
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-09 14:28:36
+
+---
+
+Yogyakarta - Berangkat dari permasalahan banjir dan pemanfaatan limbah yang belum optimal di Kelurahan Penggaron Kidul, Kota Semarang, tim Program Mahasiswa Berdampak dari Universitas 17 Agustus 1945 (Untag) Semarang mengembangkan berbagai inovasi konstruksi ramah lingkungan yang tidak hanya menjawab tantangan lingkungan, tetapi juga membuka peluang ekonomi bagi masyarakat setempat.
+Inovasi tersebut dipresentasikan dalam Seminar Dampak Program Mahasiswa Berdampak Tahun Anggaran 2025 yang diselenggarakan Direktorat Penelitian dan Pengabdian kepada Masyarakat (DPPM), Direktorat Jenderal Riset dan Pengembangan Kemdiktisaintek bekerja sama dengan Universitas Ahmad Dahlan (UAD), Yogyakarta.
+Dosen Universitas 17 Agustus 1945 Semarang sekaligus tim pelaksana program, *Agustinus Sungsang Nana Patria*, menjelaskan bahwa Kelurahan Penggaron Kidul dipilih karena memiliki potensi material ramah lingkungan yang melimpah, seperti sedimen Sungai Babon, abu sekam padi, dan limbah batu bata. Selain itu, wilayah tersebut juga memiliki lebih dari *100* tukang bangunan dan pengrajin batu bata yang menjadi modal penting dalam pengembangan ekonomi hijau berbasis konstruksi.
+“Program kami mengusung ekonomi hijau berbasis konstruksi karena kami melihat praktik konstruksi saat ini masih belum ramah lingkungan. Kami ingin memanfaatkan potensi material lokal sekaligus meningkatkan kompetensi masyarakat melalui konstruksi hijau,” ujarnya.
+Salah satu inovasi yang dikembangkan adalah beton porous yang dirancang untuk meningkatkan daya serap air dan membantu mengurangi risiko banjir. Produk ini direncanakan untuk diaplikasikan pada paving block sehingga air hujan dapat meresap langsung ke dalam tanah tanpa membebani aliran Sungai Babon yang melintasi kawasan tersebut.
+Selain itu, tim juga mengembangkan alat uji beton berbentuk corong yang dirancang untuk mengukur kekentalan, aliran campuran, hingga tingkat keroposan beton secara lebih komprehensif dibandingkan metode konvensional.
+Tidak hanya pada sektor konstruksi, tim juga memanfaatkan sedimen Sungai Babon sebagai bahan baku utama pembuatan batu bata ramah lingkungan. Sedimen yang selama ini berpotensi menyebabkan pendangkalan sungai diolah menjadi material bangunan yang lebih ekonomis dibandingkan batu bata konvensional.
+“Penggunaan sedimen sungai membantu mengurangi pendangkalan yang dapat memicu banjir. Kami juga menambahkan serat sekam padi untuk memperkuat ikatan antarpartikel sehingga menghasilkan batu bata yang lebih kuat dengan biaya produksi yang lebih rendah,” jelas Agustinus.
+Program ini tidak hanya menghasilkan produk inovatif, tetapi juga meningkatkan kapasitas masyarakat. Para tukang bangunan yang terlibat telah mendapatkan pelatihan konstruksi hijau dan mulai menerima berbagai proyek pembangunan di Kota Semarang. Sementara itu, produk batu bata hasil inovasi masyarakat telah dipasarkan dan diterima oleh konsumen, khususnya untuk pembangunan rumah satu hingga dua lantai.
+Untuk mendukung keberlanjutan program, tim menggandeng 19 mitra eksternal yang terdiri atas dinas pemerintah, perusahaan konstruksi, hingga asosiasi profesi seperti Inkindo, Gapensi dan *IAI*. Kemitraan ini diharapkan dapat memperkuat hilirisasi produk sekaligus memperluas peluang pasar bagi masyarakat binaan.
+Ke depan, tim berharap praktik konstruksi hijau dapat semakin berkembang di Indonesia melalui peningkatan kompetensi tenaga kerja dan penggunaan material ramah lingkungan secara lebih luas.
+“Kami berharap konstruksi di Indonesia semakin ramah lingkungan, para tukang memiliki wawasan keberlanjutan, dan produk-produk yang dihasilkan mendapatkan sertifikasi sehingga semakin mudah diterima masyarakat,” tutup Agustinus.
+Melalui Program Mahasiswa Berdampak, inovasi yang lahir dari kampus tidak hanya menjadi solusi atas permasalahan lokal, tetapi juga mendorong terciptanya perubahan sosial, ekonomi, dan lingkungan yang berkelanjutan. Program ini menunjukkan bagaimana kolaborasi antara perguruan tinggi dan masyarakat dapat menghasilkan inovasi yang berdampak nyata sekaligus mendukung pembangunan yang lebih ramah lingkungan.

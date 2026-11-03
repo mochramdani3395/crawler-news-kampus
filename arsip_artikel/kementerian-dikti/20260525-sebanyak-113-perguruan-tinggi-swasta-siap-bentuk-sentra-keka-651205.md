@@ -1,0 +1,18 @@
+# Sebanyak 113 Perguruan Tinggi Swasta Siap Bentuk Sentra Kekayaan Intelektual
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/sebanyak-113-perguruan-tinggi-swasta-siap-bentuk-sentra-kekayaan-intelektual
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-05-25 02:32:17
+
+---
+
+Jakarta, 12 Mei 2026 — LLDikti Wilayah III bersama Kantor Wilayah Kementerian Hukum (Kemenkum) Jakarta melaksanakan penandatanganan perjanjian kerja sama (PKS) serentak dalam rangka pembentukan Sentra Kekayaan Intelektual (KI) di perguruan tinggi. Sebanyak 113 perguruan tinggi di lingkungan LLDikti Wilayah III menjadi bagian penandatanganan PKS serentak di 33 Kantor Wilayah Kemenkum di seluruh Indonesia. Jumlah ini mencatatkan DKI Jakarta sebagai wilayah dengan perguruan tinggi terbanyak yang siap membentuk Sentra KI. Capaian ini mencerminkan tingginya komitmen perguruan tinggi di lingkungan LLDikti Wilayah III dalam membangun budaya inovasi dan perlindungan kekayaan intelektual.
+Penandatanganan PKS ini merupakan rangkaian Sosialisasi Kekayaan Intelektual: Drafting dan Pemanfaatan Paten di Wilayah yang digagas oleh Kemenkum. Melalui kolaborasi kerja sama ini, LLDikti Wilayah III dan Kemenkum mendorong penguatan pemahaman perguruan tinggi terhadap pentingnya perlindungan dan pemanfaatan kekayaan intelektual sebagai aset strategis yang memiliki nilai ekonomi dan sosial.
+Kepala Kanwil Kemenkum Jakarta Dr. Baroto dalam sambutannya menegaskan bahwa kekayaan intelektual harus dipandang sebagai bagian dari ekosistem pembangunan ekonomi bangsa. Menurutnya, perguruan tinggi memiliki peran sentral dalam memastikan karya dan inovasi sivitas akademika tidak berhenti pada proses administratif semata.
+“Bicara kekayaan intelektual adalah bicara soal ekosistem di mana pendaftaran hak cipta atau paten harus memiliki dampak ekonomi yang nyata bagi pemiliknya, sehingga perguruan tinggi sebagai pilar utama jangan hanya berhenti pada pencapaian akreditasi saja, melainkan harus membangun strategi permanen agar karya-karya tersebut menjadi aset ekonomi yang memberikan manfaat bagi masyarakat luas,” ujarnya.
+Senada dengan hal tersebut, Kepala LLDikti Wilayah III Dr. Henri Tambunan menekankan bahwa pembentukan Sentra KI menjadi langkah strategis dalam memperkuat ekosistem riset dan inovasi di lingkungan perguruan tinggi. Ia menyampaikan bahwa selama ini banyak hasil penelitian dosen maupun mahasiswa yang belum berkembang optimal karena kurangnya perlindungan dan pendampingan kekayaan intelektual.
+“Bagi kami ini bukan sekadar seremoni, melainkan pondasi bagi ekosistem riset yang sehat. Selama ini banyak inovasi dosen dan mahasiswa yang berhenti di meja publikasi. Dengan adanya Sentra KI yang terstandar melalui kerja sama dengan Kanwil Kemenkum ini, kita memastikan adanya pendampingan drafting paten yang mumpuni. Hal ini krusial agar hasil riset memiliki nilai ekonomi melalui hilirisasi dan komersialisasi yang terlindungi secara hukum,” ungkapnya.
+Dalam kesempatan yang sama, praktisi kekayaan intelektual Ari Juliano Gema turut menyoroti pentingnya Sentra KI sebagai ruang penguatan perlindungan inovasi sekaligus etalase karya sivitas akademika. Kehadiran Sentra KI di lingkungan kampus diharapkan mampu membuka peluang hilirisasi inovasi yang lebih luas dan berkelanjutan.
+Melalui kerja sama ini, perguruan tinggi diharapkan semakin memiliki ruang, dukungan, serta strategi yang kuat dalam mengelola dan mengembangkan hasil riset maupun karya inovatif. Selain memperkuat perlindungan hukum, Sentra KI juga diharapkan mampu menjadi motor penggerak hilirisasi riset dan peningkatan daya saing bangsa melalui inovasi yang berdampak nyata bagi masyarakat.

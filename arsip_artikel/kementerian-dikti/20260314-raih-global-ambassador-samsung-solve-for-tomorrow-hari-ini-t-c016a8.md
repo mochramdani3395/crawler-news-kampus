@@ -1,0 +1,22 @@
+# Raih Global Ambassador Samsung Solve For Tomorrow Hari Ini Tim Mahasiswa Labmino Ui Cetak Sejarah
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/raih-global-ambassador-samsung-solve-for-tomorrow-hari-ini-tim-mahasiswa-labmino-ui-cetak-sejarah
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-03-14 12:30:55
+
+---
+
+Depok — Sivitas akademika Indonesia kembali menorehkan prestasi mengagumkan di panggung internasional. Tim Labmino dari Universitas Indonesia berhasil terpilih sebagai salah satu dari 10 Global Ambassador dalam ajang Samsung Solve for Tomorrow (SFT).
+Pengumuman dan seremoni penunjukan Global Ambassador diselenggarakan di Smart City Lab, Milan, Italia, bertepatan dengan rangkaian Olimpiade Musim Dingin Milano Cortina 2026 pada 8–10 Februari 2026. Program ini merupakan inisiatif inovasi internasional yang menempatkan para talenta muda sebagai penyelesai masalah nyata dengan teknologi.
+Inovasi dari tim mahasiswa Labmino UI bernama RunSight, yaitu kacamata pintar berbasis kecerdasan buatan yang dirancang untuk membantu penyandang disabilitas visual berlari secara mandiri dan aman. Perangkat wearable (siap pakai) ini memanfaatkan sensor dan pemrosesan AI untuk membaca lingkungan secara real time, memberikan panduan jalur dan peringatan terhadap rintangan, sekaligus mempertimbangkan aspek kenyamanan dan efisiensi energi dalam desainnya.
+Keberhasilan Tim Labmino bukan sekadar capaian kompetitif, tetapi juga bukti nyata bagaimana kolaborasi kampus, pendampingan dosen, dan dukungan ekosistem inovasi dapat melahirkan solusi yang berdampak sosial.
+Menurut laporan media dan pengumuman resmi Samsung, Tim Labmino merupakan delegasi dari Indonesia yang untuk pertama kali berhasil menembus jajaran Global Ambassador SFT. Sekaligus menjadikan Indonesia satu dari dua negara di kawasan Southeast Asia and Oceania (SEAO) yang berhasil meraih predikat tersebut pada 2025/2026.
+Pencapaian ini menggambarkan kemajuan kualitas pembelajaran, riset terapan, dan kapabilitas mahasiswa Indonesia di ranah teknologi untuk kebaikan sosial.
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi menyambut baik prestasi ini sebagai bagian dari misi memperkuat pendidikan tinggi yang berdampak (impactful higher education).
+“Kami bangga inovasi generasi muda Indonesia mampu bersaing di tingkat global. Pencapaian Tim Labmino menunjukkan bahwa dukungan kampus terhadap eksperimen dan kolaborasi lintas disiplin dapat melahirkan dampak nyata bagi masyarakat. Pemerintah akan terus mendorong kemitraan kampus–industri serta hilirisasi inovasi agar solusi seperti RunSight dapat dimanfaatkan lebih luas,” ujar Direktur Jenderal Pendidikan Tinggi, Khairul Munadi.
+Perjalanan Tim Labmino menuju Milan sendiri bermula dari seleksi nasional Samsung Solve for Tomorrow yang dimulai pada 2025. Dilanjutkan ke tahap semifinal dan final nasional, hingga lolos ke seleksi regional Southeast Asia and Oceania dan akhirnya Global Selection. Di Milan, rangkaian acara SFT meliputi seremoni penunjukan ambassador, pameran solusi inovatif, dan kegiatan jejaring internasional yang mempertemukan talenta, investor, dan mitra potensial.
+Kehadiran Tim Labmino pada kesempatan tersebut membuka peluang kolaborasi riset, pilot project, dan akses ke jaringan industri yang lebih luas. Dari sisi akademik, ini menjadi contoh konkret implementasi kurikulum yang memadukan kompetensi teknis (AI, hardware, IoT) dengan pendekatan desain berorientasi pengguna (user-centered design).
+“Inovasi seperti RunSight tidak hanya menunjukkan kemampuan teknis mahasiswa, tetapi juga kepedulian terhadap isu inklusivitas dan akses bagi penyandang disabilitas. Kami berharap capaian ini dapat menginspirasi lebih banyak mahasiswa di berbagai perguruan tinggi,” ujar Direktur Pembelajaran dan Kemahasiswaan, Benny Bandanadjadja.
+Kemdiktisaintek berharap pencapaian ini memicu lebih banyak lagi inisiatif serupa di perguruan tinggi lain. Di mana mahasiswa didorong berinovasi bukan demi penghargaan semata, melainkan untuk menjawab persoalan masyarakat dengan solusi yang dapat direplikasi dan diakses, sehingga memberikan dampak nyata bagi peningkatan kesejahteraan warga. Harapan dan langkah ke depan untuk menciptakan dampak sosial tersebut sudah dimulai hari ini oleh tim Mahasiswa 'Labmino' Universitas Indonesia.

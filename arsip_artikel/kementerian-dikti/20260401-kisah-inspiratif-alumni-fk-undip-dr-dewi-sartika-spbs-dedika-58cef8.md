@@ -1,0 +1,22 @@
+# Kisah Inspiratif Alumni Fk Undip Dr Dewi Sartika Spbs Dedikasikan Diri Sebagai Dokter Bedah Saraf Di Wilayah Tertinggal
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kisah-inspiratif-alumni-fk-undip-dr-dewi-sartika-spbs-dedikasikan-diri-sebagai-dokter-bedah-saraf-di-wilayah-tertinggal
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-04-01 05:52:34
+
+---
+
+UNDIP, Semarang (21/3) - Di tengah keterbatasan layanan kesehatan di wilayah Daerah Tertinggal, Perbatasan, dan Kepulauan (DTPK), kehadiran dokter spesialis menjadi kebutuhan yang sangat krusial. Hal ini diwujudkan oleh alumni Fakultas Kedokteran Universitas Diponegoro, dr. Dewi Sartika, Sp.BS, yang kini mengabdi sebagai dokter spesialis bedah saraf di RSUD Harapan Insan Sendawar, Kabupaten Kutai Barat, Kalimantan Timur, sekaligus menghadirkan akses layanan bedah saraf bagi masyarakat yang sebelumnya terbatas.
+Di wilayah Daerah Tertinggal, Perbatasan, dan Kepulauan (DTPK), kehadiran dr. Dewi menjadi tonggak penting dalam pelayanan kesehatan. Ia dikenal sebagai salah satu dokter spesialis bedah saraf perempuan yang memilih berkarier di daerah dengan keterbatasan fasilitas dan tantangan geografis yang kompleks. Melalui perannya, layanan bedah saraf kini dapat diakses masyarakat setempat tanpa harus menempuh rujukan jarak jauh ke kota besar.
+Sebagai seorang dokter spesialis bedah saraf, dr. Dewi menangani berbagai kasus kompleks, mulai dari cedera kepala, stroke perdarahan, hidrosefalus, tumor otak, hingga gangguan tulang belakang. Dalam praktiknya, ketelitian, kecepatan pengambilan keputusan, serta ketahanan mental menjadi kunci utama dalam setiap tindakan medis yang dilakukan.
+Perjalanan profesional dr. Dewi tidak terlepas dari peran Fakultas Kedokteran Universitas Diponegoro sebagai institusi pendidikan yang membentuk kompetensi dan karakter lulusannya. Menurutnya, nilai pengabdian yang ditanamkan selama masa pendidikan di FK UNDIP menjadi fondasi utama dalam menentukan pilihan kariernya.
+“Setiap dosen yang mengajar di FK Undip senantiasa mengajarkan bahwa masih banyak daerah di pelosok Indonesia yang belum mendapatkan pelayanan kesehatan yang layak. Di sanalah peran kita sebagai dokter dibutuhkan,” ungkap dr. Dewi kepada FK UNDIP pada 11 Maret 2026.
+Selain nilai pengabdian, sistem pendidikan klinik dan residensi di FK UNDIP juga berperan penting dalam mempersiapkannya menghadapi keterbatasan di lapangan. Paparan kasus yang beragam di rumah sakit pendidikan, termasuk RSUP Dr. Kariadi, membentuk insting klinis yang tajam dan kemampuan pengambilan keputusan yang cepat.
+“Ketika fasilitas penunjang di daerah terbatas, saya kembali mengandalkan kemampuan anamnesis dan pemeriksaan fisik menyeluruh yang diajarkan secara disiplin oleh para guru di Undip. Kemampuan berpikir taktis dan berani mengambil keputusan di bawah tekanan adalah warisan berharga dari masa residensi,” jelasnya.
+Kehadiran dr. Dewi di Kutai Barat tidak hanya memperluas akses layanan kesehatan spesialis, tetapi juga menjadi simbol bahwa kualitas pelayanan medis dapat dihadirkan hingga ke wilayah terpencil. Ia turut membuktikan bahwa lulusan FK UNDIP mampu berkontribusi tidak hanya di pusat layanan kesehatan, tetapi juga di daerah yang paling membutuhkan.
+Lebih jauh, kiprahnya menjadi inspirasi bagi generasi muda, khususnya perempuan, bahwa profesi di bidang medis tidak memiliki batas, termasuk dalam bidang bedah saraf yang menuntut presisi dan ketangguhan tinggi.
+Sebagai penutup, dr. Dewi menyampaikan pesan kepada mahasiswa FK UNDIP agar menjalani pendidikan dengan integritas dan empati.
+“Gelar dokter bukan sekadar profesi, melainkan amanah. Jangan hanya mengejar kepintaran akademis, tetapi asahlah empati dan kerendahan hati. Banggalah menjadi bagian dari keluarga besar Diponegoro yang tangguh dan berintegritas,” pesannya.
+Kisah dr. Dewi Sartika menjadi representasi nyata peran FK UNDIP dalam mencetak dokter spesialis yang tidak hanya kompeten secara klinis, tetapi juga memiliki keberanian untuk mengabdi, menghadirkan layanan kesehatan berkualitas, serta memberi dampak nyata bagi masyarakat di seluruh penjuru Indonesia. (Komunikasi Publik/ UNDIP/ Humas FK UNDIP/ ed. Nurul)

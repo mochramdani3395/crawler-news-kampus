@@ -1,0 +1,24 @@
+# Babak Baru Sistem Penjaminan Mutu Pendidikan Tinggi
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/babak-baru-sistem-penjaminan-mutu-pendidikan-tinggi
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-05-13 06:42:04
+
+---
+
+BEKASI - Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) secara resmi meluncurkan Pedoman Implementasi Sistem Penjaminan Mutu Internal (SPMI) Perguruan Tinggi Akademik dan Vokasi Tahun 2026. Peluncuran ini menandai babak baru transformasi sistem penjaminan mutu pendidikan tinggi, sekaligus sebagai mata rantai strategis memperkuat budaya mutu perguruan tinggi yang kian adaptif, terukur, dan berorientasi pada outcome lulusan..
+Peluncuran Pedoman SPMI ini dilaksanakan di Sekolah Tinggi Ilmu Kesehatan (Stikes) Medistra Indonesia di Bekasi, Jawa Barat. Diinisiasi oleh Direktorat Pembelajaran dan Kemahasiswaan (Direktorat Belmawa) Kemdiktisaintek, kegiatan ini mempertemukan pemangku kepentingan pendidikan tinggi nasional. Di antaranya pimpinan perguruan tinggi akademik dan vokasi, LLDIKTI Wilayah III dan IV, fasilitator wilayah, serta kepala penjaminan mutu dari berbagai daerah di Indonesia.
+Dalam kesempatan ini, Direktur Pembelajaran dan Kemahasiswaan Kemdiktisaintek, Dr Beny Bandanadjaja, S.T., M.T., menegaskan bahwa pedoman baru ini menjadi instrumen penting untuk menggeser paradigma mutu pendidikan tinggi dari sekadar kepatuhan administratif menuju penguatan budaya mutu berkelanjutan.
+“Pedoman SPMI 2026 ini tidak lagi hanya berfokus pada pemenuhan dokumen administratif semata. Tetapi menjadi pondasi untuk membangun budaya mutu perguruan tinggi yang berkelanjutan, adaptif, dan berorientasi pada outcome lulusan,” ujar Benny Bandanadjaja.
+Pada bagian yang sama, Kepala Subdirektorat Penjaminan Mutu Direktorat Pembelajaran dan Kemahasiswaan, Kevin Marbun, menjelaskan bahwa pedoman ini merupakan tindak lanjut langsung dari amanat Permendiktisaintek Nomor 39 Tahun 2025 tentang Penjaminan Mutu Pendidikan Tinggi.
+“Pedoman ini dirancang untuk memastikan implementasi SPMI berjalan lebih kontekstual sesuai dengan karakteristik perguruan tinggi akademik maupun vokasi. Sekaligus memperkuat integrasi data mutu internal dengan sistem nasional,” jelas Kevin.
+Sementara itu Kepala LLDIKTI Wilayah III, Dr. Henri Togar Hasiholan Tambunan, S.E., M.A., menyampaikan bahwa sejak tahun 2024 lalu pihaknya telah mengembangkan pola pembinaan terintegrasi melalui pemetaan tipologi SPMI perguruan tinggi. Tujuannya untuk mempercepat peningkatan mutu secara gradual dan terarah.
+“Melalui pemetaan tipologi SPMI, proses pembinaan menjadi lebih tepat sasaran, efektif, dan efisien. Sehingga perguruan tinggi dapat meningkatkan budaya mutu secara sistematis sesuai tingkat kematangannya,” ungkap Henri Tambunan.
+Penting untuk digaris-bawahi, Pedoman Implementasi SPMI 2026 membawa sejumlah pembaruan penting. Di antaranya penyatuan instrumen akademik dan vokasi, penguatan siklus PPEP berbasis digital, sinkronisasi data SPMI dengan PDDikti, serta orientasi kuat pada Outcome-Based Education (OBE). Khusus untuk pendidikan vokasi, pedoman ini menekankan kurikulum berbasis industri, tracer study, dan sertifikasi kompetensi mahasiswa sebagai indikator utama mutu.
+Selaras dengan itu, Kepala LLDIKTI Wilayah IV Jawa Barat dan Banten, Dr Lukman, S.T., M.Hum., menekankan implementasi pedoman ini menjadi tahap krusial karena SPMI kini berfungsi sebagai early warning system dalam menjaga keberlanjutan mutu sebelum memasuki evaluasi eksternal.
+“SPMI harus menjadi budaya keseharian perguruan tinggi. Pedoman ini memberikan arah yang jelas, aplikatif, dan strategis bagi institusi pendidikan tinggi,” ujar Dr Lukman. Dokumen lengkap Pedoman Implementasi SPMI dapat diunduh di laman lldikti4.kemdiktisaintek.go.id.
+Melalui Pedoman Implementasi SPMI ini, Kemdiktisaintek tengah mendorong perguruan tinggi untuk memiliki fleksibilitas dalam mengembangkan standar mutu internal masing-masing, sambil tetap berupaya melampaui Standar Nasional Pendidikan Tinggi. Karena itulah peluncuran Pedoman Implementasi SPMI ini akan disusul dengan agenda nasional lanjutan berupa bimbingan teknis auditor mutu internal, pembaruan dokumen mutu perguruan tinggi, serta pengembangan helpdesk digital untuk mendukung transisi implementasi di seluruh Indonesia.
+Sulit dimungkiri, hadirnya Pedoman Implementasi SPMI 2026 mengindikasi bahwa komitmen Kemdiktisaintek meningkatkan mutu pendidikan tinggi Indonesia harus berjalan berkelanjutan, relevan dengan kebutuhan global, dan berorientasi pada daya saing lulusan.
+Pendidikan untuk semua, mutunya harga mati.

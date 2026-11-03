@@ -1,0 +1,23 @@
+# Mahasiswa Berdampak Universitas Teuku Umar Kembangkan Solusi Berbasis Iot Untuk Mitigasi Banjir Di Gampong Gajah Air
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/mahasiswa-berdampak-universitas-teuku-umar-kembangkan-solusi-berbasis-iot-untuk-mitigasi-banjir-di-gampong-gajah-air
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-07-09 07:32:05
+
+---
+
+Medan – Direktorat Jenderal Riset dan Pengembangan (Ditjen Risbang), Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek), terus mendorong keterlibatan mahasiswa dalam menghadirkan inovasi yang relevan dengan kebutuhan masyarakat.
+Berbagai inovasi tersebut dipresentasikan dalam Seminar Dampak Pelaksanaan Program Mahasiswa Berdampak: Pemberdayaan Masyarakat dalam Pemulihan Dampak Bencana di Sumatra Tahun 2026 yang diselenggarakan di Medan, Kamis (02/07).
+Salah satu inovasi berasal dari Universitas Teuku Umar (UTU) melalui pengembangan Early Warning System (EWS) berbasis Internet of Things (IoT) untuk mendukung mitigasi banjir di Gampong Gajah Air, Aceh.
+Seminar ini menjadi ajang diseminasi capaian program sekaligus ruang berbagi praktik baik perguruan tinggi dalam mendukung pemulihan masyarakat pascabencana. Dalam kegiatan tersebut, tim dosen, mahasiswa, serta mitra pemerintah dan masyarakat mempresentasikan berbagai inovasi dan pendekatan pemberdayaan yang telah diterapkan di lapangan.
+Ketua Tim Pelaksana Mahasiswa Berdampak UTU, Delfian Masrura, menjelaskan bahwa Gampong Gajah Air dipilih karena setiap tahun mengalami banjir kiriman, termasuk banjir besar yang terjadi pada akhir 2025. Kondisi tersebut mendorong tim untuk mengembangkan sistem peringatan dini yang mampu memberikan informasi kenaikan muka air secara cepat sehingga masyarakat dapat melakukan evakuasi dan langkah mitigasi sebelum banjir terjadi.
+"Teknologi ini kami kembangkan agar masyarakat memperoleh peringatan lebih dini ketika terjadi kenaikan muka air, sehingga memiliki waktu yang cukup untuk melakukan evakuasi dan mengurangi risiko bencana," ujar Delfian.
+Menurutnya, inovasi ini dikembangkan tidak hanya sebagai solusi teknologi, tetapi juga sebagai upaya menjawab kebutuhan nyata masyarakat di wilayah rawan bencana.
+Sistem ini menggunakan sensor ketinggian air yang terhubung dengan panel surya sehingga dapat beroperasi selama 24 jam. Ketika permukaan air mencapai ambang tertentu, sensor akan mengaktifkan alarm peringatan sekaligus mengirimkan data ke aplikasi berbasis IoT. Dengan demikian, masyarakat dapat memantau kondisi sungai secara real time dan melakukan langkah mitigasi lebih awal.
+Atas inovasi dan dampak yang dihasilkan, tim UTU berhasil meraih Golden Winner pada Nominasi Produk Hasil Pemberdayaan Terbaik, penghargaan tersebut menjadi apresiasi atas keberhasilan tim dalam mengintegrasikan inovasi teknologi dengan pendekatan pemberdayaan masyarakat untuk mendukung mitigasi bencana yang berkelanjutan.
+Selain menghadirkan inovasi teknologi, tim UTU juga menjalankan berbagai kegiatan pemberdayaan selama kurang lebih satu bulan, meliputi pemetaan wilayah rawan bencana, penyusunan jalur evakuasi, normalisasi sungai, penanaman pohon di bantaran sungai, edukasi pengelolaan sampah, serta pendampingan psikososial bagi anak-anak terdampak bencana. Seluruh kegiatan dilaksanakan melalui kolaborasi dengan pemerintah desa, Badan Penanggulangan Bencana Daerah (BPBD), Dinas Lingkungan Hidup, dan berbagai mitra lainnya.
+Mahasiswa Program Studi Teknik Sipil UTU, Rio Amin Kantarigan, mengungkapkan bahwa program ini memberikan pengalaman belajar yang tidak diperoleh di ruang kelas. Menurutnya, mahasiswa tidak hanya belajar mengembangkan teknologi, tetapi juga membangun komunikasi dengan masyarakat, memahami kebutuhan mereka, dan merancang solusi yang sesuai dengan kondisi di lapangan.
+"Program ini mengajarkan kami bahwa solusi teknologi harus dibangun dari kebutuhan masyarakat. Kami tidak hanya belajar mengembangkan inovasi, tetapi juga belajar berkolaborasi dan memahami kondisi masyarakat secara langsung," ungkap Rio.
+Pelaksanaan Program Mahasiswa Berdampak di Gampong Gajah Air menunjukkan bahwa sinergi antara perguruan tinggi, mahasiswa, pemerintah daerah, dan masyarakat mampu menghasilkan inovasi yang tidak hanya menjawab tantangan kebencanaan melalui pemanfaatan teknologi, tetapi juga memperkuat kapasitas masyarakat dalam membangun ketangguhan menghadapi bencana.

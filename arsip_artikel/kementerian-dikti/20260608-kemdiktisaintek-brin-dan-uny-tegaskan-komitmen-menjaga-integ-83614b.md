@@ -1,0 +1,20 @@
+# Kemdiktisaintek Brin Dan Uny Tegaskan Komitmen Menjaga Integritas Akademik Serta Menindaklanjuti Dugaan Penyalahgunaan Identitas Dan Data Riset
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-brin-dan-uny-tegaskan-komitmen-menjaga-integritas-akademik-serta-menindaklanjuti-dugaan-penyalahgunaan-identitas-dan-data-riset
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-08 15:31:47
+
+---
+
+Jakarta – Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek), Badan Riset dan Inovasi Nasional (BRIN), dan Universitas Negeri Yogyakarta (UNY) menegaskan komitmen bersama untuk menjaga integritas akademik, etika penelitian, dan kredibilitas riset Indonesia di tingkat global menyusul terungkapnya dugaan penyalahgunaan identitas serta penggunaan data riset yang tidak sesuai dalam sejumlah forum ilmiah internasional.
+Kemdiktisaintek melalui Inspektorat Jenderal telah berkoordinasi dengan UNY, BRIN, dan berbagai pihak terkait untuk melakukan penelusuran fakta serta merumuskan langkah tindak lanjut atas kasus tersebut. Berdasarkan hasil klarifikasi sementara, terdapat empat orang terduga pelaku yang seluruhnya merupakan alumni UNY lulusan tahun 2019–2021.
+Keempat individu tersebut bukan merupakan aparatur sipil negara di lingkungan Kemdiktisaintek maupun BRIN, serta tidak berstatus sebagai dosen maupun peneliti yang berada di bawah naungan kedua institusi tersebut.
+Hasil pendalaman sementara juga menemukan adanya dugaan penggunaan nama UNY tanpa izin dalam berbagai aktivitas ilmiah internasional. Selain itu, ditemukan indikasi penggunaan unit atau departemen yang tidak terdapat dalam struktur organisasi resmi universitas, penggunaan afiliasi lembaga lain tanpa kewenangan, serta dugaan pencatutan identitas peneliti untuk mendukung partisipasi dalam berbagai forum akademik internasional.
+Menteri Pendidikan Tinggi, Sains, dan Teknologi, Brian Yuliarto, menegaskan bahwa pemerintah memandang serius setiap bentuk pelanggaran integritas akademik dan integritas penelitian. Untuk itu, Kemdiktisaintek telah membentuk tim investigasi yang dipimpin oleh Pelaksana Tugas (Plt.) Inspektur Jenderal Kemdiktisaintek, Nur Syarifah.
+“Integritas akademik merupakan fondasi utama kemajuan ilmu pengetahuan. Kepercayaan publik terhadap hasil riset dibangun melalui kejujuran, akuntabilitas, dan kepatuhan terhadap etika ilmiah. Karena itu, setiap dugaan pelanggaran yang berpotensi merusak kredibilitas riset Indonesia harus ditindaklanjuti secara serius dan objektif,” tegas Menteri Brian.
+Sebagai tindak lanjut, Kemdiktisaintek dan BRIN sepakat memperkuat koordinasi dalam penanganan kasus ini, termasuk menjalin komunikasi dengan aparat penegak hukum sesuai ketentuan yang berlaku. Selain itu, kedua institusi juga tengah mengkaji berbagai langkah administratif yang dimungkinkan oleh peraturan perundang-undangan, termasuk pembatasan akses terhadap program, fasilitas, maupun pendanaan yang bersumber dari pemerintah.
+Penanganan kasus ini juga menjadi momentum untuk memperkuat tata kelola riset nasional. Kemdiktisaintek, BRIN, dan UNY berkomitmen meningkatkan sistem pengawasan, verifikasi afiliasi peneliti, serta penguatan budaya integritas guna mencegah terjadinya penyalahgunaan identitas, fabrikasi data, falsifikasi data, maupun plagiarisme dalam kegiatan ilmiah.
+“Di sisi lain, penelusuran terhadap publikasi yang terindikasi menggunakan data yang tidak valid akan terus dilakukan untuk mendukung proses koreksi maupun penarikan publikasi (retraction) sesuai dengan mekanisme akademik dan standar etika publikasi ilmiah yang berlaku,” ujar Plt. Irjen Kemdiktisaintek, Nur Syarifah.
+Kemdiktisaintek, BRIN, dan UNY berharap kasus ini menjadi pembelajaran penting bagi seluruh sivitas akademika dan komunitas periset untuk terus menjunjung tinggi etika penelitian, kejujuran akademik, serta tanggung jawab ilmiah. Ketiga institusi menegaskan bahwa proses penanganan akan dilakukan secara objektif, transparan, dan sesuai ketentuan hukum serta prinsip-prinsip integritas akademik dan integritas penelitian yang berlaku.

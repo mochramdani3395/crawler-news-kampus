@@ -1,0 +1,18 @@
+# Indonesiavanuatu Perkuat Kerja Sama Pendidikan Tinggi
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/indonesiavanuatu-perkuat-kerja-sama-pendidikan-tinggi
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-07-21 10:14:45
+
+---
+
+Kedutaan Besar Republik Indonesia (KBRI) Canberra dan Kementerian Luar Negeri Republik Indonesia, memfasilitasi kunjungan Tim Penilaian Beasiswa Kementerian Pendidikan Vanuatu ke Jakarta dan Surabaya pada 5–11 Juli 2026. Kunjungan tersebut bertujuan untuk meninjau secara langsung kualitas pendidikan tinggi dan lingkungan belajar di Indonesia, sekaligus memperkuat kerja sama pendidikan antara Indonesia dan Vanuatu.
+Setelah merampungkan kunjungan ke Jakarta dan Surabaya, Tim Penilaian Beasiswa Vanuatu menilai Indonesia sebagai salah satu tujuan ideal bagi pelajar Vanuatu untuk menempuh pendidikan tinggi. “Secara keseluruhan, tim menaruh kepercayaan terhadap sistem pendidikan tinggi Indonesia serta komitmen Indonesia dalam memperkuat kerja sama internasional,” ungkap Joe Gideon, Ketua Tim sekaligus pejabat yang menangani program beasiswa di Kementerian Pendidikan Vanuatu.
+Setelah menempuh perjalanan udara selama lebih dari 12 jam dari Port Vila, ibu kota Vanuatu, tim tiba di Jakarta pada 5 Juli 2026. Mereka kemudian mengunjungi Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemendiktisaintek) serta tiga perguruan tinggi terkemuka di Indonesia, yaitu Universitas Negeri Jakarta (UNJ), IPB University, dan Universitas Airlangga (UNAIR). Tim tersebut mendapat mandat dari Pemerintah Vanuatu untuk menilai kelayakan Indonesia sebagai negara tujuan studi bagi mahasiswa Vanuatu.
+Indonesia semakin diminati sebagai tujuan studi bagi pelajar Vanuatu. Pada 2026, sebanyak 17 pelajar Vanuatu menerima Beasiswa Kemitraan Negara Berkembang (KNB) dan The Indonesian AID Scholarship (TIAS) dari Pemerintah Indonesia. “Ini merupakan tren yang sangat menggembirakan. Jumlah pelajar Vanuatu yang diterima tahun ini meningkat tiga kali lipat dibandingkan sebelumnya,” jelas Atase Pendidikan dan Kebudayaan KBRI Canberra, Prof. Yuli Rahmawati.
+Saat menerima kunjungan tim di Kemendiktisaintek, Jakarta, Direktur Kelembagaan, Prof. Mukhamad Najib, menyampaikan dukungannya terhadap penguatan kerja sama pendidikan antara Indonesia dan Vanuatu. Ia menyambut baik tingginya minat pelajar Vanuatu untuk menempuh studi di Indonesia dan berharap semakin banyak kemitraan dapat terjalin antara perguruan tinggi Indonesia dan berbagai pihak terkait di Vanuatu.
+Kunjungan Tim Penilaian Beasiswa Vanuatu ke Indonesia turut mengubah pandangan mereka mengenai lingkungan belajar dan kondisi sosial di Indonesia. “Sebelumnya, kami hanya melihat Indonesia melalui media sosial, yang terkadang menggambarkannya sebagai negara yang kurang aman dan diwarnai konflik,” ujar Esneth Esika, salah satu anggota tim.
+Tim mengaku sangat terkesan dengan lingkungan kampus yang tertata, kualitas pengajaran, serta fasilitas pendukung pembelajaran yang sangat baik, termasuk laboratorium modern dan suasana belajar yang kondusif. “Kondisi perguruan tinggi yang kami kunjungi jauh melampaui ekspektasi kami,” ungkap Esneth.
+Selain terkesan dengan kualitas pendidikan, delegasi Vanuatu juga memandang Indonesia sebagai negara yang aman dan tertib, dengan masyarakat yang ramah serta memiliki kepedulian sosial yang tinggi. “Kami merasa sangat aman saat berada di jalan. Ketika seseorang membutuhkan pertolongan, masyarakat dengan sigap datang membantu,” tutup Esneth.

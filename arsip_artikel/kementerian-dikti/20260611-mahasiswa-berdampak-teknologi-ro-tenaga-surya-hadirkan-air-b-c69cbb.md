@@ -1,0 +1,21 @@
+# Mahasiswa Berdampak Teknologi Ro Tenaga Surya Hadirkan Air Bersih Untuk Warga Pulau Bone Rate
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/mahasiswa-berdampak-teknologi-ro-tenaga-surya-hadirkan-air-bersih-untuk-warga-pulau-bone-rate
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-11 08:27:56
+
+---
+
+Yogyakarta - Di Pulau Bone Rate, Kabupaten Kepulauan Selayar, memperoleh air bersih menjadi perjuangan tersendiri bagi masyarakat. Intrusi air laut menyebabkan kualitas sumber air di pulau tersebut menurun, sehingga sebagian warga harus menyeberang ke pulau lain demi mendapatkan air yang layak digunakan.
+Berangkat dari kondisi tersebut, tim Program Mahasiswa Berdampak dari Universitas Bosowa menghadirkan solusi pengolahan air bersih melalui teknologi Reverse Osmosis (RO) berbasis tenaga surya. Inovasi ini dipamerkan dalam Seminar Dampak Program Mahasiswa Berdampak Tahun Anggaran 2025 yang diselenggarakan Direktorat Penelitian dan Pengabdian kepada Masyarakat, Direktorat Jenderal Riset dan Pengembangan Kemdiktisaintek bekerja sama dengan Universitas Ahmad Dahlan, Yogyakarta.
+Dosen pendamping tim, Jusril Akrim, menjelaskan bahwa Pulau Bone Rate dipilih berdasarkan hasil needs assessment yang menunjukkan keterbatasan akses terhadap dua kebutuhan mendasar, yakni listrik dan air bersih. Pulau terdepan dan terluar di Sulawesi Selatan tersebut bahkan lebih dekat ke Bali dibandingkan ke Makassar, dengan waktu tempuh mencapai 14 jam perjalanan laut.
+“Lokasi ini tidak memiliki infrastruktur listrik dari PLN, sementara sumber air bersih sangat terbatas akibat intrusi air laut karena karakteristik pulaunya berbasis karang atau atol. Karena itu, kami memanfaatkan energi matahari yang melimpah untuk menggerakkan teknologi Reverse Osmosis agar air yang sebelumnya tidak layak konsumsi dapat diolah menjadi air bersih yang aman untuk diminum,” ujarnya.
+Teknologi tersebut memanfaatkan panel surya sebagai sumber energi utama untuk menjalankan sistem filtrasi RO. Air baku yang sebelumnya memiliki tingkat salinitas tinggi, keruh, mengandung lumut, serta memiliki kadar Total Suspended Solid (TSS) yang besar diproses hingga menghasilkan air jernih yang memenuhi standar air minum sesuai ketentuan Permenkes.
+Menariknya, manfaat program tidak berhenti pada penyediaan akses air bersih. Masyarakat setempat kini mulai mengelola hasil produksi air tersebut sebagai unit usaha mandiri dengan harga yang disesuaikan dengan kondisi pulau terluar, sehingga kebermanfaatannya dapat terus dirasakan secara berkelanjutan.
+Sebanyak 25 mahasiswa terlibat dalam berbagai tahapan pelaksanaan, mulai dari perancangan hingga instalasi teknologi. Tujuh mahasiswa diterjunkan langsung ke Pulau Bone Rate, sembilan mahasiswa bertugas mendukung instalasi panel surya di Makassar, sementara sembilan mahasiswa lainnya fokus pada pemasangan sistem filtrasi RO.
+Salah satu mahasiswa yang terlibat langsung adalah Muhammad Akbar, mahasiswa penerima Kartu Indonesia Pintar (KIP) dari Fakultas Teknik Universitas Bosowa. Selama dua bulan, ia tinggal bersama masyarakat Pulau Bone Rate untuk mendampingi proses instalasi sekaligus melakukan edukasi mengenai pentingnya sanitasi dan konsumsi air bersih.
+Bersama kader Posyandu, mahasiswa memberikan penyuluhan terkait kesehatan anak dan pentingnya akses terhadap air minum yang aman. Mereka juga berdiskusi dengan kelompok tani nelayan mengenai potensi pemanfaatan energi terbarukan lainnya, seperti angin dan arus laut, yang dapat dikembangkan di masa mendatang.
+“Hasil seminar tadi menunjukkan bahwa masyarakat benar-benar merasakan manfaat yang dari kehadiran tim mahasiswa. Harapan kami, program seperti ini dapat terus berlanjut agar semakin banyak masyarakat di wilayah terdepan, terluar, dan tertinggal yang merasakan dampaknya,” kata Akrim.
+Kisah dari Pulau Bone Rate menunjukkan bahwa inovasi tidak selalu identik dengan teknologi yang rumit. Dengan memahami kebutuhan masyarakat dan mengoptimalkan potensi lokal, mahasiswa mampu menghadirkan solusi yang menjawab persoalan mendasar sekaligus meningkatkan kualitas hidup warga. Kini, akses terhadap air bersih yang layak semakin mudah dijangkau oleh masyarakat Bone Rate.

@@ -1,0 +1,29 @@
+# Wamendiktisaintek Fauzan Dorong Pola Pikir Adaptif Dalam Tata Kelola Perguruan Tinggi
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/wamendiktisaintek-fauzan-dorong-pola-pikir-adaptif-dalam-tata-kelola-perguruan-tinggi
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-07-24 10:10:15
+
+---
+
+Semarang–Indonesia tengah memasuki periode bonus demografi yang diproyeksikan menjadi peluang strategis untuk mempercepat pertumbuhan ekonomi dan mewujudkan Indonesia Emas 2045. Namun, peluang tersebut hanya dapat dimanfaatkan apabila didukung oleh sumber daya manusia yang unggul, adaptif, dan mampu menjawab kebutuhan dunia yang terus berubah. Di tengah perkembangan teknologi, kecerdasan artifisial (AI), dan transformasi dunia kerja, perguruan tinggi dituntut untuk terus memperbarui tata kelola, pembelajaran, dan pengembangan talenta agar tetap relevan dengan kebutuhan masa depan.
+Menurut data Badan Pusat Statistik (BPS) 2025, Angka Partisipasi Kasar (APK) Perguruan Tinggi (PT) Indonesia berada pada angka 32,89%, di bawah rata-rata dunia (40%) dan lebih rendah dari negara-negara Asia Tenggara lainnya seperti Malaysia (43%), Thailand (49,29%), dan Singapura (91,09%). Selain itu, data BPS tahun 2024 menunjukkan bahwa terdapat 3,4 juta penduduk Indonesia berusia 16–18 tahun yang belum pernah sekolah dan tidak sekolah lagi, dengan Jawa Tengah menempati posisi penduduk terbanyak kedua pada 28,40%. Di sisi lain, menurut Future of Jobs Report 2025 oleh World Economic Forum, dinamika global akan menyebabkan 59% angkatan kerja dunia memerlukan pelatihan ulang dan 39% keterampilan inti dunia kerja akan berubah pada tahun 2030. Kondisi ini menunjukkan pentingnya transformasi tata kelola kampus Indonesia agar mampu bertahan di tengah perkembangan dunia.
+Merespons tantangan tersebut, Wakil Menteri Pendidikan Tinggi, Sains, dan Teknologi (Wamendiktisaintek), Fauzan menyatakan bahwa perguruan tinggi harus mulai mengimplementasikan pola pikir yang adaptif dan transformatif dalam tata kelolanya untuk dapat memaksimalkan jendela bonus demografi Indonesia. Hal ini disampaikannya saat menghadiri Dies Natalis Universitas Persatuan Guru Republik Indonesia Semarang (UPGRIS), Kamis (23/7).
+"Hanya kampus yang adaptif sajalah yang akan mampu mempertahankan diri," tegas Wamen Fauzan.
+Menurut Wamendiktisaintek, perubahan yang berlangsung sangat cepat akibat perkembangan teknologi, kecerdasan artifisial, dan transformasi dunia kerja menuntut perguruan tinggi untuk terus mengevaluasi relevansi sistem pendidikan yang dibangun. Perguruan tinggi harus mampu menyiapkan sumber daya manusia (SDM) yang memiliki kompetensi sesuai kebutuhan masa depan serta mampu memberikan kontribusi nyata bagi pembangunan bangsa.
+Wamendiktisaintek menambahkan bahwa bonus demografi merupakan peluang yang hanya datang sekali dalam sejarah perjalanan suatu bangsa. Oleh karena itu, perguruan tinggi memiliki tanggung jawab strategis untuk memastikan momentum tersebut dapat dimanfaatkan melalui penyelenggaraan pendidikan tinggi yang berkualitas, adaptif, dan berorientasi pada masa depan.
+"Jangan sekali-kali kita terlena dengan bonus demografi. Yang namanya bonus adalah keuntungan alamiah. Ia datang karena perjalanan struktur penduduk yang bergerak satu arah, tidak dapat diputar kembali. Justru karena itu, bonus demografi wajib dimanfaatkan secara maksimal," ujar Wamen Fauzan.
+Wamendiktisaintek juga menekankan peran penting transformasi pendidikan tinggi tersebut ke arah kebermanfaatan terhadap masyarakat dan lingkungan sekitar. Dampak akademik, menurut Wamen Fauzan, hanya lahir apabila kualitas akademik dibangun di atas fondasi yang kokoh.
+“Jumlah lulusan dan artikel yang diterbitkan kampus memang penting, tetapi masyarakat akhirnya mengajukan pertanyaan yang jauh lebih sederhana, yaitu apa manfaat nyata kampus bagi kehidupan kita? Inilah yang melahirkan paradigma Kampus Berdampak dan menjadi ruh kebijakan dan arah pembangunan pendidikan tinggi, sains, dan teknologi hari ini,” kata Wamen Fauzan.
+Hal ini senada dengan pernyataan Presiden Republik Indonesia (RI), Prabowo Subianto bahwa bangsa Indonesia akan bisa berdiri di atas kaki sendiri hanya dengan pendidikan yang bermutu. Komitmen ini juga tecermin dalam Asta Cita 4, yakni memperkuat pembangunan SDM, sains, teknologi, dan pendidikan. Sejalan dengan itu, Menteri Pendidikan Tinggi, Sains, dan Teknologi (Mendiktisaintek), Brian Yuliarto menginisiasi kebijakan Diktisaintek Berdampak untuk memastikan pendidikan tinggi, sains, dan teknologi menghasilkan dampak nyata bagi masyarakat dan pembangunan bangsa.
+Dalam kesempatan yang sama, Rektor UPGRIS, Sapto Budoyo menyatakan bahwa acara Dies Natalis ke-45 UPGRIS merupakan momentum refleksi kebermanfaatan dari capaian-capaian kampus. Rektor UPGRIS juga mengajak seluruh sivitas akademika untuk menjaga budaya mutu, inovasi, pelayanan masyarakat, dan kepercayaan publik sebagai komitmen agar kampus terus menghasilkan manfaat nyata bagi bangsa Indonesia.
+“Universitas PGRI Semarang hadir bukan hanya untuk menghasilkan lulusan. Universitas PGRI Semarang hadir untuk membuka harapan, membangun peradaban, memperluas kesempatan, dan menghadirkan perubahan yang membawa kemaslahatan bagi masyarakat,” jelas Rektor Sapto.
+Kemdiktisaintek akan terus mendorong transformasi pendidikan tinggi yang adaptif, inovatif, dan relevan dengan perkembangan zaman melalui semangat Diktisaintek Berdampak. Dengan memperkuat tata kelola perguruan tinggi, kualitas pembelajaran, serta kolaborasi dengan berbagai pemangku kepentingan, Kemdiktisaintek berkomitmen mempersiapkan talenta unggul yang mampu menjawab tantangan masa depan sekaligus mengoptimalkan bonus demografi menuju Indonesia Emas 2045.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak
+#Kampustransformatif

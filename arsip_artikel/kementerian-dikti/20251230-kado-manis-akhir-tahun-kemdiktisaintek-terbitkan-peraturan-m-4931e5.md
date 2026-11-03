@@ -1,0 +1,24 @@
+# Kado Manis Akhir Tahun Kemdiktisaintek Terbitkan Peraturan Menteri Untuk Profesi Karier Dan Penghasilan Dosen
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kado-manis-akhir-tahun-kemdiktisaintek-terbitkan-peraturan-menteri-untuk-profesi-karier-dan-penghasilan-dosen
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2025-12-30 12:25:37
+
+---
+
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) menutup tahun 2025 dengan menerbitkan Peraturan Menteri nomor 52 tahun 2025 yang mengatur profesi, karier, dan penghasilan dosen. Rangkaian tutup tahun ini segera disusul dengan menerbitkan Petunjuk Teknis (juknis) yang akan disosialisasikan pada awal tahun 2026.
+“Ini kado akhir tahun yang sudah lama ditunggu-tunggu. Kado ini memberikan kepastian hukum bagi profesi, karier, dan penghasilan dosen di seluruh Indonesia,” demikian Sekretaris Jenderal Kemdiktisaintek Prof. Togar Mangihut Simatupang dalam acara sosialisasi Permendiktisaintek nomor 52 tahun 2025 yang dilakukan secara hibrid.
+Selain mengatur profesi, karier dan penghasilan dosen, Permendiktisaintek nomor 52 tahun 2025 ini secara eksplisit juga mengatur peran Profesor Emeritus sebagai aset keilmuan nasional yang tetap dapat berkontribusi pasca purnatugas.
+“Peraturan ini mencakup rekognisi kepada profesor emeritus sebagai aset keilmuan yang kita miliki. Juga memberikan peluang yang cukup besar kepada diaspora untuk berkarier sebagai dosen di Indonesia. Juknisnya akan kita sosialisasikan di awal tahun depan,” kata Dirjen Dikti Khairul Munadi.
+Ditambahkannya, peraturan ini ditengarai melahirkan dosen yang berkualitas dan berintegritas. Ditambah lagi pelaksanaan tridharma perguruan tinggi sebagai prasyarat untuk peningkatan karier dosen, yang pada gilirannya akan berdampak bagi lingkungan kampus dan masyarakat.
+“Tahapan implementasi dari peraturan ini akan dilaksanakan sebaik-baiknya, dievaluasi, dikomunikasikan dengan seluruh pemangku kepentingan. Dengan demikian kita akan melahirkan dosen yang berkualitas tanpa dibebani hal-hal yang sifatnya administratif,” demikian Dirjen Khairul Munadi,
+Permendiktisaintek nomor 52 Tahun 2025 merupakan penyempurnaan dan penguatan dari regulasi sebelumnya terkait dosen. Regulasi ini mengonsolidasikan praktik-praktik baik yang telah berjalan, sekaligus menghadirkan pembaruan untuk menjawab dinamika pendidikan tinggi yang semakin kompleks dan kompetitif.
+Pada bagian lain, Direktur Sumber Daya Kemdiktisaintek, Suning Kusumawardhani menyampaikan 4 pilar yang menyokong kompetensi dan kualitas dosen. Ke empat pilar tersebut yaitu pedagogik, kepribadian, sosial, dan profesional. Ke empat pilar ini merupakan fondasi bagi peningkatan mutu pembelajaran, penelitian, dan pengabdian kepada masyarakat.
+Ditambahkan Prof. Suning, sebagai bagian integral dari reformasi tata kelola, Permendiktisaintek 52 Tahun 2025 juga mengatur pendelegasian kewenangan pengangkatan jabatan fungsional dosen kepada LLDIKTI dan PTNBH tertentu yang telah memenuhi persyaratan. Kebijakan ini bertujuan mempercepat layanan, meningkatkan efisiensi, dan memperkuat otonomi perguruan tinggi.
+“Permendiktisaintek nomor 52 Tahun 2025 ini mengatur penghasilan dosen secara lebih jelas dan berkeadilan. Selain gaji pokok dan tunjangan melekat, dosen juga berhak memperoleh tunjangan profesi, tunjangan fungsional, tunjangan khusus, tunjangan kehormatan, serta maslahat tambahan sesuai ketentuan peraturan perundang-undangan. Awal tahun depan kami akan undang lagi para pemangku kepentingan untuk menjelaskan juknis yg sudah disusun.” demikian kata Suning Kusumawardhani.
+Menjawab beberapa pertanyaan dari peserta sosialisasi, Suning Kusumawardhani menegaskan, petunjuk teknis Permendiktisaintek nomor 52 tahun 2025 sudah pada tahap finalisasi, dan akan disosialisasikan pada minggu pertama Januari 2026. Dia memastikan regulasi ini disusun untuk menjamin profesi, karier dan penghasilan dosen. Yang tujuan akhirnya adalah menjamin peningkatan mutu perguruan tinggi.
+“Dari semua pertanyaan yang diajukan, kami akan susun daftarnya untuk menjadi pegangan kita bersama. Semacam Q and A, sehingga pertanyaan-pertanyaan yang bersifat teknis dapat kita diskusikan lebih lanjut. Mohon menunggu sebentar karena juknisnya akan kami rilis minggu pertama bulan Januari,’ kata Suning Kusumawardhani.
+Dengan ditandatanganinya Peraturan Menteri Nomor 52 Tahun 2025 ini, maka pengelolaan profesi, karier, dan penghasilan dosen memasuki fase baru yang lebih tertata, inklusif, dan berkelanjutan. Kebijakan ini diyakini membawa angin segar bagi dosen, sekaligus mendorong kehidupan kampus yang semakin bermutu dan berdampak.
+Sebuah kado manis di akhir tahun.

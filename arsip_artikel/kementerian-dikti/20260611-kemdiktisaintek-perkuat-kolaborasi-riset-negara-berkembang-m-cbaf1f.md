@@ -1,0 +1,23 @@
+# Kemdiktisaintek Perkuat Kolaborasi Riset Negara Berkembang Melalui Comsats Its Conference 2026
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-perkuat-kolaborasi-riset-negara-berkembang-melalui-comsats-its-conference-2026
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-11 08:27:52
+
+---
+
+Surabaya – Direktorat Jenderal Riset dan Pengembangan (Ditjen Risbang) Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) menegaskan pentingnya penguatan kolaborasi riset antarnegara berkembang untuk mempercepat lahirnya inovasi yang berdampak bagi masyarakat. Komitmen tersebut disampaikan Direktur Jenderal Riset dan Pengembangan (Dirjen Risbang), Fauzan Adziman, pada COMSATS (Commission on Science and Technology for Sustainable Development in the South)-ITS Conference 2026 yang diselenggarakan di Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Rabu (10/6).
+Konferensi bertema Emerging Technologies for Sustainable Development ini merupakan bagian dari rangkaian The 26th Meeting of COMSATS Coordinating Council yang mempertemukan pimpinan institusi sains, peneliti, akademisi, dan pemangku kepentingan dari 27 negara anggota COMSATS. Forum ini menjadi wadah untuk berbagi pengetahuan, memperkuat jejaring riset internasional, serta membahas pemanfaatan teknologi baru dalam mendukung pembangunan berkelanjutan di negara-negara berkembang.
+Membuka konferensi, Rektor ITS, Bambang Pramujati, menyampaikan bahwa COMSATS-ITS Conference menjadi kesempatan penting untuk memperkuat kerja sama antar perguruan tinggi, lembaga riset, pemerintah, dan industri dalam menghasilkan inovasi.
+Ia juga memperkenalkan berbagai fokus riset unggulan ITS, mulai dari energi terbarukan, sistem penyimpanan energi, teknologi maritim, hingga kecerdasan artifisial (AI), robotika, dan transformasi digital. Menurutnya, bidang-bidang tersebut memiliki peran penting dalam mendukung pembangunan berkelanjutan sekaligus membuka peluang kolaborasi riset dengan berbagai mitra internasional.
+Sementara itu, Executive Director COMSATS, Ambassador Mohammad Nafees Zakaria, menyoroti peran COMSATS dalam memperkuat jejaring kerja sama sains dan teknologi di antara negara-negara berkembang. Melalui berbagai program dan kemitraan yang dibangun, COMSATS mendorong pertukaran pengetahuan, pengembangan kapasitas peneliti, serta kolaborasi riset untuk menjawab tantangan pembangunan yang dihadapi negara-negara anggota.
+Dalam kesempatan tersebut, Dirjen Risbang menegaskan bahwa kolaborasi internasional menjadi kunci untuk menjawab berbagai tantangan global, mulai dari ketahanan pangan, transisi energi, perubahan iklim, hingga transformasi digital.
+“Riset tidak boleh berhenti pada publikasi. Riset harus menghasilkan solusi yang dapat diterapkan dan memberikan manfaat nyata bagi masyarakat,” ujar Dirjen Fauzan.
+Ia menjelaskan bahwa Indonesia terus mendorong pengembangan riset dan inovasi pada berbagai bidang strategis, antara lain energi terbarukan, teknologi maritim, kecerdasan artifisial, robotika, serta transformasi digital. Penguatan riset pada sektor-sektor tersebut dinilai penting untuk mendukung pembangunan berkelanjutan sekaligus meningkatkan daya saing nasional.
+Dirjen Fauzan juga menekankan pentingnya kerja sama Selatan-Selatan (South-South Cooperation) dalam memperkuat kapasitas riset, pertukaran pengetahuan, dan pengembangan teknologi yang sesuai dengan kebutuhan negara-negara berkembang.
+“Melalui kolaborasi yang lebih erat, negara-negara berkembang dapat saling berbagi pengalaman, mempercepat pengembangan inovasi, dan bersama-sama menghadirkan solusi atas berbagai tantangan pembangunan,” ujarnya.
+Lebih lanjut, ia menyampaikan bahwa forum COMSATS menjadi wadah strategis untuk memperluas kemitraan riset, mendorong lahirnya proyek kolaboratif lintas negara, serta mempercepat pemanfaatan hasil riset dalam mendukung pencapaian Tujuan Pembangunan Berkelanjutan (Sustainable Development Goals/SDGs).
+Pada kesempatan yang sama, Dirjen Risbang mengapresiasi peran ITS sebagai salah satu perguruan tinggi yang aktif mengembangkan ekosistem riset dan inovasi. Perguruan tinggi dinilai memiliki posisi strategis dalam menghubungkan peneliti, industri, pemerintah, dan mitra internasional sehingga hasil riset dapat memberikan dampak yang lebih luas bagi masyarakat.
+Melalui partisipasi dalam forum ini, Kemdiktisaintek terus memperkuat posisi Indonesia dalam jejaring riset global sekaligus membuka peluang kolaborasi yang mendukung pengembangan sains, teknologi, dan inovasi untuk pembangunan berkelanjutan.

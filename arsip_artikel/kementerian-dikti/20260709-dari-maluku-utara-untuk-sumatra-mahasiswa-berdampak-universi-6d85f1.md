@@ -1,0 +1,23 @@
+# Dari Maluku Utara Untuk Sumatra Mahasiswa Berdampak Universitas Khairun Hadirkan Inovasi Eco Enzyme Bagi Pemulihan Pascabencana
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/dari-maluku-utara-untuk-sumatra-mahasiswa-berdampak-universitas-khairun-hadirkan-inovasi-eco-enzyme-bagi-pemulihan-pascabencana
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-07-09 07:31:53
+
+---
+
+Medan – Direktorat Jenderal Riset dan Pengembangan (Ditjen Risbang) Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) melalui Direktorat Penelitian dan Pengabdian kepada Masyarakat (DPPM) menyelenggarakan Seminar Dampak Pelaksanaan Program Mahasiswa Berdampak: Pemberdayaan Masyarakat dalam Pemulihan Dampak Bencana di Sumatra Tahun 2026 di Universitas Prima Indonesia, Medan (02/07).
+Seminar Dampak Program Mahasiswa Berdampak menjadi forum untuk menampilkan hasil implementasi program sekaligus mengukur sejauh mana inovasi yang dikembangkan mampu memberikan manfaat bagi masyarakat penerima program.
+Selama pelaksanaan seminar, puluhan tim dari berbagai perguruan tinggi mempresentasikan hasil pendampingan masyarakat yang mengintegrasikan teknologi tepat guna, pemberdayaan sosial, penguatan ekonomi lokal, hingga pemulihan kesehatan dan lingkungan.
+Salah satu tim peserta seminar berasal dari Universitas Khairun (UNKHAIR), Maluku Utara. Menempuh perjalanan dari wilayah timur Indonesia tepatnya dari Kota Ternate, Maluku Utara menuju Kabupaten Tapanuli Selatan, tim tersebut membawa inovasi pemanfaatan eco enzyme berbasis limbah organik dalam membantu pemulihan sanitasi masyarakat pascabanjir.
+Eco enzyme tersebut dimanfaatkan sebagai cairan pembersih serbaguna, antara lain untuk mencuci pakaian yang terdampak banjir, membersihkan peralatan makan, mengepel lantai rumah, serta membantu mengurangi bau tidak sedap akibat timbunan sampah organik. Selain menghasilkan cairan eco enzyme, ampas hasil fermentasi juga dimanfaatkan kembali sebagai kompos organik untuk mendukung pemulihan lahan pertanian masyarakat sehingga tidak ada limbah yang terbuang.
+Selain menghadirkan inovasi teknologi, tim UNKHAIR juga mengembangkan program pendampingan psikososial bagi anak-anak terdampak bencana melalui berbagai aktivitas kreatif, seperti pembuatan kerajinan tangan dari limbah banjir dan pohon harapan. Pendekatan tersebut tidak hanya membantu memulihkan kondisi psikologis anak-anak, tetapi juga menumbuhkan optimisme serta kreativitas yang bernilai ekonomi.
+Tim UNKHAIR juga memperoleh Bronze Medal pada kategori Nominasi Video Program Terbaik dalam Program Mahasiswa Berdampak. Penghargaan tersebut menjadi apresiasi terhadap dokumentasi pelaksanaan program yang menampilkan proses implementasi dan hasil yang dicapai di lapangan.
+Ketua tim UNKHAIR, dosen Aditya, mengungkapkan bahwa keterlibatan mereka berasal dari pengalaman mendampingi masyarakat Aceh Tamiang saat terjadi bencana sebelumnya. Pengalaman tersebut memperlihatkan bahwa masyarakat tidak hanya membutuhkan bantuan logistik, tetapi juga pendampingan, inovasi, dan harapan untuk kembali bangkit.
+"Pengalaman itu menggerakkan kami. Meski berasal dari Maluku Utara, kami ingin hadir dan membersamai masyarakat di wilayah barat Indonesia. Melalui teknologi eco enzyme, kami berharap dapat membantu mengatasi persoalan sanitasi sekaligus memberikan pengetahuan agar masyarakat mampu menghasilkan produk yang berkelanjutan," ujar Aditya.
+Bagi Mahasiswa Amelia Abdul Kadir, pengalaman turun langsung ke lokasi bencana memberikan pemahaman bahwa pengabdian kepada masyarakat membutuhkan empati sekaligus kemampuan menerapkan ilmu yang diperoleh di bangku kuliah.
+"Kami belajar bahwa masyarakat tidak hanya membutuhkan bantuan, tetapi juga pendampingan agar bisa bangkit kembali. Pengalaman ini membuat saya semakin yakin bahwa ilmu yang kami pelajari harus memberikan manfaat nyata bagi masyarakat," kata Amelia.
+Seminar Dampak Program Mahasiswa Berdampak menjadi bagian dari komitmen Kemdiktisaintek dalam memperkuat implementasi Tridarma Perguruan Tinggi melalui pengabdian kepada masyarakat yang berbasis riset dan inovasi.
+Melalui kolaborasi antara perguruan tinggi, pemerintah, mitra, dan masyarakat, Program Mahasiswa Berdampak diharapkan terus melahirkan inovasi yang adaptif terhadap tantangan di lapangan serta memperkuat ketahanan masyarakat dalam menghadapi bencana di berbagai wilayah Indonesia.

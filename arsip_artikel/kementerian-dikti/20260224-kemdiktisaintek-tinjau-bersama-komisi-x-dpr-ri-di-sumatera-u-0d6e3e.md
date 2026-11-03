@@ -1,0 +1,29 @@
+# Kemdiktisaintek Tinjau Bersama Komisi X Dpr Ri Di Sumatera Utara Perkuat Pemulihan Pendidikan Dan Riset Pascabanjir
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/kemdiktisaintek-tinjau-bersama-komisi-x-dpr-ri-di-sumatera-utara-perkuat-pemulihan-pendidikan-dan-riset-pascabanjir
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-02-24 05:19:09
+
+---
+
+Medan–Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemdiktisaintek) dan Komisi X DPR RI Dewan Perwakilan Rakyat Republik Indonesia (DPR RI) melaksanakan Kunjungan Kerja (Kunker) Reses Masa Persidangan III Tahun Sidang 2025–2026 di Kantor Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Utara, Selasa (24/2).
+Kunker masa reses ini dilaksanakan sebagai bagian dari pelaksanaan fungsi pengawasan dan penggalian aspirasi masyarakat terhadap program serta kebijakan pemerintah di bidang pendidikan, kebudayaan, riset dan inovasi, pemuda dan olahraga, perpustakaan, serta statistik, khususnya dalam konteks penanganan dampak bencana banjir yang terjadi pada penghujung tahun 2025.
+Dalam kegiatan tersebut, hadir Direktur Jenderal Sains dan Teknologi (Dirjen Saintek) Kemdiktisaintek, Ahmad Najib Burhani, yang menyampaikan komitmen Kemdiktisaintek dalam memperkuat peran perguruan tinggi dan ekosistem riset dalam mendukung pemulihan pascabencana berbasis sains dan inovasi.
+Dirjen Saintek menyampaikan bahwa secara umum aktivitas pendidikan tinggi di wilayah terdampak banjir bisa berjalan normal karena sebagian besar kampus tidak berada di kawasan terdampak langsung. Meski demikian, Kemdiktisaintek tetap memberikan perhatian serius terhadap mahasiswa dan keluarga yang terdampak, khususnya dalam aspek pembiayaan dan keberlanjutan studi. Kemdiktisaintek juga telah mengoordinasikan puluhan perguruan tinggi di Aceh, Sumatera Utara, dan Sumatera Barat untuk terlibat dalam penanganan darurat, pembukaan posko layanan, hingga penguatan program riset kebencanaan sebagai bagian dari upaya pemulihan dan mitigasi jangka panjang.
+Hingga akhir Desember, Kemdiktisaintek mendirikan 28 Kampus Posko di Aceh, Sumatera Barat, dan Sumatera Utara yang dikoordinasikan oleh LLDIKTI XII (Aceh), LLDIKTI I (Sumatera Utara), dan LLDIKTI X (Sumatera Barat dan Jambi). Jumlah perguruan tinggi yang mendukung kegiatan ini adalah 61 Perguruan Tinggi dan terdapat 68 Pusat Layanan di lapangan, termasuk yang terkait layanan psikososial dan pendidikan darurat. Kemdiktisaintek juga telah mengirimkan 2.260 dokter, 1.267 Tenaga Kesehatan, dan 219 Relawan.
+“Kami memastikan perguruan tinggi tidak hanya hadir pada tahap tanggap darurat, tetapi juga dalam fase pemulihan dan pencegahan. Dukungan pembiayaan bagi mahasiswa terdampak serta penguatan riset mitigasi bencana menjadi langkah berkelanjutan agar sistem pendidikan tinggi semakin tangguh menghadapi situasi serupa di masa mendatang,” ujar Dirjen Najib Burhani.
+Pimpinan Kunjungan Kerja Reses Komisi X DPR RI, Sofyan Tan menegaskan bahwa banjir yang terjadi di Sumatera Utara telah menimbulkan dampak luas terhadap masyarakat dan mengganggu keberlangsungan layanan publik strategis lintas sektor. Komisi X juga menyampaikan bahwa kunjungan ini merupakan bagian dari fungsi pengawasan DPR RI untuk mengkaji efektivitas penanganan dampak bencana sekaligus menyerap aspirasi daerah sebagai bahan rekomendasi kebijakan, termasuk dalam pembahasan revisi Undang-Undang Sistem Pendidikan Nasional dengan pendekatan kodifikasi.
+“Dampak banjir ini tidak hanya dirasakan pada sektor pendidikan, baik pendidikan dasar, menengah, maupun pendidikan tinggi, tetapi juga pada layanan perpustakaan, pemajuan dan pelestarian kebudayaan, pembinaan pemuda dan olahraga, serta kualitas data statistik kebencanaan. Karena itu, kami ingin memastikan koordinasi pusat dan daerah berjalan efektif serta masukan dari daerah dapat menjadi dasar penguatan kebijakan nasional,” tegas Sofyan Tan.
+Dalam pelaksanaan fungsi legislasi, Komisi X DPR RI saat ini tengah membahas revisi Undang-Undang Sistem Pendidikan Nasional (Sisdiknas) dengan pendekatan kodifikasi yang akan mengintegrasikan Undang-Undang Sisdiknas, Undang-Undang Pendidikan Tinggi, serta Undang-Undang Guru dan Dosen. Kunker ini menjadi bagian dari upaya memperkaya substansi revisi melalui aspirasi daerah.
+Kepala Balai Penjaminan Mutu Pendidikan (BPMP) Provinsi Sumatera Utara, Afrizal Sihotang, menyampaikan bahwa BPMP sebagai Unit Pelaksana Teknis Kementerian Pendidikan Dasar dan Menengah memiliki tugas utama melaksanakan penjaminan dan peningkatan mutu pendidikan pada jenjang pendidikan dasar dan menengah di wilayah Sumatera Utara. Dalam menjalankan tugas tersebut, BPMP bersinergi dengan berbagai UPT kementerian dan pemerintah daerah.
+“Sepanjang tahun 2025, kami telah menyalurkan berbagai bentuk dukungan kepada satuan pendidikan terdampak, termasuk bantuan logistik pendidikan, layanan dukungan psikososial di puluhan titik, pembangunan ruang belajar, serta distribusi perangkat pembelajaran digital. Kami juga memastikan proses Sistem Penerimaan Murid Baru berjalan baik dan satuan pendidikan tetap melaksanakan layanan pembelajaran serta asesmen nasional,” ujar Afrizal.
+Dalam pertemuan tersebut turut dibahas penguatan koordinasi lintas sektor, kesiapan pendataan dan statistik, serta evaluasi berbagai program pendidikan tinggi dan riset di daerah. Kemdiktisaintek menegaskan komitmennya untuk menindaklanjuti seluruh masukan sebagai bagian dari kebijakan Diktisaintek Berdampak.
+Kegiatan kunker reses ini juga menghadirkan unsur pemerintah daerah, LLDikti Wilayah I, Badan Riset dan Inovasi Daerah, serta pemangku kepentingan terkait di Provinsi Sumatera Utara untuk memberikan masukan dan aspirasi secara langsung.
+Humas
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+#DiktisaintekBerdampak
+#Pentingsaintek
+#Kampusberdampak
+#Kampustransformatif

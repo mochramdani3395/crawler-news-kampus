@@ -1,0 +1,20 @@
+# Undip Dan Jiangsu Agri Animal Husbandry Vocational College China Jajaki Kerja Sama Pendidikan Dan Riset
+
+- **Kampus:** Kementerian DIKTI
+- **Sumber:** https://kemdiktisaintek.go.id/news/article/undip-dan-jiangsu-agri-animal-husbandry-vocational-college-china-jajaki-kerja-sama-pendidikan-dan-riset
+- **Penulis:** Humas
+- **Tanggal Posting:** N/A
+- **Waktu Crawl:** 2026-06-17 08:53:52
+
+---
+
+UNDIP, Semarang (11/6) – Universitas Diponegoro (UNDIP) menerima kunjungan delegasi Jiangsu Agri-Animal Husbandry Vocational College (JAAHVC), China, di Ruang Sidang Rektor, Gedung Widya Puraya, Kampus UNDIP Tembalang, Kamis, 11 Juni 2026. Kunjungan ini menjadi momentum untuk memperkuat hubungan kelembagaan sekaligus menjajaki peluang kerja sama di bidang pendidikan, penelitian, dan pengembangan sumber daya manusia.
+Sebelum melakukan pertemuan dengan pimpinan universitas, delegasi JAAHVC mengunjungi sejumlah fakultas di lingkungan UNDIP yang memiliki bidang keilmuan yang relevan, yakni Fakultas Perikanan dan Ilmu Kelautan serta Fakultas Peternakan dan Pertanian. Kunjungan tersebut menjadi sarana untuk mengenal lebih dekat kegiatan akademik dan penelitian yang dijalankan oleh kedua fakultas sekaligus membuka ruang diskusi mengenai peluang kolaborasi di masa mendatang.
+Dalam kesempatan tersebut, kedua institusi saling memperkenalkan profil dan capaian masing-masing sekaligus mendiskusikan berbagai peluang kerja sama yang dapat diwujudkan. Beberapa bentuk kolaborasi yang menjadi topik pembahasan meliputi pertukaran mahasiswa dan dosen, penelitian kolaboratif, serta berbagai program akademik internasional.
+Delegasi JAAHVC dipimpin oleh Wakil Presiden JAAHVC, Jundong Liu, dan terdiri atas pimpinan fakultas di bidang peternakan modern, perikanan modern, biomedis dan farmasi kesehatan hewan, kedokteran hewan dan kesehatan masyarakat, serta kerja sama dan pertukaran internasional.
+Wakil Direktur Kemitraan dan Konektivitas Global UNDIP, Pulung Widhi Hari Hananto, S.H., M.H., LL.M., menyambut baik penjajakan kerja sama ini. “UNDIP menyambut baik peluang kerja sama dengan Jiangsu Agri-Animal Husbandry Vocational College. Kami melihat banyak bidang yang dapat dikembangkan bersama, mulai dari pertukaran mahasiswa dan dosen, penelitian kolaboratif, program akademik internasional, hingga penguatan jejaring global yang bermanfaat bagi kedua institusi,” ujarnya.
+Wakil Presiden JAAHVC, Jundong Liu, turut menyampaikan apresiasi atas kesempatan untuk berdiskusi dan mengenal lebih dekat berbagai program akademik yang dimiliki UNDIP. Kunjungan ke sejumlah fakultas sebelum pertemuan dengan pimpinan universitas dinilai dapat memberikan gambaran mengenai potensi kolaborasi yang dapat dikembangkan oleh kedua institusi.
+“Melalui kunjungan ini, kami dapat mengenal lebih dekat berbagai program pendidikan, penelitian, dan fasilitas yang dimiliki Universitas Diponegoro. Diskusi yang berlangsung bersama fakultas dan pimpinan universitas memberikan pemahaman yang lebih baik mengenai berbagai peluang kerja sama yang dapat dikembangkan di masa mendatang,” ujar Jundong Liu.
+Sementara itu, Direktur Inovasi dan Kerja Sama UNDIP drh. Dian Wahyu Harjanti, Ph.D., menilai terdapat banyak potensi kolaborasi yang dapat dikembangkan, khususnya pada bidang peternakan, perikanan, kesehatan hewan, dan bioteknologi yang menjadi fokus kedua institusi.
+“Bidang peternakan, perikanan, kesehatan hewan, dan bioteknologi merupakan area yang memiliki potensi besar untuk dikolaborasikan. Kami berharap diskusi yang telah berlangsung dapat ditindaklanjuti melalui program-program konkret yang memberikan manfaat bagi kedua institusi, baik dalam bidang pendidikan, penelitian, maupun inovasi,” jelasnya.
+Pada akhir pertemuan, kedua institusi menyampaikan komitmen untuk menindaklanjuti komunikasi yang telah terjalin melalui pembahasan program-program kerja sama yang lebih konkret. Salah satu langkah yang dibahas adalah kemungkinan penyusunan nota kesepahaman sebagai landasan pengembangan kerja sama akademik dan penelitian di masa mendatang. (Komunikasi Publik/UNDIP/Hng)
