@@ -260,48 +260,40 @@ def collect_all_articles():
     print(f"[+] Total artikel segar (<= 7 hari) terkumpul: {len(unique_articles)}")
     return unique_articles
 
-def get_best_gemini_model(api_key):
-    """Mendeteksi model yang aktif dan tersedia untuk API key ini secara dinamis."""
+def get_candidate_models(api_key):
+    """Mendeteksi daftar model Flash yang aktif untuk akun ini dalam urutan prioritas."""
     preferred_order = [
-        "gemini-flash-latest",
         "gemini-3.8-flash",
-        "gemini-3.7-flash",
         "gemini-3.5-flash",
-        "gemini-flash-lite-latest",
         "gemini-3.1-flash-lite",
-        "gemini-2.0-flash"
+        "gemini-flash-lite-latest",
+        "gemini-flash-latest"
     ]
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key.strip()}"
         resp = requests.get(url, timeout=10)
         if resp.status_code == 200:
             models_data = resp.json().get("models", [])
-            flash_models = []
+            active_flashes = set()
             for m in models_data:
-                name = m.get("name", "")
+                name = m.get("name", "").replace("models/", "")
                 methods = m.get("supportedGenerationMethods", [])
-                if "generateContent" in methods:
-                    clean_name = name.replace("models/", "")
-                    # Hindari model non-teks atau model usang (seperti 2.5 yang sudah sunset)
-                    if "flash" in clean_name.lower() and not any(x in clean_name for x in ["tts", "image", "2.5"]):
-                        flash_models.append(clean_name)
+                if "generateContent" in methods and "flash" in name.lower() and not any(x in name for x in ["tts", "image", "2.5"]):
+                    active_flashes.add(name)
             
-            for pref in preferred_order:
-                if pref in flash_models:
-                    print(f"[*] Memilih model prioritas aktif: {pref}")
-                    return pref
-            
-            if flash_models:
-                print(f"[*] Memilih model Flash alternatif: {flash_models[0]}")
-                return flash_models[0]
-        else:
-            print(f"[WARN] Query daftar model status {resp.status_code}: {resp.text[:100]}")
+            ordered = [m for m in preferred_order if m in active_flashes]
+            for m in active_flashes:
+                if m not in ordered:
+                    ordered.append(m)
+            if ordered:
+                print(f"[*] Daftar model AI prioritas siap pakai: {ordered[:4]}")
+                return ordered
     except Exception as e:
         print(f"[WARN] Gagal mendeteksi daftar model: {e}")
-    return "gemini-flash-latest"
+    return ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-flash-lite-latest", "gemini-flash-latest"]
 
 def score_articles_with_gemini(articles_to_score, api_key):
-    """Memberikan scoring awal (Tier 1 Triage) menggunakan Google Gemini API gratis."""
+    """Memberikan scoring awal (Tier 1 Triage) menggunakan Google Gemini API gratis dengan multi-model fallback."""
     if not api_key or not api_key.strip():
         print("[INFO] GEMINI_API_KEY tidak ditemukan. Melewati proses AI Scoring Awal.")
         return articles_to_score
@@ -314,8 +306,8 @@ def score_articles_with_gemini(articles_to_score, api_key):
         return articles_to_score
 
     clean_key = api_key.strip()
-    active_model = get_best_gemini_model(clean_key)
-    print(f"[*] Menggunakan model AI: {active_model} untuk menilai {len(articles_to_score)} artikel baru...")
+    candidate_models = get_candidate_models(clean_key)
+    print(f"[*] Memulai AI Scoring Awal untuk {len(articles_to_score)} artikel (tersedia {len(candidate_models)} model cadangan)...")
 
     batch_size = 25
 
@@ -340,7 +332,6 @@ def score_articles_with_gemini(articles_to_score, api_key):
             "]"
         )
 
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{active_model}:generateContent?key={clean_key}"
         payload = {
             "contents": [{"parts": [{"text": prompt_text}]}],
             "generationConfig": {
@@ -349,28 +340,36 @@ def score_articles_with_gemini(articles_to_score, api_key):
             }
         }
 
-        try:
-            resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
-            if resp.status_code == 404:
-                # Coba fallback ke endpoint v1 jika v1beta 404
-                fallback_url = f"https://generativelanguage.googleapis.com/v1/models/{active_model}:generateContent?key={clean_key}"
-                resp = requests.post(fallback_url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
+        batch_success = False
+        import time
+        for model_name in candidate_models:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={clean_key}"
+            try:
+                resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    raw_reply = data["candidates"][0]["content"]["parts"][0]["text"]
+                    parsed_list = json.loads(raw_reply)
+                    for item in parsed_list:
+                        item_id = item.get("id")
+                        if item_id and 1 <= item_id <= len(chunk):
+                            target_art = chunk[item_id - 1]
+                            target_art["skor_awal"] = item.get("skor", "")
+                            target_art["alasan_awal"] = item.get("alasan", "")
+                    print(f"[+] Berhasil menilai {len(chunk)} artikel menggunakan {model_name}!")
+                    batch_success = True
+                    break
+                elif resp.status_code in [503, 429]:
+                    print(f"[WARN] Model {model_name} sedang sibuk (HTTP {resp.status_code}). Beralih ke model cadangan...")
+                    time.sleep(1)
+                    continue
+                else:
+                    print(f"[WARN] Model {model_name} mengembalikan HTTP {resp.status_code}: {resp.text[:100]}")
+            except Exception as e:
+                print(f"[WARN] Error saat request ke {model_name}: {e}")
 
-            if resp.status_code == 200:
-                data = resp.json()
-                raw_reply = data["candidates"][0]["content"]["parts"][0]["text"]
-                parsed_list = json.loads(raw_reply)
-                for item in parsed_list:
-                    item_id = item.get("id")
-                    if item_id and 1 <= item_id <= len(chunk):
-                        target_art = chunk[item_id - 1]
-                        target_art["skor_awal"] = item.get("skor", "")
-                        target_art["alasan_awal"] = item.get("alasan", "")
-                print(f"[+] Berhasil menilai batch {i//batch_size + 1} ({len(chunk)} artikel).")
-            else:
-                print(f"[WARN] Gemini API ({active_model}) mengembalikan HTTP {resp.status_code}: {resp.text[:120]}")
-        except Exception as e:
-            print(f"[WARN] Gagal auto-scoring batch dengan Gemini: {e}")
+        if not batch_success:
+            print(f"[WARN] Seluruh model AI sedang padat untuk batch ini.")
 
     return articles_to_score
 
