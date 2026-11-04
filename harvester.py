@@ -6,7 +6,7 @@ import urllib.parse
 import urllib.request
 import traceback
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Pastikan output console aman dari UnicodeEncodeError di Windows
 if sys.stdout and hasattr(sys.stdout, 'reconfigure'):
@@ -67,9 +67,10 @@ HEADER_COLUMNS = [
     "Judul Berita",
     "URL Berita",
     "Kata Kunci Terdeteksi",
-    "Skor Relevansi (1-10)",
-    "Skor Urgensi (1-10)",
-    "Rekomendasi Angle Konten",
+    "Skor Awal Bot (1-10)",
+    "Catatan Awal Bot",
+    "Skor Final Editorial",
+    "Rekomendasi Angle Suteki",
     "Status Tindak Lanjut"
 ]
 
@@ -109,6 +110,17 @@ def parse_date(date_str):
     except Exception:
         pass
     return datetime.now().strftime("%Y-%m-%d")
+
+def is_recent(date_str, max_days=7):
+    """Memeriksa apakah tanggal artikel terbit dalam rentang hari terakhir (Recency Filter)."""
+    if not date_str:
+        return True
+    try:
+        pub_dt = datetime.strptime(date_str, "%Y-%m-%d")
+        delta = datetime.now() - pub_dt
+        return delta.days <= max_days
+    except Exception:
+        return True
 
 def fetch_rss_feedparser(url, default_source="Google News"):
     """Mengambil feed menggunakan requests + feedparser agar tahan terhadap pemblokiran & network error."""
@@ -220,7 +232,7 @@ def collect_all_articles():
         except Exception as e:
             print(f"[WARN] Melewati direct RSS {direct['source']} karena error: {e}")
 
-    # Filter lokal & duplikasi URL di memori
+    # Filter lokal, batas tanggal (maksimal 7 hari), & duplikasi URL di memori
     seen_urls = set()
     unique_articles = []
     today_str = datetime.now().strftime("%Y-%m-%d")
@@ -230,6 +242,10 @@ def collect_all_articles():
         if url in seen_urls:
             continue
         seen_urls.add(url)
+
+        # Lewati artikel usang yang terbit lebih dari 7 hari lalu
+        if not is_recent(art["date"], max_days=7):
+            continue
 
         keywords = detect_keywords(art["raw_text"])
 
@@ -241,8 +257,81 @@ def collect_all_articles():
             "kata_kunci": keywords
         })
 
-    print(f"[+] Total artikel unik terkumpul: {len(unique_articles)}")
+    print(f"[+] Total artikel segar (<= 7 hari) terkumpul: {len(unique_articles)}")
     return unique_articles
+
+def score_articles_with_gemini(articles_to_score, api_key):
+    """Memberikan scoring awal (Tier 1 Triage) menggunakan Google Gemini API gratis."""
+    if not api_key or not api_key.strip():
+        print("[INFO] GEMINI_API_KEY tidak ditemukan. Melewati proses AI Scoring Awal.")
+        return articles_to_score
+
+    if not articles_to_score:
+        return articles_to_score
+
+    if not HAS_REQUESTS:
+        print("[WARN] Library 'requests' tidak tersedia. Melewati AI scoring.")
+        return articles_to_score
+
+    print(f"[*] Menjalankan AI Scoring Awal (Gemini Flash) untuk {len(articles_to_score)} artikel baru...")
+
+    batch_size = 25
+    clean_key = api_key.strip()
+
+    for i in range(0, len(articles_to_score), batch_size):
+        chunk = articles_to_score[i:i + batch_size]
+        prompt_items = []
+        for idx, art in enumerate(chunk):
+            prompt_items.append(f"{idx+1}. Judul: {art['judul']} | Sumber: {art['sumber']} | Tag: {art['kata_kunci']}")
+
+        prompt_text = (
+            "Anda adalah Asisten Analis Intelijen Berita untuk Suteki Technology, perusahaan EdTech penyedia "
+            "SIAKAD Cloud, Pelaporan Neo Feeder PDDIKTI, Akreditasi Kampus (BAN-PT/LAM), SPMI, dan PMB Online di Indonesia.\n\n"
+            "Tugas Anda: Berikan 'Scoring Awal' (skala 1-10) untuk memfilter artikel berikut berdasarkan relevansinya terhadap bisnis Suteki Technology:\n"
+            "- Skor 8-10 (Tinggi/Prioritas): Isu SIAKAD, server kampus down saat KRS/PMB, regulasi baru PDDIKTI/Neo Feeder, akreditasi kampus, atau digitalisasi tata kelola perguruan tinggi.\n"
+            "- Skor 5-7 (Menengah): Isu pendidikan tinggi umum, UKT/biaya kuliah, SNPMB/PMB reguler, AI dalam pembelajaran, atau kegiatan universitas secara umum.\n"
+            "- Skor 1-4 (Rendah/Abaikan): Berita seremonial wisuda, kriminal/tawuran kampus, olahraga mahasiswa, atau berita sekolah dasar/menengah.\n\n"
+            "Daftar Artikel:\n" + "\n".join(prompt_items) + "\n\n"
+            "Kembalikan HANYA format JSON valid berupa array of objects (tanpa markdown tambahan) dengan format persis:\n"
+            "[\n"
+            "  {\"id\": 1, \"skor\": 9, \"alasan\": \"Membahas implementasi SIAKAD baru dan integrasi data\"},\n"
+            "  {\"id\": 2, \"skor\": 3, \"alasan\": \"Hanya kegiatan seremonial wisuda\"}\n"
+            "]"
+        )
+
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={clean_key}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt_text}]}],
+            "generationConfig": {
+                "responseMimeType": "application/json",
+                "temperature": 0.2
+            }
+        }
+
+        try:
+            resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
+            if resp.status_code == 404:
+                # Fallback ke gemini-1.5-flash jika model 2.5 belum aktif
+                fallback_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={clean_key}"
+                resp = requests.post(fallback_url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
+
+            if resp.status_code == 200:
+                data = resp.json()
+                raw_reply = data["candidates"][0]["content"]["parts"][0]["text"]
+                parsed_list = json.loads(raw_reply)
+                for item in parsed_list:
+                    item_id = item.get("id")
+                    if item_id and 1 <= item_id <= len(chunk):
+                        target_art = chunk[item_id - 1]
+                        target_art["skor_awal"] = item.get("skor", "")
+                        target_art["alasan_awal"] = item.get("alasan", "")
+                print(f"[+] Berhasil menilai batch {i//batch_size + 1} ({len(chunk)} artikel).")
+            else:
+                print(f"[WARN] Gemini API mengembalikan HTTP {resp.status_code}: {resp.text[:120]}")
+        except Exception as e:
+            print(f"[WARN] Gagal auto-scoring batch dengan Gemini: {e}")
+
+    return articles_to_score
 
 def extract_spreadsheet_id(raw_input):
     """Mengekstrak ID bersih dari Spreadsheet ID murni atau URL lengkap."""
@@ -262,6 +351,7 @@ def sync_to_google_sheets(articles):
 
     gcp_sa_key = os.getenv("GCP_SA_KEY")
     raw_sheet_input = os.getenv("SPREADSHEET_ID")
+    gemini_api_key = os.getenv("GEMINI_API_KEY")
     local_sa_file = "service_account.json"
 
     client = None
@@ -270,7 +360,6 @@ def sync_to_google_sheets(articles):
         raw_key = gcp_sa_key.strip()
         if not raw_key.startswith("{"):
             print("[ERROR] Nilai secret 'GCP_SA_KEY' tidak diawali dengan '{'.")
-            print("[PETUNJUK] Pastikan Anda menyalin SELURUH isi file .json (bukan nama file atau path-nya).")
             return False
         try:
             sa_info = json.loads(raw_key)
@@ -316,38 +405,46 @@ def sync_to_google_sheets(articles):
             ws = sh.add_worksheet(title=worksheet_title, rows=500, cols=15)
             ws.append_row(HEADER_COLUMNS)
 
-        # Cek apakah header sudah ada di baris pertama
+        # Update header baris 1 agar selalu sesuai dengan skema terbaru (10 kolom)
         first_row = ws.row_values(1)
-        if not first_row or first_row[0] != HEADER_COLUMNS[0]:
-            print("[*] Mengisi baris header tabel...")
-            ws.insert_row(HEADER_COLUMNS, 1)
+        if not first_row or len(first_row) < len(HEADER_COLUMNS) or first_row[5] != HEADER_COLUMNS[5]:
+            print("[*] Menyesuaikan baris header tabel dengan format Two-Tier Scoring...")
+            ws.update(values=[HEADER_COLUMNS], range_name="A1:J1")
 
         # Ambil daftar URL yang sudah ada di Kolom D (Kolom ke-4) untuk anti-duplikasi
         existing_urls = set(ws.col_values(4)[1:])
         print(f"[*] Ditemukan {len(existing_urls)} URL yang sudah ada di Google Sheet.")
 
-        new_rows = []
-        for art in articles:
-            if art["url"] not in existing_urls:
-                new_rows.append([
-                    art["tanggal_input"],
-                    art["sumber"],
-                    art["judul"],
-                    art["url"],
-                    art["kata_kunci"],
-                    "",  # Skor Relevansi (dikosongkan untuk ChatGPT)
-                    "",  # Skor Urgensi (dikosongkan untuk ChatGPT)
-                    "",  # Rekomendasi Angle (dikosongkan untuk ChatGPT)
-                    "Antrean"  # Status Tindak Lanjut awal
-                ])
-                existing_urls.add(art["url"])
+        # Filter hanya artikel yang benar-benar baru
+        truly_new_articles = [art for art in articles if art["url"] not in existing_urls]
+        print(f"[+] Ditemukan {len(truly_new_articles)} artikel yang benar-benar baru.")
 
-        if new_rows:
-            print(f"[+] Menyimpan {len(new_rows)} artikel baru ke Google Sheets...")
-            ws.append_rows(new_rows, value_input_option="USER_ENTERED")
-            print("[OK] Sinkronisasi ke Google Sheets berhasil!")
-        else:
+        if not truly_new_articles:
             print("[INFO] Tidak ada artikel baru yang perlu ditambahkan (semua URL sudah tercatat).")
+            return True
+
+        # Jalankan AI Scoring Awal (Gemini) HANYA untuk artikel yang baru!
+        scored_articles = score_articles_with_gemini(truly_new_articles, gemini_api_key)
+
+        new_rows = []
+        for art in scored_articles:
+            new_rows.append([
+                art["tanggal_input"],
+                art["sumber"],
+                art["judul"],
+                art["url"],
+                art["kata_kunci"],
+                art.get("skor_awal", ""),
+                art.get("alasan_awal", ""),
+                "",  # Skor Final Editorial (dikosongkan untuk ChatGPT)
+                "",  # Rekomendasi Angle Suteki (dikosongkan untuk ChatGPT)
+                "Antrean"  # Status Tindak Lanjut awal
+            ])
+            existing_urls.add(art["url"])
+
+        print(f"[+] Menyimpan {len(new_rows)} artikel baru lengkap dengan Scoring Awal ke Google Sheets...")
+        ws.append_rows(new_rows, value_input_option="USER_ENTERED")
+        print("[OK] Sinkronisasi ke Google Sheets berhasil!")
 
         return True
     except gspread.exceptions.SpreadsheetNotFound:
@@ -362,7 +459,6 @@ def sync_to_google_sheets(articles):
         return False
     except gspread.exceptions.APIError as e:
         print(f"[ERROR] Google Sheets API Error: {e}")
-        print("[PETUNJUK]: Pastikan 'Google Sheets API' dan 'Google Drive API' sudah di-ENABLE di Google Cloud Console.")
         return False
     except Exception as e:
         print(f"[ERROR] Terjadi kesalahan: {type(e).__name__} - {e}")
