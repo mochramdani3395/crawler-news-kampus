@@ -260,6 +260,36 @@ def collect_all_articles():
     print(f"[+] Total artikel segar (<= 7 hari) terkumpul: {len(unique_articles)}")
     return unique_articles
 
+def get_best_gemini_model(api_key):
+    """Mendeteksi model yang aktif dan tersedia untuk API key ini secara dinamis."""
+    try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key.strip()}"
+        resp = requests.get(url, timeout=10)
+        if resp.status_code == 200:
+            models_data = resp.json().get("models", [])
+            flash_models = []
+            other_models = []
+            for m in models_data:
+                name = m.get("name", "")  # format: 'models/gemini-2.0-flash'
+                methods = m.get("supportedGenerationMethods", [])
+                if "generateContent" in methods:
+                    clean_name = name.replace("models/", "")
+                    if "flash" in clean_name.lower():
+                        flash_models.append(clean_name)
+                    else:
+                        other_models.append(clean_name)
+            if flash_models:
+                print(f"[*] Model Flash yang terdeteksi aktif untuk akun Anda: {flash_models}")
+                return flash_models[0]
+            elif other_models:
+                print(f"[*] Model alternatif yang terdeteksi: {other_models}")
+                return other_models[0]
+        else:
+            print(f"[WARN] Query daftar model status {resp.status_code}: {resp.text[:100]}")
+    except Exception as e:
+        print(f"[WARN] Gagal mendeteksi daftar model: {e}")
+    return "gemini-2.0-flash"
+
 def score_articles_with_gemini(articles_to_score, api_key):
     """Memberikan scoring awal (Tier 1 Triage) menggunakan Google Gemini API gratis."""
     if not api_key or not api_key.strip():
@@ -273,10 +303,11 @@ def score_articles_with_gemini(articles_to_score, api_key):
         print("[WARN] Library 'requests' tidak tersedia. Melewati AI scoring.")
         return articles_to_score
 
-    print(f"[*] Menjalankan AI Scoring Awal (Gemini Flash) untuk {len(articles_to_score)} artikel baru...")
+    clean_key = api_key.strip()
+    active_model = get_best_gemini_model(clean_key)
+    print(f"[*] Menggunakan model AI: {active_model} untuk menilai {len(articles_to_score)} artikel baru...")
 
     batch_size = 25
-    clean_key = api_key.strip()
 
     for i in range(0, len(articles_to_score), batch_size):
         chunk = articles_to_score[i:i + batch_size]
@@ -299,7 +330,7 @@ def score_articles_with_gemini(articles_to_score, api_key):
             "]"
         )
 
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={clean_key}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{active_model}:generateContent?key={clean_key}"
         payload = {
             "contents": [{"parts": [{"text": prompt_text}]}],
             "generationConfig": {
@@ -311,8 +342,8 @@ def score_articles_with_gemini(articles_to_score, api_key):
         try:
             resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
             if resp.status_code == 404:
-                # Fallback ke gemini-1.5-flash jika model 2.5 belum aktif
-                fallback_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={clean_key}"
+                # Coba fallback ke endpoint v1 jika v1beta 404
+                fallback_url = f"https://generativelanguage.googleapis.com/v1/models/{active_model}:generateContent?key={clean_key}"
                 resp = requests.post(fallback_url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
 
             if resp.status_code == 200:
@@ -327,7 +358,7 @@ def score_articles_with_gemini(articles_to_score, api_key):
                         target_art["alasan_awal"] = item.get("alasan", "")
                 print(f"[+] Berhasil menilai batch {i//batch_size + 1} ({len(chunk)} artikel).")
             else:
-                print(f"[WARN] Gemini API mengembalikan HTTP {resp.status_code}: {resp.text[:120]}")
+                print(f"[WARN] Gemini API ({active_model}) mengembalikan HTTP {resp.status_code}: {resp.text[:120]}")
         except Exception as e:
             print(f"[WARN] Gagal auto-scoring batch dengan Gemini: {e}")
 
