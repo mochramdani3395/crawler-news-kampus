@@ -488,15 +488,20 @@ def sync_to_google_sheets(articles):
         # FITUR SELF-HEALING: Otomatis melengkapi baris di sheet yang belum punya Skor Awal
         try:
             if gemini_api_key and gemini_api_key.strip():
-                col_f_values = ws.col_values(6)
-                unscored_indices = [
-                    idx for idx, val in enumerate(col_f_values[1:], start=2)
-                    if not val or not val.strip()
-                ]
+                all_rows = ws.get_all_values()
+                
+                # Cari baris yang kolom F (index 5) masih kosong
+                unscored_indices = []
+                for row_idx, r_data in enumerate(all_rows[1:], start=2):
+                    score_val = r_data[5] if len(r_data) > 5 else ""
+                    if not score_val or not score_val.strip():
+                        unscored_indices.append(row_idx)
+
                 if unscored_indices:
-                    target_row_nums = unscored_indices[-15:]
-                    print(f"[*] Terdeteksi {len(unscored_indices)} baris tanpa skor. Melengkapi {len(target_row_nums)} baris terakhir...")
-                    all_rows = ws.get_all_values()
+                    # Ambil 20 baris terakhir yang belum ada skor
+                    target_row_nums = unscored_indices[-20:]
+                    print(f"[*] Terdeteksi {len(unscored_indices)} baris tanpa skor di Google Sheet. Melengkapi {len(target_row_nums)} baris terbaru...")
+                    
                     backfill_items = []
                     for r_num in target_row_nums:
                         r_data = all_rows[r_num - 1]
@@ -507,18 +512,17 @@ def sync_to_google_sheets(articles):
                             "url": r_data[3] if len(r_data) > 3 else "",
                             "kata_kunci": r_data[4] if len(r_data) > 4 else ""
                         })
+                    
                     scored_backfill = score_articles_with_gemini(backfill_items, gemini_api_key)
-                    batch_updates = []
+                    
+                    updates_count = 0
                     for itm in scored_backfill:
                         if itm.get("skor_awal"):
                             rn = itm["row_num"]
-                            batch_updates.append({
-                                "range": f"F{rn}:G{rn}",
-                                "values": [[itm.get("skor_awal", ""), itm.get("alasan_awal", "")]]
-                            })
-                    if batch_updates:
-                        ws.batch_update(batch_updates)
-                        print(f"[OK] Berhasil melengkapi skor awal untuk {len(batch_updates)} baris di Google Sheet!")
+                            ws.update(values=[[str(itm.get("skor_awal", "")), str(itm.get("alasan_awal", ""))]], range_name=f"F{rn}:G{rn}")
+                            updates_count += 1
+                    
+                    print(f"[OK] Berhasil melengkapi skor awal untuk {updates_count} baris di Google Sheet!")
         except Exception as e:
             print(f"[WARN] Melewati auto-backfill skor: {e}")
 
