@@ -6,7 +6,7 @@ import urllib.parse
 import urllib.request
 import traceback
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # Pastikan output console aman dari UnicodeEncodeError di Windows
 if sys.stdout and hasattr(sys.stdout, 'reconfigure'):
@@ -104,56 +104,58 @@ def detect_keywords(text):
 
 def parse_date(date_val):
     """Menyeragamkan tanggal posting artikel menjadi format YYYY-MM-DD HH:MM (Waktu Indonesia Barat/WIB)."""
-    wib_tz = datetime.timezone(timedelta(hours=7))
-    if not date_val:
-        return datetime.now(wib_tz).strftime("%Y-%m-%d %H:%M")
-
-    # 1. Jika dari feedparser (struct_time)
-    import time
-    if isinstance(date_val, time.struct_time):
-        try:
-            dt_utc = datetime(*date_val[:6], tzinfo=datetime.timezone.utc)
-            return dt_utc.astimezone(wib_tz).strftime("%Y-%m-%d %H:%M")
-        except Exception:
-            pass
-
-    if isinstance(date_val, str):
-        date_str = date_val.strip()
-        if not date_str:
+    try:
+        wib_tz = timezone(timedelta(hours=7))
+        if not date_val:
             return datetime.now(wib_tz).strftime("%Y-%m-%d %H:%M")
 
-        # Jika sudah tanggal murni YYYY-MM-DD tanpa jam
-        if re.match(r'^\d{4}-\d{2}-\d{2}$', date_str):
-            return date_str
+        # 1. Jika dari feedparser (struct_time)
+        import time
+        if isinstance(date_val, time.struct_time):
+            try:
+                dt_utc = datetime(*date_val[:6], tzinfo=timezone.utc)
+                return dt_utc.astimezone(wib_tz).strftime("%Y-%m-%d %H:%M")
+            except Exception:
+                pass
 
-        # 2. Coba RFC 2822 (Standar Google News / RSS)
+        if isinstance(date_val, str):
+            date_str = date_val.strip()
+            if not date_str:
+                return datetime.now(wib_tz).strftime("%Y-%m-%d %H:%M")
+
+            # 2. Coba RFC 2822 (Standar Google News / RSS pubDate)
+            try:
+                import email.utils
+                dt = email.utils.parsedate_to_datetime(date_str)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                return dt.astimezone(wib_tz).strftime("%Y-%m-%d %H:%M")
+            except Exception:
+                pass
+
+            # 3. Coba ISO 8601 (Atom / Direct Media Feeds)
+            try:
+                clean_iso = date_str.replace("Z", "+00:00")
+                dt = datetime.fromisoformat(clean_iso)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                return dt.astimezone(wib_tz).strftime("%Y-%m-%d %H:%M")
+            except Exception:
+                pass
+
+            # 4. Fallback jika diawali format YYYY-MM-DD
+            try:
+                dt = datetime.strptime(date_str[:10], "%Y-%m-%d")
+                return dt.strftime("%Y-%m-%d")
+            except Exception:
+                pass
+
+        return datetime.now(wib_tz).strftime("%Y-%m-%d %H:%M")
+    except Exception:
         try:
-            import email.utils
-            dt = email.utils.parsedate_to_datetime(date_str)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=datetime.timezone.utc)
-            return dt.astimezone(wib_tz).strftime("%Y-%m-%d %H:%M")
+            return datetime.now(timezone(timedelta(hours=7))).strftime("%Y-%m-%d %H:%M")
         except Exception:
-            pass
-
-        # 3. Coba ISO 8601 (Atom / Direct Media Feeds)
-        try:
-            clean_iso = date_str.replace("Z", "+00:00")
-            dt = datetime.fromisoformat(clean_iso)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=datetime.timezone.utc)
-            return dt.astimezone(wib_tz).strftime("%Y-%m-%d %H:%M")
-        except Exception:
-            pass
-
-        # 4. Fallback jika diawali format YYYY-MM-DD
-        try:
-            dt = datetime.strptime(date_str[:10], "%Y-%m-%d")
-            return dt.strftime("%Y-%m-%d")
-        except Exception:
-            pass
-
-    return datetime.now(wib_tz).strftime("%Y-%m-%d %H:%M")
+            return datetime.now().strftime("%Y-%m-%d %H:%M")
 
 def is_recent(date_str, max_days=7):
     """Memeriksa apakah tanggal artikel terbit dalam rentang hari terakhir (Recency Filter)."""
@@ -293,6 +295,8 @@ def collect_all_articles():
         except Exception as e:
             print(f"[WARN] Melewati direct RSS {direct['source']} karena error: {e}")
 
+    print(f"[+] Total mentah artikel dari seluruh feed: {len(all_raw)}")
+
     # Filter lokal, batas tanggal (maksimal 7 hari), & duplikasi URL di memori
     seen_urls = set()
     unique_articles = []
@@ -304,7 +308,7 @@ def collect_all_articles():
             continue
         seen_urls.add(url)
 
-        # Lewati artikel usang yang terbit lebih dari 7 hari lalu
+        # Lewati artikel usang yang terbit lebih dari 7 hari lalu untuk entri baru
         if not is_recent(art["date"], max_days=7):
             continue
 
@@ -321,7 +325,7 @@ def collect_all_articles():
         })
 
     print(f"[+] Total artikel segar (<= 7 hari) terkumpul: {len(unique_articles)}")
-    return unique_articles
+    return unique_articles, all_raw
 
 def get_candidate_models(api_key):
     """Mendeteksi daftar model Flash yang aktif untuk akun ini dalam urutan prioritas."""
@@ -464,11 +468,14 @@ def extract_spreadsheet_id(raw_input):
         return match.group(1)
     return text
 
-def sync_to_google_sheets(articles):
+def sync_to_google_sheets(articles, all_raw_feed_items=None):
     """Menyinkronkan artikel baru ke Google Sheets menggunakan Service Account."""
     if not HAS_GSPREAD:
         print("[!] Library 'gspread' atau 'google-auth' tidak terpasang. Mode Dry-Run aktif.")
         return False
+
+    if all_raw_feed_items is None:
+        all_raw_feed_items = []
 
     gcp_sa_key = os.getenv("GCP_SA_KEY")
     raw_sheet_input = os.getenv("SPREADSHEET_ID")
@@ -530,23 +537,12 @@ def sync_to_google_sheets(articles):
         first_row = ws.row_values(1)
         all_rows = ws.get_all_values()
 
-        # AUTO-MIGRATION: Jika sheet masih menggunakan format lama (10 kolom), migrasi otomatis ke skema 12 kolom
+        # AUTO-MIGRATION: Jika sheet masih menggunakan format lama (< 12 kolom)
         if first_row and len(first_row) < len(HEADER_COLUMNS):
             print(f"[*] Terdeteksi skema tabel lama ({len(first_row)} kolom). Melakukan migrasi cerdas ke skema 12 kolom...")
             migrated_rows = []
             today_str = datetime.now().strftime("%Y-%m-%d")
             for r in all_rows[1:]:
-                # Pemetaan dari skema lama:
-                # 0: Tanggal Input -> Tanggal Crawl & Tanggal Terbit awal
-                # 1: Sumber
-                # 2: Judul
-                # 3: URL
-                # 4: Kata Kunci
-                # 5: Skor Awal Bot
-                # 6: Catatan Awal Bot
-                # 7: Skor Final
-                # 8: Rekomendasi
-                # 9: Status
                 tgl_input = r[0].strip() if len(r) > 0 else today_str
                 sumber = r[1].strip() if len(r) > 1 else ""
                 judul = r[2].strip() if len(r) > 2 else ""
@@ -559,7 +555,7 @@ def sync_to_google_sheets(articles):
                 status = r[9].strip() if len(r) > 9 else "Antrean"
 
                 migrated_rows.append([
-                    tgl_input,       # A: Tanggal Terbit (sementara diisi tgl_input, nanti diupdate jika ada di feed)
+                    tgl_input,       # A: Tanggal Terbit
                     tgl_input,       # B: Tanggal Crawl
                     sumber,          # C: Sumber Media
                     judul,           # D: Judul Berita
@@ -591,34 +587,78 @@ def sync_to_google_sheets(articles):
                     existing_urls.add(r[5].strip())
         print(f"[*] Ditemukan {len(existing_urls)} URL yang sudah ada di Google Sheet.")
 
-        # Update tanggal terbit & cuplikan artikel dari feed aktif jika artikel sudah tercatat
-        url_to_pubdate = {art["url"]: art["tanggal_terbit"] for art in articles if art.get("tanggal_terbit")}
-        url_to_snippet = {art["url"]: art["cuplikan"] for art in articles if art.get("cuplikan")}
-        feed_updates = []
+        # ========================================================
+        # RESTORASI & UPDATE TANGGAL TERBIT ASLI PADA BARIS SHEET
+        # ========================================================
+        # Buat pemetaan URL & Judul ke Tanggal Terbit asli dari seluruh feed
+        feed_url_to_date = {}
+        feed_title_to_date = {}
+        feed_url_to_snippet = {}
+
+        for itm in (all_raw_feed_items + articles):
+            url_val = (itm.get("link") or itm.get("url") or "").strip()
+            title_val = clean_title(itm.get("title") or itm.get("judul", "")).lower()
+            date_val = (itm.get("date") or itm.get("tanggal_terbit") or "").strip()
+            snippet_val = (itm.get("snippet") or itm.get("cuplikan") or "").strip()
+
+            if url_val and date_val:
+                feed_url_to_date[url_val] = date_val
+            if title_val and date_val:
+                feed_title_to_date[title_val] = date_val
+            if url_val and snippet_val and len(snippet_val) > 30:
+                feed_url_to_snippet[url_val] = snippet_val
+
+        date_updates = []
+        snippet_updates = []
+
         for row_idx, r_data in enumerate(all_rows[1:], start=2):
-            r_url = r_data[5].strip() if len(r_data) > 5 else ""
             r_pubdate = r_data[0].strip() if len(r_data) > 0 else ""
+            r_crawldate = r_data[1].strip() if len(r_data) > 1 else ""
+            r_title = clean_title(r_data[3]).lower() if len(r_data) > 3 else ""
             r_snippet = r_data[4].strip() if len(r_data) > 4 else ""
+            r_url = r_data[5].strip() if len(r_data) > 5 else ""
 
-            if r_url in url_to_pubdate:
-                actual_date = url_to_pubdate[r_url]
-                if r_pubdate != actual_date and (not r_pubdate or len(r_pubdate) <= 10):
-                    feed_updates.append({"range": f"A{row_idx}", "values": [[actual_date]]})
-            if r_url in url_to_snippet and not r_snippet and url_to_snippet[r_url]:
-                feed_updates.append({"range": f"E{row_idx}", "values": [[url_to_snippet[r_url]]]})
+            # Jika tanggal terbit masih sama dengan tanggal crawl atau belum ada jamnya
+            needs_date_update = (not r_pubdate or r_pubdate == r_crawldate or len(r_pubdate) <= 10)
 
-        if feed_updates:
-            print(f"[*] Menyesuaikan tanggal terbit & cuplikan untuk {len(feed_updates)} entri dari feed aktif...")
-            try:
-                ws.batch_update(feed_updates, value_input_option="USER_ENTERED")
-            except Exception as e_feed:
-                for d in feed_updates:
-                    try:
-                        ws.update(values=d["values"], range_name=d["range"])
-                    except Exception:
-                        pass
+            if needs_date_update:
+                resolved_date = None
+                # 1. Cek exact match URL di feed
+                if r_url in feed_url_to_date:
+                    resolved_date = feed_url_to_date[r_url]
+                # 2. Cek match judul berita di feed
+                elif r_title in feed_title_to_date:
+                    resolved_date = feed_title_to_date[r_title]
+                # 3. Cek pola tanggal di URL asli
+                else:
+                    m = re.search(r'[-/](202[0-9])[-/]([0-1][0-9])[-/]([0-3][0-9])', r_url)
+                    if m:
+                        resolved_date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
 
-        # Identifikasi artikel yang benar-benar baru
+                if resolved_date and resolved_date != r_pubdate:
+                    date_updates.append({"range": f"A{row_idx}", "values": [[resolved_date]]})
+
+            if not r_snippet and r_url in feed_url_to_snippet:
+                snippet_updates.append({"range": f"E{row_idx}", "values": [[feed_url_to_snippet[r_url]]]})
+
+        all_meta_updates = date_updates + snippet_updates
+        if all_meta_updates:
+            print(f"[*] Menyesuaikan {len(date_updates)} Tanggal Terbit asli dan {len(snippet_updates)} Cuplikan di Google Sheet...")
+            for i in range(0, len(all_meta_updates), 100):
+                chunk_upd = all_meta_updates[i:i + 100]
+                try:
+                    ws.batch_update(chunk_upd, value_input_option="USER_ENTERED")
+                except Exception as e_feed:
+                    for d in chunk_upd:
+                        try:
+                            ws.update(values=d["values"], range_name=d["range"])
+                        except Exception:
+                            pass
+            print(f"[OK] Berhasil memperbarui {len(all_meta_updates)} sel metadata di Google Sheet!")
+
+        # ========================================================
+        # PENAMBAHAN ARTIKEL YANG BENAR-BENAR BARU
+        # ========================================================
         truly_new_articles = [art for art in articles if art["url"] not in existing_urls]
         print(f"[+] Ditemukan {len(truly_new_articles)} artikel yang benar-benar baru.")
 
@@ -650,7 +690,9 @@ def sync_to_google_sheets(articles):
         else:
             print("[INFO] Tidak ada artikel baru yang perlu ditambahkan (semua URL sudah tercatat).")
 
-        # FITUR OPTION A: Full Backfill Scoring & Cuplikan untuk seluruh baris yang belum memiliki Skor Awal
+        # ========================================================
+        # FITUR OPTION A: Full Backfill Scoring & Cuplikan untuk baris tanpa Skor
+        # ========================================================
         try:
             if gemini_api_key and gemini_api_key.strip():
                 latest_rows = ws.get_all_values()
@@ -746,10 +788,10 @@ def main():
     print("      SUTEKI NEWS RADAR - AUTOMATED URL HARVESTER")
     print("=" * 60)
 
-    articles = collect_all_articles()
+    articles, all_raw_feed_items = collect_all_articles()
 
     # Coba sinkronisasi ke Google Sheets
-    synced = sync_to_google_sheets(articles)
+    synced = sync_to_google_sheets(articles, all_raw_feed_items)
 
     # Jika belum tersambung ke Google Sheets (Dry-run), simpan pratinjau lokal
     if not synced:
