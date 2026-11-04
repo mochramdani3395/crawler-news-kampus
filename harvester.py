@@ -262,33 +262,43 @@ def collect_all_articles():
 
 def get_best_gemini_model(api_key):
     """Mendeteksi model yang aktif dan tersedia untuk API key ini secara dinamis."""
+    preferred_order = [
+        "gemini-flash-latest",
+        "gemini-3.8-flash",
+        "gemini-3.7-flash",
+        "gemini-3.5-flash",
+        "gemini-flash-lite-latest",
+        "gemini-3.1-flash-lite",
+        "gemini-2.0-flash"
+    ]
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key.strip()}"
         resp = requests.get(url, timeout=10)
         if resp.status_code == 200:
             models_data = resp.json().get("models", [])
             flash_models = []
-            other_models = []
             for m in models_data:
-                name = m.get("name", "")  # format: 'models/gemini-2.0-flash'
+                name = m.get("name", "")
                 methods = m.get("supportedGenerationMethods", [])
                 if "generateContent" in methods:
                     clean_name = name.replace("models/", "")
-                    if "flash" in clean_name.lower():
+                    # Hindari model non-teks atau model usang (seperti 2.5 yang sudah sunset)
+                    if "flash" in clean_name.lower() and not any(x in clean_name for x in ["tts", "image", "2.5"]):
                         flash_models.append(clean_name)
-                    else:
-                        other_models.append(clean_name)
+            
+            for pref in preferred_order:
+                if pref in flash_models:
+                    print(f"[*] Memilih model prioritas aktif: {pref}")
+                    return pref
+            
             if flash_models:
-                print(f"[*] Model Flash yang terdeteksi aktif untuk akun Anda: {flash_models}")
+                print(f"[*] Memilih model Flash alternatif: {flash_models[0]}")
                 return flash_models[0]
-            elif other_models:
-                print(f"[*] Model alternatif yang terdeteksi: {other_models}")
-                return other_models[0]
         else:
             print(f"[WARN] Query daftar model status {resp.status_code}: {resp.text[:100]}")
     except Exception as e:
         print(f"[WARN] Gagal mendeteksi daftar model: {e}")
-    return "gemini-2.0-flash"
+    return "gemini-flash-latest"
 
 def score_articles_with_gemini(articles_to_score, api_key):
     """Memberikan scoring awal (Tier 1 Triage) menggunakan Google Gemini API gratis."""
@@ -446,36 +456,68 @@ def sync_to_google_sheets(articles):
         existing_urls = set(ws.col_values(4)[1:])
         print(f"[*] Ditemukan {len(existing_urls)} URL yang sudah ada di Google Sheet.")
 
-        # Filter hanya artikel yang benar-benar baru
-        truly_new_articles = [art for art in articles if art["url"] not in existing_urls]
-        print(f"[+] Ditemukan {len(truly_new_articles)} artikel yang benar-benar baru.")
+        if truly_new_articles:
+            # Jalankan AI Scoring Awal (Gemini) HANYA untuk artikel yang baru!
+            scored_articles = score_articles_with_gemini(truly_new_articles, gemini_api_key)
 
-        if not truly_new_articles:
+            new_rows = []
+            for art in scored_articles:
+                new_rows.append([
+                    art["tanggal_input"],
+                    art["sumber"],
+                    art["judul"],
+                    art["url"],
+                    art["kata_kunci"],
+                    art.get("skor_awal", ""),
+                    art.get("alasan_awal", ""),
+                    "",  # Skor Final Editorial (dikosongkan untuk ChatGPT)
+                    "",  # Rekomendasi Angle Suteki (dikosongkan untuk ChatGPT)
+                    "Antrean"  # Status Tindak Lanjut awal
+                ])
+                existing_urls.add(art["url"])
+
+            print(f"[+] Menyimpan {len(new_rows)} artikel baru lengkap dengan Scoring Awal ke Google Sheets...")
+            ws.append_rows(new_rows, value_input_option="USER_ENTERED")
+            print("[OK] Sinkronisasi ke Google Sheets berhasil!")
+        else:
             print("[INFO] Tidak ada artikel baru yang perlu ditambahkan (semua URL sudah tercatat).")
-            return True
 
-        # Jalankan AI Scoring Awal (Gemini) HANYA untuk artikel yang baru!
-        scored_articles = score_articles_with_gemini(truly_new_articles, gemini_api_key)
-
-        new_rows = []
-        for art in scored_articles:
-            new_rows.append([
-                art["tanggal_input"],
-                art["sumber"],
-                art["judul"],
-                art["url"],
-                art["kata_kunci"],
-                art.get("skor_awal", ""),
-                art.get("alasan_awal", ""),
-                "",  # Skor Final Editorial (dikosongkan untuk ChatGPT)
-                "",  # Rekomendasi Angle Suteki (dikosongkan untuk ChatGPT)
-                "Antrean"  # Status Tindak Lanjut awal
-            ])
-            existing_urls.add(art["url"])
-
-        print(f"[+] Menyimpan {len(new_rows)} artikel baru lengkap dengan Scoring Awal ke Google Sheets...")
-        ws.append_rows(new_rows, value_input_option="USER_ENTERED")
-        print("[OK] Sinkronisasi ke Google Sheets berhasil!")
+        # FITUR SELF-HEALING: Otomatis melengkapi baris di sheet yang belum punya Skor Awal
+        try:
+            if gemini_api_key and gemini_api_key.strip():
+                col_f_values = ws.col_values(6)
+                unscored_indices = [
+                    idx for idx, val in enumerate(col_f_values[1:], start=2)
+                    if not val or not val.strip()
+                ]
+                if unscored_indices:
+                    target_row_nums = unscored_indices[-15:]
+                    print(f"[*] Terdeteksi {len(unscored_indices)} baris tanpa skor. Melengkapi {len(target_row_nums)} baris terakhir...")
+                    all_rows = ws.get_all_values()
+                    backfill_items = []
+                    for r_num in target_row_nums:
+                        r_data = all_rows[r_num - 1]
+                        backfill_items.append({
+                            "row_num": r_num,
+                            "sumber": r_data[1] if len(r_data) > 1 else "",
+                            "judul": r_data[2] if len(r_data) > 2 else "",
+                            "url": r_data[3] if len(r_data) > 3 else "",
+                            "kata_kunci": r_data[4] if len(r_data) > 4 else ""
+                        })
+                    scored_backfill = score_articles_with_gemini(backfill_items, gemini_api_key)
+                    batch_updates = []
+                    for itm in scored_backfill:
+                        if itm.get("skor_awal"):
+                            rn = itm["row_num"]
+                            batch_updates.append({
+                                "range": f"F{rn}:G{rn}",
+                                "values": [[itm.get("skor_awal", ""), itm.get("alasan_awal", "")]]
+                            })
+                    if batch_updates:
+                        ws.batch_update(batch_updates)
+                        print(f"[OK] Berhasil melengkapi skor awal untuk {len(batch_updates)} baris di Google Sheet!")
+        except Exception as e:
+            print(f"[WARN] Melewati auto-backfill skor: {e}")
 
         return True
     except gspread.exceptions.SpreadsheetNotFound:
