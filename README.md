@@ -14,18 +14,19 @@ Automasi pengumpul URL berita dan isu terkini seputar ekosistem **Perguruan Ting
   - Menarik Google News RSS (Kata kunci khusus Suteki)
   - Menarik Direct RSS Media Edukasi Nasional
   - Filter Recency (Maksimal 7 hari terakhir)
-  - Ekstraksi Tanggal Terbit Aktual (WIB)
+  - Ekstraksi Tanggal Terbit Aktual (WIB) & Tanggal Crawl
+  - Ekstraksi Cuplikan Berita (1 paragraf ringkasan)
   - Anti-duplikasi URL otomatis berbasis Google Sheet
                        │
                        ▼
         [ Tier 1: Gemini Free Triage ]
   - Auto-fallback multi-model Flash (3.5-flash / 3.8-flash / 3.1-flash-lite)
-  - Triage cepat skala 1-10 & catatan alasan awal
+  - Triage cepat skala 1-10, catatan alasan awal, & intisari cuplikan
   - Full Backfill otomatis untuk baris yang belum dinilai
                        │
                        ▼
         [ Google Sheets ('News_Radar') ]
-  - Tersinkronisasi rapi lengkap dengan Tanggal Terbit
+  - Tersinkronisasi rapi dalam skema 12 kolom
   - Kolom editorial disiapkan untuk review mendalam
                        │
                        ▼
@@ -56,17 +57,19 @@ Selain berjalan otomatis setiap hari pukul **06:00 WIB**, Anda bisa memicu penar
 
 ---
 
-## 📝 Format Kolom di Google Sheets
+## 📝 Format Kolom di Google Sheets (12 Kolom)
 
 | Kolom | Header | Keterangan |
 | :---: | :--- | :--- |
-| **A** | `Tanggal Terbit` | Waktu posting aktual artikel berita (YYYY-MM-DD HH:MM WIB) |
-| **B** | `Sumber Media` | Portal berita (Kompas, Detik, Antara, Sindonews, dll) |
-| **C** | `Judul Berita` | Judul artikel berita |
-| **D** | `URL Berita` | Link artikel asli (Kunci anti-duplikasi & riset ChatGPT) |
-| **E** | `Kata Kunci Terdeteksi` | Kategori (SIAKAD, PDDIKTI, Akreditasi, Regulasi, PMB) |
-| **F** | `Skor Awal Bot (1-10)` | **Tier 1**: Scoring triage otomatis oleh Gemini |
-| **G** | `Catatan Awal Bot` | **Tier 1**: Alasan singkat penilaian relevansi |
-| **H** | `Skor Final Editorial` | **Tier 2**: Review mendalam oleh ChatGPT / Redaksi |
-| **I** | `Rekomendasi Angle Suteki`| **Tier 2**: Usulan sudut pandang konten blog Suteki |
-| **J** | `Status Tindak Lanjut` | Antrean / Siap Tulis / Diterbitkan / Abaikan |
+| **A** | `Tanggal Terbit` | Waktu posting aktual artikel rilis (YYYY-MM-DD HH:MM WIB) |
+| **B** | `Tanggal Crawl` | Tanggal saat bot menarik data artikel ini (YYYY-MM-DD) |
+| **C** | `Sumber Media` | Portal berita (Kompas, Detik, Antara, Sindonews, dll) |
+| **D** | `Judul Berita` | Judul artikel berita yang sudah dibersihkan |
+| **E** | `Cuplikan Berita` | 1 paragraf pendek / ringkasan intisari isi berita |
+| **F** | `URL Berita` | Link artikel asli (Kunci anti-duplikasi & riset ChatGPT) |
+| **G** | `Kata Kunci Terdeteksi` | Kategori (SIAKAD, PDDIKTI, Akreditasi, Regulasi, PMB) |
+| **H** | `Skor Awal Bot (1-10)` | **Tier 1**: Scoring triage otomatis oleh Gemini |
+| **I** | `Catatan Awal Bot` | **Tier 1**: Alasan singkat penilaian relevansi Suteki |
+| **J** | `Skor Final Editorial` | **Tier 2**: Review mendalam oleh ChatGPT / Redaksi |
+| **K** | `Rekomendasi Angle Suteki`| **Tier 2**: Usulan sudut pandang konten blog Suteki |
+| **L** | `Status Tindak Lanjut` | Antrean / Siap Tulis / Diterbitkan / Abaikan |

@@ -61,10 +61,13 @@ KEYWORD_RULES = [
     ("PMB & Keuangan Kampus", [r"\bsnpmb\b", r"\bpmb\b", r"\bukt\b", r"biaya kuliah", r"mahasiswa baru"])
 ]
 
+# Skema Standar 12 Kolom Suteki News Radar
 HEADER_COLUMNS = [
     "Tanggal Terbit",
+    "Tanggal Crawl",
     "Sumber Media",
     "Judul Berita",
+    "Cuplikan Berita",
     "URL Berita",
     "Kata Kunci Terdeteksi",
     "Skor Awal Bot (1-10)",
@@ -195,13 +198,22 @@ def fetch_rss_feedparser(url, default_source="Google News"):
 
         pub_val = entry.get("published_parsed") or entry.get("published") or entry.get("updated_parsed") or entry.get("updated")
         pub_date = parse_date(pub_val)
+
+        # Ambil cuplikan atau deskripsi awal dari feed jika tersedia
+        raw_desc = entry.get("summary", "") or entry.get("description", "")
+        clean_desc = re.sub(r'<[^>]+>', ' ', raw_desc).strip()
+        clean_desc = re.sub(r'\s+', ' ', clean_desc)
+        snippet = ""
+        if clean_desc and len(clean_desc) > (len(title) + 20) and not clean_desc.endswith("&nbsp;"):
+            snippet = clean_desc[:350]
         
         articles.append({
             "title": clean_title(title),
             "link": link,
             "source": source_name,
             "date": pub_date,
-            "raw_text": f"{title} {entry.get('summary', '')}"
+            "snippet": snippet,
+            "raw_text": f"{title} {clean_desc}"
         })
     return articles
 
@@ -236,13 +248,19 @@ def fetch_rss_builtin(url, default_source="Google News"):
             pub_date = parse_date(pub_val)
             desc_el = item.find("description")
             desc_text = desc_el.text if desc_el is not None and desc_el.text else ""
+            clean_desc = re.sub(r'<[^>]+>', ' ', desc_text).strip()
+            clean_desc = re.sub(r'\s+', ' ', clean_desc)
+            snippet = ""
+            if clean_desc and len(clean_desc) > (len(title) + 20):
+                snippet = clean_desc[:350]
 
             articles.append({
                 "title": clean_title(title),
                 "link": link,
                 "source": source_name,
                 "date": pub_date,
-                "raw_text": f"{title} {desc_text}"
+                "snippet": snippet,
+                "raw_text": f"{title} {clean_desc}"
             })
     except Exception as e:
         print(f"[WARN] Gagal mengambil XML {url}: {e}")
@@ -278,6 +296,7 @@ def collect_all_articles():
     # Filter lokal, batas tanggal (maksimal 7 hari), & duplikasi URL di memori
     seen_urls = set()
     unique_articles = []
+    today_str = datetime.now().strftime("%Y-%m-%d")
 
     for art in all_raw:
         url = art["link"]
@@ -293,8 +312,10 @@ def collect_all_articles():
 
         unique_articles.append({
             "tanggal_terbit": art["date"],
+            "tanggal_crawl": today_str,
             "sumber": art["source"],
             "judul": art["title"],
+            "cuplikan": art.get("snippet", ""),
             "url": art["link"],
             "kata_kunci": keywords
         })
@@ -343,7 +364,7 @@ def get_candidate_models(api_key):
     return fallback
 
 def score_articles_with_gemini(articles_to_score, api_key):
-    """Memberikan scoring awal (Tier 1 Triage) menggunakan Google Gemini API gratis dengan multi-model fallback."""
+    """Memberikan scoring awal (Tier 1 Triage) & ringkasan 1 paragraf menggunakan Google Gemini API."""
     if not api_key or not api_key.strip():
         print("[INFO] GEMINI_API_KEY tidak ditemukan. Melewati proses AI Scoring Awal.")
         return articles_to_score
@@ -364,20 +385,28 @@ def score_articles_with_gemini(articles_to_score, api_key):
         chunk = articles_to_score[i:i + batch_size]
         prompt_items = []
         for idx, art in enumerate(chunk):
-            prompt_items.append(f"{idx+1}. Judul: {art['judul']} | Sumber: {art['sumber']} | Tag: {art['kata_kunci']}")
+            hint = f" | Cuplikan: {art.get('cuplikan', '')[:100]}" if art.get("cuplikan") else ""
+            prompt_items.append(f"{idx+1}. Judul: {art['judul']} | Sumber: {art['sumber']} | Tag: {art['kata_kunci']}{hint}")
 
         prompt_text = (
             "Anda adalah Asisten Analis Intelijen Berita untuk Suteki Technology, perusahaan EdTech penyedia "
             "SIAKAD Cloud, Pelaporan Neo Feeder PDDIKTI, Akreditasi Kampus (BAN-PT/LAM), SPMI, dan PMB Online di Indonesia.\n\n"
-            "Tugas Anda: Berikan 'Scoring Awal' (skala 1-10) untuk memfilter artikel berikut berdasarkan relevansinya terhadap bisnis Suteki Technology:\n"
-            "- Skor 8-10 (Tinggi/Prioritas): Isu SIAKAD, server kampus down saat KRS/PMB, regulasi baru PDDIKTI/Neo Feeder, akreditasi kampus, atau digitalisasi tata kelola perguruan tinggi.\n"
-            "- Skor 5-7 (Menengah): Isu pendidikan tinggi umum, UKT/biaya kuliah, SNPMB/PMB reguler, AI dalam pembelajaran, atau kegiatan universitas secara umum.\n"
-            "- Skor 1-4 (Rendah/Abaikan): Berita seremonial wisuda, kriminal/tawuran kampus, olahraga mahasiswa, atau berita sekolah dasar/menengah.\n\n"
+            "Tugas Anda untuk setiap artikel:\n"
+            "1. 'skor' (skala 1-10): Relevansi isu terhadap bisnis Suteki Technology:\n"
+            "   - Skor 8-10 (Tinggi/Prioritas): Isu SIAKAD, server kampus down saat KRS/PMB, regulasi baru PDDIKTI/Neo Feeder, akreditasi kampus, atau digitalisasi tata kelola perguruan tinggi.\n"
+            "   - Skor 5-7 (Menengah): Isu pendidikan tinggi umum, UKT/biaya kuliah, SNPMB/PMB reguler, AI dalam pembelajaran, atau kegiatan universitas secara umum.\n"
+            "   - Skor 1-4 (Rendah/Abaikan): Berita seremonial wisuda, kriminal/tawuran kampus, olahraga mahasiswa, atau berita sekolah dasar/menengah.\n"
+            "2. 'alasan': 1 kalimat singkat alasan penilaian relevansi.\n"
+            "3. 'ringkasan': 1 paragraf pendek (2-3 kalimat) yang menjelaskan intisari isu atau konteks berita agar tim redaksi langsung memahami isi pokoknya tanpa perlu membuka web aslinya.\n\n"
             "Daftar Artikel:\n" + "\n".join(prompt_items) + "\n\n"
             "Kembalikan HANYA format JSON valid berupa array of objects (tanpa markdown tambahan) dengan format persis:\n"
             "[\n"
-            "  {\"id\": 1, \"skor\": 9, \"alasan\": \"Membahas implementasi SIAKAD baru dan integrasi data\"},\n"
-            "  {\"id\": 2, \"skor\": 3, \"alasan\": \"Hanya kegiatan seremonial wisuda\"}\n"
+            "  {\n"
+            "    \"id\": 1,\n"
+            "    \"skor\": 9,\n"
+            "    \"alasan\": \"Membahas implementasi SIAKAD baru dan integrasi data\",\n"
+            "    \"ringkasan\": \"Universitas Malikussaleh tengah mempersiapkan aplikasi SIAKAD versi baru guna meningkatkan efisiensi integrasi data akademik dan mutu layanan mahasiswa.\"\n"
+            "  }\n"
             "]"
         )
 
@@ -394,7 +423,7 @@ def score_articles_with_gemini(articles_to_score, api_key):
         for model_name in candidate_models:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={clean_key}"
             try:
-                resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
+                resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=35)
                 if resp.status_code == 200:
                     data = resp.json()
                     raw_reply = data["candidates"][0]["content"]["parts"][0]["text"]
@@ -405,7 +434,10 @@ def score_articles_with_gemini(articles_to_score, api_key):
                             target_art = chunk[item_id - 1]
                             target_art["skor_awal"] = item.get("skor", "")
                             target_art["alasan_awal"] = item.get("alasan", "")
-                    print(f"[+] Berhasil menilai {len(chunk)} artikel menggunakan {model_name}!")
+                            # Jika cuplikan dari RSS masih kosong, gunakan ringkasan dari Gemini
+                            if not target_art.get("cuplikan") or len(target_art["cuplikan"].strip()) < 30:
+                                target_art["cuplikan"] = item.get("ringkasan", "")
+                    print(f"[+] Berhasil menilai & merangkum {len(chunk)} artikel menggunakan {model_name}!")
                     batch_success = True
                     break
                 elif resp.status_code in [503, 429]:
@@ -494,41 +526,93 @@ def sync_to_google_sheets(articles):
             ws = sh.add_worksheet(title=worksheet_title, rows=500, cols=15)
             ws.append_row(HEADER_COLUMNS)
 
-        # Update header baris 1 agar selalu sesuai dengan format Tanggal Terbit & Two-Tier Scoring
+        # Ambil baris pertama dan seluruh baris di sheet
         first_row = ws.row_values(1)
-        if not first_row or len(first_row) < len(HEADER_COLUMNS) or first_row[0] != HEADER_COLUMNS[0] or first_row[5] != HEADER_COLUMNS[5]:
-            print("[*] Menyesuaikan baris header tabel dengan format Tanggal Terbit & Two-Tier Scoring...")
-            ws.update(values=[HEADER_COLUMNS], range_name="A1:J1")
-
-        # Ambil seluruh baris yang ada di Google Sheet saat ini
         all_rows = ws.get_all_values()
+
+        # AUTO-MIGRATION: Jika sheet masih menggunakan format lama (10 kolom), migrasi otomatis ke skema 12 kolom
+        if first_row and len(first_row) < len(HEADER_COLUMNS):
+            print(f"[*] Terdeteksi skema tabel lama ({len(first_row)} kolom). Melakukan migrasi cerdas ke skema 12 kolom...")
+            migrated_rows = []
+            today_str = datetime.now().strftime("%Y-%m-%d")
+            for r in all_rows[1:]:
+                # Pemetaan dari skema lama:
+                # 0: Tanggal Input -> Tanggal Crawl & Tanggal Terbit awal
+                # 1: Sumber
+                # 2: Judul
+                # 3: URL
+                # 4: Kata Kunci
+                # 5: Skor Awal Bot
+                # 6: Catatan Awal Bot
+                # 7: Skor Final
+                # 8: Rekomendasi
+                # 9: Status
+                tgl_input = r[0].strip() if len(r) > 0 else today_str
+                sumber = r[1].strip() if len(r) > 1 else ""
+                judul = r[2].strip() if len(r) > 2 else ""
+                url = r[3].strip() if len(r) > 3 else ""
+                kata_kunci = r[4].strip() if len(r) > 4 else ""
+                skor_awal = r[5].strip() if len(r) > 5 else ""
+                catatan_awal = r[6].strip() if len(r) > 6 else ""
+                skor_final = r[7].strip() if len(r) > 7 else ""
+                rekomendasi = r[8].strip() if len(r) > 8 else ""
+                status = r[9].strip() if len(r) > 9 else "Antrean"
+
+                migrated_rows.append([
+                    tgl_input,       # A: Tanggal Terbit (sementara diisi tgl_input, nanti diupdate jika ada di feed)
+                    tgl_input,       # B: Tanggal Crawl
+                    sumber,          # C: Sumber Media
+                    judul,           # D: Judul Berita
+                    "",              # E: Cuplikan Berita
+                    url,             # F: URL Berita
+                    kata_kunci,      # G: Kata Kunci Terdeteksi
+                    skor_awal,       # H: Skor Awal Bot
+                    catatan_awal,    # I: Catatan Awal Bot
+                    skor_final,      # J: Skor Final Editorial
+                    rekomendasi,     # K: Rekomendasi Angle Suteki
+                    status           # L: Status Tindak Lanjut
+                ])
+
+            print(f"[*] Menulis ulang {len(migrated_rows)} baris data ke struktur 12 kolom...")
+            ws.clear()
+            ws.update(values=[HEADER_COLUMNS] + migrated_rows, range_name="A1")
+            print("[OK] Migrasi skema 12 kolom sukses!")
+            all_rows = ws.get_all_values()
+        elif not first_row or len(first_row) < len(HEADER_COLUMNS) or first_row[0] != HEADER_COLUMNS[0] or first_row[4] != HEADER_COLUMNS[4]:
+            print("[*] Menyesuaikan baris header tabel dengan format 12 kolom...")
+            ws.update(values=[HEADER_COLUMNS], range_name="A1:L1")
+            all_rows = ws.get_all_values()
+
+        # Daftar URL yang sudah ada di Google Sheet (Kolom F / index 5)
         existing_urls = set()
         if len(all_rows) > 1:
             for r in all_rows[1:]:
-                if len(r) > 3 and r[3].strip():
-                    existing_urls.add(r[3].strip())
+                if len(r) > 5 and r[5].strip():
+                    existing_urls.add(r[5].strip())
         print(f"[*] Ditemukan {len(existing_urls)} URL yang sudah ada di Google Sheet.")
 
-        # Update tanggal posting untuk artikel yang sudah ada di sheet jika cocok dengan feed aktif
+        # Update tanggal terbit & cuplikan artikel dari feed aktif jika artikel sudah tercatat
         url_to_pubdate = {art["url"]: art["tanggal_terbit"] for art in articles if art.get("tanggal_terbit")}
-        date_updates = []
+        url_to_snippet = {art["url"]: art["cuplikan"] for art in articles if art.get("cuplikan")}
+        feed_updates = []
         for row_idx, r_data in enumerate(all_rows[1:], start=2):
-            r_url = r_data[3].strip() if len(r_data) > 3 else ""
-            r_date = r_data[0].strip() if len(r_data) > 0 else ""
+            r_url = r_data[5].strip() if len(r_data) > 5 else ""
+            r_pubdate = r_data[0].strip() if len(r_data) > 0 else ""
+            r_snippet = r_data[4].strip() if len(r_data) > 4 else ""
+
             if r_url in url_to_pubdate:
                 actual_date = url_to_pubdate[r_url]
-                if r_date != actual_date and (not r_date or len(r_date) <= 10):
-                    date_updates.append({
-                        "range": f"A{row_idx}",
-                        "values": [[actual_date]]
-                    })
+                if r_pubdate != actual_date and (not r_pubdate or len(r_pubdate) <= 10):
+                    feed_updates.append({"range": f"A{row_idx}", "values": [[actual_date]]})
+            if r_url in url_to_snippet and not r_snippet and url_to_snippet[r_url]:
+                feed_updates.append({"range": f"E{row_idx}", "values": [[url_to_snippet[r_url]]]})
 
-        if date_updates:
-            print(f"[*] Menyesuaikan tanggal terbit aktual untuk {len(date_updates)} artikel di Google Sheet...")
+        if feed_updates:
+            print(f"[*] Menyesuaikan tanggal terbit & cuplikan untuk {len(feed_updates)} entri dari feed aktif...")
             try:
-                ws.batch_update(date_updates, value_input_option="USER_ENTERED")
-            except Exception as e_date:
-                for d in date_updates:
+                ws.batch_update(feed_updates, value_input_option="USER_ENTERED")
+            except Exception as e_feed:
+                for d in feed_updates:
                     try:
                         ws.update(values=d["values"], range_name=d["range"])
                     except Exception:
@@ -546,8 +630,10 @@ def sync_to_google_sheets(articles):
             for art in scored_articles:
                 new_rows.append([
                     art["tanggal_terbit"],
+                    art["tanggal_crawl"],
                     art["sumber"],
                     art["judul"],
+                    art.get("cuplikan", ""),
                     art["url"],
                     art["kata_kunci"],
                     art.get("skor_awal", ""),
@@ -558,35 +644,35 @@ def sync_to_google_sheets(articles):
                 ])
                 existing_urls.add(art["url"])
 
-            print(f"[+] Menyimpan {len(new_rows)} artikel baru lengkap dengan Scoring Awal ke Google Sheets...")
+            print(f"[+] Menyimpan {len(new_rows)} artikel baru lengkap dengan Ringkasan & Scoring Awal...")
             ws.append_rows(new_rows, value_input_option="USER_ENTERED")
-            print("[OK] Sinkronisasi ke Google Sheets berhasil!")
+            print("[OK] Sinkronisasi artikel baru ke Google Sheets berhasil!")
         else:
             print("[INFO] Tidak ada artikel baru yang perlu ditambahkan (semua URL sudah tercatat).")
 
-        # FITUR OPTION A: Full Backfill Scoring untuk seluruh baris lama yang belum memiliki Skor Awal
+        # FITUR OPTION A: Full Backfill Scoring & Cuplikan untuk seluruh baris yang belum memiliki Skor Awal
         try:
             if gemini_api_key and gemini_api_key.strip():
-                # Baca ulang state terbaru dari Google Sheets setelah insert artikel baru
                 latest_rows = ws.get_all_values()
                 
                 unscored_items = []
                 for row_idx, r_data in enumerate(latest_rows[1:], start=2):
-                    score_val = r_data[5] if len(r_data) > 5 else ""
-                    if not score_val or not score_val.strip():
+                    score_val = r_data[7].strip() if len(r_data) > 7 else ""
+                    if not score_val:
                         unscored_items.append({
                             "row_num": row_idx,
-                            "sumber": r_data[1] if len(r_data) > 1 else "",
-                            "judul": r_data[2] if len(r_data) > 2 else "",
-                            "url": r_data[3] if len(r_data) > 3 else "",
-                            "kata_kunci": r_data[4] if len(r_data) > 4 else ""
+                            "sumber": r_data[2].strip() if len(r_data) > 2 else "",
+                            "judul": r_data[3].strip() if len(r_data) > 3 else "",
+                            "cuplikan": r_data[4].strip() if len(r_data) > 4 else "",
+                            "url": r_data[5].strip() if len(r_data) > 5 else "",
+                            "kata_kunci": r_data[6].strip() if len(r_data) > 6 else ""
                         })
 
                 if unscored_items:
                     total_unscored = len(unscored_items)
                     chunk_size = 25
                     total_batches = (total_unscored + chunk_size - 1) // chunk_size
-                    print(f"[*] Menjalankan Full Backfill (Option A) untuk {total_unscored} artikel tanpa skor...")
+                    print(f"[*] Menjalankan Full Backfill (Option A) untuk {total_unscored} artikel...")
                     print(f"[*] Dibagi menjadi {total_batches} batch (@ {chunk_size} artikel/batch) dengan jeda aman...")
                     
                     import time
@@ -594,16 +680,21 @@ def sync_to_google_sheets(articles):
                     for b_idx in range(0, total_unscored, chunk_size):
                         chunk = unscored_items[b_idx:b_idx + chunk_size]
                         batch_num = (b_idx // chunk_size) + 1
-                        print(f"[*] [Batch {batch_num}/{total_batches}] Menilai {len(chunk)} artikel...")
+                        print(f"[*] [Batch {batch_num}/{total_batches}] Menilai & merangkum {len(chunk)} artikel...")
                         
                         scored_chunk = score_articles_with_gemini(chunk, gemini_api_key)
                         
                         batch_updates = []
                         for itm in scored_chunk:
-                            if itm.get("skor_awal"):
-                                rn = itm["row_num"]
+                            rn = itm["row_num"]
+                            if itm.get("cuplikan"):
                                 batch_updates.append({
-                                    "range": f"F{rn}:G{rn}",
+                                    "range": f"E{rn}",
+                                    "values": [[str(itm.get("cuplikan", ""))]]
+                                })
+                            if itm.get("skor_awal"):
+                                batch_updates.append({
+                                    "range": f"H{rn}:I{rn}",
                                     "values": [[str(itm.get("skor_awal", "")), str(itm.get("alasan_awal", ""))]]
                                 })
                         
@@ -617,8 +708,8 @@ def sync_to_google_sheets(articles):
                                         ws.update(values=upd["values"], range_name=upd["range"])
                                     except Exception:
                                         pass
-                            total_updated += len(batch_updates)
-                            print(f"[OK] [Batch {batch_num}/{total_batches}] {len(batch_updates)} baris berhasil diperbarui di Google Sheet.")
+                            total_updated += len([x for x in batch_updates if x["range"].startswith("H")])
+                            print(f"[OK] [Batch {batch_num}/{total_batches}] Berhasil menyimpan skor & cuplikan ke Google Sheet.")
                             
                         # Beri jeda 2 detik antar batch agar tetap aman dalam batas 15 RPM
                         if b_idx + chunk_size < total_unscored:
@@ -669,7 +760,9 @@ def main():
         print(f"[i] Contoh 3 artikel pertama:")
         for idx, item in enumerate(articles[:3], 1):
             print(f"    {idx}. [{item['sumber']}] {item['judul']}")
-            print(f"       Tanggal Terbit: {item['tanggal_terbit']}")
+            print(f"       Tanggal Terbit: {item['tanggal_terbit']} | Crawl: {item['tanggal_crawl']}")
+            if item.get("cuplikan"):
+                print(f"       Cuplikan: {item['cuplikan'][:120]}...")
             print(f"       Tag: {item['kata_kunci']}")
             print(f"       URL: {item['url']}")
 
