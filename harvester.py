@@ -456,6 +456,9 @@ def sync_to_google_sheets(articles):
         existing_urls = set(ws.col_values(4)[1:])
         print(f"[*] Ditemukan {len(existing_urls)} URL yang sudah ada di Google Sheet.")
 
+        truly_new_articles = [art for art in articles if art["url"] not in existing_urls]
+        print(f"[+] Ditemukan {len(truly_new_articles)} artikel yang benar-benar baru.")
+
         if truly_new_articles:
             # Jalankan AI Scoring Awal (Gemini) HANYA untuk artikel yang baru!
             scored_articles = score_articles_with_gemini(truly_new_articles, gemini_api_key)
