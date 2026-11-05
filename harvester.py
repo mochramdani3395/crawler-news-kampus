@@ -46,12 +46,13 @@ GOOGLE_NEWS_QUERIES = [
     '"server kampus down" OR "snpmb" OR "pmb online" OR "biaya kuliah perguruan tinggi"'
 ]
 
-# 2. RSS Feed langsung dari portal berita nasional & RSS Resmi LLDIKTI
+# 2. RSS Feed langsung dari portal berita nasional & RSS Resmi Lembaga
 DIRECT_RSS_FEEDS = [
     {"source": "Antara Humaniora", "url": "https://www.antaranews.com/rss/humaniora.xml"},
     {"source": "Sindonews Edukasi", "url": "https://edukasi.sindonews.com/rss"},
     {"source": "LLDIKTI 3 (RSS)", "url": "https://lldikti3.kemdiktisaintek.go.id/feed/"},
-    {"source": "LLDIKTI 4 (RSS)", "url": "https://lldikti4.kemdiktisaintek.go.id/feed/"}
+    {"source": "LLDIKTI 4 (RSS)", "url": "https://lldikti4.kemdiktisaintek.go.id/feed/"},
+    {"source": "LAMEMBA", "url": "https://lamemba.or.id/feed/"}
 ]
 
 # 3. Web Portal Resmi LLDIKTI (Scraper HTML Presisi)
@@ -62,11 +63,22 @@ LLDIKTI_WEB_PAGES = [
     {"source": "LLDIKTI 4 - Info", "url": "https://lldikti4.kemdiktisaintek.go.id/info-lldikti-wilayah-iv/"}
 ]
 
+# 4. Daftar Tab Khusus Per-Sumber Media (Dibuat otomatis hanya jika ada artikelnya)
+DEDICATED_TABS = [
+    ("Kemdiktisaintek", "(?i)Kemdiktisaintek"),
+    ("LAMEMBA", "(?i)LAMEMBA"),
+    ("LLDIKTI 3", "(?i)LLDIKTI 3"),
+    ("LLDIKTI 4", "(?i)LLDIKTI 4"),
+    ("Antara Humaniora", "(?i)Antara"),
+    ("Sindonews Edukasi", "(?i)Sindonews"),
+    ("Google News", "(?i)Google News|Kompas|Detik|Tempo|SEVIMA|Republika|Media Indonesia")
+]
+
 # Pemetaan Tag Kata Kunci untuk Kolom 'Kata Kunci Terdeteksi'
 KEYWORD_RULES = [
     ("SIAKAD & Sistem Kampus", [r"\bsiakad\b", r"\bkrs\b", r"sistem informasi akademik", r"server.*down", r"portal mahasiswa"]),
     ("PDDIKTI & Neo Feeder", [r"\bpddikti\b", r"neo feeder", r"\bfeeder\b", r"sinkronisasi data", r"penonaktifan prodi"]),
-    ("Akreditasi & SPMI", [r"akreditasi", r"\bban-pt\b", r"lam-infokom", r"lamdik", r"lamsama", r"borang", r"\bspmi\b", r"\bipepa\b", r"\biaps\b"]),
+    ("Akreditasi & SPMI", [r"akreditasi", r"\bban-pt\b", r"lam-infokom", r"lamdik", r"lamsama", r"lamemba", r"borang", r"\bspmi\b", r"\bipepa\b", r"\biaps\b"]),
     ("Regulasi & Kementerian", [r"kemdiktisaintek", r"kemendikbud", r"\blldikti\b", r"perguruan tinggi swasta", r"\bpts\b", r"\bptn\b", r"\bbkd\b", r"\bsibkd\b", r"\bsinta\b", r"tracer study", r"ijazah"]),
     ("PMB & Keuangan Kampus", [r"\bsnpmb\b", r"\bpmb\b", r"\bukt\b", r"biaya kuliah", r"mahasiswa baru"])
 ]
@@ -306,6 +318,105 @@ def fetch_rss_builtin(url, default_source="Google News"):
         print(f"[WARN] Gagal mengambil XML {url}: {e}")
     return articles
 
+def scrape_kemdiktisaintek_news(default_source="Kemdiktisaintek"):
+    """Scraper web untuk portal berita resmi Kementerian Pendidikan Tinggi, Sains, dan Teknologi."""
+    url = "https://kemdiktisaintek.go.id/news"
+    articles = []
+    html = ""
+    try:
+        if HAS_REQUESTS:
+            resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=15)
+            if resp.status_code == 200:
+                html = resp.text
+        else:
+            req = urllib.request.Request(url, headers=DEFAULT_HEADERS)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                html = resp.read().decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"[WARN] Gagal mengakses web Kemdiktisaintek: {e}")
+        return articles
+
+    if not html:
+        return articles
+
+    cards = re.findall(r'<a[^>]+href=["\'](/news/article/[^"\']+|https://kemdiktisaintek\.go\.id/news/article/[^"\']+)["\'][^>]*>(.*?)</a>', html, re.DOTALL | re.I)
+    seen = set()
+    today_str = datetime.now(timezone(timedelta(hours=7))).strftime("%Y-%m-%d")
+
+    for link, inner in cards:
+        full_link = link if link.startswith("http") else f"https://kemdiktisaintek.go.id{link}"
+        if full_link in seen:
+            continue
+        seen.add(full_link)
+
+        m_t = re.search(r'<(?:h1|h2|h3|h4|h5|p)[^>]*>(.*?)</(?:h1|h2|h3|h4|h5|p)>', inner, re.DOTALL | re.I)
+        title = re.sub(r'<[^>]+>', '', m_t.group(1)).strip() if m_t else re.sub(r'<[^>]+>', '', inner).strip()
+        title = re.sub(r'\s+', ' ', title)
+        if len(title) < 10 or 'selengkapnya' in title.lower():
+            continue
+
+        articles.append({
+            "source": default_source,
+            "title": clean_title(title),
+            "link": full_link,
+            "date": today_str,
+            "snippet": "",
+            "raw_text": f"{title} {default_source} Kementerian"
+        })
+
+    print(f"[+] Kemdiktisaintek News: Berhasil mengekstrak {len(articles)} artikel")
+    return articles
+
+def scrape_lamemba_news(default_source="LAMEMBA"):
+    """Scraper web untuk portal berita resmi LAMEMBA (Akreditasi Ekonomi & Bisnis)."""
+    url = "https://lamemba.or.id/berita/"
+    articles = []
+    html = ""
+    try:
+        if HAS_REQUESTS:
+            resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=15)
+            if resp.status_code == 200:
+                html = resp.text
+        else:
+            req = urllib.request.Request(url, headers=DEFAULT_HEADERS)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                html = resp.read().decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"[WARN] Gagal mengakses web LAMEMBA: {e}")
+        return articles
+
+    if not html:
+        return articles
+
+    cards = re.findall(r'<h[1-4][^>]*class=["\'][^"\']*entry-title[^"\']*["\'][^>]*>\s*<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, re.DOTALL | re.I)
+    seen = set()
+    today_str = datetime.now(timezone(timedelta(hours=7))).strftime("%Y-%m-%d")
+
+    for link, raw_title in cards:
+        link = link.strip()
+        if link in seen:
+            continue
+        seen.add(link)
+        title = re.sub(r'<[^>]+>', '', raw_title).strip()
+        title = re.sub(r'\s+', ' ', title)
+        if len(title) < 5:
+            continue
+
+        m_date = re.search(r'/(202[0-9])/([0-1][0-9])/', link)
+        date_str = f"{m_date.group(1)}-{m_date.group(2)}-01" if m_date else today_str
+
+        articles.append({
+            "source": default_source,
+            "title": clean_title(title),
+            "link": link,
+            "date": date_str,
+            "snippet": "",
+            "raw_text": f"{title} {default_source} Akreditasi"
+        })
+
+    print(f"[+] LAMEMBA Berita: Berhasil mengekstrak {len(articles)} artikel")
+    return articles
+
 def scrape_lldikti_page(url, default_source="LLDIKTI"):
     """Scraper HTML khusus untuk portal web resmi LLDIKTI Wilayah 3 & 4."""
     articles = []
@@ -389,7 +500,7 @@ def scrape_lldikti_page(url, default_source="LLDIKTI"):
     return articles
 
 def collect_all_articles():
-    """Mengumpulkan artikel dari Google News RSS query, portal berita nasional, dan web resmi LLDIKTI."""
+    """Mengumpulkan artikel dari Google News RSS query, portal berita nasional, dan web resmi LLDIKTI/Kemdiktisaintek/LAMEMBA."""
     all_raw = []
     fetcher = fetch_rss_feedparser if HAS_FEEDPARSER else fetch_rss_builtin
     parser_name = "feedparser" if HAS_FEEDPARSER else "standard XML fallback"
@@ -406,7 +517,7 @@ def collect_all_articles():
         except Exception as e:
             print(f"[WARN] Melewati query '{q}' karena error: {e}")
 
-    # 2. Direct Media RSS & LLDIKTI RSS Feeds (Dibungkus try..except per media)
+    # 2. Direct Media RSS & Lembaga (Dibungkus try..except per media)
     for direct in DIRECT_RSS_FEEDS:
         try:
             print(f"[*] Menarik Direct RSS: {direct['source']}")
@@ -415,7 +526,22 @@ def collect_all_articles():
         except Exception as e:
             print(f"[WARN] Melewati direct RSS {direct['source']} karena error: {e}")
 
-    # 3. Direct LLDIKTI Web Scraper (HTML)
+    # 3. Direct Kemdiktisaintek & LAMEMBA Scraper
+    try:
+        print("[*] Menarik Web Portal: Kemdiktisaintek News")
+        kem_items = scrape_kemdiktisaintek_news(default_source="Kemdiktisaintek")
+        all_raw.extend(kem_items)
+    except Exception as e:
+        print(f"[WARN] Melewati Kemdiktisaintek News: {e}")
+
+    try:
+        print("[*] Menarik Web Portal: LAMEMBA Berita")
+        lam_items = scrape_lamemba_news(default_source="LAMEMBA")
+        all_raw.extend(lam_items)
+    except Exception as e:
+        print(f"[WARN] Melewati LAMEMBA News: {e}")
+
+    # 4. Direct LLDIKTI Web Scraper (HTML)
     for lldikti in LLDIKTI_WEB_PAGES:
         try:
             print(f"[*] Menarik Web Portal: {lldikti['source']}")
@@ -429,7 +555,7 @@ def collect_all_articles():
     # Filter lokal, batas tanggal (maksimal 7 hari), & duplikasi URL di memori
     seen_urls = set()
     unique_articles = []
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = datetime.now(timezone(timedelta(hours=7))).strftime("%Y-%m-%d")
 
     for art in all_raw:
         url = art["link"]
@@ -526,7 +652,7 @@ def score_articles_with_gemini(articles_to_score, api_key):
             "SIAKAD Cloud, Pelaporan Neo Feeder PDDIKTI, Akreditasi Kampus (BAN-PT/LAM), SPMI, dan PMB Online di Indonesia.\n\n"
             "Tugas Anda untuk setiap artikel:\n"
             "1. 'skor' (skala 1-10): Relevansi isu terhadap bisnis Suteki Technology:\n"
-            "   - Skor 8-10 (Tinggi/Prioritas): Isu SIAKAD, server kampus down saat KRS/PMB, surat edaran/pengumuman resmi LLDIKTI/Kemdiktisaintek, regulasi baru PDDIKTI/Neo Feeder/BKD, akreditasi kampus (BAN-PT/LAM), SPMI, atau digitalisasi tata kelola perguruan tinggi.\n"
+            "   - Skor 8-10 (Tinggi/Prioritas): Isu SIAKAD, server kampus down saat KRS/PMB, surat edaran/pengumuman resmi LLDIKTI/Kemdiktisaintek, regulasi baru PDDIKTI/Neo Feeder/BKD, akreditasi kampus (BAN-PT/LAM/LAMEMBA), SPMI, atau digitalisasi tata kelola perguruan tinggi.\n"
             "   - Skor 5-7 (Menengah): Isu pendidikan tinggi umum, UKT/biaya kuliah, SNPMB/PMB reguler, AI dalam pembelajaran, atau kegiatan universitas secara umum.\n"
             "   - Skor 1-4 (Rendah/Abaikan): Berita seremonial wisuda, kriminal/tawuran kampus, olahraga mahasiswa, atau berita sekolah dasar/menengah.\n"
             "2. 'alasan': 1 kalimat singkat alasan penilaian relevansi.\n"
@@ -596,6 +722,37 @@ def extract_spreadsheet_id(raw_input):
     if match:
         return match.group(1)
     return text
+
+def ensure_dedicated_view_tabs(sh, all_rows):
+    """Membuat sheet tab khusus untuk setiap sumber media yang benar-benar berhasil ditarik ke News_Radar."""
+    try:
+        # Kumpulkan nama-nama sumber yang benar-benar tercatat di kolom C (index 2)
+        scraped_sources = set()
+        for r in all_rows[1:]:
+            if len(r) > 2 and r[2].strip():
+                scraped_sources.add(r[2].strip())
+
+        existing_sheets = {ws.title: ws for ws in sh.worksheets()}
+
+        for tab_title, pattern in DEDICATED_TABS:
+            # Hanya buat tab jika ada artikel dari sumber tersebut di News_Radar
+            has_match = any(re.search(pattern, s) for s in scraped_sources)
+            if not has_match:
+                continue
+
+            if tab_title not in existing_sheets:
+                print(f"[*] Menyiapkan tab khusus per-sumber: '{tab_title}'...")
+                try:
+                    new_ws = sh.add_worksheet(title=tab_title, rows=500, cols=15)
+                    new_ws.update(values=[HEADER_COLUMNS], range_name="A1:L1")
+                    # Pasang formula dinamis Google Sheets di cell A2
+                    formula = f'=IFERROR(FILTER(News_Radar!A2:L, REGEXMATCH(News_Radar!C2:C, "{pattern}")), "")'
+                    new_ws.update(values=[[formula]], range_name="A2", value_input_option="USER_ENTERED")
+                    print(f"[OK] Tab '{tab_title}' berhasil dibuat & aktif terhubung ke News_Radar!")
+                except Exception as e_ws:
+                    print(f"[WARN] Gagal membuat tab '{tab_title}': {e_ws}")
+    except Exception as e:
+        print(f"[WARN] Gagal memproses dedicated view tabs: {e}")
 
 def sync_to_google_sheets(articles, all_raw_feed_items=None):
     """Menyinkronkan artikel baru ke Google Sheets menggunakan Service Account."""
@@ -670,7 +827,7 @@ def sync_to_google_sheets(articles, all_raw_feed_items=None):
         if first_row and len(first_row) < len(HEADER_COLUMNS):
             print(f"[*] Terdeteksi skema tabel lama ({len(first_row)} kolom). Melakukan migrasi cerdas ke skema 12 kolom...")
             migrated_rows = []
-            today_str = datetime.now().strftime("%Y-%m-%d")
+            today_str = datetime.now(timezone(timedelta(hours=7))).strftime("%Y-%m-%d")
             for r in all_rows[1:]:
                 tgl_input = r[0].strip() if len(r) > 0 else today_str
                 sumber = r[1].strip() if len(r) > 1 else ""
@@ -891,6 +1048,12 @@ def sync_to_google_sheets(articles, all_raw_feed_items=None):
         except Exception as e:
             print(f"[WARN] Melewati auto-backfill skor: {e}")
             traceback.print_exc()
+
+        # ========================================================
+        # SINKRONISASI TAB KHUSUS PER-SUMBER MEDIA (DEDICATED VIEWS)
+        # ========================================================
+        latest_all_rows = ws.get_all_values()
+        ensure_dedicated_view_tabs(sh, latest_all_rows)
 
         return True
     except gspread.exceptions.SpreadsheetNotFound:

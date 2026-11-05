@@ -6,10 +6,13 @@ Automasi pengumpul URL berita dan isu terkini seputar ekosistem **Perguruan Ting
 
 ## 🚀 Sumber Ingesti Berita & Pengumuman Resmi
 
-Pipeline secara otomatis memantau 3 kanal sumber:
-1. **Google News RSS Search**: Kata kunci terfokus (SIAKAD, Neo Feeder, PDDIKTI, Akreditasi Kampus, BAN-PT, LAM-INFOKOM, LAMDIK, SPMI, Kemdiktisaintek, LLDIKTI, Server Kampus Down, PMB).
-2. **Media Edukasi & RSS Resmi**: Antara Humaniora, Sindonews Edukasi, RSS LLDIKTI 3 & LLDIKTI 4.
-3. **Web Portal Resmi LLDIKTI (Direct HTML Scraper)**:
+Pipeline secara otomatis memantau berbagai kanal resmi dan media:
+1. **Google News RSS Search**: Kata kunci terfokus (SIAKAD, Neo Feeder, PDDIKTI, Akreditasi Kampus, BAN-PT, LAM-INFOKOM, LAMDIK, LAMEMBA, SPMI, Kemdiktisaintek, LLDIKTI, Server Kampus Down, PMB).
+2. **Media Edukasi & RSS Resmi**: Antara Humaniora, Sindonews Edukasi, LAMEMBA (`/feed/`), RSS LLDIKTI 3 & LLDIKTI 4.
+3. **Portal Resmi Kementerian & Lembaga Akreditasi**:
+   - **Kemdiktisaintek News**: `https://kemdiktisaintek.go.id/news` (Siaran pers & kebijakan menteri)
+   - **LAMEMBA Berita**: `https://lamemba.or.id/berita/` (Akreditasi Ekonomi, Manajemen, Bisnis, Akuntansi)
+4. **Web Portal Resmi LLDIKTI (Direct HTML Scraper)**:
    - **LLDIKTI Wilayah 3 (Jakarta)**:
      - `https://lldikti3.kemdiktisaintek.go.id/pengumuman/` (Surat Edaran, BKD, Evaluasi Layanan)
      - `https://lldikti3.kemdiktisaintek.go.id/berita-lldikti/` (Bimtek Tracer Study, Mutu, SINTA)
@@ -68,6 +71,17 @@ Selain berjalan otomatis setiap hari pukul **06:00 WIB**, Anda bisa memicu penar
 1. Buka tab **Actions** di repositori GitHub ini.
 2. Pilih workflow **Suteki News Radar Harvester**.
 3. Klik tombol **Run workflow** $\rightarrow$ **Run workflow**.
+
+---
+
+### 📑 Dedicated View Tabs (Sheet Khusus Per-Sumber Media)
+
+Selain master sheet `News_Radar`, pipeline secara otomatis membuat sheet tab khusus untuk setiap sumber media yang berhasil ditarik:
+- **`Kemdiktisaintek`**, **`LAMEMBA`**, **`LLDIKTI 3`**, **`LLDIKTI 4`**, **`Antara Humaniora`**, **`Sindonews Edukasi`**, **`Google News`**.
+- Tab khusus ini menggunakan formula dinamis Google Sheets (`=IFERROR(FILTER(...), "")`), sehingga:
+  - **Selalu real-time**: Sinkron otomatis dengan data di `News_Radar`.
+  - **Bebas Kuota API**: Tidak memerlukan penulisan baris berulang, mencegah limit kuota Google Sheets API.
+  - **Otomatis dibuat**: Hanya dibuat jika sumber media terkait benar-benar berhasil menghasilkan artikel di `News_Radar`.
 
 ---
 
