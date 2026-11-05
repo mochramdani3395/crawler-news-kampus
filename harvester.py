@@ -37,7 +37,7 @@ except ImportError:
 # KONFIGURASI TARGET SUTEKI TECHNOLOGY
 # ==========================================
 
-# Query pencarian di Google News RSS (Bahasa Indonesia)
+# 1. Query pencarian di Google News RSS (Bahasa Indonesia)
 GOOGLE_NEWS_QUERIES = [
     'siakad OR "sistem informasi akademik" OR "krs online"',
     'pddikti OR "neo feeder" OR "feeder dikti" OR "penonaktifan prodi"',
@@ -46,18 +46,28 @@ GOOGLE_NEWS_QUERIES = [
     '"server kampus down" OR "snpmb" OR "pmb online" OR "biaya kuliah perguruan tinggi"'
 ]
 
-# RSS Feed langsung dari portal berita nasional (Kanal Edukasi)
+# 2. RSS Feed langsung dari portal berita nasional & RSS Resmi LLDIKTI
 DIRECT_RSS_FEEDS = [
     {"source": "Antara Humaniora", "url": "https://www.antaranews.com/rss/humaniora.xml"},
-    {"source": "Sindonews Edukasi", "url": "https://edukasi.sindonews.com/rss"}
+    {"source": "Sindonews Edukasi", "url": "https://edukasi.sindonews.com/rss"},
+    {"source": "LLDIKTI 3 (RSS)", "url": "https://lldikti3.kemdiktisaintek.go.id/feed/"},
+    {"source": "LLDIKTI 4 (RSS)", "url": "https://lldikti4.kemdiktisaintek.go.id/feed/"}
+]
+
+# 3. Web Portal Resmi LLDIKTI (Scraper HTML Presisi)
+LLDIKTI_WEB_PAGES = [
+    {"source": "LLDIKTI 3 - Pengumuman", "url": "https://lldikti3.kemdiktisaintek.go.id/pengumuman/"},
+    {"source": "LLDIKTI 3 - Berita LLDIKTI", "url": "https://lldikti3.kemdiktisaintek.go.id/berita-lldikti/"},
+    {"source": "LLDIKTI 3 - Berita PT", "url": "https://lldikti3.kemdiktisaintek.go.id/berita-perguruan-tinggi/"},
+    {"source": "LLDIKTI 4 - Info", "url": "https://lldikti4.kemdiktisaintek.go.id/info-lldikti-wilayah-iv/"}
 ]
 
 # Pemetaan Tag Kata Kunci untuk Kolom 'Kata Kunci Terdeteksi'
 KEYWORD_RULES = [
     ("SIAKAD & Sistem Kampus", [r"\bsiakad\b", r"\bkrs\b", r"sistem informasi akademik", r"server.*down", r"portal mahasiswa"]),
     ("PDDIKTI & Neo Feeder", [r"\bpddikti\b", r"neo feeder", r"\bfeeder\b", r"sinkronisasi data", r"penonaktifan prodi"]),
-    ("Akreditasi & SPMI", [r"akreditasi", r"\bban-pt\b", r"lam-infokom", r"lamdik", r"borang", r"\bspmi\b", r"\bipepa\b"]),
-    ("Regulasi & Kementerian", [r"kemdiktisaintek", r"kemendikbud", r"\blldikti\b", r"perguruan tinggi swasta", r"\bpts\b", r"\bptn\b"]),
+    ("Akreditasi & SPMI", [r"akreditasi", r"\bban-pt\b", r"lam-infokom", r"lamdik", r"lamsama", r"borang", r"\bspmi\b", r"\bipepa\b", r"\biaps\b"]),
+    ("Regulasi & Kementerian", [r"kemdiktisaintek", r"kemendikbud", r"\blldikti\b", r"perguruan tinggi swasta", r"\bpts\b", r"\bptn\b", r"\bbkd\b", r"\bsibkd\b", r"\bsinta\b", r"tracer study", r"ijazah"]),
     ("PMB & Keuangan Kampus", [r"\bsnpmb\b", r"\bpmb\b", r"\bukt\b", r"biaya kuliah", r"mahasiswa baru"])
 ]
 
@@ -84,6 +94,13 @@ DEFAULT_HEADERS = {
 
 _CACHED_MODELS = None
 
+MONTH_MAP = {
+    'januari': 1, 'februari': 2, 'maret': 3, 'april': 4, 'mei': 5, 'juni': 6,
+    'juli': 7, 'agustus': 8, 'september': 9, 'oktober': 10, 'november': 11, 'desember': 12,
+    'january': 1, 'february': 2, 'march': 3, 'may': 5, 'june': 6, 'july': 7,
+    'august': 8, 'october': 10, 'december': 12
+}
+
 def clean_title(title):
     """Membersihkan imbuhan nama media di akhir judul berita."""
     if not title:
@@ -101,6 +118,27 @@ def detect_keywords(text):
                 found_tags.append(tag_name)
                 break
     return ", ".join(found_tags) if found_tags else "Pendidikan Umum"
+
+def parse_indonesian_date(text):
+    """Mengekstrak tanggal dari teks bahasa Indonesia (misal: '4 November, 2026' atau '28 Oktober 2026')."""
+    wib_tz = timezone(timedelta(hours=7))
+    if not text:
+        return datetime.now(wib_tz).strftime('%Y-%m-%d')
+    m1 = re.search(r'(\d{1,2})\s+([A-Za-z]+),?\s+(\d{4})', text)
+    if m1:
+        d = int(m1.group(1))
+        m_str = m1.group(2).lower()
+        y = int(m1.group(3))
+        m = MONTH_MAP.get(m_str, 1)
+        return f"{y:04d}-{m:02d}-{d:02d}"
+    m2 = re.search(r'([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})', text)
+    if m2:
+        m_str = m2.group(1).lower()
+        d = int(m2.group(2))
+        y = int(m2.group(3))
+        m = MONTH_MAP.get(m_str, 1)
+        return f"{y:04d}-{m:02d}-{d:02d}"
+    return datetime.now(wib_tz).strftime('%Y-%m-%d')
 
 def parse_date(date_val):
     """Menyeragamkan tanggal posting artikel menjadi format YYYY-MM-DD HH:MM (Waktu Indonesia Barat/WIB)."""
@@ -268,12 +306,94 @@ def fetch_rss_builtin(url, default_source="Google News"):
         print(f"[WARN] Gagal mengambil XML {url}: {e}")
     return articles
 
+def scrape_lldikti_page(url, default_source="LLDIKTI"):
+    """Scraper HTML khusus untuk portal web resmi LLDIKTI Wilayah 3 & 4."""
+    articles = []
+    html = ""
+    try:
+        if HAS_REQUESTS:
+            resp = requests.get(url, headers=DEFAULT_HEADERS, timeout=15)
+            if resp.status_code == 200:
+                html = resp.text
+            else:
+                print(f"[WARN] HTTP {resp.status_code} saat mengakses web LLDIKTI: {url}")
+                return articles
+        else:
+            req = urllib.request.Request(url, headers=DEFAULT_HEADERS)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                html = resp.read().decode('utf-8', errors='ignore')
+    except Exception as e:
+        print(f"[WARN] Gagal mengakses web portal {url}: {e}")
+        return articles
+
+    seen_links = set()
+    wib_tz = timezone(timedelta(hours=7))
+
+    # Pattern LLDIKTI 3 (Elementor post grid)
+    if "lldikti3" in url:
+        cards = re.findall(r'<div[^>]*class=["\'][^"\']*elementor-post__text[^"\']*["\'][^>]*>(.*?)</div>\s*</div>', html, re.DOTALL | re.I)
+        for card in cards:
+            m_title = re.search(r'<h\d[^>]*class=["\'][^"\']*elementor-post__title[^"\']*["\'][^>]*>\s*<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', card, re.DOTALL | re.I)
+            if not m_title:
+                continue
+            link = m_title.group(1).strip()
+            title = re.sub(r'<[^>]+>', '', m_title.group(2)).strip()
+            title = re.sub(r'\s+', ' ', title)
+            if not link or not title or link in seen_links:
+                continue
+            seen_links.add(link)
+
+            m_date = re.search(r'<span[^>]*class=["\'][^"\']*elementor-post-date[^"\']*["\'][^>]*>(.*?)</span>', card, re.DOTALL | re.I)
+            raw_date = m_date.group(1).strip() if m_date else ""
+            pub_date = parse_indonesian_date(raw_date)
+
+            articles.append({
+                "source": default_source,
+                "title": clean_title(title),
+                "link": link,
+                "date": pub_date,
+                "snippet": "",
+                "raw_text": f"{title} {default_source}"
+            })
+
+    # Pattern LLDIKTI 4 (Heading title + button)
+    elif "lldikti4" in url:
+        matches = re.findall(r'<h[1-4][^>]*class=["\'][^"\']*elementor-heading-title[^"\']*["\'][^>]*>([^<]+)</h[1-4]>\s*</div>\s*</div>\s*<div[^>]*>\s*<div[^>]*>\s*<div[^>]*>\s*<a[^>]+href=["\'](https://lldikti4\.kemdiktisaintek\.go\.id/202[0-9]/[^"\']+)["\']', html, re.I)
+        for t_raw, link in matches:
+            title = t_raw.strip()
+            link = link.strip()
+            if not link or not title or link in seen_links:
+                continue
+            seen_links.add(link)
+
+            m_url_date = re.search(r'/(202[0-9])/([0-1][0-9])/', link)
+            idx = html.find(link)
+            surrounding = html[max(0, idx - 400):min(len(html), idx + 400)]
+            m_day = re.search(r'/(202[0-9])/([0-1][0-9])/([0-3][0-9])/', surrounding)
+            if m_day:
+                pub_date = f"{m_day.group(1)}-{m_day.group(2)}-{m_day.group(3)}"
+            elif m_url_date:
+                pub_date = f"{m_url_date.group(1)}-{m_url_date.group(2)}-01"
+            else:
+                pub_date = datetime.now(wib_tz).strftime('%Y-%m-%d')
+
+            articles.append({
+                "source": default_source,
+                "title": clean_title(title),
+                "link": link,
+                "date": pub_date,
+                "snippet": "",
+                "raw_text": f"{title} {default_source}"
+            })
+
+    return articles
+
 def collect_all_articles():
-    """Mengumpulkan artikel dari Google News RSS query dan portal langsung secara resilient."""
+    """Mengumpulkan artikel dari Google News RSS query, portal berita nasional, dan web resmi LLDIKTI."""
     all_raw = []
     fetcher = fetch_rss_feedparser if HAS_FEEDPARSER else fetch_rss_builtin
     parser_name = "feedparser" if HAS_FEEDPARSER else "standard XML fallback"
-    print(f"[*] Menggunakan parser: {parser_name}")
+    print(f"[*] Menggunakan parser RSS: {parser_name}")
 
     # 1. Google News Queries (Dibungkus try..except per query)
     for q in GOOGLE_NEWS_QUERIES:
@@ -286,7 +406,7 @@ def collect_all_articles():
         except Exception as e:
             print(f"[WARN] Melewati query '{q}' karena error: {e}")
 
-    # 2. Direct Media RSS (Dibungkus try..except per media)
+    # 2. Direct Media RSS & LLDIKTI RSS Feeds (Dibungkus try..except per media)
     for direct in DIRECT_RSS_FEEDS:
         try:
             print(f"[*] Menarik Direct RSS: {direct['source']}")
@@ -295,7 +415,16 @@ def collect_all_articles():
         except Exception as e:
             print(f"[WARN] Melewati direct RSS {direct['source']} karena error: {e}")
 
-    print(f"[+] Total mentah artikel dari seluruh feed: {len(all_raw)}")
+    # 3. Direct LLDIKTI Web Scraper (HTML)
+    for lldikti in LLDIKTI_WEB_PAGES:
+        try:
+            print(f"[*] Menarik Web Portal: {lldikti['source']}")
+            items = scrape_lldikti_page(lldikti["url"], default_source=lldikti["source"])
+            all_raw.extend(items)
+        except Exception as e:
+            print(f"[WARN] Melewati web portal {lldikti['source']} karena error: {e}")
+
+    print(f"[+] Total mentah artikel dari seluruh feed & web portal: {len(all_raw)}")
 
     # Filter lokal, batas tanggal (maksimal 7 hari), & duplikasi URL di memori
     seen_urls = set()
@@ -397,7 +526,7 @@ def score_articles_with_gemini(articles_to_score, api_key):
             "SIAKAD Cloud, Pelaporan Neo Feeder PDDIKTI, Akreditasi Kampus (BAN-PT/LAM), SPMI, dan PMB Online di Indonesia.\n\n"
             "Tugas Anda untuk setiap artikel:\n"
             "1. 'skor' (skala 1-10): Relevansi isu terhadap bisnis Suteki Technology:\n"
-            "   - Skor 8-10 (Tinggi/Prioritas): Isu SIAKAD, server kampus down saat KRS/PMB, regulasi baru PDDIKTI/Neo Feeder, akreditasi kampus, atau digitalisasi tata kelola perguruan tinggi.\n"
+            "   - Skor 8-10 (Tinggi/Prioritas): Isu SIAKAD, server kampus down saat KRS/PMB, surat edaran/pengumuman resmi LLDIKTI/Kemdiktisaintek, regulasi baru PDDIKTI/Neo Feeder/BKD, akreditasi kampus (BAN-PT/LAM), SPMI, atau digitalisasi tata kelola perguruan tinggi.\n"
             "   - Skor 5-7 (Menengah): Isu pendidikan tinggi umum, UKT/biaya kuliah, SNPMB/PMB reguler, AI dalam pembelajaran, atau kegiatan universitas secara umum.\n"
             "   - Skor 1-4 (Rendah/Abaikan): Berita seremonial wisuda, kriminal/tawuran kampus, olahraga mahasiswa, atau berita sekolah dasar/menengah.\n"
             "2. 'alasan': 1 kalimat singkat alasan penilaian relevansi.\n"
@@ -438,7 +567,7 @@ def score_articles_with_gemini(articles_to_score, api_key):
                             target_art = chunk[item_id - 1]
                             target_art["skor_awal"] = item.get("skor", "")
                             target_art["alasan_awal"] = item.get("alasan", "")
-                            # Jika cuplikan dari RSS masih kosong, gunakan ringkasan dari Gemini
+                            # Jika cuplikan dari RSS/Web masih kosong, gunakan ringkasan dari Gemini
                             if not target_art.get("cuplikan") or len(target_art["cuplikan"].strip()) < 30:
                                 target_art["cuplikan"] = item.get("ringkasan", "")
                     print(f"[+] Berhasil menilai & merangkum {len(chunk)} artikel menggunakan {model_name}!")
@@ -590,7 +719,6 @@ def sync_to_google_sheets(articles, all_raw_feed_items=None):
         # ========================================================
         # RESTORASI & UPDATE TANGGAL TERBIT ASLI PADA BARIS SHEET
         # ========================================================
-        # Buat pemetaan URL & Judul ke Tanggal Terbit asli dari seluruh feed
         feed_url_to_date = {}
         feed_title_to_date = {}
         feed_url_to_snippet = {}
@@ -623,10 +751,10 @@ def sync_to_google_sheets(articles, all_raw_feed_items=None):
 
             if needs_date_update:
                 resolved_date = None
-                # 1. Cek exact match URL di feed
+                # 1. Cek exact match URL di feed/portal
                 if r_url in feed_url_to_date:
                     resolved_date = feed_url_to_date[r_url]
-                # 2. Cek match judul berita di feed
+                # 2. Cek match judul berita di feed/portal
                 elif r_title in feed_title_to_date:
                     resolved_date = feed_title_to_date[r_title]
                 # 3. Cek pola tanggal di URL asli
