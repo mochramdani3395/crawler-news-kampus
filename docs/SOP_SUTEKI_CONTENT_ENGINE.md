@@ -345,6 +345,83 @@ Penetapan jadwal tayang (*schedule post*) diatur berdasarkan klasifikasi urgensi
 
 ---
 
+### 6.5 Mekanisme Ekstraksi & Injeksi SEO Metadata (AI vs Google Apps Script)
+
+Bagian ini menjelaskan secara rinci pembagian peran antara AI dan Google Apps Script (GAS) dalam menghasilkan dan menyuntikkan metadata SEO serta teks alternatif gambar (*Alt Text*):
+
+#### A. Pembagian Peran: AI vs Google Apps Script
+* **Peran AI (ChatGPT Web): Generator Konten SEO**
+  - AI bertugas merumuskan seluruh konten metadata SEO sesuai standar Yoast:
+    1. **Focus Keyword / Focus Keyphrase**: Kata kunci pencarian target (contoh: *SIAKAD Cloud Perguruan Tinggi*).
+    2. **Meta Title (SEO Title)**: Judul SEO ramah klik maksimal 60 karakter.
+    3. **Meta Description**: Ringkasan artikel informatif antara 120–155 karakter.
+    4. **Image Alt Text & Caption**: Teks deskriptif aksesibilitas gambar.
+  - AI menuliskan data ini secara terstruktur ke dalam **Deskripsi Task ClickUp** (dan tabel sampul Google Docs) pada saat inisiasi konsep awal.
+* **Peran Google Apps Script (GAS): Engine Parser & API Injector**
+  - GAS bertindak sebagai *jembatan teknis* (mekanis). GAS **tidak mengarang** teks SEO.
+  - GAS membaca teks deskripsi task ClickUp menggunakan *Regular Expression (Regex)* presisi melalui fungsi `parseClickUpTaskMetadata_()`.
+  - GAS kemudian menyuntikkan data tersebut secara programatik melalui **WordPress REST API**.
+
+#### B. Struktur Format Khusus yang Dibaca oleh GAS (Regex Parsing)
+Agar script GAS (`src/ClickUp.js`) dapat mengekstrak metadata SEO secara otomatis dari deskripsi task ClickUp, AI wajib menuliskan format deskripsi dengan pola berikut:
+
+```markdown
+### 🎯 SEO Yoast Specs:
+- **Focus Keyword**: SIAKAD Cloud Perguruan Tinggi
+- **Meta Title**: Mengapa SIAKAD Cloud Penting untuk Akreditasi Kampus 2027?
+- **Meta Description**: Pelajari pentingnya SIAKAD Cloud dalam menghadapi instrumen akreditasi kampus terbaru agar pelaporan Neo Feeder 100% valid dan bebas kendala server.
+- **Kategori**: SIAKAD & Sistem Informasi
+
+### 🖼️ Image SEO (Cover):
+- **Alt Text**: SIAKAD Cloud Perguruan Tinggi - Panduan Akreditasi Kampus
+- **Caption Gambar**: Ilustrasi transformasi digital sistem informasi akademik kampus
+```
+
+* **Pola Regex Pembacaan di Kode GAS (`src/ClickUp.js:823-928`):**
+  - *Focus Keyword:* `/(?:Focus Keyword|Kata Kunci Fokus|Focus Keyphrase|Keyword)\s*[:\*]\s*([^\n\r<]+)/i`
+  - *Meta Title:* `/(?:Meta Title|SEO Title|Judul SEO)\s*[:\*]\s*([^\n\r<]+)/i`
+  - *Meta Description:* `/(?:Meta Description|Deskripsi Meta|Meta Desc)\s*[:\*]\s*([^\n\r<]+)/i`
+  - *Kategori:* `/(?:Kategori|Category)\s*[:\*]\s*([^\n\r<]+)/i`
+  - *Image Alt Text:* `/(?:Image Alt|Alt Text|Alt Gambar|Cover Alt)\s*[:\*]\s*([^\n\r<]+)/i`
+
+> [!TIP]
+> **Fitur Smart SEO Fallback (Yoast 100% Green Score):**  
+> Jika desainer atau penulis lupa mengisi `Alt Text` di deskripsi task, script GAS secara otomatis mengombinasikan:
+> ```javascript
+> imageAlt = `${focusKeyword} - ${taskName}`;
+> ```
+> Langkah otomatis ini menjamin audit indikator Yoast SEO **"Keyphrase in Image Alt Attributes"** langsung bernilai **HIJAU** tanpa perlu intervensi manual!
+
+#### C. Proses Injeksi Teknis ke WordPress REST API
+Ketika status task diubah menjadi `in Review` atau `Ready`:
+1. **Injeksi Alt Text ke Media Library (`src/WordPress.js:89-132`):**
+   GAS mengunggah cover artikel ke endpoint `/wp-json/wp/v2/media/{id}` dan menyuntikkan objek metadata gambar:
+   ```json
+   {
+     "alt_text": "SIAKAD Cloud Perguruan Tinggi - Panduan Akreditasi Kampus",
+     "caption": "Ilustrasi transformasi digital sistem informasi akademik kampus",
+     "description": "Ilustrasi transformasi digital sistem informasi akademik kampus"
+   }
+   ```
+2. **Injeksi Field Meta Yoast ke Post Draft (`src/WordPress.js:159-175`):**
+   GAS membuat atau memperbarui postingan artikel di `/wp-json/wp/v2/posts/{id}` dengan field custom meta Yoast SEO:
+   ```json
+   {
+     "title": "Mengapa SIAKAD Cloud Penting untuk Akreditasi Kampus 2027?",
+     "content": "<html>...isi artikel lengkap dari Google Docs...</html>",
+     "status": "draft",
+     "featured_media": 12458,
+     "meta": {
+       "_yoast_wpseo_title": "Mengapa SIAKAD Cloud Penting untuk Akreditasi Kampus 2027?",
+       "_yoast_wpseo_metadesc": "Pelajari pentingnya SIAKAD Cloud dalam menghadapi instrumen akreditasi kampus terbaru...",
+       "_yoast_wpseo_focuskw": "SIAKAD Cloud Perguruan Tinggi"
+     }
+   }
+   ```
+Dengan metode ini, begitu editor membuka dashboard WordPress di `wp-admin/post.php?post={id}&action=edit`, seluruh kotak isian Yoast SEO (fokus kata kunci, judul SEO, deskripsi meta, dan alt text gambar) **sudah terisi otomatis dan siap di-preview**.
+
+---
+
 ## 7. 🔄 Standard Operating Procedure (SOP) Alur Kerja End-to-End
 
 Berikut adalah tahapan operasional harian tim editorial Suteki:
