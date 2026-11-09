@@ -259,6 +259,92 @@ sequenceDiagram
 
 ---
 
+### 6.2 State Machine & Trigger Status Otomatis ClickUp
+
+Perubahan status pada kartu task ClickUp memicu tindakan sistem dan perpindahan tanggung jawab sebagai berikut:
+
+```text
+[ concept ] ──> Dibuat otomatis oleh GAS/ChatGPT (memuat URL Google Docs & Skor Radar)
+     │
+     ▼
+[ ready to write ] ──> Editor menugaskan Writer & menetapkan Due Date / Target Publish
+     │
+     ▼
+[ drafting ] ──> Penulis menyusun naskah di Google Docs & riset internal link
+     │
+     ▼
+[ ready for review ] ──> (TRIGGER 1) Notifikasi otomatis ke Editor: Fact-Check & SEO QA
+     │
+     ▼
+[ editor_approved ] ──> (TRIGGER 2) GAS memicu pembuatan DRAFT di WordPress via REST API.
+     │                   Link preview WP disematkan balik ke deskripsi task ClickUp!
+     ▼
+[ scheduled ] ──> (TRIGGER 3) Parameter tanggal & jam rilis di-set di WordPress (status 'future')
+     │
+     ▼
+[ published ] ──> (TRIGGER 4) Artikel live di suteki.co.id!
+                  - URL live dicatat otomatis ke 'Database Suteki News Content' (WP_Database).
+                  - Kolom L di Sheet 'News_Radar' diupdate: 'Published: [URL]'.
+                  - Task ClickUp ditutup (Complete).
+```
+
+---
+
+### 6.3 Mekanisme Sinkronisasi Dua Arah & Penanganan Perubahan (Bidirectional Sync)
+
+Untuk mencegah terjadinya *desync* data atau duplikasi task saat terjadi perubahan di salah satu platform:
+
+#### A. Jika Terjadi Perubahan dari Sisi WordPress:
+1. **Perubahan Status (Draft $\rightarrow$ Published / Scheduled):**
+   - Webhook WordPress / script sinkronisasi memetakan `wp_post_id` atau `content_id` yang tersimpan pada custom fields.
+   - Status task di ClickUp otomatis bergeser dari `editor_approved` menjadi `published` atau `scheduled`.
+   - URL publik yang resmi aktif otomatis disalin ke kolom deskripsi ClickUp dan ditambahkan ke baris baru spreadsheet `Database Suteki News Content` (`WP_Database`) agar penulis lain langsung dapat menjadikannya referensi internal link.
+2. **Perubahan Judul / Slug / Featured Image:**
+   - Jika editor memperbarui slug atau gambar sampul langsung di WordPress, metadata pada task ClickUp diperbarui otomatis tanpa menimpa naskah di Google Docs yang menjadi arsip sejarah penulisan.
+
+#### B. Jika Terjadi Perubahan dari Sisi Aplikasi Content Tools - GAS:
+1. **Prinsip Idempotensi Berbasis `content_id`:**
+   - Setiap artikel memiliki identitas permanen (contoh: `SUT-2026-RADAR-000591-IAPS-LAMSAMA`).
+   - Jika pengguna melakukan *re-scoring*, mengganti angle, atau memperbarui outline melalui Content Tools GAS, sistem **wajib mencari artefak eksisting terlebih dahulu**:
+     * Cari apakah task ClickUp dengan `content_id` tersebut sudah ada.
+     * Jika sudah ada: Lakukan **UPDATE** pada judul task, deskripsi, dan isi Google Docs.
+     * **DILARANG KERAS** membuat task ClickUp baru atau dokumen Google Docs baru untuk artikel yang sama agar tidak terjadi *task bloating* dan penumpukan file duplikat di Google Drive.
+2. **Penanganan Kegagalan Parsial (Partial Success Recovery):**
+   - Jika Google Docs berhasil dibuat namun pembuatan task ClickUp gagal (misal karena rate-limit API), sistem mencatat status `PARTIAL_SUCCESS` beserta `google_doc_id`.
+   - Saat proses dijalankan ulang (*retry*), sistem langsung melanjutkan pembuatan task ClickUp dengan menautkan Docs yang sudah ada, tanpa membuat dokumen baru.
+
+---
+
+### 6.4 Kebijakan & Alur Penjadwalan Post (Schedule Post & Editorial Calendar)
+
+Penetapan jadwal tayang (*schedule post*) diatur berdasarkan klasifikasi urgensi artikel:
+
+#### 1. Klasifikasi Prioritas Penjadwalan:
+* **Jalur Ekspres (Breaking News & Regulasi Mendesak):**
+  - Kriteria: Surat edaran kementerian, deadline pelaporan Neo Feeder PDDIKTI, instrumen baru LAM/BAN-PT, atau server kampus nasional down.
+  - Target Jadwal: **Same-Day** atau maksimal **H+1** pada jam aktif operasional kampus (pukul 09:00 atau 13:00 WIB) untuk menangkap volume pencarian yang sedang memuncak.
+* **Jalur Reguler (Evergreen Education & Thought Leadership):**
+  - Kriteria: Panduan tata kelola SPMI, tips peningkatan akreditasi prodi, efisiensi PMB, arsitektur cloud kampus.
+  - Target Jadwal: Mengikuti kalender editorial mingguan (Slot teratur: **Selasa, Kamis, dan Sabtu pukul 10:00 WIB**).
+
+#### 2. Alur Teknis Penjadwalan (*Drafting to Scheduled*):
+1. **Penetapan Tanggal di ClickUp:** Editor menetapkan tanggal dan jam rilis pada Custom Field **`Publish Date`** atau **`Due Date`** di task ClickUp.
+2. **Sinkronisasi ke WordPress via GAS:**
+   - Ketika status ClickUp diubah ke `scheduled`, GAS mengirim request ke WordPress REST API:
+     ```json
+     {
+       "status": "future",
+       "date": "2026-11-12T10:00:00",
+       "date_gmt": "2026-11-12T03:00:00"
+     }
+     ```
+   - WordPress secara native akan mengantrekan postingan tersebut untuk terbit secara otomatis sesuai jadwal waktu Indonesia Barat (WIB).
+3. **Quality & Security Gate (Pencegah Salah Terbit):**
+   - Artikel baru **WAJIB dibuat dengan status `draft` terlebih dahulu** di WordPress.
+   - Status artikel hanya boleh diubah menjadi `future` (terjadwal) atau `publish` setelah naskah lolos verifikasi akhir dan memperoleh persetujuan eksplisit (*publication approval*) dari Managing Editor. Dilarang keras melakukan publish otomatis langsung dari bot.
+
+---
+
 ## 7. 🔄 Standard Operating Procedure (SOP) Alur Kerja End-to-End
 
 Berikut adalah tahapan operasional harian tim editorial Suteki:
